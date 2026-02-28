@@ -1,0 +1,186 @@
+# -*- coding: utf-8 -*-
+import os
+import json
+import re
+import datetime
+from pathlib import Path
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client = OpenAI(
+    api_key=os.getenv("XAI_API_KEY"),
+    base_url="https://api.x.ai/v1",
+)
+
+# ====================== あなたの監視アニメリスト ======================
+# ここを毎日見たい作品に編集してください（話数は「次に確認したい話数」を入れる）
+ANIMES_TO_CHECK = [
+    {"title": "ダンダダン", "ep_num": 13},
+    {"title": "ブルーロック VS. U-20 JAPAN", "ep_num": 3},
+    {"title": "俺だけレベルアップな件 Season2", "ep_num": 8},
+    {"title": "Re:ゼロから始める異世界生活 3rd season", "ep_num": 5},
+]
+# =================================================================
+
+SYSTEM_PROMPT = """# 役割
+
+あなたはアニメ番組表「アニちぇっく」の正確なデータ作成を行う専属エディターです。
+
+# 目的
+
+指定された作品の最新話情報を、アプリ用JSONと、検証用のソースURLのセットで出力してください。
+
+# 入力
+
+作品名：[作品名]
+話数：[話数]
+
+# 出力形式
+
+以下の3つのJSONブロックと、その後に【ソース確認】セクションを出力してください。解説は不要です。
+
+## 1. Master_data
+
+```json
+{
+  "anime_id": "YYYYMM_title_c2",
+  "title": "作品名",
+  "official_url": "公式サイトURL",
+  "hashtag": "公式ハッシュタグ",
+  "station_master": "主要放送局名",
+  "cast": ["主要声優1", "主要声優2"],
+  "staff": { "director": "監督名", "studio": "制作会社" }
+}
+```
+
+## 2. Episode_Content
+
+```json
+{
+  "anime_id": "YYYYMM_title_c2",
+  "ep_num": [話数],
+  "title": "サブタイトル",
+  "prev_summary": "視聴直前用の前回のあらすじ(3行)",
+  "next_preview_youtube_id": "公式予告動画ID"
+}
+```
+
+## 3. Broadcast_Schedule
+
+```json
+{
+  "anime_id": "YYYYMM_title_c2",
+  "ep_num": [話数],
+  "station_id": "ntv",
+  "start_time": "YYYY-MM-DDTHH:MM:00+09:00",
+  "status": "normal"
+}
+```
+
+## anime_idについて
+
+- YYYYMM:放送開始年月
+- title:アニメが判別出来る10文字までの英数字
+- c2:第一期ならc1、二期ならc2
+
+【ソース確認】
+- 公式サイト確認用URL:
+- 放送スケジュール根拠URL:
+- 備考: (放送休止や時間変更がある場合はここに記述)"""
+
+def call_grok_for_anime(title: str, ep_num: int):
+    user_input = f"作品名：{title}\\n話数：{ep_num}"
+    
+    response = client.chat.completions.create(
+        model="grok-4-1-fast-reasoning", # ツール対応・高速・安い
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_input}
+        ],
+        # tools=[{"type": "live_search"}], # ← これでリアルタイム検索が有効
+        temperature=0.2,
+        max_tokens=1200,
+    )
+    return response.choices[0].message.content
+
+def parse_output(text: str, title: str, ep_num: int):
+    # JSONブロック（```json ... ```）をすべて抽出する
+    json_blocks = re.findall(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
+    
+    if len(json_blocks) < 3:
+        # ヘッダーがない場合のフォールバックとして波括弧のブロックを探す
+        json_blocks = re.findall(r'(\{(?:[^{}]|(?:\{[^{}]*\}))*\})', text, re.DOTALL)
+        if len(json_blocks) < 3:
+            return None # パース失敗
+
+    try:
+        master = json.loads(json_blocks[0])
+        episode = json.loads(json_blocks[1])
+        broadcast = json.loads(json_blocks[2])
+        
+        # 配列に入ってしまっている可能性があるフィールドを修正
+        if isinstance(episode.get("ep_num"), list) and len(episode["ep_num"]) > 0:
+            episode["ep_num"] = episode["ep_num"][0]
+        if isinstance(broadcast.get("ep_num"), list) and len(broadcast["ep_num"]) > 0:
+            broadcast["ep_num"] = broadcast["ep_num"][0]
+            
+    except json.JSONDecodeError as e:
+        print(f"JSON Decode Error: {e}")
+        return None
+
+    # ソース確認部分
+    source_section = re.search(r'【ソース確認】(.*)', text, re.DOTALL)
+    sources = source_section.group(1).strip() if source_section else "取得失敗"
+
+    return {
+        "master": master,
+        "episode": episode,
+        "broadcast": broadcast,
+        "sources": sources
+    }
+
+# ====================== メイン実行 ======================
+if __name__ == "__main__":
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    output_dir = Path(f"anicheck_daily/{today}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    all_broadcasts = []
+
+    print(f"🚀 {today} アニちぇっく データ取得開始...")
+
+    for anime in ANIMES_TO_CHECK:
+        print(f"  📺 {anime['title']} 第{anime['ep_num']}話 取得中...")
+        raw_text = call_grok_for_anime(anime["title"], anime["ep_num"])
+        
+        data = parse_output(raw_text, anime["title"], anime["ep_num"])
+        
+        if data:
+            anime_id = data["master"]["anime_id"]
+            
+            # 個別保存
+            (output_dir / f"{anime_id}_master.json").write_text(
+                json.dumps(data["master"], ensure_ascii=False, indent=2), encoding="utf-8")
+            (output_dir / f"{anime_id}_episode.json").write_text(
+                json.dumps(data["episode"], ensure_ascii=False, indent=2), encoding="utf-8")
+            (output_dir / f"{anime_id}_broadcast.json").write_text(
+                json.dumps(data["broadcast"], ensure_ascii=False, indent=2), encoding="utf-8")
+                
+            all_broadcasts.append(data["broadcast"])
+            
+            # ソースログ
+            (output_dir / f"{anime_id}_sources.txt").write_text(data["sources"], encoding="utf-8")
+            
+            print(f"  ✅ {anime_id} 完了")
+        else:
+            print(f"  ❌ パース失敗: {anime['title']}")
+
+    # その日の全番組表（時間順）
+    all_broadcasts.sort(key=lambda x: x["start_time"])
+    (output_dir / "daily_schedule.json").write_text(
+        json.dumps(all_broadcasts, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"\\n🎉 完了！データは anicheck_daily/{today}/ に保存されました")
+    print(f"  📱 アプリ用：daily_schedule.json をご利用ください")
