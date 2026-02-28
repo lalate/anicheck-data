@@ -1,0 +1,59 @@
+
+[
+  {
+    "anime_id": "202601_frieren_c1",
+    "ep_num": 34,
+    "station_id": "ntv",
+    "start_time": "2026-02-27T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_jujutsukaisen_c1",
+    "ep_num": 55,
+    "station_id": "mbs",
+    "start_time": "2026-02-26T00:26:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_oshinoko_c3",
+    "ep_num": 13,
+    "station_id": "mx",
+    "start_time": "2026-02-25T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_mfg_c3",
+    "ep_num": 10,
+    "station_id": "mx",
+    "start_time": "2026-02-24T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202602_linkclick_eito",
+    "ep_num": 1,
+    "station_id": "fujitv",
+    "start_time": "2026-02-25T01:15:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_precure_meitantei",
+    "ep_num": 4,
+    "station_id": "tv_asahi",
+    "start_time": "2026-02-22T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_himesama_goumon_c2",
+    "ep_num": 8,
+    "station_id": "mx",
+    "start_time": "2026-02-23T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_darwin_jihen",
+    "ep_num": 7,
+    "station_id": "tx",
+    "start_time": "2026-02-24T00:00:00+09:00",
+    "status": "normal"
+  }
+]

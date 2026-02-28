@@ -1,0 +1,155 @@
+
+[
+  {
+    "anime_id": "202601_frieren_c1",
+    "title": "葬送のフリーレン",
+    "official_url": "https://frieren-anime.jp/",
+    "hashtag": "#葬送のフリーレン",
+    "station_master": "日本テレビ系",
+    "base_op_youtube_id": "C0BG3B7aksU",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "種﨑敦美",
+      "市ノ瀬加那"
+    ],
+    "staff": {
+      "director": "斎藤圭一郎",
+      "studio": "マッドハウス"
+    }
+  },
+  {
+    "anime_id": "202601_jujutsukaisen_c1",
+    "title": "呪術廻戦",
+    "official_url": "https://jujutsukaisen.jp/",
+    "hashtag": "#呪術廻戦",
+    "station_master": "MBS/TBS系",
+    "base_op_youtube_id": "PKHQuC-wRUE",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "榎木淳弥",
+      "内田雄馬"
+    ],
+    "staff": {
+      "director": "瀬下恵介",
+      "studio": "MAPPA"
+    }
+  },
+  {
+    "anime_id": "202601_oshinoko_c3",
+    "title": "【推しの子】",
+    "official_url": "https://ichigoproduction.com/",
+    "hashtag": "#推しの子",
+    "station_master": "TOKYO MXほか",
+    "base_op_youtube_id": "ZRtdQ81jPUQ",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "高柳知葉",
+      "伊駒ゆりえ"
+    ],
+    "staff": {
+      "director": "平牧大輔",
+      "studio": "動画工房"
+    }
+  },
+  {
+    "anime_id": "202601_mfg_c3",
+    "title": "MFゴースト",
+    "official_url": "https://mfg-anime.com/",
+    "hashtag": "#MFゴースト",
+    "station_master": "TOKYO MXほか",
+    "base_op_youtube_id": "c13nS2Jt5f8",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "逢坂良太",
+      "神谷浩史"
+    ],
+    "staff": {
+      "director": "中村悠一",
+      "studio": "Felix Film"
+    }
+  },
+  {
+    "anime_id": "202602_linkclick_eito",
+    "title": "時光代理人 -LINK CLICK-【英都篇】",
+    "official_url": "https://link-click.jp/",
+    "hashtag": "#LINKCLICK",
+    "station_master": "フジテレビ",
+    "base_op_youtube_id": "YlTraT2H4t4",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "豊永利行",
+      "玄田哲章"
+    ],
+    "staff": {
+      "director": "李豪凌",
+      "studio": "LAN Studio"
+    }
+  },
+  {
+    "anime_id": "202601_precure_meitantei",
+    "title": "名探偵プリキュア！",
+    "official_url": "https://www.toei-anim.co.jp/tv/star-detective_precure/",
+    "hashtag": "#名探偵プリキュア",
+    "station_master": "テレビ朝日系",
+    "base_op_youtube_id": "sample_precure_id",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "ファイルーズあい",
+      "上田麗奈"
+    ],
+    "staff": {
+      "director": "田中裕太",
+      "studio": "東映アニメーション"
+    }
+  },
+  {
+    "anime_id": "202601_himesama_goumon_c2",
+    "title": "姫様“拷問”の時間です",
+    "official_url": "https://himesama-goumon.com/",
+    "hashtag": "#姫様拷問",
+    "station_master": "TOKYO MX",
+    "base_op_youtube_id": "TRVLfWvIivk",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "小林優",
+      "伊藤静"
+    ],
+    "staff": {
+      "director": "春日悠",
+      "studio": "PINE JAM"
+    }
+  },
+  {
+    "anime_id": "202601_darwin_jihen",
+    "title": "ダーウィン事変",
+    "official_url": "https://darwin-anime.com/",
+    "hashtag": "#ダーウィン事変",
+    "station_master": "テレビ東京",
+    "base_op_youtube_id": "sample_darwin_id",
+    "sources": {
+      "manga_amazon": null
+    },
+    "cast": [
+      "市ノ瀬加那",
+      "小野賢章"
+    ],
+    "staff": {
+      "director": "佐藤光",
+      "studio": "Gemba"
+    }
+  }
+]

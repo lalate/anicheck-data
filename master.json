@@ -1,0 +1,41 @@
+[
+  {
+    "anime_id": "SLR001",
+    "title": "Starlight Revolution",
+    "official_url": "https://starlight-revolution.jp",
+    "cast": [
+      "花澤香菜",
+      "梶裕貴",
+      "早見沙織"
+    ],
+    "staff": {
+      "director": "水島努"
+    }
+  },
+  {
+    "anime_id": "SNC002",
+    "title": "Shadow Ninja Chronicles",
+    "official_url": "https://shadow-ninja.jp",
+    "cast": [
+      "悠木碧",
+      "鈴木達央",
+      "鬼頭明里"
+    ],
+    "staff": {
+      "director": "大沼心"
+    }
+  },
+  {
+    "anime_id": "MAW003",
+    "title": "Magical Academy Wars",
+    "official_url": "https://magical-academy-wars.com",
+    "cast": [
+      "雨宮天",
+      "小林裕介",
+      "佐倉綾音"
+    ],
+    "staff": {
+      "director": "長井龍雪"
+    }
+  }
+]

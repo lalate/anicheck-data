@@ -1,0 +1,20 @@
+[
+  {
+    "anime_id": "SLR001",
+    "station_id": "MX",
+    "start_time": "2026-02-24T24:30:00+09:00",
+    "day_of_week": "火曜日"
+  },
+  {
+    "anime_id": "SNC002",
+    "station_id": "ATX",
+    "start_time": "2026-02-25T23:00:00+09:00",
+    "day_of_week": "水曜日"
+  },
+  {
+    "anime_id": "MAW003",
+    "station_id": "BS11",
+    "start_time": "2026-02-26T25:30:00+09:00",
+    "day_of_week": "木曜日"
+  }
+]
