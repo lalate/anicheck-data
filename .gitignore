@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+raw_grok_output.txt
+anicheck_daily/*/
