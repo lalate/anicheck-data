@@ -1,0 +1,8 @@
+- 公式サイト確認用URL: https://enen-no-shouboutai.jp/3rd/season2/story23.html
+- 放送スケジュール根拠URL: https://enen-no-shouboutai.jp/3rd/season2/onair.html
+- 備考: 第2クールはMBS金曜26:25（基本スケジュールの25:25から変更）。tx放送は確認できず主要mbsを選択。特番・休止なし。
+
+【重要：事実確認とポロロッカ戦略】
+1. 必ず提供された「基本放送スケジュール」をベースにしつつ、Web上の最新情報(live_search)で「特番による時間変更や休止」がないかを確認しました。MBSは第2クールから26:25にスライド変更確認、9/13通常放送。
+2. 放送局（station_id）はmbsを選択（主要枠）。
+3. original_volは原作14巻相当（アニメ23話目=全体23話）。

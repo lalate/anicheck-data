@@ -46,9 +46,14 @@ SYSTEM_PROMPT = """# 役割
 ```"""
 
 def fetch_season_anime(season_str: str):
-    user_input = f"対象シーズン（または参考URL）：{season_str}\\nこのシーズンに放送開始または放送中の主要なアニメをリストアップしてください。URLが提供されている場合は、必ずそのURLに記載されている作品ラインナップを正として抽出してください。"
+    report_file = Path("grok_report.txt")
+    if report_file.exists():
+        print(f"📄 ローカルの {report_file.name} を元にアニメリストを構築します...")
+        user_input = f"以下のテキストは今期のアニメ情報をまとめたレポートです。このテキストから主要な深夜アニメのタイトルを抽出し、公式サイトURL、各放送局の基本放送スケジュール、および最新の現在話数を調べてJSONリストを出力してください。\\n\\n【レポート内容】\\n{report_file.read_text(encoding='utf-8')}"
+    else:
+        print(f"🚀 Grokに {season_str} のアニメリストを問い合わせ中...")
+        user_input = f"対象シーズン（または参考URL）：{season_str}\\nこのシーズンに放送開始または放送中の主要なアニメをリストアップしてください。URLが提供されている場合は、必ずそのURLに記載されている作品ラインナップを正として抽出してください。"
     
-    print(f"🚀 Grokに {season_str} のアニメリストを問い合わせ中...")
     response = client.chat.completions.create(
         model="grok-4-1-fast-reasoning",
         messages=[
