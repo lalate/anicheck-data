@@ -1,15 +1,19 @@
 {
   "anime_id": "202407_overlord_c5",
-  "title": "オーバーロード V",
+  "title": "オーバーロードV",
   "official_url": "https://overlord-anime.com/",
   "hashtag": "#オーバーロード",
   "station_master": "テレビ東京",
   "cast": [
-    "日野聡",
-    "小原好美"
+    "日元康二",
+    "堀江由衣",
+    "加藤英美里"
   ],
   "staff": {
     "director": "伊藤尚往",
     "studio": "マッドハウス"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=オーバーロード"
   }
 }

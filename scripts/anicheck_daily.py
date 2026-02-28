@@ -43,7 +43,10 @@ SYSTEM_PROMPT = """# 役割
   "hashtag": "公式ハッシュタグ",
   "station_master": "主要放送局名",
   "cast": ["主要声優1", "主要声優2"],
-  "staff": { "director": "監督名", "studio": "制作会社" }
+  "staff": { "director": "監督名", "studio": "制作会社" },
+  "sources": {
+    "manga_amazon": "原作コミックやライトノベルのAmazon検索URL（アフィリエイト用ベース）"
+  }
 }
 ```
 
@@ -55,7 +58,8 @@ SYSTEM_PROMPT = """# 役割
   "ep_num": [話数],
   "title": "サブタイトル",
   "prev_summary": "視聴直前用の前回のあらすじ(3行)",
-  "next_preview_youtube_id": "公式予告動画ID"
+  "next_preview_youtube_id": "公式予告動画ID",
+  "original_vol": 5
 }
 ```
 
@@ -93,7 +97,7 @@ def call_grok_for_anime(title: str, ep_num: int, official_url: str = None, sched
     user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}{schedule_hint}"
     
     # 嘘（ハルシネーション）を強力に抑制し、基本スケジュールを元に最新情報を確認するよう指示
-    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認の徹底】\\n必ず提供された「基本放送スケジュール」をベースにしつつ、Web上の最新情報(live_search)で「特番による時間変更や休止」がないかを確認してください。変更があれば最新の時間を、なければ基本放送時間を出力してください。架空のサブタイトルや時間を捏造することは厳禁です。\\n放送局（station_id）は基本スケジュールにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。"
+    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認とポロロッカ戦略】\\n1. 必ず提供された「基本放送スケジュール」をベースにしつつ、Web上の最新情報(live_search)で「特番による時間変更や休止」がないかを確認してください。変更があれば最新の時間を、なければ基本放送時間を出力してください。架空のサブタイトルや時間を捏造することは厳禁です。\\n2. 放送局（station_id）は基本スケジュールにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。\\n3. 対象話数が、原作コミックやライトノベルの「第何巻」に相当するかを推測または検索し、`original_vol` に整数で設定してください。また、その作品のAmazon検索URLを `manga_amazon` に設定してください。原作がないオリジナルアニメの場合は null にしてください。"
 
     response = client.chat.completions.create(
         model="grok-4-1-fast-reasoning", # ツール対応・高速・安い

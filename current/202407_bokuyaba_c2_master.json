@@ -2,14 +2,17 @@
   "anime_id": "202407_bokuyaba_c2",
   "title": "僕の心のヤバイやつ",
   "official_url": "https://bokuyaba-anime.com/2nd/",
-  "hashtag": "#僕の心のヤバイやつ",
-  "station_master": "テレビ東京",
+  "hashtag": "#ぼくやば",
+  "station_master": "東京テレビ",
   "cast": [
     "花江夏樹",
-    "花守ゆみり"
+    "市ノ瀬加那"
   ],
   "staff": {
-    "director": "かわむら翔太",
-    "studio": "ENISHIYA"
+    "director": "鹿住朗洋",
+    "studio": "Doga Kobo"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E5%83%95%E3%81%AE%E5%BF%83%E3%81%AE%E3%83%A4%E3%83%90%E3%82%A4%E3%82%84%E3%81%A4+%E6%B0%B4%E8%B0%B7%E6%82%A0%E4%BB%8B"
   }
 }

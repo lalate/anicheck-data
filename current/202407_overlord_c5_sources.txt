@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://overlord-anime.com/story/episode3.html
+- 公式サイト確認用URL: https://overlord-anime.com/story/ep04/
 - 放送スケジュール根拠URL: https://overlord-anime.com/onair/
-- 備考: 特番による変更なし。基本スケジュール通り。
+- 備考: 基本スケジュール(tx水曜24:30)から月曜25:30(実質火曜01:30)に修正。特番変更なし。予告動画IDは公式YouTubeチャンネルより。

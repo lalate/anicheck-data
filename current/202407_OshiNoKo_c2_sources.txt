@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://osusino-anime.jp/2nd/story/story03.html
-- 放送スケジュール根拠URL: https://osusino-anime.jp/2nd/onair/
-- 備考: 特番による変更なし、基本スケジュール通り
+- 公式サイト確認用URL: https://osusino-anime.jp/2nd/story/ep4.html
+- 放送スケジュール根拠URL: https://osusino-anime.jp/2nd/season2.html
+- 備考: 基本スケジュール(tx土曜23:30, bs11日曜24:00)を基に確認。公式スケジュールではtx(テレ東系)は日曜25:30(次日01:30)、bs11は水曜24:00が正しく、第4話txは2024/07/28 01:30。特番・休止なし。主要枠としてtxを選択し最新時間反映。予告動画IDは公式YouTubeチャンネルより。

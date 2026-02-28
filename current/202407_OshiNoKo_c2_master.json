@@ -1,16 +1,19 @@
 {
-  "anime_id": "202407_OshiNoKo_c2",
+  "anime_id": "202407_Oshinoko_c2",
   "title": "【推しの子】",
   "official_url": "https://osusino-anime.jp/2nd/",
   "hashtag": "#推しの子",
   "station_master": "テレビ東京",
   "cast": [
+    "鬼頭明里",
     "小林千晃",
-    "鈴代紗弓",
-    "鬼頭明里"
+    "竹内順子"
   ],
   "staff": {
-    "director": "ちゅうぜんじはるよ",
-    "studio": "母艦・エイトビット"
+    "director": "青木和富",
+    "studio": "エイトビット"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90+%E3%83%9E%E3%83%B3%E3%82%AC"
   }
 }
