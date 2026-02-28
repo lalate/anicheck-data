@@ -133,9 +133,27 @@ def archive_current_list(current_list_path: Path, archive_dir: Path):
         print(f"⚠️ アーカイブ中にエラーが発生しました: {e}")
 
 if __name__ == "__main__":
-    # ターゲットシーズンの指定
-    # URLを直接指定して、そのページのラインナップを正として抽出させる
-    TARGET_SEASON = "https://www.animatetimes.com/tag/details.php?id=6212 (2026冬アニメ)"
+    # Grok（AI）がリストを最も正確に生成しやすい「業界標準キーワード」を自動生成する
+    now = datetime.datetime.now()
+    year = now.year
+    month = now.month
+    
+    # 3-5月:春, 6-8月:夏, 9-11月:秋, 12-2月:冬
+    if month in [3, 4, 5]:
+        season_name = "春"
+    elif month in [6, 7, 8]:
+        season_name = "夏"
+    elif month in [9, 10, 11]:
+        season_name = "秋"
+    else:
+        season_name = "冬"
+        # 1月、2月の場合はそのままの年、12月の場合は翌年の冬アニメとなることが多いが、
+        # ここではシンプルに現在の年を使用（必要に応じて年を調整）
+        if month == 12:
+            year += 1
+
+    # AIが最も得意とする「クール別まとめリスト」を引き出すマジックワード
+    TARGET_SEASON = f"{year}年{season_name}アニメ"
     
     watch_list_path = Path("current/watch_list.json")
     archive_dir = Path("archive")
