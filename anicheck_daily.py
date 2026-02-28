@@ -14,14 +14,6 @@ client = OpenAI(
     base_url="https://api.x.ai/v1",
 )
 
-# ====================== あなたの監視アニメリスト ======================
-# ここを毎日見たい作品に編集してください（話数は「次に確認したい話数」を入れる）
-ANIMES_TO_CHECK = [
-    {"title": "ダンダダン", "ep_num": 13},
-    {"title": "ブルーロック VS. U-20 JAPAN", "ep_num": 3},
-    {"title": "俺だけレベルアップな件 Season2", "ep_num": 8},
-    {"title": "Re:ゼロから始める異世界生活 3rd season", "ep_num": 5},
-]
 # =================================================================
 
 SYSTEM_PROMPT = """# 役割
@@ -146,6 +138,14 @@ if __name__ == "__main__":
     today = datetime.date.today().strftime("%Y-%m-%d")
     output_dir = Path(f"anicheck_daily/{today}")
     output_dir.mkdir(parents=True, exist_ok=True)
+    
+    watch_list_file = Path("watch_list.json")
+    if watch_list_file.exists():
+        with open(watch_list_file, "r", encoding="utf-8") as f:
+            ANIMES_TO_CHECK = json.load(f)
+    else:
+        print(f"❌ Error: {watch_list_file} が見つかりません。")
+        exit(1)
 
     all_broadcasts = []
 
@@ -173,7 +173,9 @@ if __name__ == "__main__":
             # ソースログ
             (output_dir / f"{anime_id}_sources.txt").write_text(data["sources"], encoding="utf-8")
             
-            print(f"  ✅ {anime_id} 完了")
+            print(f"  ✅ {anime_id} 完了 (次回取得話を自動更新します)")
+            # 成功したので次回用に話数をインクリメント
+            anime["ep_num"] += 1
         else:
             print(f"  ❌ パース失敗: {anime['title']}")
 
@@ -181,6 +183,11 @@ if __name__ == "__main__":
     all_broadcasts.sort(key=lambda x: x["start_time"])
     (output_dir / "daily_schedule.json").write_text(
         json.dumps(all_broadcasts, ensure_ascii=False, indent=2), encoding="utf-8")
+        
+    # 更新された監視リストを保存
+    with open(watch_list_file, "w", encoding="utf-8") as f:
+        json.dump(ANIMES_TO_CHECK, f, ensure_ascii=False, indent=2)
 
     print(f"\\n🎉 完了！データは anicheck_daily/{today}/ に保存されました")
     print(f"  📱 アプリ用：daily_schedule.json をご利用ください")
+    print(f"  📝 watch_list.json も最新話数に自動更新されました。")
