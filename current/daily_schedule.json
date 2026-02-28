@@ -1,86 +1,93 @@
 [
   {
-    "anime_id": "202310_umamusume_c3",
+    "anime_id": "202007_fireforce_c2",
     "ep_num": 1,
-    "station_id": "tokyomx",
-    "start_time": "2023-10-04T22:30:00+09:00",
+    "station_id": "tx",
+    "start_time": "2020-07-04T01:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202401_aonexk3_c3",
+    "anime_id": "202301_maougaku2_c2",
     "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2024-01-06T22:30:00+09:00",
+    "station_id": "atx",
+    "start_time": "2023-01-08T22:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202401_DrSTONE_c4",
+    "anime_id": "2401DrSTONE_c4",
     "ep_num": 1,
-    "station_id": "tokyomx",
-    "start_time": "2024-01-09T22:30:00+09:00",
+    "station_id": "tx",
+    "start_time": "2024-01-09T25:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202404_fireforce_c3",
+    "anime_id": "2407_garakara_c2",
     "ep_num": 1,
-    "station_id": "tokyomx",
-    "start_time": "2024-04-05T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202407_watashiha_c2",
-    "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2024-07-06T01:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "2407_mahosho_c2",
-    "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2024-07-06T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202407_shy_c2",
-    "ep_num": 1,
-    "station_id": "tokyomx",
+    "station_id": "atx",
     "start_time": "2024-07-07T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202407_kusuriya_c2",
+    "anime_id": "2401_tsukimichi_c2",
+    "ep_num": 1,
+    "station_id": "tx",
+    "start_time": "2024-07-09T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202407_bokuyaba_c2",
+    "ep_num": 1,
+    "station_id": "tx",
+    "start_time": "2024-07-13T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202410_tenkizoku_c1",
+    "ep_num": 1,
+    "station_id": "atx",
+    "start_time": "2024-10-03T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202410_totono_c1",
     "ep_num": 1,
     "station_id": "mx",
-    "start_time": "2024-07-14T00:30:00+09:00",
+    "start_time": "2024-10-05T00:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202410_rezero_c3",
+    "anime_id": "202410_shangrila_c2",
     "ep_num": 1,
-    "station_id": "ntv",
-    "start_time": "2024-10-05T23:55:00+09:00",
+    "station_id": "tx",
+    "start_time": "2024-10-06T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501_sololev_c2",
+    "anime_id": "202501_windbrkr_c2",
     "ep_num": 1,
     "station_id": "mx",
-    "start_time": "2025-01-06T01:30:00+09:00",
+    "start_time": "2025-01-04T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501sakamoto_c1",
+    "anime_id": "202501_orelevelup_c2",
     "ep_num": 1,
-    "station_id": "ntv",
-    "start_time": "2025-01-12T02:29:00+09:00",
+    "station_id": "mx",
+    "start_time": "2025-01-05T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202504witchwatch_c1",
+    "anime_id": "202501_kusuriya_c2",
     "ep_num": 1,
     "station_id": "ntv",
-    "start_time": "2025-04-08T00:59:00+09:00",
+    "start_time": "2025-01-10T01:29:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_sakamoto_c1",
+    "ep_num": 1,
+    "station_id": "tx",
+    "start_time": "2025-01-12T00:30:00+09:00",
     "status": "normal"
   }
 ]

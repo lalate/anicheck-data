@@ -1,62 +1,143 @@
 [
   {
     "title": "薬屋のひとりごと 第2期",
-    "official_url": "https://kusuriyanohitorigoto.jp/2nd/",
-    "ep_num": 2
+    "official_url": "https://kusuriyanime.jp/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "ntv",
+      "bs11",
+      "hulu",
+      "d_anime",
+      "netflix"
+    ]
   },
   {
     "title": "SAKAMOTO DAYS",
     "official_url": "https://sakamotodays-anime.com/",
-    "ep_num": 2
+    "ep_num": 2,
+    "stations": [
+      "tx",
+      "bs11",
+      "netflix",
+      "abema"
+    ]
   },
   {
-    "title": "Solo Leveling 第2期",
-    "official_url": "https://sololeveling-anime.com/",
-    "ep_num": 2
+    "title": "Dr.STONE SCIENCE FUTURE",
+    "official_url": "https://dr-stone-anime.com/sciencefuture/",
+    "ep_num": 2,
+    "stations": [
+      "tx",
+      "bs11",
+      "prime_video",
+      "d_anime"
+    ]
   },
   {
-    "title": "炎炎ノ消防隊 第3期",
-    "official_url": "https://fire-force-anime.com/3rd/",
-    "ep_num": 2
+    "title": "WIND BREAKER Season2",
+    "official_url": "https://wind-breaker-anime.com/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "mx",
+      "bs11",
+      "abema",
+      "d_anime"
+    ]
   },
   {
-    "title": "わたしの幸せな結婚 第2期",
-    "official_url": "https://watashinohappyironing.jp/2nd/",
-    "ep_num": 2
+    "title": "炎炎ノ消防隊 弐ノ章",
+    "official_url": "https://fire-force-anime.com/",
+    "ep_num": 2,
+    "stations": [
+      "tx",
+      "bs11",
+      "netflix",
+      "d_anime"
+    ]
   },
   {
-    "title": "Re:ゼロから始める異世界生活 3rd season",
-    "official_url": "https://re-zero-anime.jp/",
-    "ep_num": 2
+    "title": "俺だけレベルアップな件 Season2",
+    "official_url": "https://solo-leveling-anime.com/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "mx",
+      "mbs",
+      "bs11",
+      "prime_video",
+      "netflix"
+    ]
   },
   {
-    "title": "青の祓魔師 KYOTO AGAIN arc",
-    "official_url": "https://aonoexorcist.jp/3rd/",
-    "ep_num": 2
+    "title": " Shangri-La Frontier クレイジーテイル 後期",
+    "official_url": "https://shangrila-frontier-anime.com/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "tx",
+      "bs11",
+      "d_anime",
+      "u_next"
+    ]
   },
   {
-    "title": "Witch Watch",
-    "official_url": "https://witch-watch-anime.com/",
-    "ep_num": 2
+    "title": "月が導く異世界道中 第2期 後半",
+    "official_url": "https://tsukimichi.jp/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "tx",
+      "bs11",
+      "d_anime",
+      "bandai_channel"
+    ]
   },
   {
-    "title": "SHY 第2期",
-    "official_url": "https://shy-anime.com/2nd/",
-    "ep_num": 2
+    "title": "僕の心のヤバイやつ 2nd season",
+    "official_url": "https://boku-no-kokoro.com/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "tx",
+      "bs11",
+      "abema",
+      "d_anime"
+    ]
   },
   {
-    "title": "魔法少女にあこがれて 第2期",
-    "official_url": "https://mahou-shoujo-ni-akogarete.com/2nd/",
-    "ep_num": 2
+    "title": "家庭教師のトート",
+    "official_url": "https://totono-sensei-anime.com/",
+    "ep_num": 2,
+    "stations": [
+      "mx",
+      "bs11",
+      "abema"
+    ]
   },
   {
-    "title": "Dr.STONE SCIENCE FUTURE 最終章",
-    "official_url": "https://dr-stone-anime.com/",
-    "ep_num": 2
+    "title": "魔王学院の不適合者 II ～史上最強の魔王の始祖、転生して子孫たちの魔力を吸わないと生きられないなんて～",
+    "official_url": "https://maou-gakuin.jp/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "atx",
+      "bs11",
+      "d_anime"
+    ]
   },
   {
-    "title": "ウマ娘 プリティーダービー Season 3",
-    "official_url": "https://umamusume.jp/anime3/",
-    "ep_num": 2
+    "title": "骸骨騎士様、只今異世界へお出掛け中 Season2",
+    "official_url": "https://garakara-anime.com/2nd/",
+    "ep_num": 2,
+    "stations": [
+      "atx",
+      "bs11",
+      "d_anime"
+    ]
+  },
+  {
+    "title": "転生貴族の異世界冒険録",
+    "official_url": "https://tensei-kizoku-anime.com/",
+    "ep_num": 2,
+    "stations": [
+      "atx",
+      "bs11",
+      "d_anime"
+    ]
   }
 ]

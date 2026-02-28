@@ -82,12 +82,13 @@ SYSTEM_PROMPT = """# 役割
 - 放送スケジュール根拠URL:
 - 備考: (放送休止や時間変更がある場合はここに記述)"""
 
-def call_grok_for_anime(title: str, ep_num: int, official_url: str = None):
+def call_grok_for_anime(title: str, ep_num: int, official_url: str = None, stations: list = None):
     url_hint = f"\\n公式サイトURL（参考）：{official_url}" if official_url else ""
-    user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}"
+    station_hint = f"\\n対象放送局/配信：{', '.join(stations)}" if stations else ""
+    user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}{station_hint}"
     
-    # 嘘（ハルシネーション）を強力に抑制するシステムメッセージの追加
-    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認の徹底】\\n必ず提供された公式サイトURLやWeb上の最新情報を確認し、架空のサブタイトルや放送時間を捏造しないでください。不明な場合は捏造せず、ソース確認の備考欄にその旨を記述してください。"
+    # 嘘（ハルシネーション）を強力に抑制し、指定された放送局のみを対象にする指示
+    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認の徹底】\\n必ず提供された公式サイトURLや放送局リストをWeb検索(live_search)で確認し、架空のサブタイトルや放送時間を捏造しないでください。\\n特に、放送局（station_id）は指定されたリストにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。"
 
     response = client.chat.completions.create(
         model="grok-4-1-fast-reasoning", # ツール対応・高速・安い
@@ -161,9 +162,10 @@ if __name__ == "__main__":
         title = anime['title']
         ep_num = anime['ep_num']
         official_url = anime.get('official_url')
+        stations = anime.get('stations', [])
         
         print(f"  📺 {title} 第{ep_num}話 取得中...")
-        raw_text = call_grok_for_anime(title, ep_num, official_url)
+        raw_text = call_grok_for_anime(title, ep_num, official_url, stations)
         
         data = parse_output(raw_text, title, ep_num)
         
