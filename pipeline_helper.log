@@ -40,3 +40,42 @@
 2026-02-28 20:11:11,081 - pipeline_helper - DEBUG - _mcp_read_message:190 - _mcp_read_message: Read line 1: b''
 2026-02-28 20:11:11,081 - pipeline_helper - DEBUG - _mcp_read_message:192 - _mcp_read_message: EOF reached while reading headers
 2026-02-28 20:11:11,081 - pipeline_helper - INFO - run_mcp_server:277 - No message received, shutting down MCP server
+2026-02-28 21:43:04,963 - pipeline_helper - INFO - main:414 - Starting pipeline_helper
+2026-02-28 21:43:04,965 - pipeline_helper - DEBUG - main:415 - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2026-02-28 21:43:04,965 - pipeline_helper - DEBUG - main:416 - Working directory: /Users/Lalate/AniCheck/AniJson
+2026-02-28 21:43:04,965 - pipeline_helper - DEBUG - main:417 - Command line args: ['/Users/Lalate/GeminiCopilot/pipeline_helper.py', 'mcp-server']
+2026-02-28 21:43:04,965 - pipeline_helper - DEBUG - main:418 - PYTHONPATH: not set
+2026-02-28 21:43:04,995 - pipeline_helper - INFO - run_mcp_server:269 - Starting MCP server
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - run_mcp_server:270 - stdin isatty: False
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - run_mcp_server:271 - stdin encoding: utf-8
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - run_mcp_server:272 - Environment CI: not set
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - run_mcp_server:274 - Waiting for MCP message...
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - _mcp_read_message:184 - _mcp_read_message: Waiting to read headers from stdin...
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - _mcp_read_message:188 - _mcp_read_message: Attempting to read header line 1...
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - _mcp_read_message:190 - _mcp_read_message: Read line 1: b'{"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true}},"clientInfo":{"name":"gemini-cli-mcp-client","version":"unknown"}},"jsonrpc":"2.0","id":0}\n'
+2026-02-28 21:43:04,995 - pipeline_helper - INFO - _mcp_read_message:196 - _mcp_read_message: Detected JSONL message format
+2026-02-28 21:43:04,995 - pipeline_helper - DEBUG - _mcp_read_message:200 - _mcp_read_message: Successfully parsed JSONL message
+2026-02-28 21:43:04,995 - pipeline_helper - INFO - run_mcp_server:283 - Received MCP method: initialize (id=0)
+2026-02-28 21:43:04,996 - pipeline_helper - INFO - run_mcp_server:286 - Processing initialize request
+2026-02-28 21:43:04,996 - pipeline_helper - DEBUG - run_mcp_server:287 - Initialize params: {'protocolVersion': '2025-11-25', 'capabilities': {'roots': {'listChanged': True}}, 'clientInfo': {'name': 'gemini-cli-mcp-client', 'version': 'unknown'}}
+2026-02-28 21:43:04,996 - pipeline_helper - DEBUG - run_mcp_server:294 - Sending initialize response: {'protocolVersion': '2025-11-25', 'serverInfo': {'name': 'copilot-executor', 'version': '0.1.0'}, 'capabilities': {'tools': {'listChanged': False}}}
+2026-02-28 21:43:04,996 - pipeline_helper - DEBUG - _mcp_write_message:244 - _mcp_write_message: Sending response in JSONL format
+2026-02-28 21:43:04,997 - pipeline_helper - INFO - run_mcp_server:296 - Initialize completed successfully
+2026-02-28 21:43:04,997 - pipeline_helper - DEBUG - run_mcp_server:274 - Waiting for MCP message...
+2026-02-28 21:43:04,997 - pipeline_helper - DEBUG - _mcp_read_message:184 - _mcp_read_message: Waiting to read headers from stdin...
+2026-02-28 21:43:04,997 - pipeline_helper - DEBUG - _mcp_read_message:188 - _mcp_read_message: Attempting to read header line 1...
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_read_message:190 - _mcp_read_message: Read line 1: b'{"method":"notifications/initialized","jsonrpc":"2.0"}\n'
+2026-02-28 21:43:05,001 - pipeline_helper - INFO - _mcp_read_message:196 - _mcp_read_message: Detected JSONL message format
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_read_message:200 - _mcp_read_message: Successfully parsed JSONL message
+2026-02-28 21:43:05,001 - pipeline_helper - INFO - run_mcp_server:283 - Received MCP method: notifications/initialized (id=None)
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - run_mcp_server:274 - Waiting for MCP message...
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_read_message:184 - _mcp_read_message: Waiting to read headers from stdin...
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_read_message:188 - _mcp_read_message: Attempting to read header line 1...
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_read_message:190 - _mcp_read_message: Read line 1: b'{"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}\n'
+2026-02-28 21:43:05,001 - pipeline_helper - INFO - _mcp_read_message:196 - _mcp_read_message: Detected JSONL message format
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_read_message:200 - _mcp_read_message: Successfully parsed JSONL message
+2026-02-28 21:43:05,001 - pipeline_helper - INFO - run_mcp_server:283 - Received MCP method: tools/list (id=1)
+2026-02-28 21:43:05,001 - pipeline_helper - DEBUG - _mcp_write_message:244 - _mcp_write_message: Sending response in JSONL format
+2026-02-28 21:43:05,002 - pipeline_helper - DEBUG - run_mcp_server:274 - Waiting for MCP message...
+2026-02-28 21:43:05,002 - pipeline_helper - DEBUG - _mcp_read_message:184 - _mcp_read_message: Waiting to read headers from stdin...
+2026-02-28 21:43:05,002 - pipeline_helper - DEBUG - _mcp_read_message:188 - _mcp_read_message: Attempting to read header line 1...

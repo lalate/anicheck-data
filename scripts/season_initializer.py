@@ -27,7 +27,7 @@ SYSTEM_PROMPT = """# 役割
   - `station`: 放送局ID（例: mx, bs11, tx, ntv, mbs, abema など小文字英数）
   - `day_of_week`: 放送曜日（例: 月曜日, 火曜日）
   - `time`: 基本の放送開始時間（例: 24:00, 25:30）
-- 各作品の話数（ep_num）は、新シーズンの始まりなので全て `1` に設定してください。
+- 各作品の「次に放送される予定の話数（ep_num）」を、現在（2026年2月）の情報を元に調査して設定してください。新番組なら `1`、放送中ならその続きの番号にしてください。
 - 出力は必ず以下のJSON形式のみとし、Markdownのコードブロック（```json ... ```）で囲んでください。余計な解説は不要です。
 
 # 出力形式
@@ -129,7 +129,8 @@ def archive_current_list(current_list_path: Path, archive_dir: Path):
 
 if __name__ == "__main__":
     # ターゲットシーズンの指定
-    TARGET_SEASON = "2025年冬（1月期）または最新の確定情報"
+    # 現在（2026年2月）の情報を反映させる
+    TARGET_SEASON = "2026年冬（1月期）の放送中アニメ最新状況"
     
     watch_list_path = Path("current/watch_list.json")
     archive_dir = Path("archive")

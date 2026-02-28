@@ -1,86 +1,86 @@
 [
   {
-    "anime_id": "202404_yozakura_c1",
-    "ep_num": 1,
-    "station_id": "mbs",
-    "start_time": "2024-04-07T25:30:00+09:00",
+    "anime_id": "202310_kageno_c2",
+    "ep_num": 7,
+    "station_id": "mx",
+    "start_time": "2023-11-15T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "2407_bokurobo_c3",
-    "ep_num": 1,
+    "anime_id": "2401_frieren_c2",
+    "ep_num": 4,
+    "station_id": "ntv",
+    "start_time": "2024-02-17T24:59:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202407_OshiNoKo_c2",
+    "ep_num": 5,
     "station_id": "tx",
-    "start_time": "2024-07-05T25:27:00+09:00",
+    "start_time": "2024-08-02T00:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202407SHY_c2",
-    "ep_num": 1,
-    "station_id": "mbs",
-    "start_time": "2024-07-07T02:30:00+09:00",
+    "anime_id": "202407_dungeon_c2",
+    "ep_num": 7,
+    "station_id": "nhk",
+    "start_time": "2024-08-17T00:15:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202407watashino2c2",
-    "ep_num": 1,
-    "station_id": "tbs",
-    "start_time": "2024-07-08T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202407_kusuriya_c2",
-    "ep_num": 1,
+    "anime_id": "202210_chainsawman_c2",
+    "ep_num": 3,
     "station_id": "mx",
-    "start_time": "2024-07-13T00:30:00+09:00",
+    "start_time": "2024-10-23T01:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202409_fatesfake_c1",
-    "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2024-09-07T23:30:00+09:00",
+    "anime_id": "202410_spyfamily_c3",
+    "ep_num": 4,
+    "station_id": "tx",
+    "start_time": "2024-10-26T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202410_mahoyome_z3",
-    "ep_num": 1,
-    "station_id": "tbs",
-    "start_time": "2024-10-04T01:28:00+09:00",
+    "anime_id": "202410_rezero_c3",
+    "ep_num": 5,
+    "station_id": "tx",
+    "start_time": "2024-10-31T00:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501_sololev_c2",
-    "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2025-01-06T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202501_tokrev_kusei_c3",
-    "ep_num": 1,
+    "anime_id": "202410_jujutsukai_c3",
+    "ep_num": 5,
     "station_id": "mbs",
-    "start_time": "2025-01-06T01:52:00+09:00",
+    "start_time": "2024-11-01T01:28:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501_dr-elise_c2",
-    "ep_num": 1,
+    "anime_id": "202410_tensura_c4",
+    "ep_num": 5,
     "station_id": "mx",
-    "start_time": "2025-01-07T01:00:00+09:00",
+    "start_time": "2024-11-02T00:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501_lazarus_c1",
-    "ep_num": 1,
-    "station_id": "mbs",
-    "start_time": "2025-01-07T01:00:00+09:00",
+    "anime_id": "202410_dandadan_c1",
+    "ep_num": 6,
+    "station_id": "mx",
+    "start_time": "2024-11-08T01:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501_sakamoto_c1",
-    "ep_num": 1,
+    "anime_id": "202410_bluelock2_c2",
+    "ep_num": 6,
+    "station_id": "mx",
+    "start_time": "2024-11-10T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202410_heroaca_c8",
+    "ep_num": 6,
     "station_id": "mbs",
-    "start_time": "2025-01-11T25:30:00+09:00",
+    "start_time": "2024-11-16T25:25:00+09:00",
     "status": "normal"
   }
 ]

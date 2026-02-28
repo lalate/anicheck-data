@@ -1,230 +1,220 @@
 [
   {
-    "title": "薬屋のひとりごと 第2期",
-    "official_url": "https://kusuriyanohitorigoto.jp/2nd/",
-    "ep_num": 2,
+    "title": "ダンダダン",
+    "official_url": "https://dan-da-dan.com/anime/",
+    "ep_num": 7,
     "schedules": [
       {
         "station": "mx",
         "day_of_week": "金曜日",
-        "time": "24:00"
-      },
-      {
-        "station": "mbs",
-        "day_of_week": "土曜日",
-        "time": "26:30"
-      },
-      {
-        "station": "bs11",
-        "day_of_week": "土曜日",
         "time": "25:00"
       },
       {
-        "station": "abema",
+        "station": "bs11",
         "day_of_week": "土曜日",
-        "time": "00:00"
-      }
-    ]
-  },
-  {
-    "title": "坂本ですが？",
-    "official_url": "https://sakamotodays-anime.com/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "mbs",
-        "day_of_week": "日曜日",
-        "time": "25:28"
-      },
-      {
-        "station": "tbs",
-        "day_of_week": "日曜日",
-        "time": "26:30"
-      },
-      {
-        "station": "bs11",
-        "day_of_week": "月曜日",
-        "time": "24:00"
-      }
-    ]
-  },
-  {
-    "title": "わたしの幸せな結婚 第2期",
-    "official_url": "https://watashinohappy-marriage.com/2nd/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "tbs",
-        "day_of_week": "日曜日",
         "time": "24:30"
       },
       {
-        "station": "bs11",
-        "day_of_week": "月曜日",
-        "time": "24:30"
-      },
-      {
-        "station": "mx",
-        "day_of_week": "月曜日",
-        "time": "25:30"
-      }
-    ]
-  },
-  {
-    "title": "魔法使いの嫁 〜追憶編〜III",
-    "official_url": "https://www.ayakashi-yashiki.com/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "tbs",
-        "day_of_week": "木曜日",
-        "time": "25:28"
-      },
-      {
-        "station": "bs11",
+        "station": "abema",
         "day_of_week": "金曜日",
-        "time": "24:00"
-      }
-    ]
-  },
-  {
-    "title": "SHY 第2期",
-    "official_url": "https://shy-anime.com/2nd/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "mbs",
-        "day_of_week": "土曜日",
-        "time": "26:30"
-      },
-      {
-        "station": "tbs",
-        "day_of_week": "日曜日",
-        "time": "02:30"
-      },
-      {
-        "station": "abema",
-        "day_of_week": "土曜日",
-        "time": "23:30"
-      }
-    ]
-  },
-  {
-    "title": "Solo Leveling 第2期",
-    "official_url": "https://sololeveling-anime.jp/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "mx",
-        "day_of_week": "木曜日",
-        "time": "25:30"
-      },
-      {
-        "station": "bs11",
-        "day_of_week": "金曜日",
-        "time": "24:30"
-      }
-    ]
-  },
-  {
-    "title": "Doctor Elise: The Royal Lady with the Lamp 第2期",
-    "official_url": "https://dokja-anime.com/2nd/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "mx",
-        "day_of_week": "月曜日",
-        "time": "25:00"
-      },
-      {
-        "station": "abema",
-        "day_of_week": "月曜日",
         "time": "25:00"
       }
     ]
   },
   {
-    "title": "東京リベンジャーズ 空誓軍団編",
-    "official_url": "https://tokyorevengers-anime.com/",
-    "ep_num": 2,
+    "title": "Re:ゼロから始める異世界生活 3rd season",
+    "official_url": "https://re-zero-anime.jp/",
+    "ep_num": 6,
     "schedules": [
       {
-        "station": "mbs",
-        "day_of_week": "金曜日",
-        "time": "25:52"
-      },
-      {
-        "station": "tbs",
-        "day_of_week": "土曜日",
-        "time": "02:25"
-      }
-    ]
-  },
-  {
-    "title": "Mission: Yozakura Family",
-    "official_url": "https://yozakura-anime.com/",
-    "ep_num": 2,
-    "schedules": [
-      {
-        "station": "mbs",
+        "station": "tx",
         "day_of_week": "水曜日",
-        "time": "26:30"
+        "time": "24:30"
       },
       {
-        "station": "tx",
+        "station": "bs11",
         "day_of_week": "木曜日",
-        "time": "25:27"
+        "time": "25:00"
       }
     ]
   },
   {
-    "title": "僕とロボコさん 第3期",
-    "official_url": "https://boku-robo.com/",
-    "ep_num": 2,
+    "title": "陰の実力者になりたくて！ 2nd season",
+    "official_url": "https://shadow-garden.net/",
+    "ep_num": 8,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "水曜日",
+        "time": "23:30"
+      },
+      {
+        "station": "mbs",
+        "day_of_week": "木曜日",
+        "time": "26:30"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "水曜日",
+        "time": "23:30"
+      }
+    ]
+  },
+  {
+    "title": "葬送のフリーレン 2期",
+    "official_url": "https://frieren-anime.com/",
+    "ep_num": 5,
+    "schedules": [
+      {
+        "station": "ntv",
+        "day_of_week": "土曜日",
+        "time": "24:59"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "日曜日",
+        "time": "25:30"
+      }
+    ]
+  },
+  {
+    "title": "【推しの子】2nd season",
+    "official_url": "https://osusino-anime.com/",
+    "ep_num": 6,
     "schedules": [
       {
         "station": "tx",
+        "day_of_week": "木曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "bs11",
         "day_of_week": "金曜日",
-        "time": "25:27"
+        "time": "24:30"
+      }
+    ]
+  },
+  {
+    "title": "僕のヒーローアカデミア 8期",
+    "official_url": "https://heroaca.com/",
+    "ep_num": 7,
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "土曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "tb",
+        "day_of_week": "土曜日",
+        "time": "25:00"
+      }
+    ]
+  },
+  {
+    "title": "転生したらスライムだった件 4期",
+    "official_url": "https://tensura-anime.com/",
+    "ep_num": 6,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "月曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "火曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "月曜日",
+        "time": "24:00"
+      }
+    ]
+  },
+  {
+    "title": "ダンジョン飯 2期",
+    "official_url": "https://delicious-in-dungeon.com/anime/",
+    "ep_num": 8,
+    "schedules": [
+      {
+        "station": "nhk",
+        "day_of_week": "金曜日",
+        "time": "24:15"
       },
       {
         "station": "bs11",
         "day_of_week": "土曜日",
-        "time": "17:00"
+        "time": "24:00"
       }
     ]
   },
   {
-    "title": "Fate/strange Fake -Whirlpool-",
-    "official_url": "https://fatestranfake.com/",
-    "ep_num": 2,
+    "title": "SPY×FAMILY 3rd season",
+    "official_url": "https://spy-family.net/",
+    "ep_num": 5,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "土曜日",
+        "time": "23:00"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "日曜日",
+        "time": "24:00"
+      }
+    ]
+  },
+  {
+    "title": "ブルーロック 2nd season",
+    "official_url": "https://bluelock-anime.com/",
+    "ep_num": 7,
     "schedules": [
       {
         "station": "mx",
         "day_of_week": "土曜日",
-        "time": "23:30"
+        "time": "25:30"
       },
       {
         "station": "abema",
         "day_of_week": "土曜日",
-        "time": "23:30"
+        "time": "25:30"
       }
     ]
   },
   {
-    "title": "Lazarus",
-    "official_url": "https://lazarus-anime.com/",
-    "ep_num": 2,
+    "title": "呪術廻戦 3期",
+    "official_url": "https://jujutsukaisen.jp/",
+    "ep_num": 6,
     "schedules": [
       {
         "station": "mbs",
-        "day_of_week": "月曜日",
+        "day_of_week": "木曜日",
+        "time": "23:56"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "金曜日",
+        "time": "24:30"
+      }
+    ]
+  },
+  {
+    "title": "チェンソーマン 2期",
+    "official_url": "https://chainsawman.anime/",
+    "ep_num": 4,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "火曜日",
         "time": "25:00"
       },
       {
-        "station": "tbs",
-        "day_of_week": "火曜日",
-        "time": "02:00"
+        "station": "bs11",
+        "day_of_week": "水曜日",
+        "time": "25:30"
       }
     ]
   }

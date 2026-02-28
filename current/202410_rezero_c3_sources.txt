@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://re-zero-anime.jp/3rd/episode/ep1.html
-- 放送スケジュール根拠URL: https://re-zero-anime.jp/3rd/tv/
-- 備考: 第2話予告動画IDは公式YouTubeチャンネル(https://www.youtube.com/@Re_Zero_official)にて最新確認要。サブタイトル・あらすじは公式サイトストーリー掲載情報に基づく。
+- 公式サイト確認用URL: https://re-zero-anime.jp/story/#story05
+- 放送スケジュール根拠URL: https://www.tv-tokyo.co.jp/anime/rezero3/schedule/
+- 備考: 特番による変更なし、基本スケジュール通り
