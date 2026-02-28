@@ -1,0 +1,41 @@
+{
+  "anime_id": "202407_frieren_c2",
+  "title": "葬送のフリーレン 第2期",
+  "official_url": "https://frieren-anime.jp/2nd",
+  "hashtag": "#フリーレン",
+  "station_master": "NHK Eテレ",
+  "cast": [
+    "種崎敦美",
+    "古川由利奈",
+    "内山昂輝"
+  ],
+  "staff": {
+    "director": "鈴木健一",
+    "studio": "Madhouse"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "葬送のフリーレン Blu-ray 第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0CP5Y8J5S"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "葬送のフリーレン Blu-ray 第2巻",
+        "url": "https://www.amazon.co.jp/dp/B0CP5Y8J5S"
+      },
+      {
+        "type": "Figure",
+        "name": "フリーレン 1/7スケール 完成品フィギュア",
+        "url": "https://www.amazon.co.jp/dp/B0CXYZ1234"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "葬送のフリーレン BOX 1",
+        "url": "https://www.amazon.co.jp/dp/B0D5K7L8M9"
+      }
+    ]
+  }
+}

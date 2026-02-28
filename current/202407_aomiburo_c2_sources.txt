@@ -1,3 +1,3 @@
 - 公式サイト確認用URL: https://aomiburou-anime.jp/2nd/story/
-- 放送スケジュール根拠URL: https://aomiburou-anime.jp/2nd/onair/
-- 備考: 特番による変更なし、通常通り放送
+- 放送スケジュール根拠URL: https://aomiburou-anime.jp/2nd/schedule/
+- 備考: 特番による変更なし。MX火曜25:00基準で第9話2024/8/27放送確認。

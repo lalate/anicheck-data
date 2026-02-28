@@ -5,16 +5,32 @@
   "hashtag": "#青のミブロ",
   "station_master": "TOKYO MX",
   "cast": [
-    "鈴代紗弓",
-    "水中雅章",
-    "上田瞳",
-    "小野友樹"
+    "小野賢章",
+    "市川蒼",
+    "杉田智和"
   ],
   "staff": {
     "director": "羽原信義",
-    "studio": "C2C"
+    "studio": "ゆめ太カグヤスタジオ"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=青のミブロ"
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0D8J5ZJ5Z"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "第2巻",
+        "url": "https://www.amazon.co.jp/dp/B0D8J5ZJ5Z"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "第3巻",
+        "url": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD+%E3%83%96%E3%83%AB%E3%83%AC%E3%82%A4"
+      }
+    ]
   }
 }

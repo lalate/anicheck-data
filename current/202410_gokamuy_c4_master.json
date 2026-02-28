@@ -1,0 +1,30 @@
+{
+  "anime_id": "202410_gokamuy_c4",
+  "title": "ゴールデンカムイ 最終章",
+  "official_url": "https://golden-kamuy-anime.com/final/",
+  "hashtag": "#ゴールデンカムイ最終章",
+  "station_master": "テレビ東京",
+  "cast": [
+    "杉田智和",
+    "富岡美沙子"
+  ],
+  "staff": {
+    "director": "加藤尚知",
+    "studio": "ブレインズ・ベース"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%AB%E3%83%A0%E3%82%A4",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0DL8V5Z5Z"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第2巻 予約",
+        "url": "https://www.amazon.co.jp/dp/B0DL8W6K3K"
+      }
+    ]
+  }
+}
