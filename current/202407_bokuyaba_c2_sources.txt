@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://boku-no-kokoro.com/2nd/
-- 放送スケジュール根拠URL: https://www.tv-tokyo.co.jp/anime/bokuyaba2/
-- 備考: テレビ東京土曜深夜1:30枠で放送。BS11は日曜22:00、AT-Xは土曜23:30など遅めのためtxを選択。PVは公式第2弾PVを使用。
+- 公式サイト確認用URL: https://bokuyaba-anime.com/2nd/story/#story05
+- 放送スケジュール根拠URL: https://bokuyaba-anime.com/2nd/onair/
+- 備考: 特番による変更なし、基本スケジュール通り

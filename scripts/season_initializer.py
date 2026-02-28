@@ -46,7 +46,7 @@ SYSTEM_PROMPT = """# 役割
 ```"""
 
 def fetch_season_anime(season_str: str):
-    user_input = f"対象シーズン：{season_str}\\nこのシーズンに放送開始または放送中の主要なアニメをリストアップしてください。"
+    user_input = f"対象シーズン（または参考URL）：{season_str}\\nこのシーズンに放送開始または放送中の主要なアニメをリストアップしてください。URLが提供されている場合は、必ずそのURLに記載されている作品ラインナップを正として抽出してください。"
     
     print(f"🚀 Grokに {season_str} のアニメリストを問い合わせ中...")
     response = client.chat.completions.create(
@@ -129,8 +129,8 @@ def archive_current_list(current_list_path: Path, archive_dir: Path):
 
 if __name__ == "__main__":
     # ターゲットシーズンの指定
-    # 現在（2026年2月）の情報を反映させる
-    TARGET_SEASON = "2026年冬（1月期）の放送中アニメ最新状況"
+    # URLを直接指定して、そのページのラインナップを正として抽出させる
+    TARGET_SEASON = "https://www.animatetimes.com/tag/details.php?id=6212 (2026冬アニメ)"
     
     watch_list_path = Path("current/watch_list.json")
     archive_dir = Path("archive")
