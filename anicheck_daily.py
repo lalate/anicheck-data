@@ -82,18 +82,22 @@ SYSTEM_PROMPT = """# 役割
 - 放送スケジュール根拠URL:
 - 備考: (放送休止や時間変更がある場合はここに記述)"""
 
-def call_grok_for_anime(title: str, ep_num: int):
-    user_input = f"作品名：{title}\\n話数：{ep_num}"
+def call_grok_for_anime(title: str, ep_num: int, official_url: str = None):
+    url_hint = f"\\n公式サイトURL（参考）：{official_url}" if official_url else ""
+    user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}"
     
+    # 嘘（ハルシネーション）を強力に抑制するシステムメッセージの追加
+    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認の徹底】\\n必ず提供された公式サイトURLやWeb上の最新情報を確認し、架空のサブタイトルや放送時間を捏造しないでください。不明な場合は捏造せず、ソース確認の備考欄にその旨を記述してください。"
+
     response = client.chat.completions.create(
         model="grok-4-1-fast-reasoning", # ツール対応・高速・安い
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": prompt_with_strictness},
             {"role": "user", "content": user_input}
         ],
         # tools=[{"type": "live_search"}], # ← これでリアルタイム検索が有効
-        temperature=0.2,
-        max_tokens=1200,
+        temperature=0.1, # 創造性を抑えて事実に基づかせる
+        max_tokens=1500,
     )
     return response.choices[0].message.content
 
@@ -103,6 +107,8 @@ def parse_output(text: str, title: str, ep_num: int):
     
     if len(json_blocks) < 3:
         # ヘッダーがない場合のフォールバックとして波括弧のブロックを探す
+        json_blocks = re.findall(r'(\{(?:[^{}]|(?:\{[^{}]*\}))*\})', text, some_text = text, flags=re.DOTALL)
+        # 上記の正規表現を修正
         json_blocks = re.findall(r'(\{(?:[^{}]|(?:\{[^{}]*\}))*\})', text, re.DOTALL)
         if len(json_blocks) < 3:
             return None # パース失敗
@@ -152,10 +158,14 @@ if __name__ == "__main__":
     print(f"🚀 {today} アニちぇっく データ取得開始...")
 
     for anime in ANIMES_TO_CHECK:
-        print(f"  📺 {anime['title']} 第{anime['ep_num']}話 取得中...")
-        raw_text = call_grok_for_anime(anime["title"], anime["ep_num"])
+        title = anime['title']
+        ep_num = anime['ep_num']
+        official_url = anime.get('official_url')
         
-        data = parse_output(raw_text, anime["title"], anime["ep_num"])
+        print(f"  📺 {title} 第{ep_num}話 取得中...")
+        raw_text = call_grok_for_anime(title, ep_num, official_url)
+        
+        data = parse_output(raw_text, title, ep_num)
         
         if data:
             anime_id = data["master"]["anime_id"]
@@ -177,7 +187,7 @@ if __name__ == "__main__":
             # 成功したので次回用に話数をインクリメント
             anime["ep_num"] += 1
         else:
-            print(f"  ❌ パース失敗: {anime['title']}")
+            print(f"  ❌ パース失敗: {title}")
 
     # その日の全番組表（時間順）
     all_broadcasts.sort(key=lambda x: x["start_time"])
