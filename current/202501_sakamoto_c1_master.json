@@ -1,16 +1,17 @@
 {
   "anime_id": "202501_sakamoto_c1",
-  "title": "SAKAMOTO DAYS",
+  "title": "坂本ですが？",
   "official_url": "https://sakamotodays-anime.com/",
-  "hashtag": "#サカモトデイズ",
-  "station_master": "TOKYO MX",
+  "hashtag": "#坂本ですがアニメ",
+  "station_master": "MBS",
   "cast": [
-    "中村悠一",
+    "小野大輔",
     "千葉翔也",
-    "小野賢章"
+    "杉田智和",
+    "原田彩楓"
   ],
   "staff": {
-    "director": "平野綱",
+    "director": "大橋誉志光",
     "studio": "TMS Entertainment"
   }
 }

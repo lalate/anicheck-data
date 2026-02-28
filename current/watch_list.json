@@ -1,143 +1,231 @@
 [
   {
     "title": "薬屋のひとりごと 第2期",
-    "official_url": "https://kusuriyanime.jp/2nd/",
+    "official_url": "https://kusuriyanohitorigoto.jp/2nd/",
     "ep_num": 2,
-    "stations": [
-      "ntv",
-      "bs11",
-      "hulu",
-      "d_anime",
-      "netflix"
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "金曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "mbs",
+        "day_of_week": "土曜日",
+        "time": "26:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "土曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "土曜日",
+        "time": "00:00"
+      }
     ]
   },
   {
-    "title": "SAKAMOTO DAYS",
+    "title": "坂本ですが？",
     "official_url": "https://sakamotodays-anime.com/",
     "ep_num": 2,
-    "stations": [
-      "tx",
-      "bs11",
-      "netflix",
-      "abema"
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "日曜日",
+        "time": "25:28"
+      },
+      {
+        "station": "tbs",
+        "day_of_week": "日曜日",
+        "time": "26:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "月曜日",
+        "time": "24:00"
+      }
     ]
   },
   {
-    "title": "Dr.STONE SCIENCE FUTURE",
-    "official_url": "https://dr-stone-anime.com/sciencefuture/",
+    "title": "わたしの幸せな結婚 第2期",
+    "official_url": "https://watashinohappy-marriage.com/2nd/",
     "ep_num": 2,
-    "stations": [
-      "tx",
-      "bs11",
-      "prime_video",
-      "d_anime"
+    "schedules": [
+      {
+        "station": "tbs",
+        "day_of_week": "日曜日",
+        "time": "24:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "月曜日",
+        "time": "24:30"
+      },
+      {
+        "station": "mx",
+        "day_of_week": "月曜日",
+        "time": "25:30"
+      }
     ]
   },
   {
-    "title": "WIND BREAKER Season2",
-    "official_url": "https://wind-breaker-anime.com/2nd/",
+    "title": "魔法使いの嫁 〜追憶編〜III",
+    "official_url": "https://www.ayakashi-yashiki.com/",
     "ep_num": 2,
-    "stations": [
-      "mx",
-      "bs11",
-      "abema",
-      "d_anime"
+    "schedules": [
+      {
+        "station": "tbs",
+        "day_of_week": "木曜日",
+        "time": "25:28"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "金曜日",
+        "time": "24:00"
+      }
     ]
   },
   {
-    "title": "炎炎ノ消防隊 弐ノ章",
-    "official_url": "https://fire-force-anime.com/",
+    "title": "SHY 第2期",
+    "official_url": "https://shy-anime.com/2nd/",
     "ep_num": 2,
-    "stations": [
-      "tx",
-      "bs11",
-      "netflix",
-      "d_anime"
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "土曜日",
+        "time": "26:30"
+      },
+      {
+        "station": "tbs",
+        "day_of_week": "日曜日",
+        "time": "02:30"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      }
     ]
   },
   {
-    "title": "俺だけレベルアップな件 Season2",
-    "official_url": "https://solo-leveling-anime.com/2nd/",
+    "title": "Solo Leveling 第2期",
+    "official_url": "https://sololeveling-anime.jp/",
     "ep_num": 2,
-    "stations": [
-      "mx",
-      "mbs",
-      "bs11",
-      "prime_video",
-      "netflix"
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "木曜日",
+        "time": "25:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "金曜日",
+        "time": "24:30"
+      }
     ]
   },
   {
-    "title": " Shangri-La Frontier クレイジーテイル 後期",
-    "official_url": "https://shangrila-frontier-anime.com/2nd/",
+    "title": "Doctor Elise: The Royal Lady with the Lamp 第2期",
+    "official_url": "https://dokja-anime.com/2nd/",
     "ep_num": 2,
-    "stations": [
-      "tx",
-      "bs11",
-      "d_anime",
-      "u_next"
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "月曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "月曜日",
+        "time": "25:00"
+      }
     ]
   },
   {
-    "title": "月が導く異世界道中 第2期 後半",
-    "official_url": "https://tsukimichi.jp/2nd/",
+    "title": "東京リベンジャーズ 空誓軍団編",
+    "official_url": "https://tokyorevengers-anime.com/",
     "ep_num": 2,
-    "stations": [
-      "tx",
-      "bs11",
-      "d_anime",
-      "bandai_channel"
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "金曜日",
+        "time": "25:52"
+      },
+      {
+        "station": "tbs",
+        "day_of_week": "土曜日",
+        "time": "02:25"
+      }
     ]
   },
   {
-    "title": "僕の心のヤバイやつ 2nd season",
-    "official_url": "https://boku-no-kokoro.com/2nd/",
+    "title": "Mission: Yozakura Family",
+    "official_url": "https://yozakura-anime.com/",
     "ep_num": 2,
-    "stations": [
-      "tx",
-      "bs11",
-      "abema",
-      "d_anime"
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "水曜日",
+        "time": "26:30"
+      },
+      {
+        "station": "tx",
+        "day_of_week": "木曜日",
+        "time": "25:27"
+      }
     ]
   },
   {
-    "title": "家庭教師のトート",
-    "official_url": "https://totono-sensei-anime.com/",
+    "title": "僕とロボコさん 第3期",
+    "official_url": "https://boku-robo.com/",
     "ep_num": 2,
-    "stations": [
-      "mx",
-      "bs11",
-      "abema"
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "金曜日",
+        "time": "25:27"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "土曜日",
+        "time": "17:00"
+      }
     ]
   },
   {
-    "title": "魔王学院の不適合者 II ～史上最強の魔王の始祖、転生して子孫たちの魔力を吸わないと生きられないなんて～",
-    "official_url": "https://maou-gakuin.jp/2nd/",
+    "title": "Fate/strange Fake -Whirlpool-",
+    "official_url": "https://fatestranfake.com/",
     "ep_num": 2,
-    "stations": [
-      "atx",
-      "bs11",
-      "d_anime"
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      }
     ]
   },
   {
-    "title": "骸骨騎士様、只今異世界へお出掛け中 Season2",
-    "official_url": "https://garakara-anime.com/2nd/",
+    "title": "Lazarus",
+    "official_url": "https://lazarus-anime.com/",
     "ep_num": 2,
-    "stations": [
-      "atx",
-      "bs11",
-      "d_anime"
-    ]
-  },
-  {
-    "title": "転生貴族の異世界冒険録",
-    "official_url": "https://tensei-kizoku-anime.com/",
-    "ep_num": 2,
-    "stations": [
-      "atx",
-      "bs11",
-      "d_anime"
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "月曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "tbs",
+        "day_of_week": "火曜日",
+        "time": "02:00"
+      }
     ]
   }
 ]

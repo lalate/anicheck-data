@@ -82,13 +82,18 @@ SYSTEM_PROMPT = """# 役割
 - 放送スケジュール根拠URL:
 - 備考: (放送休止や時間変更がある場合はここに記述)"""
 
-def call_grok_for_anime(title: str, ep_num: int, official_url: str = None, stations: list = None):
+def call_grok_for_anime(title: str, ep_num: int, official_url: str = None, schedules: list = None):
     url_hint = f"\\n公式サイトURL（参考）：{official_url}" if official_url else ""
-    station_hint = f"\\n対象放送局/配信：{', '.join(stations)}" if stations else ""
-    user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}{station_hint}"
     
-    # 嘘（ハルシネーション）を強力に抑制し、指定された放送局のみを対象にする指示
-    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認の徹底】\\n必ず提供された公式サイトURLや放送局リストをWeb検索(live_search)で確認し、架空のサブタイトルや放送時間を捏造しないでください。\\n特に、放送局（station_id）は指定されたリストにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。"
+    schedule_hint = ""
+    if schedules:
+        schedule_str = ", ".join([f"{s.get('station', '')} ({s.get('day_of_week', '')} {s.get('time', '')})" for s in schedules])
+        schedule_hint = f"\\n基本放送スケジュール：{schedule_str}"
+
+    user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}{schedule_hint}"
+    
+    # 嘘（ハルシネーション）を強力に抑制し、基本スケジュールを元に最新情報を確認するよう指示
+    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認の徹底】\\n必ず提供された「基本放送スケジュール」をベースにしつつ、Web上の最新情報(live_search)で「特番による時間変更や休止」がないかを確認してください。変更があれば最新の時間を、なければ基本放送時間を出力してください。架空のサブタイトルや時間を捏造することは厳禁です。\\n放送局（station_id）は基本スケジュールにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。"
 
     response = client.chat.completions.create(
         model="grok-4-1-fast-reasoning", # ツール対応・高速・安い
@@ -162,10 +167,10 @@ if __name__ == "__main__":
         title = anime['title']
         ep_num = anime['ep_num']
         official_url = anime.get('official_url')
-        stations = anime.get('stations', [])
+        schedules = anime.get('schedules', [])
         
         print(f"  📺 {title} 第{ep_num}話 取得中...")
-        raw_text = call_grok_for_anime(title, ep_num, official_url, stations)
+        raw_text = call_grok_for_anime(title, ep_num, official_url, schedules)
         
         data = parse_output(raw_text, title, ep_num)
         

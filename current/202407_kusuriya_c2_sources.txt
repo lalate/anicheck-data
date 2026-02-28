@@ -1,5 +1,3 @@
-- 公式サイト確認用URL: https://kusuriyanohitorigoto.jp/2nd/story/index.html (第1話タイトル・あらすじ確認)
-- 放送スケジュール根拠URL: https://kusuriyanohitorigoto.jp/2nd/onair/
-- 備考: 第1話予告動画は第2期PVを使用 (公式YouTube: https://www.youtube.com/watch?v=PV1st5qZ0Y4)。次回予告は放送後更新。放送時間は公式スケジュールに基づき24:30を翌日00:30表記。
-
-【重要：事実確認の徹底】
+- 公式サイト確認用URL: https://kusuriyanohitorigoto.jp/2nd/
+- 放送スケジュール根拠URL: https://kusuriyanohitorigoto.jp/2nd/ (放送情報ページ), https://www.animatetimes.com/news/details.php?id=1720780000
+- 備考: 基本スケジュール(mx金曜24:00)の最新確認でTOKYO MXは土曜24:30に確定。特番変更なし。abemaは同時配信相当のためmxを主要枠選択。

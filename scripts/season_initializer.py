@@ -18,13 +18,15 @@ SYSTEM_PROMPT = """# 役割
 あなたは日本のアニメ放送情報に精通した、嘘を許さない厳格な調査員です。
 
 # 目的
-指定されたシーズン（例：2026年春）に日本で放送される主要な深夜アニメのタイトル、公式サイトURL、および主要な放送局・配信サイトの情報を収集し、監視用のJSONリストを出力してください。
+指定されたシーズン（例：2026年春）に日本で放送される主要な深夜アニメのタイトル、公式サイトURL、および各放送局の「基本放送スケジュール」を収集し、監視用のJSONリストを出力してください。
 
 # 条件
 - 知名度や期待度の高い主要な深夜アニメを10〜15作品程度ピックアップしてください。
 - 各作品の「公式サイトURL」を必ず調査し、正確なURLを記載してください。
-- 各作品の「主要な放送局・配信サイト」を調査し、以下のID形式（小文字）のリストとして出力してください。
-  (例: mx, tx, ntv, tbs, fujitv, tv_asahi, mbs, ytv, ktv, abc, sun, tv_osaka, tva, nagoya_tv, cbc, tokai_tv, ctv, bs11, bs_fuji, bs_tbs, bs_ntv, nhk, abema, prime_video, netflix, u_next, d_anime, dmm_tv, hulu, bandai_channel, etc.)
+- 各作品の「主要な放送局・配信サイトの基本スケジュール」を調査し、以下の形式で `schedules` 配列として出力してください。
+  - `station`: 放送局ID（例: mx, bs11, tx, ntv, mbs, abema など小文字英数）
+  - `day_of_week`: 放送曜日（例: 月曜日, 火曜日）
+  - `time`: 基本の放送開始時間（例: 24:00, 25:30）
 - 各作品の話数（ep_num）は、新シーズンの始まりなので全て `1` に設定してください。
 - 出力は必ず以下のJSON形式のみとし、Markdownのコードブロック（```json ... ```）で囲んでください。余計な解説は不要です。
 
@@ -35,7 +37,10 @@ SYSTEM_PROMPT = """# 役割
     "title": "作品名1",
     "official_url": "https://example.com/anime1",
     "ep_num": 1,
-    "stations": ["mx", "bs11", "abema"]
+    "schedules": [
+      {"station": "mx", "day_of_week": "水曜日", "time": "24:00"},
+      {"station": "bs11", "day_of_week": "木曜日", "time": "25:00"}
+    ]
   }
 ]
 ```"""

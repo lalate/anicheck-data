@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://sololeveling-anime.com/news/20240628_01.html
-- 放送スケジュール根拠URL: https://natalie.mu/comic/news/587962, https://times.abema.tv/articles/-/10123456
-- 備考: 第2期第1話サブタイトルは公式未発表のため空欄。公式第1話予告動画未公開のため空欄（第2期PVはhttps://www.youtube.com/watch?v=2xM9hOVlH14 を参考）。放送はTOKYO MX(25:30～、station_id="mx"はアプリ標準想定)、BS11同時ネットあり。情報は2024年10月時点最新確認。
+- 公式サイト確認用URL: https://sololeveling-anime.jp/season2/
+- 放送スケジュール根拠URL: https://sololeveling-anime.jp/season2/
+- 備考: 基本放送スケジュール(mx木曜25:30, bs11金曜24:30)とは異なり、公式発表で2025年1月5日(日)24:00(ISO:1月6日00:00) TOKYO MXにて第1話放送開始。最速主要局mxを選択。サブタイトル・詳細あらすじは放送前未発表。PVは公式YouTube使用。特番変更なし。

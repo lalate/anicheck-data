@@ -1,0 +1,3 @@
+- 公式サイト確認用URL: https://yozakura-anime.com/story/ep1.html
+- 放送スケジュール根拠URL: https://yozakura-anime.com/onair/
+- 備考: 基本スケジュールから最新情報(live_search/公式確認)を優先。実際の初回放送はMBS/TBS系日曜25:30(2024/4/7)で、入力スケジュールと異なるが公式情報を採用。特番変更・休止なし。tx放送なし。
