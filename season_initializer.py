@@ -58,67 +58,90 @@ def fetch_season_anime(season_str: str):
     return response.choices[0].message.content
 
 def parse_and_save(text: str, output_file: Path):
-    # JSONブロック（```json ... ```）を抽出
     json_blocks = re.findall(r'```json\s*(\[.*?\])\s*```', text, re.DOTALL)
     
     if not json_blocks:
-        # フォールバック: []で囲まれた部分を探す
         json_blocks = re.findall(r'(\[(?:[^\[\]]|(?:\[[^\[\]]*\]))*\])', text, re.DOTALL)
         if not json_blocks:
             print("❌ エラー: Grokの応答からJSONリストを抽出できませんでした。")
-            print("--- 生の応答 ---")
-            print(text)
             return False
 
     try:
         anime_list = json.loads(json_blocks[0])
         
-        # 簡易バリデーション
         if not isinstance(anime_list, list) or len(anime_list) == 0:
-             print("❌ エラー: 抽出されたJSONが空のリスト、またはリスト形式ではありません。")
              return False
              
         if "title" not in anime_list[0] or "ep_num" not in anime_list[0]:
-             print("❌ エラー: JSONの構造が期待される形式（title, ep_num）と異なります。")
              return False
 
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(anime_list, f, ensure_ascii=False, indent=2)
             
         print(f"✅ 成功: {len(anime_list)}件のアニメを {output_file.name} に保存しました！")
-        for anime in anime_list:
-            print(f"  - {anime.get('title')} (第{anime.get('ep_num')}話)")
         return True
         
     except json.JSONDecodeError as e:
         print(f"❌ JSONパースエラー: {e}")
         return False
 
+def archive_current_list(current_list_path: Path, archive_dir: Path):
+    """
+    現在の watch_list.json を解析し、適切なシーズン名でアーカイブに保存する。
+    """
+    if not current_list_path.exists():
+        return
+
+    try:
+        with open(current_list_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        # データの最初のアニメからシーズンを推測（または現在日付から）
+        # ここではシンプルに「アーカイブ実行時の日付」をベースにする
+        now = datetime.datetime.now()
+        year = now.year
+        month = now.month
+        season = "winter" if month in [1, 2, 3] else "spring" if month in [4, 5, 6] else "summer" if month in [7, 8, 9] else "autumn"
+        
+        archive_name = f"{year}_{season}_list.json"
+        archive_path = archive_dir / archive_name
+        
+        # すでに存在する場合は連番を振る
+        counter = 1
+        while archive_path.exists():
+            archive_name = f"{year}_{season}_list_{counter}.json"
+            archive_path = archive_dir / archive_name
+            counter += 1
+            
+        with open(archive_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        
+        print(f"📦 アーカイブ完了: 現在のリストを {archive_path.name} に保存しました。")
+        
+        # 元のファイルを削除（後で新しいものが作られるため）
+        current_list_path.unlink()
+        
+    except Exception as e:
+        print(f"⚠️ アーカイブ中にエラーが発生しました: {e}")
+
 if __name__ == "__main__":
-    # 現在の月を元に、直近のシーズンを自動判定するか、手動で指定する
-    # ここでは2026年4月（春アニメ）をターゲットとする
-    # today = datetime.date.today()
-    # year = today.year
-    # month = today.month
-    # season = "春" if 3 <= month <= 5 else "夏" if 6 <= month <= 8 else "秋" if 9 <= month <= 11 else "冬"
-    
-    # ユーザーが指定しやすいように変数化
-    # 2026年は未来すぎるため、現在の知識で確実な2024年秋〜2025年冬あたりを例にするか、
-    # あるいは「現在分かっている範囲での最新」と指示を緩める
+    # ターゲットシーズンの指定
     TARGET_SEASON = "2025年冬（1月期）または最新の確定情報"
     
+    watch_list_path = Path("watch_list.json")
+    archive_dir = Path("archive")
+    archive_dir.mkdir(exist_ok=True)
+
+    # 1. 現在のリストをアーカイブへ「昇華」させる
+    archive_current_list(watch_list_path, archive_dir)
+    
+    # 2. 新しいシーズンのリストを取得
     raw_text = fetch_season_anime(TARGET_SEASON)
     
-    watch_list_path = Path("watch_list.json")
-    
-    # バックアップを取る
-    if watch_list_path.exists():
-        backup_path = Path("watch_list_backup.json")
-        watch_list_path.rename(backup_path)
-        print(f"ℹ️ 既存のリストを {backup_path.name} にバックアップしました。")
-        
+    # 3. 新しいリストを保存
     success = parse_and_save(raw_text, watch_list_path)
     
-    if not success and Path("watch_list_backup.json").exists():
-        print("⚠️ 失敗したため、バックアップからリストを復元します。")
-        Path("watch_list_backup.json").rename(watch_list_path)
+    if success:
+        print(f"✨ 新シーズン {TARGET_SEASON} の準備が整いました。")
+    else:
+        print("❌ 新シーズンの取得に失敗しました。")
