@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # ターゲットシーズンの指定
     TARGET_SEASON = "2025年冬（1月期）または最新の確定情報"
     
-    watch_list_path = Path("watch_list.json")
+    watch_list_path = Path("current/watch_list.json")
     archive_dir = Path("archive")
     archive_dir.mkdir(exist_ok=True)
 

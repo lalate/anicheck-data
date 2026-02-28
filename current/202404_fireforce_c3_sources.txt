@@ -1,0 +1,3 @@
+- 公式サイト確認用URL: https://fire-force-anime.com/3rd/story/01.html
+- 放送スケジュール根拠URL: https://fire-force-anime.com/3rd/onair/
+- 備考: 第1話は2024/4/5にTOKYO MXほかで放送済み。next_preview_youtube_idは公式YouTubeチャンネル（@fireforce_PR）第2話予告動画を特定できず空欄とした。prev_summaryは公式あらすじ・前シーズン内容に基づく要約。station_idはアプリ標準想定（tokyomx）。

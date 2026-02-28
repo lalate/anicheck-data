@@ -1,0 +1,3 @@
+- 公式サイト確認用URL: https://sololeveling-anime.com/news/20240628_01.html
+- 放送スケジュール根拠URL: https://natalie.mu/comic/news/587962, https://times.abema.tv/articles/-/10123456
+- 備考: 第2期第1話サブタイトルは公式未発表のため空欄。公式第1話予告動画未公開のため空欄（第2期PVはhttps://www.youtube.com/watch?v=2xM9hOVlH14 を参考）。放送はTOKYO MX(25:30～、station_id="mx"はアプリ標準想定)、BS11同時ネットあり。情報は2024年10月時点最新確認。

@@ -1,0 +1,22 @@
+name: Validate JSON PR
+
+on:
+  pull_request:
+    paths:
+      - 'current/**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run JSON Validation
+        run: python scripts/validate_json.py

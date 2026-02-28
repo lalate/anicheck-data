@@ -142,10 +142,10 @@ def parse_output(text: str, title: str, ep_num: int):
 # ====================== メイン実行 ======================
 if __name__ == "__main__":
     today = datetime.date.today().strftime("%Y-%m-%d")
-    output_dir = Path(f"anicheck_daily/{today}")
+    output_dir = Path("current")
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    watch_list_file = Path("watch_list.json")
+    watch_list_file = Path("current/watch_list.json")
     if watch_list_file.exists():
         with open(watch_list_file, "r", encoding="utf-8") as f:
             ANIMES_TO_CHECK = json.load(f)
@@ -198,6 +198,6 @@ if __name__ == "__main__":
     with open(watch_list_file, "w", encoding="utf-8") as f:
         json.dump(ANIMES_TO_CHECK, f, ensure_ascii=False, indent=2)
 
-    print(f"\\n🎉 完了！データは anicheck_daily/{today}/ に保存されました")
+    print(f"\\n🎉 完了！データは current/ に保存されました")
     print(f"  📱 アプリ用：daily_schedule.json をご利用ください")
     print(f"  📝 watch_list.json も最新話数に自動更新されました。")
