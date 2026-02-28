@@ -1,93 +1,93 @@
 [
   {
-    "anime_id": "202210_gkamuy_c4",
+    "anime_id": "202501_medalist_c2",
     "ep_num": 10,
+    "station_id": "ntv",
+    "start_time": "",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202210_gkamuy_c4",
+    "ep_num": 11,
     "station_id": "tx",
-    "start_time": "2022-12-11T00:30:00+09:00",
+    "start_time": "2022-12-17T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202401_bakido_c1",
+    "ep_num": 9,
+    "station_id": "tx",
+    "start_time": "2024-03-06T01:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202401_hellrak_c2",
-    "ep_num": 9,
+    "ep_num": 10,
     "station_id": "mx",
-    "start_time": "2024-03-09T23:30:00+09:00",
+    "start_time": "2024-03-11T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202407_bakido_c1",
-    "ep_num": 8,
+    "anime_id": "202401_enen3_c2",
+    "ep_num": 12,
     "station_id": "tx",
-    "start_time": "2024-08-20T02:30:00+09:00",
+    "start_time": "2024-03-23T24:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202407_aomiburo_c2",
-    "ep_num": 7,
-    "station_id": "mx",
-    "start_time": "2024-08-21T01:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202407_matoslv_c2",
-    "ep_num": 7,
-    "station_id": "mx",
-    "start_time": "2024-08-22T01:35:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202407_enen3_c2",
-    "ep_num": 11,
-    "station_id": "mbs",
-    "start_time": "2024-09-13T02:25:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202410_fsfake_c1",
+    "anime_id": "202407_matoslave_c2",
     "ep_num": 8,
     "station_id": "mx",
-    "start_time": "2024-11-21T00:00:00+09:00",
+    "start_time": "2024-08-21T01:35:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202410_fumetsu_c3",
-    "ep_num": 9,
+    "anime_id": "202410_aomiburo_c2",
+    "ep_num": 8,
     "station_id": "mx",
-    "start_time": "2024-12-07T00:30:00+09:00",
+    "start_time": "2024-11-19T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202410_fumetsuc3",
+    "ep_num": 10,
+    "station_id": "mx",
+    "start_time": "2024-12-09T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202410_frieren_c2",
+    "ep_num": 10,
+    "station_id": "nhk",
+    "start_time": "2024-12-14T23:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202410_mfghost_c3",
-    "ep_num": 10,
+    "ep_num": 11,
     "station_id": "tx",
-    "start_time": "2024-12-07T23:30:00+09:00",
+    "start_time": "2024-12-14T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202411_fsf_c1",
+    "ep_num": 9,
+    "station_id": "mx",
+    "start_time": "2025-01-09T00:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202501_jujutsu_c3",
-    "ep_num": 10,
+    "ep_num": 11,
     "station_id": "mbs",
-    "start_time": "2025-03-09T25:25:00+09:00",
+    "start_time": "2025-03-17T01:25:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202504_medalist_c2",
+    "anime_id": "202610_oshinoko_c3",
     "ep_num": 9,
-    "station_id": "ntv",
-    "start_time": "2025-05-30T01:59:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_frieren_c2",
-    "ep_num": 9,
-    "station_id": "nhk",
-    "start_time": "2026-03-08T23:15:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202610_osusino_c3",
-    "ep_num": 8,
     "station_id": "tx",
-    "start_time": "2026-11-26T00:30:00+09:00",
+    "start_time": "2026-12-02T00:30:00+09:00",
     "status": "normal"
   }
 ]

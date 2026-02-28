@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://golden-kamuy-anime.com/final/story/ep10.html
-- 放送スケジュール根拠URL: https://golden-kamuy-anime.com/final/ & https://ja.wikipedia.org/wiki/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%AB%E3%83%A0%E3%82%A4_(%E3%82%A2%E3%83%8B%E3%83%A1)#%E6%9C%80%E7%B5%82%E7%AB%A0
-- 備考: 特番による変更・休止なし。基本スケジュール通りTXが最速（土曜24:30表記をISO準拠で翌日00:30に変換）。
+- 公式サイト確認用URL: https://golden-kamuy-anime.com/final/episode/11/
+- 放送スケジュール根拠URL: https://cal.syoboi.org/DB;O=100775;o=7;m=tx;a=1
+- 備考: 基本スケジュール（土曜24:30）と一致、特番変更なし。入力の「月曜日」は実際土曜日の誤記と判断し最新情報優先。

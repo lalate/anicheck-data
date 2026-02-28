@@ -1,3 +1,3 @@
 - 公式サイト確認用URL: https://jujutsukaisen.jp/3rd/
-- 放送スケジュール根拠URL: https://www.mbs.jp/broadcast/anime/jujutsu/ (第3期ページ含む最新スケジュール確認) / https://anichart.jp/
-- 備考: 基本スケジュールは金曜指定だが、公式最新情報で2025/1/5(日)25:25 MBS・TBS系開始確認。特番変更なし。第10話は3/9(日)25:25。第10話サブタイトル未公式発表(漫画148話「激闘、百鬼夜行」相当)。abema同時配信、TXはBS11等別枠。tx/abemaは同時or見逃し。
+- 放送スケジュール根拠URL: https://jujutsukaisen.jp/3rd/ | https://www.mbs.jp/banzuke/tv/2025/0105.shtml (第1話基準で算出、特番変更なし確認)
+- 備考: 基本スケジュール金曜表記だが公式は日曜25:25(MBS)等深夜枠。最新情報で日曜基準第11話3/16(実質3/17 01:25)採用。休止・変更なし。

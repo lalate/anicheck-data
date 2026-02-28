@@ -1,20 +1,21 @@
 {
   "anime_id": "202501_jujutsu_c3",
-  "title": "呪術廻戦",
-  "official_url": "https://jujutsukaisen.jp/3rd/",
+  "title": "呪術廻戦 第3期 死滅回游 前編",
+  "official_url": "https://jujutsukaisen.jp/3rd",
   "hashtag": "#呪術廻戦",
-  "station_master": "MBS・TBS系",
+  "station_master": "MBS",
   "cast": [
     "榎木淳弥",
-    "潘めぐみ",
-    "中村悠一",
-    "釘宮理恵"
+    "内田雄馬",
+    "瀬戸麻沙美",
+    "中村悠一"
   ],
   "staff": {
     "director": "朴性厚",
     "studio": "MAPPA"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6&i=stripbooks"
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6+%E6%BC%AB%E7%94%BB",
+    "goods": []
   }
 }

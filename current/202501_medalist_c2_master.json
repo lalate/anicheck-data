@@ -1,0 +1,46 @@
+{
+  "anime_id": "202501_medalist_c2",
+  "title": "メダリスト",
+  "official_url": "https://medalist-anime.jp/2nd",
+  "hashtag": "#メダリスト",
+  "station_master": "ntv",
+  "cast": [
+    "小林千晃",
+    "佐倉綾音",
+    "日高里菜"
+  ],
+  "staff": {
+    "director": "渡辺歩",
+    "studio": "LAPIN TRACK"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88+%E3%81%A4%E3%82%8B%E3%81%BE%E3%81%84%E3%81%8B%E3%81%A0",
+    "goods": [
+      {
+        "type": "Comic",
+        "name": "メダリスト 1巻",
+        "url": "https://www.amazon.co.jp/dp/406532889X"
+      },
+      {
+        "type": "Comic",
+        "name": "メダリスト 2巻",
+        "url": "https://www.amazon.co.jp/dp/4065344409"
+      },
+      {
+        "type": "Comic",
+        "name": "メダリスト 3巻",
+        "url": "https://www.amazon.co.jp/dp/4065352254"
+      },
+      {
+        "type": "Comic",
+        "name": "メダリスト 4巻",
+        "url": "https://www.amazon.co.jp/dp/4065364556"
+      },
+      {
+        "type": "Comic",
+        "name": "メダリスト 5巻",
+        "url": "https://www.amazon.co.jp/dp/4065384305"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "anime_id": "202407_matoslave_c2",
+  "title": "魔都精兵のスレイブ 2nd Season",
+  "official_url": "https://matoseihei-slave.com/2nd",
+  "hashtag": "#魔都精兵のスレイブ",
+  "station_master": "TOKYO MX",
+  "cast": [
+    "古賀葵",
+    "白石晴香",
+    "富田美憂",
+    "東山奈央"
+  ],
+  "staff": {
+    "director": "鈴木理人",
+    "studio": "テレコム・アニメーションフィルム"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%96+%E6%BC%AB%E7%94%BB",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "魔都精兵のスレイブ 2nd Season 第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0D7J8G5L2"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "魔都精兵のスレイブ 2nd Season 第2巻(予約)",
+        "url": "https://www.amazon.co.jp/dp/B0D7J9K3M4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "anime_id": "202410_aomiburo_c2",
+  "title": "青のミブロ 第2期 —芹沢暗殺編—",
+  "official_url": "https://aomiburou-anime.jp/2nd",
+  "hashtag": "#青のミブロ",
+  "station_master": "TOKYO MX",
+  "cast": [
+    "小倉唯",
+    "梅原裕一郎",
+    "江口拓也"
+  ],
+  "staff": {
+    "director": "羽原信義",
+    "studio": "ユメタン"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第一巻(第1-2話)",
+        "url": "https://www.amazon.co.jp/%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD-Blu-ray-%E7%AC%AC1%E5%B7%BB-%E5%B0%8F%E5%80%89%E5%A5%90/dp/B0DL2S5Q5Q"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第二巻(第3-4話)",
+        "url": "https://www.amazon.co.jp/%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD-Blu-ray-%E7%AC%AC2%E5%B7%BB-%E5%B0%8F%E5%80%89%E5%A5%90/dp/B0DL2S5Q5R"
+      },
+      {
+        "type": "Book",
+        "name": "コミックス 第1巻",
+        "url": "https://www.amazon.co.jp/%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD-%E7%AC%AC1%E5%B7%BB-%E3%81%B2%E3%82%89%E3%81%97%E3%81%BE%E3%81%93%E3%81%86%E3%81%98/dp/406535546X"
+      },
+      {
+        "type": "Book",
+        "name": "コミックス 第2巻",
+        "url": "https://www.amazon.co.jp/%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD-%E7%AC%AC2%E5%B7%BB-%E3%81%B2%E3%82%89%E3%81%97%E3%81%BE%E3%81%93%E3%81%86%E3%81%98/dp/4065372844"
+      }
+    ]
+  }
+}

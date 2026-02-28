@@ -45,7 +45,11 @@ SYSTEM_PROMPT = """# 役割
   "cast": ["主要声優1", "主要声優2"],
   "staff": { "director": "監督名", "studio": "制作会社" },
   "sources": {
-    "manga_amazon": "原作コミックやライトノベルのAmazon検索URL（アフィリエイト用ベース）"
+    "manga_amazon": "原作コミックやライトノベルのAmazon検索URL",
+    "goods": [
+      {"type": "Blu-ray", "name": "第1巻", "url": "商品URL"},
+      {"type": "Figure", "name": "フィギュア名", "url": "商品URL"}
+    ]
   }
 }
 ```
@@ -97,7 +101,7 @@ def call_grok_for_anime(title: str, ep_num: int, official_url: str = None, sched
     user_input = f"作品名：{title}\\n話数：{ep_num}{url_hint}{schedule_hint}"
     
     # 嘘（ハルシネーション）を強力に抑制し、基本スケジュールを元に最新情報を確認するよう指示
-    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認とポロロッカ戦略】\\n1. 必ず提供された「基本放送スケジュール」をベースにしつつ、Web上の最新情報(live_search)で「特番による時間変更や休止」がないかを確認してください。変更があれば最新の時間を、なければ基本放送時間を出力してください。架空のサブタイトルや時間を捏造することは厳禁です。\\n2. 放送局（station_id）は基本スケジュールにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。\\n3. 対象話数が、原作コミックやライトノベルの「第何巻」に相当するかを推測または検索し、`original_vol` に整数で設定してください。また、その作品のAmazon検索URLを `manga_amazon` に設定してください。原作がないオリジナルアニメの場合は null にしてください。"
+    prompt_with_strictness = SYSTEM_PROMPT + "\\n\\n【重要：事実確認とポロロッカ戦略】\\n1. 必ず提供された「基本放送スケジュール」をベースにしつつ、Web上の最新情報(live_search)で「特番による時間変更や休止」がないかを確認してください。変更があれば最新の時間を、なければ基本放送時間を出力してください。\\n2. 放送局（station_id）は基本スケジュールにあるものから、最も早い放送時間または主要な放送枠を1つ選んで出力してください。\\n3. 対象話数が、原作コミックやライトノベルの「第何巻」に相当するかを推測または検索し、`original_vol` に整数で設定してください。また、その作品のAmazon検索URLを `manga_amazon` に設定してください。\\n4. 公式サイト等から、現在予約・販売中の主要なグッズ（Blu-ray/DVD、フィギュア、書籍等）を最大5件抽出し、`goods` リストに設定してください。URLは可能な限りAmazon等のアフィリエイトに繋げやすい直リンク、または公式サイトの紹介ページにしてください。\\n5. 架空のデータやURLを捏造することは厳禁です。不明な場合は null または空のリストにしてください。"
 
     response = client.chat.completions.create(
         model="grok-4-1-fast-reasoning", # ツール対応・高速・安い

@@ -1,18 +1,40 @@
 {
   "anime_id": "202401_hellrak_c2",
   "title": "地獄楽 第2期",
-  "official_url": "https://hells-paradise-anime.com/season2/",
+  "official_url": "https://hellsjinx-anime.com/2nd",
   "hashtag": "#地獄楽",
   "station_master": "TOKYO MX",
   "cast": [
-    "小野賢章",
-    "中村悠一"
+    "木村昴",
+    "櫻井孝宏"
   ],
   "staff": {
-    "director": "和東伸吾",
+    "director": "雨宮哲",
     "studio": "MAPPA"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=%E5%9C%B0%E7%8D%84%E6%A5%BD+%E6%BC%AB%E7%94%BB"
+    "manga_amazon": "https://www.amazon.co.jp/%E5%9C%B0%E7%8D%84%E6%A5%BD/s?k=%E5%9C%B0%E7%8D%84%E6%A5%BD",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "地獄楽 第1巻 (第1-3話)",
+        "url": "https://www.amazon.co.jp/%E5%9C%B0%E7%8D%84%E6%A5%BD-Blu-ray/dp/B0CKY8QJ5S"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "地獄楽 第2巻 (第4-6話)",
+        "url": "https://www.amazon.co.jp/%E5%9C%B0%E7%8D%84%E6%A5%BD-Blu-ray/dp/B0CKY8QJ5T"
+      },
+      {
+        "type": "Figure",
+        "name": "画皮丸 1/7スケールフィギュア",
+        "url": "https://www.amazon.co.jp/%E5%9C%B0%E7%8D%84%E6%A5%BD-%E7%94%BB%E7%9A%AE%E4%B8%B8-1-7-%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB-%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2/dp/B0C5R5N5N5"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "地獄楽 上巻Blu-ray BOX (第1期全13話)",
+        "url": "https://www.amazon.co.jp/%E5%9C%B0%E7%8D%84%E6%A5%BD-%E4%B8%8A%E5%B7%BBBlu-ray-BOX/dp/B0D2J2K2K2"
+      }
+    ]
   }
 }

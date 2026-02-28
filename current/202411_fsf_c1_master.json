@@ -1,0 +1,37 @@
+{
+  "anime_id": "202411_fsf_c1",
+  "title": "Fate/strange Fake",
+  "official_url": "https://fatestranfake-anime.com",
+  "hashtag": "#Fate_strangeFake",
+  "station_master": "TOKYO MX",
+  "cast": [
+    "宮城理子",
+    "杉浦しおり",
+    "水中雅章",
+    "安済知佳"
+  ],
+  "staff": {
+    "director": "鈴木健一",
+    "studio": "A-1 Pictures"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=Fate%2Fstrange+Fake",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第1巻 特別完結編",
+        "url": "https://www.amazon.co.jp/dp/B0DL2S5Q5S"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第2巻",
+        "url": "https://www.amazon.co.jp/dp/B0DL2S5Q5S"
+      },
+      {
+        "type": "Novel",
+        "name": "Fate/strange Fake 1",
+        "url": "https://www.amazon.co.jp/dp/B0779JBN2G"
+      }
+    ]
+  }
+}
