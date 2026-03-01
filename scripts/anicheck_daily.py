@@ -115,9 +115,7 @@ def parse_output(text: str, title: str, ep_num: int):
     
     if len(json_blocks) < 3:
         # ヘッダーがない場合のフォールバックとして波括弧のブロックを探す
-        json_blocks = re.findall(r'(\{(?:[^{}]|(?:\{[^{}]*\}))*\})', text, some_text = text, flags=re.DOTALL)
-        # 上記の正規表現を修正
-        json_blocks = re.findall(r'(\{(?:[^{}]|(?:\{[^{}]*\}))*\})', text, re.DOTALL)
+        json_blocks = re.findall(r'(\{(?:[^{}]|(?:\{[^{}]*\}))*\})', text, flags=re.DOTALL)
         if len(json_blocks) < 3:
             return None # パース失敗
 
