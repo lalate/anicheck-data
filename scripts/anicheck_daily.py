@@ -3,11 +3,31 @@ import os
 import json
 import re
 import datetime
+import logging
 from pathlib import Path
 from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# =================================================================
+# ロギング設定
+# =================================================================
+log_dir = Path("logs")
+log_dir.mkdir(exist_ok=True)
+log_file = log_dir / "daily_fetch.log"
+
+# logging.basicConfigを一度だけ呼び出す
+# 既にハンドラが設定されているか確認
+if not logging.getLogger().handlers:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        handlers=[
+            logging.FileHandler(log_file, encoding="utf-8"),
+            logging.StreamHandler()
+        ]
+    )
 
 client = OpenAI(
     api_key=os.getenv("XAI_API_KEY"),
@@ -134,7 +154,7 @@ def parse_output(text: str, title: str, ep_num: int):
             broadcast["ep_num"] = broadcast["ep_num"][0]
             
     except json.JSONDecodeError as e:
-        print(f"JSON Decode Error: {e}")
+        logging.error(f"JSONデコードエラー: {e}")
         return None
 
     # ソース確認部分
@@ -159,55 +179,73 @@ if __name__ == "__main__":
         with open(watch_list_file, "r", encoding="utf-8") as f:
             ANIMES_TO_CHECK = json.load(f)
     else:
-        print(f"❌ Error: {watch_list_file} が見つかりません。")
+        logging.critical(f"❌ Error: {watch_list_file} が見つかりません。処理を中断します。")
         exit(1)
 
     all_broadcasts = []
+    processed_count = 0
+    total_count = len(ANIMES_TO_CHECK)
 
-    print(f"🚀 {today} アニちぇっく データ取得開始...")
+    logging.info(f"🚀 {today} アニちぇっく データ取得開始... ({total_count}件)")
 
-    for anime in ANIMES_TO_CHECK:
-        title = anime['title']
-        ep_num = anime['ep_num']
-        official_url = anime.get('official_url')
-        schedules = anime.get('schedules', [])
+    for i, anime in enumerate(ANIMES_TO_CHECK):
+        title = anime.get('title', '不明なタイトル')
+        ep_num = anime.get('ep_num', 'N/A')
         
-        print(f"  📺 {title} 第{ep_num}話 取得中...")
-        raw_text = call_grok_for_anime(title, ep_num, official_url, schedules)
-        
-        data = parse_output(raw_text, title, ep_num)
-        
-        if data:
-            anime_id = data["master"]["anime_id"]
+        logging.info(f"[{i+1}/{total_count}] 処理中: {title} 第{ep_num}話")
+
+        try:
+            official_url = anime.get('official_url')
+            schedules = anime.get('schedules', [])
             
-            # 個別保存
-            (output_dir / f"{anime_id}_master.json").write_text(
-                json.dumps(data["master"], ensure_ascii=False, indent=2), encoding="utf-8")
-            (output_dir / f"{anime_id}_episode.json").write_text(
-                json.dumps(data["episode"], ensure_ascii=False, indent=2), encoding="utf-8")
-            (output_dir / f"{anime_id}_broadcast.json").write_text(
-                json.dumps(data["broadcast"], ensure_ascii=False, indent=2), encoding="utf-8")
+            raw_text = call_grok_for_anime(title, ep_num, official_url, schedules)
+            
+            data = parse_output(raw_text, title, ep_num)
+            
+            if data and "anime_id" in data.get("master", {}):
+                anime_id = data["master"]["anime_id"]
                 
-            all_broadcasts.append(data["broadcast"])
-            
-            # ソースログ
-            (output_dir / f"{anime_id}_sources.txt").write_text(data["sources"], encoding="utf-8")
-            
-            print(f"  ✅ {anime_id} 完了 (次回取得話を自動更新します)")
-            # 成功したので次回用に話数をインクリメント
-            anime["ep_num"] += 1
-        else:
-            print(f"  ❌ パース失敗: {title}")
+                # 個別保存
+                (output_dir / f"{anime_id}_master.json").write_text(
+                    json.dumps(data["master"], ensure_ascii=False, indent=2), encoding="utf-8")
+                (output_dir / f"{anime_id}_episode.json").write_text(
+                    json.dumps(data["episode"], ensure_ascii=False, indent=2), encoding="utf-8")
+                (output_dir / f"{anime_id}_broadcast.json").write_text(
+                    json.dumps(data["broadcast"], ensure_ascii=False, indent=2), encoding="utf-8")
+                    
+                all_broadcasts.append(data["broadcast"])
+                
+                # ソースログ
+                (output_dir / f"{anime_id}_sources.txt").write_text(data["sources"], encoding="utf-8")
+                
+                logging.info(f"  ✅ {anime_id} 正常に処理完了。次回話数をインクリメントします。")
+                # 成功したので次回用に話数をインクリメント
+                anime["ep_num"] += 1
+                processed_count += 1
+            else:
+                logging.error(f"  ❌ パース失敗: {title} 第{ep_num}話")
+                # パース失敗の詳細をログに記録
+                logging.debug(f"RAW Response for {title}:\\n---\\n{raw_text}\\n---")
 
-    # その日の全番組表（時間順）
-    all_broadcasts.sort(key=lambda x: x["start_time"])
-    (output_dir / "daily_schedule.json").write_text(
-        json.dumps(all_broadcasts, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception as e:
+            logging.error(f"  🔥 予期せぬエラー発生: {title} 第{ep_num}話 - {e}", exc_info=True)
+
+
+    # すべての処理が終わった後で、変更を反映したwatch_listを保存
+    if processed_count > 0:
+        # 時間順にソート
+        all_broadcasts.sort(key=lambda x: x.get("start_time", ""))
         
-    # 更新された監視リストを保存
-    with open(watch_list_file, "w", encoding="utf-8") as f:
-        json.dump(ANIMES_TO_CHECK, f, ensure_ascii=False, indent=2)
+        # その日の全番組表
+        (output_dir / "daily_schedule.json").write_text(
+            json.dumps(all_broadcasts, ensure_ascii=False, indent=2), encoding="utf-8")
+            
+        # 更新された監視リストを保存
+        with open(watch_list_file, "w", encoding="utf-8") as f:
+            json.dump(ANIMES_TO_CHECK, f, ensure_ascii=False, indent=2)
+            
+        logging.info("📝 watch_list.json と daily_schedule.json を更新しました。")
 
-    print(f"\\n🎉 完了！データは current/ に保存されました")
-    print(f"  📱 アプリ用：daily_schedule.json をご利用ください")
-    print(f"  📝 watch_list.json も最新話数に自動更新されました。")
+    logging.info(f"\\n🎉 {today} の処理完了！ ({processed_count}/{total_count}件成功)")
+    logging.info(f"  - ログ: {log_file.absolute()}")
+    logging.info(f"  - アプリ用データ: current/daily_schedule.json")
