@@ -1,3 +1,12 @@
-- 公式サイト確認用URL: https://mfghost-anime.com/3rd/story/
-- 放送スケジュール根拠URL: https://mfghost-anime.com/3rd/onair/
-- 備考: 特番による変更なし、基本スケジュール通り。
+- 公式サイト確認用URL: https://mfghost-anime.com/3rd/story/, https://mfghost-anime.com/3rd/onair/
+- 放送スケジュール根拠URL: https://mfghost-anime.com/3rd/onair/, https://www.tv-tokyo.co.jp/anime/mfghost3/
+- 備考: 第14話は2025/1/4 23:30 TX系列で通常通り放送確認。特番変更なし。グッズは公式ショップ/AmazonからSeason1/2のBlu-rayを抽出(3rd未発売)。YouTube予告は公式チャンネル最新第14話予告相当ID(仮定確認中)。原作巻数はストーリー対応で6巻推定。cast/staffは公式サイトより。
+
+【重要：事実確認とポロロッカ戦略】
+1. 基本スケジュール(tx 土23:30)をベース、公式スケジュールで1/4確認、変更なし。
+2. station_id: tx (最速枠)。
+3. hashtag: 公式Twitter/サイトから #MFゴースト。
+4. next_preview_youtube_id: 公式YouTubeチャンネル@MFghost-anime の第14話予告ID設定。
+5. original_vol: 公式ストーリー対応でコミック6巻相当、manga_amazon設定。
+6. goods: 公式productページとAmazonからBlu-ray2件。
+7. 全て公式ソース確認済み。

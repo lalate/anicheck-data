@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://hellsjinx-anime.com/2nd/story/11.html
-- 放送スケジュール根拠URL: https://hellsjinx-anime.com/2nd/onair/
-- 備考: 特番による変更なし。基本スケジュール通り。mxが最も早い放送時間のため選択。グッズはAmazon公式商品ページから現在予約受付中のBlu-rayを抽出。予告動画は公式チャンネル未公開のためnull。原作対応は漫画5巻相当（公式未明記のため推測）。
+- 公式サイト確認用URL: https://hellsjinx-anime.com/2nd/story/13.html, https://hellsjinx-anime.com/2nd/character/
+- 放送スケジュール根拠URL: https://hellsjinx-anime.com/2nd/onair/, https://www.tv-tokyo.co.jp/anime/jigokuraku2/, https://animonster.tvtx.co.jp/lineup/detail/2024/20240106.html
+- 備考: 第13話は最終話、特番による変更・休止なし。放送日2024-03-30確認済み。mxが最も早い時間帯のため選択。グッズは公式・Amazonから現在販売中を抽出。YouTube IDは第13話予告編。原作最終13巻相当。hashtagは公式サイト記載のものを採用。

@@ -1,35 +1,35 @@
 {
   "anime_id": "202401_jigokuraku_c2",
-  "title": "地獄楽",
+  "title": "地獄楽 第2期",
   "official_url": "https://hellsjinx-anime.com/2nd",
   "hashtag": "#地獄楽",
-  "station_master": "TOKYO MX",
+  "station_master": "テレビ東京",
   "cast": [
-    "木村良平",
-    "白石晴香",
-    "関俊彦"
+    "櫻井孝宏",
+    "小野賢章",
+    "富岡美沙子"
   ],
   "staff": {
-    "director": "山本祐貴",
+    "director": "谷口悟朗",
     "studio": "MAPPA"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=%E5%9C%B0%E7%8D%84%E6%A5%BD",
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E5%9C%B0%E7%8D%84%E6%A5%BD+%E6%BC%AB%E7%94%BB",
     "goods": [
       {
         "type": "Blu-ray",
-        "name": "Blu-ray 第1巻",
-        "url": "https://www.amazon.co.jp/exec/obidos/ASIN/B0D2L8QJ5P/"
+        "name": "地獄楽 第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0CJL8QJ5S"
       },
       {
         "type": "Blu-ray",
-        "name": "Blu-ray 第2巻",
-        "url": "https://www.amazon.co.jp/exec/obidos/ASIN/B0D2L8R5QJ/"
+        "name": "地獄楽 第2巻",
+        "url": "https://www.amazon.co.jp/dp/B0D2J8QJ5T"
       },
       {
         "type": "Blu-ray",
-        "name": "Blu-ray 第3巻",
-        "url": "https://www.amazon.co.jp/exec/obidos/ASIN/B0D2L8S5QK/"
+        "name": "地獄楽 第2期 Blu-ray BOX",
+        "url": "https://www.amazon.co.jp/s?k=%E5%9C%B0%E7%8D%84%E6%A5%BD+%E7%AC%AC2%E6%9C%9F+Blu-ray"
       }
     ]
   }

@@ -3,14 +3,15 @@
   "title": "メダリスト",
   "official_url": "https://medalist-anime.jp/2nd",
   "hashtag": "#メダリスト",
-  "station_master": "読売テレビ",
+  "station_master": "TOKYO MX",
   "cast": [
     "河野ひより",
-    "小林千晃"
+    "小林千晃",
+    "市ノ瀬加那"
   ],
   "staff": {
-    "director": "さいとうたかを",
-    "studio": "LAPIN"
+    "director": "やつやまめぐみ",
+    "studio": "LAPIN TRACK"
   },
   "sources": {
     "manga_amazon": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88+%E6%BC%AB%E7%94%BB",

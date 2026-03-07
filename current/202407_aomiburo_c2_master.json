@@ -5,31 +5,42 @@
   "hashtag": "#青のミブロ",
   "station_master": "TOKYO MX",
   "cast": [
+    "鈴代紗弓",
     "小野賢章",
-    "市川蒼",
-    "杉田智和"
+    "市ノ瀬加那",
+    "佐倉綾音"
   ],
   "staff": {
     "director": "羽原信義",
-    "studio": "ゆめ太カグヤスタジオ"
+    "studio": "J.C.STAFF"
   },
   "sources": {
     "manga_amazon": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD",
     "goods": [
       {
-        "type": "Blu-ray",
+        "type": "コミックス",
         "name": "第1巻",
-        "url": "https://www.amazon.co.jp/dp/B0D8J5ZJ5Z"
+        "url": "https://www.amazon.co.jp/dp/4253233600"
       },
       {
-        "type": "Blu-ray",
+        "type": "コミックス",
         "name": "第2巻",
-        "url": "https://www.amazon.co.jp/dp/B0D8J5ZJ5Z"
+        "url": "https://www.amazon.co.jp/dp/4253233619"
+      },
+      {
+        "type": "コミックス",
+        "name": "第6巻",
+        "url": "https://www.amazon.co.jp/dp/4253233651"
       },
       {
         "type": "Blu-ray",
-        "name": "第3巻",
-        "url": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD+%E3%83%96%E3%83%AB%E3%83%AC%E3%82%A4"
+        "name": "Blu-ray 第一巻",
+        "url": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD+Blu-ray+%E7%AC%AC%E4%B8%80%E5%B7%BB"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "Blu-ray 第二巻",
+        "url": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%96%E3%83%AD+Blu-ray+%E7%AC%AC%E4%BA%8C%E5%B7%BB"
       }
     ]
   }
