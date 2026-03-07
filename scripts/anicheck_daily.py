@@ -234,7 +234,7 @@ if __name__ == "__main__":
     # すべての処理が終わった後で、変更を反映したwatch_listを保存
     if processed_count > 0:
         # 時間順にソート
-        all_broadcasts.sort(key=lambda x: x.get("start_time", ""))
+        all_broadcasts.sort(key=lambda x: x.get("start_time") or "")
         
         # その日の全番組表
         (output_dir / "daily_schedule.json").write_text(
