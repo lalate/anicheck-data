@@ -1,3 +1,4 @@
-- 公式サイト確認用URL: https://fumetsunoanatae.com/3rd/news/
-- 放送スケジュール根拠URL: https://fumetsunoanatae.com/3rd/onair/
-- 備考: 特番による変更なし。基本スケジュール通りMX月曜24:30で第10話放送。
+- 公式サイト確認用URL: https://fumetsunoanatae.com/3rd/
+- 放送スケジュール根拠URL: https://fumetsunoanatae.com/3rd/
+- 備考: 第12話サブタイトル・前回あらすじは公式サイト・Twitter未発表のためnull。YouTube予告は公式チャンネル最新第11話予告ID(https://www.youtube.com/@fumetsu_PR)を第12話関連として使用。特番による時間変更・休止なし(公式スケジュール確認)。入力基本スケジュール(mx月曜)は公式(土曜24:30)と異なるため公式優先。第12話原作相当12巻(検索結果より推定)。グッズは原作コミック主要巻Amazon直リンク。スタッフ・キャストは公式サイトより。anime_idは開始2024/10確認。
+```

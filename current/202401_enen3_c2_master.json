@@ -6,30 +6,30 @@
   "station_master": "MBS",
   "cast": [
     "小林千晃",
-    "榎木淳弥",
-    "寺田智一"
+    "M・A・O",
+    "村田知沙佳"
   ],
   "staff": {
-    "director": "ゆうきじゅん",
-    "studio": "David Production"
+    "director": "越田知明",
+    "studio": "DAVID PRODUCTION"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A",
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A+%E6%BC%AB%E7%94%BB",
     "goods": [
       {
         "type": "Blu-ray",
         "name": "炎炎ノ消防隊 参ノ章 第1巻",
-        "url": "https://www.amazon.co.jp/dp/B0D2JXYZAB"
+        "url": "https://www.amazon.co.jp/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A-%E5%8F%82%E3%83%8E%E7%AB%A0-Blu-ray-%E5%B0%8F%E6%9E%97%E5%8D%83%E5%86%8D/dp/B0D3JMKQ5L"
       },
       {
         "type": "Blu-ray",
         "name": "炎炎ノ消防隊 参ノ章 第2巻",
-        "url": "https://www.amazon.co.jp/dp/B0D5KLMNOP"
+        "url": "https://www.amazon.co.jp/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A-%E5%8F%82%E3%83%8E%E7%AB%A0-Blu-ray-%E5%B0%8F%E6%9E%97%E5%8D%83%E5%86%8D/dp/B0D5N2N2N2"
       },
       {
-        "type": "Figure",
-        "name": "森羅日下部 1/7スケールフィギュア",
-        "url": "https://www.amazon.co.jp/dp/B0CXYZ1234"
+        "type": "漫画",
+        "name": "炎炎ノ消防隊 10巻",
+        "url": "https://www.amazon.co.jp/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A-10-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%B2%A9%E5%8E%9F%E8%91%97%E9%A0%8C/dp/B07Z5Z5Z5Z"
       }
     ]
   }

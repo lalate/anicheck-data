@@ -2,28 +2,28 @@
   "anime_id": "202410_MFGhost_c3",
   "title": "MFゴースト 3rd Season",
   "official_url": "https://mfghost-anime.com/3rd",
-  "hashtag": "#MFゴースト",
-  "station_master": "テレビ東京",
+  "hashtag": "#MFGHOST",
+  "station_master": "TOKYO MX",
   "cast": [
-    "小野賢章",
-    "竹達彩奈"
+    "島﨑信長",
+    "水中雅章"
   ],
   "staff": {
-    "director": "鈴木雅也",
-    "studio": "TMS Entertainment"
+    "director": "富田淳",
+    "studio": "旭プロダクション"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=MF%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88+%E6%BC%AB%E7%94%BB",
+    "manga_amazon": "https://www.amazon.co.jp/s?k=MF%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88+%E3%81%97%E3%81%92%E3%81%AE%E3%81%B6",
     "goods": [
       {
         "type": "Blu-ray",
-        "name": "Blu-ray 第1巻 3rd Season",
-        "url": "https://www.amazon.co.jp/dp/B0DL2S5Q5Q"
+        "name": "第1巻 特装限定版",
+        "url": "https://www.amazon.co.jp/dp/B0DHL2QJ5S"
       },
       {
         "type": "Blu-ray",
-        "name": "Blu-ray 第2巻 2nd Season",
-        "url": "https://www.amazon.co.jp/dp/B0DGP5ZJ5Z"
+        "name": "第1巻 通常版",
+        "url": "https://www.amazon.co.jp/dp/B0DHL2P5R4"
       }
     ]
   }

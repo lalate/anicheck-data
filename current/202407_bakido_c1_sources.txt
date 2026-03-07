@@ -1,3 +1,3 @@
 - 公式サイト確認用URL: https://baki-anime.jp/bakido/story/
-- 放送スケジュール根拠URL: https://www.tv-tokyo.co.jp/anime/bakido/, https://animanch.com/bakido
-- 備考: 特番による変更なし。基本スケジュール（火曜25:00）を基に第10話放送日を2024-09-03火曜25:00（実質09-04 01:00）と算出。abema同時配信あり。
+- 放送スケジュール根拠URL: https://baki-anime.jp/bakido/onair/
+- 備考: 基本スケジュール25:00に対し公式確認で25:30。特番による変更なし。グッズは現在未発売のため空。YouTube IDは公式PVを使用。original_volは原作対応巻の検索結果による推定値。

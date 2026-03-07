@@ -1,0 +1,32 @@
+{
+  "anime_id": "202407_matosl_c2",
+  "title": "魔都精兵のスレイブ 2nd Season",
+  "official_url": "https://matoseihei-slave.com/2nd",
+  "hashtag": "#魔都精兵のスレイブ",
+  "station_master": "TOKYO MX",
+  "cast": [
+    "和泉風花",
+    "白石晴香",
+    "千春",
+    "楠木燈"
+  ],
+  "staff": {
+    "director": "羽原信義",
+    "studio": "八銚デキ"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%96",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "第1巻",
+        "url": "https://www.amazon.co.jp/%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%96-Blu-ray-First-Press-Limited/dp/B0D7J8QJ8Q"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "第2巻",
+        "url": "https://www.amazon.co.jp/%E9%AD%94%E9%83%BD%E7%B2%BE%E5%85%B5%E3%81%AE%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%96-Blu-ray-Second-Press-Limited/dp/B0D7J8R8R8"
+      }
+    ]
+  }
+}
