@@ -1,0 +1,31 @@
+{
+  "anime_id": "202501_fsfake_c1",
+  "title": "Fate/strange Fake",
+  "official_url": "https://fatestranfake-anime.com",
+  "hashtag": "#Fate_strangeFake",
+  "station_master": "TOKYO MX",
+  "cast": [
+    "宮城理子",
+    "杉田智和",
+    "小林千晃"
+  ],
+  "staff": {
+    "director": "曽我部万寿夫",
+    "studio": "A-1 Pictures"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=Fate%2Fstrange+Fake+%E6%BC%AB%E7%94%BB",
+    "goods": [
+      {
+        "type": "コミック",
+        "name": "第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0B5Y5ZJ5K"
+      },
+      {
+        "type": "コミック",
+        "name": "第2巻",
+        "url": "https://www.amazon.co.jp/dp/B0BZMJ8Z8Z"
+      }
+    ]
+  }
+}

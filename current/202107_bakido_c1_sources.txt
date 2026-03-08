@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://baki-anime.jp/bakido/story/12.html, https://baki-anime.jp/bakido/
-- 放送スケジュール根拠URL: https://baki-anime.jp/bakido/onair/
-- 備考: 基本スケジュール(tx火曜25:00)に従い特番変更なし。実際放送は金曜25:30だが提供情報優先。グッズはAmazon公式販売ページから抽出。original_volは原作対応巻の推定値。YouTube IDは公式PV(予告未確認のためPV使用)。start_timeは基本スケジュールから12週目推定(火曜基準)。
+- 公式サイト確認用URL: https://baki-anime.jp/bakido/story/13.html
+- 放送スケジュール根拠URL: https://baki-anime.jp/bakido/broadcast.html
+- 備考: 基本放送スケジュールに基づきtxを選択、特番による時間変更/休止なし。next_preview_youtube_idは公式PVを使用（第13話専用予告未確認）。original_volは原作完結巻に基づく。第13話はシリーズ最終話。グッズは公式グッズページ/Amazonから抽出。hashtagは公式サイト記載。

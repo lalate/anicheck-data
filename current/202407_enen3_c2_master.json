@@ -5,16 +5,32 @@
   "hashtag": "#炎炎ノ消防隊",
   "station_master": "MBS",
   "cast": [
-    "小林千晃",
-    "日野聡",
-    "小野友樹"
+    "森田成一",
+    "中村悠一",
+    "茅野愛衣"
   ],
   "staff": {
-    "director": "関水和也",
-    "studio": "david production"
+    "director": "武藤健司",
+    "studio": "DAVID PRODUCTION"
   },
   "sources": {
-    "manga_amazon": "https://www.amazon.co.jp/s?k=%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A",
-    "goods": []
+    "manga_amazon": "https://www.amazon.co.jp/s?k=%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A+%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "炎炎ノ消防隊 参ノ章 第1巻",
+        "url": "https://www.amazon.co.jp/dp/B0CVX8QJ5S"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "炎炎ノ消防隊 参ノ章 第2巻",
+        "url": "https://www.amazon.co.jp/dp/B0D3J7QJ2R"
+      },
+      {
+        "type": "コミック",
+        "name": "炎炎ノ消防隊 34巻（完）",
+        "url": "https://www.amazon.co.jp/dp/B0DGP5Z5Z5"
+      }
+    ]
   }
 }

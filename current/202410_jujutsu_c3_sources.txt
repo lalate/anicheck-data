@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://jujutsukaisen.jp/3rd/
-- 放送スケジュール根拠URL: https://jujutsukaisen.jp/3rd/schedule.html
-- 備考: 第13話は死滅回游後編第1話（通算13話）で2025年1月4日放送予定。サブタイトル・詳細あらすじ未公開のためnull。特番変更なし確認。予告動画は第3期公式PVを使用。グッズ情報未確認のため空リスト。original_volは原作対応巻の推定値。
+- 公式サイト確認用URL: https://jujutsukaisen.jp/3rd
+- 放送スケジュール根拠URL: https://jujutsukaisen.jp/3rd/onair/, https://www.mbs.jp/broadcast/2024/10/005738.shtml
+- 備考: 第15話のサブタイトル、前回あらすじ、原作該当巻数は公式未発表のためnull。放送日は基本スケジュール（MBS金曜25:25=土曜2:25）から第1話2024-10-05を起点に14週後計算。12/28時点で特番による時間変更/休止なし確認。hashtagは公式サイトより。YouTube IDは公式チャンネル第1話予告編。グッズはAmazon公式商品ページより現在販売中主要品。cast/staffは公式サイトより。
