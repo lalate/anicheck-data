@@ -1,3 +1,0 @@
-- 公式サイト確認用URL: https://osusino-anime.jp/3rd
-- 放送スケジュール根拠URL: https://osusino-anime.jp/3rd
-- 備考: 第3期は2026年放送予定。第14話のサブタイトル、あらすじ、原作巻数、グッズ、キャスト・スタッフ詳細、放送日時未確認。特番変更情報なし。YouTube IDは第3期PVを使用。情報未確認の項目はnull設定。

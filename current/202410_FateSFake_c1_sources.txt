@@ -1,3 +1,0 @@
-- 公式サイト確認用URL: https://fatestranfake-anime.com/story/13/
-- 放送スケジュール根拠URL: https://fatestranfake-anime.com/onair/
-- 備考: 第14話サブタイトル情報未確認（公式ストーリーページに第13話まで）。時間は公式スケジュールに基づき24:30（T00:30）に設定、基本24:00から最新情報で調整。特番による変更・休止なし。グッズは現在確認できず空リスト。original_volはWEB小説原作のため該当なし。hashtagは公式Twitter・サイトから抽出。予告動画は公式PV IDを使用（第14話専用予告未確認）。

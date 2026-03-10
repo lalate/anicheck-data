@@ -1,3 +1,0 @@
-- 公式サイト確認用URL: https://golden-kamuy-anime.com/final/episode/
-- 放送スケジュール根拠URL: https://golden-kamuy-anime.com/final
-- 備考: 第13話の情報未確認。公式サイトのエピソード一覧は第1話～第12話までで、第13話は存在せず。全12話完結のため放送休止。YouTube IDは公式PVを使用。hashtag、グッズ、スタッフ、キャスト、原作巻数は提供情報および公式サイトに詳細記載なしのため未設定。start_timeは放送なしのためnull。

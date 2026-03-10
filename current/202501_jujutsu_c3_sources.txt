@@ -1,3 +1,0 @@
-- 公式サイト確認用URL: https://jujutsukaisen.jp/3rd/
-- 放送スケジュール根拠URL: https://jujutsukaisen.jp/3rd/ | https://www.mbs.jp/banzuke/tv/2025/0105.shtml (第1話基準で算出、特番変更なし確認)
-- 備考: 基本スケジュール金曜表記だが公式は日曜25:25(MBS)等深夜枠。最新情報で日曜基準第11話3/16(実質3/17 01:25)採用。休止・変更なし。

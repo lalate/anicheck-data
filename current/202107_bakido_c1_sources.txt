@@ -1,3 +1,0 @@
-- 公式サイト確認用URL: https://baki-anime.jp/bakido/story/13.html
-- 放送スケジュール根拠URL: https://baki-anime.jp/bakido/broadcast.html
-- 備考: 基本放送スケジュールに基づきtxを選択、特番による時間変更/休止なし。next_preview_youtube_idは公式PVを使用（第13話専用予告未確認）。original_volは原作完結巻に基づく。第13話はシリーズ最終話。グッズは公式グッズページ/Amazonから抽出。hashtagは公式サイト記載。
