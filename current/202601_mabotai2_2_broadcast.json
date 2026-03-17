@@ -1,0 +1,24 @@
+{
+  "schedules": [
+    {
+      "station": "TOKYO MX",
+      "time": "毎週木曜 24:00〜",
+      "next_air_date": "2026-03-19"
+    },
+    {
+      "station": "AT-X (ご褒美Ver.)",
+      "time": "毎週木曜 23:00〜",
+      "next_air_date": "2026-03-19"
+    },
+    {
+      "station": "BS朝日",
+      "time": "毎週日曜 25:00〜",
+      "next_air_date": "2026-03-22"
+    },
+    {
+      "station": "MBS",
+      "time": "毎週火曜 27:00〜",
+      "next_air_date": null
+    }
+  ]
+}
