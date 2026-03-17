@@ -1,20 +1,168 @@
-[
-  {
-    "anime_id": "SLR001",
-    "station_id": "MX",
-    "start_time": "2026-02-24T24:30:00+09:00",
-    "day_of_week": "火曜日"
-  },
-  {
-    "anime_id": "SNC002",
-    "station_id": "ATX",
-    "start_time": "2026-02-25T23:00:00+09:00",
-    "day_of_week": "水曜日"
-  },
-  {
-    "anime_id": "MAW003",
-    "station_id": "BS11",
-    "start_time": "2026-02-26T25:30:00+09:00",
-    "day_of_week": "木曜日"
-  }
-]
+{
+  "broadcast": [
+    {
+      "title": "葬送のフリーレン 第2期",
+      "broadcast_day": "金",
+      "time": "23:00",
+      "station": "日本テレビ系"
+    },
+    {
+      "title": "【推しの子】第3期",
+      "broadcast_day": "水",
+      "time": "23:00",
+      "station": "TOKYO MXほか"
+    },
+    {
+      "title": "呪術廻戦 死滅回游 前編",
+      "broadcast_day": "木",
+      "time": "24:26",
+      "station": "MBS/TBS系"
+    },
+    {
+      "title": "地獄楽 第2期",
+      "broadcast_day": "日",
+      "time": "23:45",
+      "station": "テレビ東京ほか"
+    },
+    {
+      "title": "正反対な君と僕",
+      "broadcast_day": "日",
+      "time": "17:00",
+      "station": "MBS/TBS系"
+    },
+    {
+      "title": "うるわしの宵の月",
+      "broadcast_day": "日",
+      "time": "16:30",
+      "station": "TBS系"
+    },
+    {
+      "title": "エリスの聖杯",
+      "broadcast_day": "木",
+      "time": null,
+      "station": "TBS系・BS11"
+    },
+    {
+      "title": "勇者パーティーを追い出された器用貧乏",
+      "broadcast_day": "日",
+      "time": "22:30",
+      "station": null
+    },
+    {
+      "title": "ハイスクール！奇面組",
+      "broadcast_day": "金",
+      "time": "23:30",
+      "station": "フジテレビ系ノイタミナ"
+    },
+    {
+      "title": "多聞くん今どっち!?",
+      "broadcast_day": "土",
+      "time": "25:00",
+      "station": "TOKYO MX・BS11"
+    },
+    {
+      "master_id": 11,
+      "channel": "TOKYO MX",
+      "day": "日",
+      "time": "22:00"
+    },
+    {
+      "master_id": 11,
+      "channel": "BS朝日",
+      "day": "日",
+      "time": "26:00"
+    },
+    {
+      "master_id": 13,
+      "channel": "日本テレビ",
+      "day": "火",
+      "time": "25:29"
+    },
+    {
+      "master_id": 15,
+      "channel": "読売テレビ",
+      "day": "土",
+      "time": "17:30"
+    },
+    {
+      "master_id": 16,
+      "channel": "TOKYO MX",
+      "day": "金",
+      "time": "22:30"
+    },
+    {
+      "master_id": 17,
+      "channel": "TOKYO MX",
+      "day": "日",
+      "time": "23:00"
+    },
+    {
+      "master_id": 19,
+      "channel": "TOKYO MX",
+      "day": "水",
+      "time": "23:30"
+    },
+    {
+      "master_id": 20,
+      "channel": "TOKYO MX",
+      "day": "日",
+      "time": "24:00"
+    },
+    {
+      "master_id": 41,
+      "channel": "テレ東系列",
+      "day": "火",
+      "time": "24:00",
+      "note": "毎週火曜深夜24:00よりテレ東系列にて放送中"
+    },
+    {
+      "master_id": 43,
+      "channel": "テレ東系列",
+      "day": "土",
+      "time": "23:00",
+      "note": "毎週土曜23:00～"
+    },
+    {
+      "master_id": 44,
+      "channel": "テレビ東京",
+      "day": "金",
+      "time": "25:13",
+      "note": "2026年1月9日(金) 25:13～"
+    },
+    {
+      "master_id": 45,
+      "channel": "ABCテレビ・テレビ朝日系列",
+      "day": "日",
+      "time": "8:30",
+      "note": "2026年2月1日より毎週日曜あさ8:30～"
+    },
+    {
+      "master_id": 46,
+      "channel": "フジテレビほか",
+      "day": "水",
+      "time": "25:15",
+      "note": "2026年2月4日より毎週水曜25:15～"
+    },
+    {
+      "master_id": 48,
+      "channel": "テレ東系列",
+      "day": "日",
+      "time": "17:30",
+      "note": "毎週日曜17:30～"
+    },
+    {
+      "master_id": 49,
+      "channel": "テレ東系ほか",
+      "day": "月",
+      "time": null,
+      "note": "2026年1月5日より放送開始"
+    },
+    {
+      "master_id": 50,
+      "channel": "テレ東",
+      "day": "水",
+      "time": "24:00",
+      "note": "2026年1月7日(水)24:00～"
+    }
+  ]
+}

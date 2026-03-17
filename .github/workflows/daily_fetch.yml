@@ -1,16 +1,13 @@
-name: Daily Anime Fetch
+name: Daily Anime Check
 
 on:
   schedule:
-    # 毎日 午前8時 (JST) = 午後11時 (UTC)
-    - cron: '0 23 * * *'
-  workflow_dispatch: # 手動実行用
+    - cron: '0 0 * * *'  # 毎日00:00 JST (UTC+9なので調整必要)
+  workflow_dispatch:     # 手動トリガーも可能
 
 jobs:
-  fetch_and_update:
+  fetch:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # リポジトリへの書き込み権限
 
     steps:
       - name: Checkout repository
@@ -19,23 +16,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'  # または3.12
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install openai python-dotenv
+          pip install xai-sdk python-dotenv
 
-      - name: Run daily fetch script
+      - name: Run daily fetch
         env:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-        run: python scripts/anicheck_daily.py
-        
-      - name: Commit and Push changes
+        run: python anicheck_daily.py
+
+      - name: Commit & push changes (if any)
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add current/
-          # 変更がある場合のみコミット
-          git diff-index --quiet HEAD || git commit -m "chore: 🤖 auto update daily anime schedule"
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add current/ logs/
+          git diff --staged --quiet || git commit -m "Daily anime data update: ${{ github.run_number }}"
           git push

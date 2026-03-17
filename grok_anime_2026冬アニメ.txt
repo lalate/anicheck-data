@@ -1,5 +1,7 @@
+<!-- Batch 1-10 -->
+```json
 {
-  "master": [
+  "works": [
     {
       "title": "葬送のフリーレン 第2期",
       "official_url": "https://frieren-anime.jp/",
@@ -79,7 +81,30 @@
       "twitter": "@Tamon_anime",
       "start_date": "2026-01-03",
       "broadcast": "毎週土曜 25:00 TOKYO MX・BS11"
-    },
+    }
+  ]
+}
+```
+
+**Master JSON**
+```json
+{"works":[{"title":"葬送のフリーレン 第2期","official_url":"https://frieren-anime.jp/","hashtag":"#フリーレン","twitter":"@Anime_Frieren","start_date":"2026-01-16","broadcast":"毎週金曜 23:00 日本テレビ系"},{"title":"【推しの子】第3期","official_url":"https://ichigoproduction.com/Season3/","hashtag":"#推しの子","twitter":"@anime_oshinoko","start_date":"2026-01-14","broadcast":"毎週水曜 23:00 TOKYO MXほか"},{"title":"呪術廻戦 死滅回游 前編","official_url":"https://jujutsukaisen.jp/","hashtag":"#呪術廻戦","twitter":null,"start_date":"2026-01-08","broadcast":"毎週木曜 24:26 MBS/TBS系"},{"title":"地獄楽 第2期","official_url":"https://www.jigokuraku.com/","hashtag":"#地獄楽","twitter":null,"start_date":"2026-01-11","broadcast":"毎週日曜 23:45 テレビ東京ほか"},{"title":"正反対な君と僕","official_url":"https://sh-anime.shochiku.co.jp/seihantai_anime/","hashtag":"#正反対な君と僕","twitter":"@seihantai_x","start_date":"2026-01-11","broadcast":"毎週日曜 17:00 MBS/TBS系"},{"title":"うるわしの宵の月","official_url":"https://uruwashi-anime.com/","hashtag":"#うるわしの宵の月","twitter":"@uruwashi_anime","start_date":"2026-01-11","broadcast":"毎週日曜 16:30 TBS系"},{"title":"エリスの聖杯","official_url":"https://eris-seihai.com/","hashtag":"#エリスの聖杯","twitter":"@Project_of_Eris","start_date":"2026-01","broadcast":"TBS系・BS11"},{"title":"勇者パーティーを追い出された器用貧乏","official_url":"https://kiyou-bimbou.com/","hashtag":"#器用貧乏","twitter":null,"start_date":"2026-01-04","broadcast":"毎週日曜 22:30"},{"title":"ハイスクール！奇面組","official_url":"https://kimengumi.com/","hashtag":"#奇面組","twitter":null,"start_date":"2026-01-09","broadcast":"毎週金曜 23:30 フジテレビ系ノイタミナ"},{"title":"多聞くん今どっち!?","official_url":"https://tamon-anime.com/","hashtag":"#多聞くん今どっち","twitter":"@Tamon_anime","start_date":"2026-01-03","broadcast":"毎週土曜 25:00 TOKYO MX・BS11"}]}
+```
+
+**Episode JSON**
+```json
+null
+```
+
+**Broadcast JSON**
+```json
+{"works":[{"title":"葬送のフリーレン 第2期","broadcast_day":"金","time":"23:00","station":"日本テレビ系"},{"title":"【推しの子】第3期","broadcast_day":"水","time":"23:00","station":"TOKYO MXほか"},{"title":"呪術廻戦 死滅回游 前編","broadcast_day":"木","time":"24:26","station":"MBS/TBS系"},{"title":"地獄楽 第2期","broadcast_day":"日","time":"23:45","station":"テレビ東京ほか"},{"title":"正反対な君と僕","broadcast_day":"日","time":"17:00","station":"MBS/TBS系"},{"title":"うるわしの宵の月","broadcast_day":"日","time":"16:30","station":"TBS系"},{"title":"エリスの聖杯","broadcast_day":"木","time":null,"station":"TBS系・BS11"},{"title":"勇者パーティーを追い出された器用貧乏","broadcast_day":"日","time":"22:30","station":null},{"title":"ハイスクール！奇面組","broadcast_day":"金","time":"23:30","station":"フジテレビ系ノイタミナ"},{"title":"多聞くん今どっち!?","broadcast_day":"土","time":"25:00","station":"TOKYO MX・BS11"}]}
+```
+
+<!-- Batch 11-20 -->
+```json
+{
+  "master": [
     {
       "id": 11,
       "title": "魔術師クノンは見えている",
@@ -179,7 +204,66 @@
       "start_date": "2026-01-04",
       "studio": null,
       "source": "漫画"
+    }
+  ],
+  "episode": null,
+  "broadcast": [
+    {
+      "master_id": 11,
+      "channel": "TOKYO MX",
+      "day": "日",
+      "time": "22:00"
     },
+    {
+      "master_id": 11,
+      "channel": "BS朝日",
+      "day": "日",
+      "time": "26:00"
+    },
+    {
+      "master_id": 13,
+      "channel": "日本テレビ",
+      "day": "火",
+      "time": "25:29"
+    },
+    {
+      "master_id": 15,
+      "channel": "読売テレビ",
+      "day": "土",
+      "time": "17:30"
+    },
+    {
+      "master_id": 16,
+      "channel": "TOKYO MX",
+      "day": "金",
+      "time": "22:30"
+    },
+    {
+      "master_id": 17,
+      "channel": "TOKYO MX",
+      "day": "日",
+      "time": "23:00"
+    },
+    {
+      "master_id": 19,
+      "channel": "TOKYO MX",
+      "day": "水",
+      "time": "23:30"
+    },
+    {
+      "master_id": 20,
+      "channel": "TOKYO MX",
+      "day": "日",
+      "time": "24:00"
+    }
+  ]
+}
+```
+
+<!-- Batch 21-30 -->
+```json
+{
+  "works": [
     {
       "title": "MFゴースト 3rd Season",
       "official_url": "https://mfg-anime.com/",
@@ -269,6 +353,52 @@
       "start_date": "2026-01-05",
       "broadcast": "不明",
       "status": "放送中"
+    }
+  ]
+}
+```
+
+**Episode JSON**
+```json
+{
+  "episodes": null
+}
+```
+
+**Broadcast JSON**
+```json
+{
+  "broadcasts": null
+}
+```
+
+<!-- Batch 31-40 -->
+```json
+{
+  "master": [
+    {
+      "id": 31,
+      "title": "炎炎ノ消防隊 参ノ章 第2クール",
+      "official_url": "https://fireforce-anime.jp/",
+      "twitter": "FireForce_PR",
+      "hashtag": "#炎炎ノ消防隊",
+      "start_date": "2026-01-09",
+      "broadcast_day": "金曜",
+      "broadcast_time": "25:53",
+      "stations": "MBS/TBS/CBC “アニメイズム”枠ほか",
+      "status": "放送中"
+    },
+    {
+      "id": 32,
+      "title": "真夜中ハートチューン",
+      "official_url": "https://mayochu-anime.com/",
+      "twitter": null,
+      "hashtag": null,
+      "start_date": "2026-01-06",
+      "broadcast_day": "火曜",
+      "broadcast_time": "23:00",
+      "stations": "カンテレ・フジテレビ系“火アニバル!!”枠、BS朝日、AT-Xほか",
+      "status": "放送中"
     },
     {
       "id": 33,
@@ -304,6 +434,18 @@
       "broadcast_day": "木曜",
       "broadcast_time": "25:58",
       "stations": "TBS、BS11、AT-Xほか",
+      "status": "放送中"
+    },
+    {
+      "id": 36,
+      "title": "姫様“拷問”の時間です 第2期",
+      "official_url": "https://himesama-goumon.com/",
+      "twitter": null,
+      "hashtag": null,
+      "start_date": "2026-01-12",
+      "broadcast_day": "月曜",
+      "broadcast_time": "23:30",
+      "stations": "TOKYO MX、BS11、カンテレほか",
       "status": "放送中"
     },
     {
@@ -353,7 +495,17 @@
       "broadcast_time": null,
       "stations": null,
       "status": "放送中"
-    },
+    }
+  ],
+  "episodes": null,
+  "broadcast": null
+}
+```
+
+<!-- Batch 41-50 -->
+```json
+{
+  "masters": [
     {
       "id": 41,
       "title": "ダーウィン事変",
@@ -443,6 +595,72 @@
       "hashtag": "#穏やか貴族の休暇",
       "start_date": "2026-01-07",
       "status": "放送中"
+    }
+  ]
+}
+```
+
+{
+  "episodes": null
+}
+
+{
+  "broadcasts": [
+    {
+      "master_id": 41,
+      "channel": "テレ東系列",
+      "day": "火",
+      "time": "24:00",
+      "note": "毎週火曜深夜24:00よりテレ東系列にて放送中"
+    },
+    {
+      "master_id": 43,
+      "channel": "テレ東系列",
+      "day": "土",
+      "time": "23:00",
+      "note": "毎週土曜23:00～"
+    },
+    {
+      "master_id": 44,
+      "channel": "テレビ東京",
+      "day": "金",
+      "time": "25:13",
+      "note": "2026年1月9日(金) 25:13～"
+    },
+    {
+      "master_id": 45,
+      "channel": "ABCテレビ・テレビ朝日系列",
+      "day": "日",
+      "time": "8:30",
+      "note": "2026年2月1日より毎週日曜あさ8:30～"
+    },
+    {
+      "master_id": 46,
+      "channel": "フジテレビほか",
+      "day": "水",
+      "time": "25:15",
+      "note": "2026年2月4日より毎週水曜25:15～"
+    },
+    {
+      "master_id": 48,
+      "channel": "テレ東系列",
+      "day": "日",
+      "time": "17:30",
+      "note": "毎週日曜17:30～"
+    },
+    {
+      "master_id": 49,
+      "channel": "テレ東系ほか",
+      "day": "月",
+      "time": null,
+      "note": "2026年1月5日より放送開始"
+    },
+    {
+      "master_id": 50,
+      "channel": "テレ東",
+      "day": "水",
+      "time": "24:00",
+      "note": "2026年1月7日(水)24:00～"
     }
   ]
 }

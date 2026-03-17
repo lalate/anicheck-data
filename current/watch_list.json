@@ -1,0 +1,142 @@
+[
+  {
+    "title": "葬送のフリーレン 第2期",
+    "official_url": "https://frieren-anime.jp/",
+    "ep_num": 11,
+    "schedules": [
+      {
+        "station": "ntv",
+        "day_of_week": "金曜日",
+        "time": "23:00"
+      }
+    ]
+  },
+  {
+    "title": "呪術廻戦 第3期 死滅回游 前編",
+    "official_url": "https://jujutsukaisen.jp/",
+    "ep_num": 11,
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "木曜日",
+        "time": "00:26"
+      },
+      {
+        "station": "tbs",
+        "day_of_week": "木曜日",
+        "time": "00:26"
+      }
+    ]
+  },
+  {
+    "title": "【推しの子】第3期",
+    "official_url": "https://ichigoproduction.com/",
+    "ep_num": 10,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "水曜日",
+        "time": "23:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "水曜日",
+        "time": "23:00"
+      }
+    ]
+  },
+  {
+    "title": "地獄楽 第2期",
+    "official_url": "https://jigokuraku.jp/anime/",
+    "ep_num": 10,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "日曜日",
+        "time": "23:45"
+      }
+    ]
+  },
+  {
+    "title": "ゴールデンカムイ 最終章",
+    "official_url": "https://kamuy-anime.com/",
+    "ep_num": 11,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "月曜日",
+        "time": "23:00"
+      }
+    ]
+  },
+  {
+    "title": "Fate/strange Fake",
+    "official_url": "https://fate-strange-fake.com/",
+    "ep_num": 12,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      }
+    ]
+  },
+  {
+    "title": "メダリスト 第2期",
+    "official_url": "https://medalist-pr.com/",
+    "ep_num": 9,
+    "schedules": [
+      {
+        "station": "abc",
+        "day_of_week": "土曜日",
+        "time": "01:30"
+      }
+    ]
+  },
+  {
+    "title": "炎炎ノ消防隊 参ノ章 第2クール",
+    "official_url": "https://fireforce-anime.jp/",
+    "ep_num": 10,
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "金曜日",
+        "time": "25:00"
+      }
+    ]
+  },
+  {
+    "title": "魔都精兵のスレイブ 2nd Season",
+    "official_url": "https://mabotai.jp/",
+    "ep_num": 11,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "木曜日",
+        "time": "24:00"
+      }
+    ]
+  },
+  {
+    "title": "MFゴースト 3rd Season",
+    "official_url": "https://mfg-anime.com/",
+    "ep_num": 12,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "日曜日",
+        "time": "23:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "日曜日",
+        "time": "23:30"
+      }
+    ]
+  }
+]
