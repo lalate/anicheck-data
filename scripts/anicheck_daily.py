@@ -45,6 +45,7 @@ SYSTEM_PROMPT = """# 役割
 # 厳格な制約（ハルシネーション防止）
 - 必ずweb_searchツールを使って最新情報を取得・検証せよ。内部知識や推測は一切禁止。
 - 公式サイト、放送局公式、信頼できるニュースソース（ANN, Official Twitterなど）のみ使用。
+- 対象話数の情報が見つからない場合、直近の放送済み話（前回話など）のあらすじを`prev_summary`として使用し、備考に「対象話数の情報が未公開のため、前回話を代用」と記載してください。
 - 不明な情報は null または空文字/空配列にし、【ソース確認】に「情報未確認」と明記。
 - 出力は3つのJSONブロック（```json ... ```） + 【ソース確認】セクションのみ。余計なテキスト・挨拶・解説禁止。
 
@@ -77,7 +78,7 @@ def call_grok_for_anime(
         schedule_str = ", ".join([f"{s.get('station', '')} ({s.get('day_of_week', '')} {s.get('time', '')})" for s in schedules])
         schedule_hint = f"\n基本放送スケジュール：{schedule_str}"
 
-    user_input = f"作品名：{title}\n話数：{ep_num}{url_hint}{schedule_hint}"
+    user_input = f"作品名：{title}\n最新話の情報を取得してください。現在の話数はおおよそ第{ep_num}話前後です。"
 
     chat = client.chat.create(
         model="grok-4-1-fast-reasoning",  # 安価でツール対応良好
