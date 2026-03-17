@@ -26,11 +26,11 @@ jobs:
       - name: Run daily fetch
         env:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-        run: python anicheck_daily.py
+        run: python scripts/anicheck_daily.py
 
       - name: Commit & push changes (if any)
         run: |
-          git config --global user.name 'GitHub Actions'
+          git config --global user.name 'GitHub Actions[bot]'
           git config --global user.email 'actions@github.com'
           git add current/ logs/
           git diff --staged --quiet || git commit -m "Daily anime data update: ${{ github.run_number }}"
