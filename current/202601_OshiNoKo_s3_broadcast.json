@@ -1,0 +1,16 @@
+{
+  "channels": [
+    {
+      "name": "mx",
+      "weekday": "水曜日",
+      "time": "23:00"
+    },
+    {
+      "name": "abema",
+      "weekday": "水曜日",
+      "time": "23:00"
+    }
+  ],
+  "air_date": "2026-03-18",
+  "change": null
+}

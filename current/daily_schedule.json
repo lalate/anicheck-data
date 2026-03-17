@@ -1,0 +1,113 @@
+[
+  {
+    "station": "ntv",
+    "weekday": "金曜日",
+    "time": "23:00",
+    "broadcast_date": null,
+    "notes": "3/20は23:10に変更。過去に2/20休止あり。"
+  },
+  {
+    "schedules": [
+      {
+        "station": "mbs",
+        "weekday": "木曜日",
+        "time": "00:26",
+        "broadcast_date": "2026-03-19"
+      },
+      {
+        "station": "tbs",
+        "weekday": "木曜日",
+        "time": "00:26",
+        "broadcast_date": "2026-03-19"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "channels": [
+      {
+        "name": "mx",
+        "weekday": "水曜日",
+        "time": "23:00"
+      },
+      {
+        "name": "abema",
+        "weekday": "水曜日",
+        "time": "23:00"
+      }
+    ],
+    "air_date": "2026-03-18",
+    "change": null
+  },
+  {
+    "station": "tx",
+    "weekday": "日曜日",
+    "time": "23:45",
+    "broadcast_date": "2026-03-15",
+    "change": null,
+    "rest": false
+  },
+  {
+    "station": "mx",
+    "weekday": "月曜日",
+    "time": "23:00",
+    "broadcast_date": "2026-03-16",
+    "time_change": null,
+    "suspension": null
+  },
+  {
+    "broadcast_date": "2026-03-21",
+    "time": "23:30",
+    "channels": [
+      {
+        "name": "TOKYO MX",
+        "time": "23:30"
+      },
+      {
+        "name": "BS11",
+        "time": "23:30"
+      }
+    ],
+    "change_or_suspend": null
+  },
+  {
+    "schedule": "毎週土曜日 深夜1時30分～ テレビ朝日系全国24局ネット “NUMAnimation”枠",
+    "next_episode": null,
+    "notes": null
+  },
+  {
+    "station": "mbs",
+    "weekday": "金曜日",
+    "time": "25:53",
+    "air_date": "2026-03-13",
+    "networks": [
+      "MBS",
+      "TBS",
+      "CBC",
+      "BS-TBS"
+    ]
+  },
+  {
+    "broadcast_date": "2026-03-19",
+    "station": "TOKYO MX",
+    "time": "24:00",
+    "time_change": null,
+    "rest": false
+  },
+  {
+    "stations": [
+      {
+        "name": "mx",
+        "weekday": "日曜日",
+        "time": "23:30"
+      },
+      {
+        "name": "bs11",
+        "weekday": "日曜日",
+        "time": "23:30"
+      }
+    ],
+    "changes": null,
+    "suspension": null
+  }
+]

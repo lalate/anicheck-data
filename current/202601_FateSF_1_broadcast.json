@@ -1,0 +1,15 @@
+{
+  "broadcast_date": "2026-03-21",
+  "time": "23:30",
+  "channels": [
+    {
+      "name": "TOKYO MX",
+      "time": "23:30"
+    },
+    {
+      "name": "BS11",
+      "time": "23:30"
+    }
+  ],
+  "change_or_suspend": null
+}
