@@ -30,8 +30,9 @@ jobs:
 
       - name: Commit & push changes (if any)
         run: |
-          git config --global user.name 'GitHub Actions[bot]'
-          git config --global user.email 'actions@github.com'
-          git add current/ logs/
-          git diff --staged --quiet || git commit -m "Daily anime data update: ${{ github.run_number }}"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add current/
+          git diff-index --quiet HEAD || git commit -m "chore: 🤖 auto update daily anime schedule"
           git push
+
