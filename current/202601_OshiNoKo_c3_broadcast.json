@@ -1,0 +1,17 @@
+{
+  "broadcast_date": "2026-03-18",
+  "time": "23:00-",
+  "main_channel": "TOKYO MX",
+  "channels": [
+    "TOKYO MX",
+    "サンテレビ",
+    "KBS京都",
+    "BS11",
+    "テレビ愛知",
+    "全国36局以上"
+  ],
+  "streaming": [
+    "ABEMA 同時配信"
+  ],
+  "change_note": null
+}

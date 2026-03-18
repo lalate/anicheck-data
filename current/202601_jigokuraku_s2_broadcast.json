@@ -1,8 +1,14 @@
 {
-  "station": "tx",
-  "weekday": "日曜日",
+  "broadcast_date": "2026-03-22",
   "time": "23:45",
-  "broadcast_date": "2026-03-15",
-  "change": null,
+  "channels": [
+    "テレビ東京",
+    "テレビ大阪",
+    "テレビ愛知",
+    "テレビせとうち",
+    "テレビ北海道",
+    "TVQ九州放送"
+  ],
+  "time_change": null,
   "rest": false
 }
