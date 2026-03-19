@@ -1,15 +1,12 @@
 {
-  "broadcast_date": "2026-03-21",
+  "broadcast_date": "2026-03-14",
   "time": "23:30",
   "channels": [
-    {
-      "name": "TOKYO MX",
-      "time": "23:30"
-    },
-    {
-      "name": "BS11",
-      "time": "23:30"
-    }
+    "TOKYO MX",
+    "BS11",
+    "群馬テレビ",
+    "とちぎテレビ"
   ],
-  "change_or_suspend": null
+  "changes": null,
+  "next_episode": "第12話「逃避の果て」 2026-03-21 23:30～"
 }

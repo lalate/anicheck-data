@@ -1,6 +1,12 @@
 {
-  "broadcast_date": "2026-03-12",
-  "time": "00:26",
-  "change_hiatus": null,
-  "next_date": "2026-03-19"
+  "air_date": "2026-03-12",
+  "next_air_date": "2026-03-19",
+  "next_subtitle": "東京第1結界⑤",
+  "channels": [
+    "MBS",
+    "TBS系28局"
+  ],
+  "time": "深夜0:26～0:56",
+  "bs_channel": "BS日テレ (土曜23:00)",
+  "changes": null
 }

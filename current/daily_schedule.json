@@ -1,69 +1,67 @@
 [
   {
-    "broadcast_date": "2026-03-13",
+    "air_date": "2026-03-13",
     "time": "23:00",
-    "next_episode": {
-      "total": 37,
-      "season": 9,
-      "subtitle": "ヒンメルの自伝",
-      "date": "2026-03-20",
-      "time": "23:10",
-      "note": "いつもより10分遅れ"
-    },
-    "schedule_note": "過去に2/20休止、3/6深夜0時など変更あり"
+    "network": "日本テレビ系全国30局ネット FRIDAY ANIME NIGHT",
+    "next_episode": 37,
+    "next_date": "2026-03-20",
+    "next_time": "23:10",
+    "next_subtitle": "ヒンメルの自伝"
   },
   {
-    "broadcast_date": "2026-03-12",
-    "time": "00:26",
-    "channel": "MBS/TBS系28局",
-    "bs_channel": "BS日テレ (翌日23:00)",
-    "streaming": "ABEMA (同時無料配信)"
-  },
-  {
-    "broadcast_date": "2026-03-18",
-    "time": "23:00-",
-    "main_channel": "TOKYO MX",
+    "air_date": "2026-03-12",
+    "next_air_date": "2026-03-19",
+    "next_subtitle": "東京第1結界⑤",
     "channels": [
-      "TOKYO MX",
-      "サンテレビ",
-      "KBS京都",
-      "BS11",
-      "テレビ愛知",
-      "全国36局以上"
+      "MBS",
+      "TBS系28局"
+    ],
+    "time": "深夜0:26～0:56",
+    "bs_channel": "BS日テレ (土曜23:00)",
+    "changes": null
+  },
+  {
+    "regular_time": "毎週水曜 23:00～ (TOKYO MX)",
+    "next_episode": {
+      "date": "2026-03-25",
+      "subtitle": "最終話1時間SP",
+      "note": "1時間スペシャル"
+    },
+    "stations": [
+      "TOKYO MX: 毎週水曜 23:00～",
+      "サンテレビ: 毎週水曜 24:00～",
+      "KBS京都: 毎週水曜 24:00～",
+      "BS11: 毎週水曜 25:00～",
+      "全国36局ネット"
     ],
     "streaming": [
-      "ABEMA 同時配信"
-    ],
-    "change_note": null
+      "ABEMA: 地上波同時最速配信"
+    ]
   },
   {
-    "broadcast_date": "2026-03-22",
+    "broadcast_date": "2026-03-15",
     "time": "23:45",
+    "channel": "テレ東系ほか",
+    "time_change": null,
+    "cancellation": null,
+    "next_episode_date": "2026-03-22"
+  },
+  {
+    "air_date": "2026-03-16",
+    "time": "23:00",
     "channels": [
-      "テレビ東京",
-      "テレビ大阪",
-      "テレビ愛知",
-      "テレビせとうち",
-      "テレビ北海道",
-      "TVQ九州放送"
+      "TOKYO MX",
+      "BS11",
+      "読売テレビ",
+      "北海道放送"
     ],
     "time_change": null,
-    "rest": false
-  },
-  {
+    "suspension": false,
     "next_episode": {
-      "number": 61,
+      "num": 61,
       "subtitle": "武士道",
-      "date": "2026-03-23",
-      "time": "23:00",
-      "channels": [
-        "TOKYO MX",
-        "BS11",
-        "読売テレビ",
-        "Prime Video"
-      ]
-    },
-    "regular_time": "毎週月曜 23:00～"
+      "date": "2026-03-23"
+    }
   },
   {
     "broadcast_date": "2026-03-14",
@@ -71,72 +69,40 @@
     "channels": [
       "TOKYO MX",
       "BS11",
-      "MBS",
-      "AT-X"
+      "群馬テレビ",
+      "とちぎテレビ"
     ],
-    "time_change": null,
-    "suspension": false,
-    "streaming": [
-      "Crunchyroll (Sat 9am PT)"
-    ],
-    "next_episode_date": "2026-03-21"
+    "changes": null,
+    "next_episode": "第12話「逃避の果て」 2026-03-21 23:30～"
   },
   {
-    "broadcast_date": "2026-03-21",
-    "time": "25:30-26:00",
-    "channels": [
+    "air_date": "2026-03-21T01:30:00",
+    "time_slot": "深夜1時30分～",
+    "stations": [
       "テレビ朝日系全国24局ネット “NUMAnimation”枠",
-      "ABCテレビ",
-      "HTB",
-      "メ～テレ",
-      "テレ朝チャンネル1 (再)",
-      "BS朝日 (再)"
+      "CSテレ朝チャンネル1 夜9時00分～",
+      "BS朝日 夜11時30分～"
+    ],
+    "note": null
+  },
+  {
+    "air_date": "2026-03-13",
+    "time": "25:53",
+    "channels": [
+      "MBS/TBS/CBC “アニメイズム”枠ほか"
+    ],
+    "streaming": "Netflix (最新話放送後独占配信)",
+    "next_episode": "第11話 (2026-03-20予定)"
+  },
+  {
+    "broadcast_date": "2026-03-19",
+    "time": "24:00",
+    "channels": [
+      "TOKYO MX",
+      "BS朝日 (2026-03-22 01:00)",
+      "AT-X (23:00 ご褒美Ver.)"
     ],
     "time_change": null,
-    "suspension": false
-  },
-  {
-    "broadcast_date": "2026-03-13",
-    "time": "25:53-26:23",
-    "channels": [
-      "MBS",
-      "TBS",
-      "CBC",
-      "BS-TBS (26:30-27:00)"
-    ],
-    "rebroadcast": "AT-X 2026-03-16 21:00-21:30"
-  },
-  {
-    "next_air_date": "2026-03-19",
-    "channels": {
-      "TOKYO MX": "毎週木曜 24:00〜",
-      "BS朝日": "毎週日曜 25:00〜",
-      "MBS": "毎週火曜 27:00〜",
-      "AT-X": "毎週木曜 23:00〜 (ご褒美Ver.)"
-    },
-    "streaming": "ABEMA (先行), dアニメストアほか",
-    "notes": null
-  },
-  {
-    "network": [
-      {
-        "name": "TOKYO MX",
-        "time": "日曜 23:30～24:00"
-      },
-      {
-        "name": "BS日テレ",
-        "time": "日曜 23:30～24:00"
-      },
-      {
-        "name": "RKB毎日放送",
-        "time": "日曜 25:25～（変更後）"
-      }
-    ],
-    "next_episode": 36,
-    "next_date": "2026-03-22",
-    "streaming": [
-      "Prime Video (先行)",
-      "dアニメストア"
-    ]
+    "suspension": null
   }
 ]
