@@ -1,0 +1,233 @@
+[
+  {
+    "title": "葬送のフリーレン 第2期",
+    "official_url": "https://frieren-anime.jp/2nd",
+    "ep_num": 16,
+    "schedules": [
+      {
+        "station": "nhk",
+        "day_of_week": "日曜日",
+        "time": "23:15"
+      },
+      {
+        "station": "mx",
+        "day_of_week": "月曜日",
+        "time": "24:30"
+      }
+    ]
+  },
+  {
+    "title": "呪術廻戦 第3期 死滅回游 前編",
+    "official_url": "https://jujutsukaisen.jp/3rd",
+    "ep_num": 17,
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "金曜日",
+        "time": "25:25"
+      },
+      {
+        "station": "tx",
+        "day_of_week": "土曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "金曜日",
+        "time": "25:25"
+      }
+    ]
+  },
+  {
+    "title": "【推しの子】第3期",
+    "official_url": "https://osusino-anime.jp/3rd",
+    "ep_num": 15,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "水曜日",
+        "time": "24:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "木曜日",
+        "time": "25:00"
+      }
+    ]
+  },
+  {
+    "title": "地獄楽 第2期",
+    "official_url": "https://hellsjinx-anime.com/2nd",
+    "ep_num": 16,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "土曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "mx",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      }
+    ]
+  },
+  {
+    "title": "青のミブロ 第2期 —芹沢暗殺編—",
+    "official_url": "https://aomiburou-anime.jp/2nd",
+    "ep_num": 14,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "火曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "水曜日",
+        "time": "24:30"
+      }
+    ]
+  },
+  {
+    "title": "ゴールデンカムイ 最終章",
+    "official_url": "https://golden-kamuy-anime.com/final",
+    "ep_num": 17,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "月曜日",
+        "time": "24:30"
+      },
+      {
+        "station": "mbs",
+        "day_of_week": "月曜日",
+        "time": "26:30"
+      }
+    ]
+  },
+  {
+    "title": "Fate/strange Fake",
+    "official_url": "https://fatestranfake-anime.com",
+    "ep_num": 15,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "木曜日",
+        "time": "24:00"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "金曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "木曜日",
+        "time": "24:00"
+      }
+    ]
+  },
+  {
+    "title": "メダリスト 第2期",
+    "official_url": "https://medalist-anime.jp/2nd",
+    "ep_num": 16,
+    "schedules": [
+      {
+        "station": "ntv",
+        "day_of_week": "金曜日",
+        "time": "25:59"
+      },
+      {
+        "station": "mx",
+        "day_of_week": "土曜日",
+        "time": "24:30"
+      }
+    ]
+  },
+  {
+    "title": "炎炎ノ消防隊 参ノ章 第2クール",
+    "official_url": "https://enen-no-shouboutai.jp/3rd",
+    "ep_num": 18,
+    "schedules": [
+      {
+        "station": "mbs",
+        "day_of_week": "金曜日",
+        "time": "25:25"
+      },
+      {
+        "station": "tx",
+        "day_of_week": "土曜日",
+        "time": "24:00"
+      }
+    ]
+  },
+  {
+    "title": "魔都精兵のスレイブ 2nd Season",
+    "official_url": "https://matoseihei-slave.com/2nd",
+    "ep_num": 14,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "水曜日",
+        "time": "25:35"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "木曜日",
+        "time": "26:00"
+      }
+    ]
+  },
+  {
+    "title": "MFゴースト 3rd Season",
+    "official_url": "https://mfghost-anime.com/3rd",
+    "ep_num": 17,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "土曜日",
+        "time": "23:30"
+      },
+      {
+        "station": "mbs",
+        "day_of_week": "土曜日",
+        "time": "25:00"
+      }
+    ]
+  },
+  {
+    "title": "不滅のあなたへ 第3期",
+    "official_url": "https://fumetsunoanatae.com/3rd",
+    "ep_num": 16,
+    "schedules": [
+      {
+        "station": "mx",
+        "day_of_week": "月曜日",
+        "time": "24:30"
+      },
+      {
+        "station": "bs11",
+        "day_of_week": "火曜日",
+        "time": "25:00"
+      }
+    ]
+  },
+  {
+    "title": "刃牙道",
+    "official_url": "https://baki-anime.jp/bakido",
+    "ep_num": 15,
+    "schedules": [
+      {
+        "station": "tx",
+        "day_of_week": "火曜日",
+        "time": "25:00"
+      },
+      {
+        "station": "abema",
+        "day_of_week": "火曜日",
+        "time": "25:00"
+      }
+    ]
+  }
+]

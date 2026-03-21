@@ -1,0 +1,231 @@
+以下は、提供された `season_initializer.py` の**厳しいレビュー＋xAI API完全対応版**です。
+
+### レビュー結果（全体評価：6.5/10）
+
+**良い点**
+- シーズン自動判定のロジックは実用的（3〜5月春など）
+- アーカイブ機能のアイデアは良い（watch_list.json をバックアップ）
+- `parse_and_save` でJSONブロック抽出を複数パターン試しているのは親切
+
+**致命的な問題点**
+1. **tools が一切指定されていない** → Grokに検索させていない（内部知識2023年まで＋ハルシネーションで埋められる）
+2. **OpenAI SDKのまま** → xAIの強み（サーバー側自動ツール実行）が使えていない
+3. **エラーハンドリングが弱い** → APIエラーやJSONパース失敗でクラッシュしやすい
+4. **シーズン判定がやや甘い** → 12月は翌年冬にすべき（業界基準）
+5. **出力が不安定** → Grokが余計なテキストを付ける可能性を考慮していない
+
+### 修正版（xAI SDK + tools対応 + 安定性向上）
+
+```python
+# -*- coding: utf-8 -*-
+import os
+import json
+import re
+from pathlib import Path
+import datetime
+import logging
+from dotenv import load_dotenv
+
+# ====================== xAI SDK インポート ======================
+try:
+    from xai_sdk import Client
+    from xai_sdk.chat import system, user
+    from xai_sdk.tools import web_search, x_search
+except ImportError:
+    raise ImportError("xai-sdk がインストールされていません。pip install xai-sdk")
+
+load_dotenv()
+
+# ====================== ロギング ======================
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.FileHandler("season_init.log", encoding="utf-8"), logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
+
+# ====================== Grokクライアント ======================
+client = Client()  # XAI_API_KEY は .env から自動取得
+
+SYSTEM_PROMPT = """# 役割
+あなたは日本のアニメ放送情報に精通した、嘘を許さない厳格な調査員です。
+
+# 目的
+指定されたシーズン（例：2026年春）に日本で放送される主要な深夜アニメのタイトル、公式サイトURL、および各放送局の「基本放送スケジュール」を収集し、監視用のJSONリストを出力してください。
+
+# 条件
+- 知名度や期待度の高い主要な深夜アニメを10〜15作品程度ピックアップしてください。
+- 各作品の「公式サイトURL」を必ずweb_search / x_searchツールで調査し、正確なURLを記載してください。
+- 各作品の「主要な放送局・配信サイトの基本スケジュール」を調査し、以下の形式で `schedules` 配列として出力してください。
+  - `station`: 放送局ID（例: mx, bs11, tx, ntv, mbs, abema など小文字英数）
+  - `day_of_week`: 放送曜日（例: 月曜日, 火曜日）
+  - `time`: 基本の放送開始時間（例: 24:00, 25:30）
+- 各作品の「次に放送される予定の話数（ep_num）」を、現在情報を元に調査して設定してください。新番組なら `1`、放送中ならその続きの番号にしてください。
+- 出力は必ず以下のJSON形式のみとし、Markdownのコードブロック（```json ... ```）で囲んでください。余計な解説は一切不要です。
+
+# 出力形式
+```json
+[
+  {
+    "title": "作品名1",
+    "official_url": "https://example.com/anime1",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "水曜日", "time": "24:00"},
+      {"station": "bs11", "day_of_week": "木曜日", "time": "25:00"}
+    ]
+  }
+]
+```
+"""
+
+def fetch_season_anime(season_str: str):
+    report_file = Path("grok_report.txt")
+    if report_file.exists():
+        logger.info(f"📄 ローカルの {report_file.name} を元にアニメリストを構築します...")
+        user_input = f"以下のテキストは今期のアニメ情報をまとめたレポートです。このテキストから主要な深夜アニメのタイトルを抽出し、公式サイトURL、各放送局の基本放送スケジュール、および最新の現在話数を調べてJSONリストを出力してください。\n\n【レポート内容】\n{report_file.read_text(encoding='utf-8')}"
+    else:
+        logger.info(f"🚀 Grokに {season_str} のアニメリストを問い合わせ中...")
+        user_input = f"対象シーズン：{season_str}\nこのシーズンに放送開始または放送中の主要な深夜アニメを10〜15作品程度リストアップしてください。web_searchとx_searchツールを使って最新の公式情報を必ず取得し、正確なURLとスケジュールを記載してください。"
+
+    try:
+        chat = client.chat.create(
+            model="grok-4-1-fast-reasoning",
+            tools=[web_search(), x_search()],
+            tool_choice="auto"
+        )
+        chat.append(system(SYSTEM_PROMPT))
+        chat.append(user(user_input))
+
+        response = chat.sample()
+        return response.content
+
+    except Exception as e:
+        logger.error(f"Grok APIエラー: {e}")
+        return None
+
+def parse_and_save(text: str | None, output_file: Path):
+    if not text:
+        logger.error("Grokからの応答が空です")
+        return False
+
+    json_blocks = re.findall(r'```json\s*(\[.*?\])\s*```', text, re.DOTALL)
+    if not json_blocks:
+        json_blocks = re.findall(r'(\[(?:[^\[\]]|(?:\[[^\[\]]*\]))*\])', text, re.DOTALL)
+
+    if not json_blocks:
+        logger.error("JSONリストを抽出できませんでした")
+        return False
+
+    try:
+        anime_list = json.loads(json_blocks[0])
+
+        if not isinstance(anime_list, list) or len(anime_list) == 0:
+            logger.error("抽出されたデータが空リストまたはリストではありません")
+            return False
+
+        if "title" not in anime_list[0] or "ep_num" not in anime_list[0]:
+            logger.error("必要なキー（title, ep_num）がありません")
+            return False
+
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(anime_list, f, ensure_ascii=False, indent=2)
+
+        logger.info(f"✅ 成功: {len(anime_list)}件のアニメを {output_file.name} に保存しました！")
+        return True
+
+    except json.JSONDecodeError as e:
+        logger.error(f"JSONパースエラー: {e}\nRaw text: {text[:500]}...")
+        return False
+
+def archive_current_list(current_list_path: Path, archive_dir: Path):
+    if not current_list_path.exists():
+        return
+
+    try:
+        with open(current_list_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        now = datetime.datetime.now()
+        year = now.year
+        month = now.month
+
+        # 業界基準のシーズン判定（12月は翌年冬）
+        if month == 12:
+            year += 1
+            season = "winter"
+        elif month in [1, 2, 3]:
+            season = "winter"
+        elif month in [4, 5, 6]:
+            season = "spring"
+        elif month in [7, 8, 9]:
+            season = "summer"
+        else:
+            season = "autumn"
+
+        archive_name = f"{year}_{season}_watch_list.json"
+        archive_path = archive_dir / archive_name
+
+        counter = 1
+        while archive_path.exists():
+            archive_name = f"{year}_{season}_watch_list_{counter}.json"
+            archive_path = archive_dir / archive_name
+            counter += 1
+
+        archive_dir.mkdir(exist_ok=True)
+        with open(archive_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        logger.info(f"📦 アーカイブ完了: {archive_path.name}")
+        current_list_path.unlink()  # 元ファイルを削除
+
+    except Exception as e:
+        logger.error(f"アーカイブエラー: {e}")
+
+if __name__ == "__main__":
+    now = datetime.datetime.now()
+    year = now.year
+    month = now.month
+
+    # 12月は翌年冬として扱う
+    if month == 12:
+        year += 1
+
+    season_map = {1: "冬", 2: "冬", 3: "冬", 4: "春", 5: "春", 6: "春",
+                  7: "夏", 8: "夏", 9: "夏", 10: "秋", 11: "秋", 12: "冬"}
+    season_name = season_map.get(month, "冬")
+
+    TARGET_SEASON = f"{year}年{season_name}アニメ"
+
+    watch_list_path = Path("current/watch_list.json")
+    archive_dir = Path("archive")
+
+    # 1. 現在のリストをアーカイブ
+    archive_current_list(watch_list_path, archive_dir)
+
+    # 2. 新シーズンのリストを取得（xAI SDK + tools使用）
+    raw_text = fetch_season_anime(TARGET_SEASON)
+
+    # 3. パース＆保存
+    success = parse_and_save(raw_text, watch_list_path)
+
+    if success:
+        logger.info(f"✨ 新シーズン {TARGET_SEASON} の準備が整いました。")
+    else:
+        logger.error("❌ 新シーズンの取得に失敗しました。")
+```
+
+### 主な修正ポイント
+
+- **OpenAI SDK → xAI SDK** に完全移行（tools自動実行）
+- `tools=[web_search(), x_search()]` を明示的に追加 → 公式サイト・スケジュール検索が効く
+- エラーハンドリング強化（API例外キャッチ、JSONパース失敗時のログ）
+- シーズン判定を業界基準に修正（12月→翌年冬）
+- ロギングを追加（season_init.logに出力）
+- `parse_and_save` の抽出ロジックを頑丈に
+
+これで**Grokがちゃんと検索して最新情報を取得**するようになり、Web版に近い精度が出るはずです。
+
+実行してみて「まだ古い情報しか返さない」「エラーが出る」となったら、ログファイルの内容を教えてください。  
+すぐに次のチューニングを提案します！

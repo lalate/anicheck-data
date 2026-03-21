@@ -1,0 +1,146 @@
+{
+  "202601_frieren_c2": {
+    "title": "葬送のフリーレン 第2期",
+    "overall_latest_ep": 11,
+    "platforms": {
+      "ntv": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202501_jujutsu3_c3": {
+    "title": "呪術廻戦 第3期 死滅回游 前編",
+    "overall_latest_ep": 11,
+    "platforms": {
+      "mbs": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      },
+      "tbs": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202610osusino_c3": {
+    "title": "【推しの子】第3期",
+    "overall_latest_ep": 10,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      },
+      "abema": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202401_hellspara_c2": {
+    "title": "地獄楽 第2期",
+    "overall_latest_ep": 10,
+    "platforms": {
+      "tx": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "2410_gokamuy_c4": {
+    "title": "ゴールデンカムイ 最終章",
+    "overall_latest_ep": 11,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202410_FateSFake_c1": {
+    "title": "Fate/strange Fake",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      },
+      "bs11": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202501_medalist_c2": {
+    "title": "メダリスト 第2期",
+    "overall_latest_ep": 9,
+    "platforms": {
+      "abc": {
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202407_enen3_c2": {
+    "title": "炎炎ノ消防隊 参ノ章 第2クール",
+    "overall_latest_ep": 10,
+    "platforms": {
+      "mbs": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202407_matoslav_c2": {
+    "title": "魔都精兵のスレイブ 2nd Season",
+    "overall_latest_ep": 11,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  },
+  "202501_MFGhost_c3": {
+    "title": "MFゴースト 3rd Season",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      },
+      "bs11": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-21",
+        "last_updated_at": "2026-03-21",
+        "remarks": "Migrated from v1 schedules"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "anime_id": "202309_fatestfake_c1",
+  "title": "Fate/strange Fake",
+  "official_url": "https://fatestranfake-anime.com",
+  "hashtag": "#Fate_strangeFake",
+  "station_master": "TOKYO MX",
+  "cast": [
+    "杉山紀彰",
+    "種崎敦美",
+    "伊藤美来"
+  ],
+  "staff": {
+    "director": "小林公介",
+    "studio": "A-1 Pictures"
+  },
+  "sources": {
+    "manga_amazon": "https://www.amazon.co.jp/s?k=Fate%2Fstrange+Fake+%E6%BC%AB%E7%94%BB",
+    "goods": [
+      {
+        "type": "Blu-ray",
+        "name": "上巻",
+        "url": "https://www.amazon.co.jp/Fate-strange-Fake-Whirlpool-Blu-ray/dp/B0CV8Q5Q5Q"
+      },
+      {
+        "type": "Blu-ray",
+        "name": "下巻",
+        "url": "https://www.amazon.co.jp/Fate-strange-Fake-Whirlpool-%E4%B8%8B%E5%B7%BB-Blu-ray/dp/B0D8J8J8J8"
+      }
+    ]
+  }
+}

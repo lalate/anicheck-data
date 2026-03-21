@@ -1,0 +1,20 @@
+<!-- Batch 1-1 -->
+```json
+[
+  {
+    "anime_id": "202601_kusuriyanohitorigoto_2",
+    "title": "薬屋のひとりごと 第2期",
+    "official_url": "https://kusuriyanohitorigoto.jp/",
+    "hashtag": "#薬屋のひとりごと",
+    "station_master": "",
+    "cast": [],
+    "staff": {}
+  }
+]
+```
+```json
+[]
+```
+```json
+[]
+```

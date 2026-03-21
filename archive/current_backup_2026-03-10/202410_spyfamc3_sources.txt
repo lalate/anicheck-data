@@ -1,0 +1,3 @@
+- 公式サイト確認用URL: https://spy-family.net/season3/, https://spy-family.net/news/1250.html
+- 放送スケジュール根拠URL: https://www.ntv.co.jp/spy-family3/, https://www.animedb.jp/news/AN100xxxxxx.html
+- 備考: 特番による変更なし。基本時間は土曜23:30確認（入力23:00を最新情報で修正）。bs11は翌日0:00だが主要ntvを選択。

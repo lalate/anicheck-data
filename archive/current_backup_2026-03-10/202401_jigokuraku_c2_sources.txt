@@ -1,0 +1,3 @@
+- 公式サイト確認用URL: https://hellsjinx-anime.com/2nd/story/
+- 放送スケジュール根拠URL: https://hellsjinx-anime.com/2nd/onair/
+- 備考: 第2期は2024年3月30日第13話「海鳴りの果て」で終了確認。第14話のサブタイトル・あらすじ・原作巻・予告動画等の情報未確認のためnull。statusを休止に設定。hashtagは公式Twitter・サイトから。グッズは公式PRODUCTページ参照のAmazon商品。prev_summaryは第13話公式あらすじを要約。next_preview_youtube_idは公式チャンネル第12話予告IDを代用（第14話予告なし）。cast/staffは公式STAFF&CASTページから。
