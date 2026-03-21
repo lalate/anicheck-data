@@ -1,37 +1,15 @@
 {
-  "broadcast_date": "2026-03-15",
+  "air_date": "2026-03-15",
   "time": "23:30",
-  "channels": [
-    {
-      "name": "TOKYO MX",
-      "time": "23:30"
-    },
-    {
-      "name": "BS日テレ",
-      "time": "23:30"
-    },
-    {
-      "name": "RKB毎日放送",
-      "time": "25:20",
-      "note": "一部時間変更あり"
-    },
-    {
-      "name": "テレビ愛知",
-      "time": "25:30"
-    },
-    {
-      "name": "静岡放送",
-      "time": "26:00"
-    },
-    {
-      "name": "読売テレビ",
-      "time": "25:29"
-    },
-    {
-      "name": "アニマックス",
-      "time": "19:00"
-    }
+  "stations": [
+    "TOKYO MX",
+    "BS日テレ",
+    "RKB毎日放送"
   ],
-  "changes": "RKB毎日放送などで一部時間移動あり（2月以降）",
-  "休止": null
+  "suspension": null,
+  "next_episode": {
+    "num": 36,
+    "subtitle": "空中フェイント",
+    "date": "2026-03-22"
+  }
 }

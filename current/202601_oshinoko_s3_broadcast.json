@@ -1,18 +1,12 @@
 {
-  "regular_time": "毎週水曜 23:00～ (TOKYO MX)",
-  "next_episode": {
-    "date": "2026-03-25",
-    "subtitle": "最終話1時間SP",
-    "note": "1時間スペシャル"
-  },
+  "broadcast_date": "2026-03-18",
+  "time": "23:00-",
+  "schedule_change": null,
+  "next_episode_info": "第35話最終話 1時間SP 2026-03-25",
   "stations": [
-    "TOKYO MX: 毎週水曜 23:00～",
-    "サンテレビ: 毎週水曜 24:00～",
-    "KBS京都: 毎週水曜 24:00～",
-    "BS11: 毎週水曜 25:00～",
-    "全国36局ネット"
-  ],
-  "streaming": [
-    "ABEMA: 地上波同時最速配信"
+    "TOKYO MX",
+    "サンテレビ",
+    "BS11",
+    "AT-Xほか全国36局"
   ]
 }

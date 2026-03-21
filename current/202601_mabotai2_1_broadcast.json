@@ -1,0 +1,41 @@
+{
+  "schedules": [
+    {
+      "channel": "TOKYO MX",
+      "weekday": "木",
+      "time": "24:00-24:30",
+      "next_episode": 12,
+      "next_date": "2026-03-26"
+    },
+    {
+      "channel": "AT-X",
+      "weekday": "木",
+      "time": "23:00-23:30",
+      "next_episode": 12,
+      "next_date": "2026-03-26"
+    },
+    {
+      "channel": "BS朝日",
+      "weekday": "日",
+      "time": "25:00-25:30",
+      "next_episode": 11,
+      "next_date": "2026-03-22"
+    },
+    {
+      "channel": "MBS",
+      "weekday": "火",
+      "time": "27:00-27:30",
+      "next_episode": 11,
+      "next_date": "2026-03-24"
+    },
+    {
+      "channel": "Abema",
+      "weekday": "木",
+      "time": "24:30-25:00",
+      "next_episode": 12,
+      "next_date": "2026-03-26"
+    }
+  ],
+  "time_change": null,
+  "suspension": null
+}

@@ -1,3 +1,3 @@
-- 公式サイト確認用URL: https://mfg-anime.com/, https://mfg-anime.com/onair
-- 放送スケジュール根拠URL: https://s.mxtv.jp/anime/mfg3, https://mfg-anime.com/onair
-- 備考: 入力の第13話前後情報未確認のため、2026/3/17時点最新話第35話を代用。あらすじはanimatetimes.comより。YouTube予告ID未確認。
+- 公式サイト確認用URL: https://mfg-anime.com/story
+- 放送スケジュール根拠URL: https://cal.syoboi.jp/tid/7687/time
+- 備考: 2026/3/21現在最新放送済みTurn35「最強トレイン」の情報を取得。あらすじは公式/Animate Times準拠。原作巻数・YouTube予告IDは情報未確認。
