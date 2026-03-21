@@ -1,0 +1,15 @@
+{
+  "broadcast_date": "2026-03-15",
+  "time": "23:45",
+  "networks": [
+    "テレビ東京系他",
+    "AT-X (遅れ)",
+    "地方局複数"
+  ],
+  "streaming": [
+    "Prime Video (24:15)",
+    "Netflix (24:15)",
+    "Lemino (24:15)"
+  ],
+  "next_episode_date": "2026-03-22"
+}

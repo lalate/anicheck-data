@@ -1,0 +1,19 @@
+{
+  "next_episode": {
+    "number": 61,
+    "subtitle": "武士道",
+    "air_date": "2026-03-23",
+    "time": "23:00-23:30",
+    "stations": [
+      "TOKYO MX",
+      "BS11",
+      "読売テレビ 26:29",
+      "北海道放送 25:29"
+    ]
+  },
+  "broadcast_stations": {
+    "main": "TOKYO MX 毎週月曜 23:00～",
+    "others": "BS11 23:00, 読売テレビ 26:29, HBC 25:29"
+  },
+  "streaming": "Prime Video 見放題独占配信"
+}

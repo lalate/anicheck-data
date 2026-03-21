@@ -1,0 +1,17 @@
+{
+  "schedules": [
+    {
+      "station": "mbs",
+      "weekday": "木曜日",
+      "time": "00:26",
+      "broadcast_date": "2026-03-19"
+    },
+    {
+      "station": "tbs",
+      "weekday": "木曜日",
+      "time": "00:26",
+      "broadcast_date": "2026-03-19"
+    }
+  ],
+  "notes": null
+}

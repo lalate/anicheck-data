@@ -1,0 +1,12 @@
+{
+  "station": "mbs",
+  "weekday": "金曜日",
+  "time": "25:53",
+  "air_date": "2026-03-13",
+  "networks": [
+    "MBS",
+    "TBS",
+    "CBC",
+    "BS-TBS"
+  ]
+}

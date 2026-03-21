@@ -1,0 +1,3 @@
+- 公式サイト確認用URL: https://mfg-anime.com/, https://mfg-anime.com/onair
+- 放送スケジュール根拠URL: https://s.mxtv.jp/anime/mfg3, https://www.bs4.jp/mfg-anime, https://cal.syoboi.jp/tid/7687/subtitle
+- 備考: 話数は1st/2nd Seasonからの連番。第35話が2026/3/15放送の最新話。第14話は過去話のため最新を使用。

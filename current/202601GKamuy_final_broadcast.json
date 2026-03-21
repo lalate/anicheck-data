@@ -1,0 +1,17 @@
+{
+  "air_date": "2026-03-16",
+  "time": "23:00",
+  "channels": [
+    "TOKYO MX",
+    "BS11",
+    "読売テレビ",
+    "北海道放送"
+  ],
+  "time_change": null,
+  "suspension": false,
+  "next_episode": {
+    "num": 61,
+    "subtitle": "武士道",
+    "date": "2026-03-23"
+  }
+}

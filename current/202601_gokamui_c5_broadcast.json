@@ -1,0 +1,31 @@
+{
+  "broadcast_date": "2026-03-16",
+  "channels": [
+    {
+      "name": "TOKYO MX",
+      "time": "23:00",
+      "weekday": "月"
+    },
+    {
+      "name": "BS11",
+      "time": "23:00",
+      "weekday": "月"
+    },
+    {
+      "name": "読売テレビ",
+      "time": "26:29",
+      "weekday": "月"
+    },
+    {
+      "name": "北海道放送",
+      "time": "25:29",
+      "weekday": "月"
+    }
+  ],
+  "next_episode": {
+    "num": 61,
+    "subtitle": "武士道",
+    "date": "2026-03-23"
+  },
+  "streaming": "Prime Video (独占見放題)"
+}

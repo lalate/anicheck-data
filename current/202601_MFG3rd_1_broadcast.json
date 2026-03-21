@@ -1,0 +1,22 @@
+{
+  "network": [
+    {
+      "name": "TOKYO MX",
+      "time": "日曜 23:30～24:00"
+    },
+    {
+      "name": "BS日テレ",
+      "time": "日曜 23:30～24:00"
+    },
+    {
+      "name": "RKB毎日放送",
+      "time": "日曜 25:25～（変更後）"
+    }
+  ],
+  "next_episode": 36,
+  "next_date": "2026-03-22",
+  "streaming": [
+    "Prime Video (先行)",
+    "dアニメストア"
+  ]
+}
