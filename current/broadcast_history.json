@@ -1,13 +1,11 @@
 {
   "202601_frieren_c2": {
     "title": "葬送のフリーレン 第2期",
-    "overall_latest_ep": 11,
+    "overall_latest_ep": 9,
     "platforms": {
       "ntv": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "last_ep_num": 9,
+        "remarks": "第37話（通算）3月20日放送確認"
       }
     }
   },
@@ -17,15 +15,11 @@
     "platforms": {
       "mbs": {
         "last_ep_num": 11,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
       },
       "tbs": {
         "last_ep_num": 11,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
       }
     }
   },
@@ -35,15 +29,11 @@
     "platforms": {
       "mx": {
         "last_ep_num": 10,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
       },
       "abema": {
         "last_ep_num": 10,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
       }
     }
   },
@@ -53,9 +43,23 @@
     "platforms": {
       "tx": {
         "last_ep_num": 10,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": "2026-03-15 23:45"
+      },
+      "at-x": {
+        "last_ep_num": 10,
+        "remarks": "1週遅れ 2026-03-21 22:00"
+      },
+      "tvh": {
+        "last_ep_num": 10,
+        "remarks": "テレ東系同時ネット 2026-03-15"
+      },
+      "tvo": {
+        "last_ep_num": 10,
+        "remarks": "テレ東系同時ネット 2026-03-15"
+      },
+      "tva": {
+        "last_ep_num": 10,
+        "remarks": "テレ東系同時ネット 2026-03-15"
       }
     }
   },
@@ -65,9 +69,15 @@
     "platforms": {
       "mx": {
         "last_ep_num": 11,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
+      },
+      "bs11": {
+        "last_ep_num": 11,
+        "remarks": ""
+      },
+      "primevideo": {
+        "last_ep_num": 11,
+        "remarks": "最速配信"
       }
     }
   },
@@ -77,27 +87,21 @@
     "platforms": {
       "mx": {
         "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": null
       },
       "bs11": {
         "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": null
       }
     }
   },
   "202501_medalist_c2": {
     "title": "メダリスト 第2期",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 22,
     "platforms": {
       "abc": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "last_ep_num": 21,
+        "remarks": ""
       }
     }
   },
@@ -107,9 +111,19 @@
     "platforms": {
       "mbs": {
         "last_ep_num": 10,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
+      },
+      "tbs": {
+        "last_ep_num": 10,
+        "remarks": ""
+      },
+      "cbc": {
+        "last_ep_num": 10,
+        "remarks": ""
+      },
+      "bs-tbs": {
+        "last_ep_num": 10,
+        "remarks": "遅れネット"
       }
     }
   },
@@ -119,27 +133,37 @@
     "platforms": {
       "mx": {
         "last_ep_num": 11,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": ""
+      },
+      "at-x": {
+        "last_ep_num": 11,
+        "remarks": ""
+      },
+      "abema": {
+        "last_ep_num": 11,
+        "remarks": "先行配信"
+      },
+      "bs-asahi": {
+        "last_ep_num": 10,
+        "remarks": "遅れ放送"
+      },
+      "mbs": {
+        "last_ep_num": 10,
+        "remarks": "遅れ放送"
       }
     }
   },
   "202501_MFGhost_c3": {
     "title": "MFゴースト 3rd Season",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 35,
     "platforms": {
       "mx": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "last_ep_num": 35,
+        "remarks": "2026-03-15 Turn35「最強トレイン」放送済み"
       },
       "bs11": {
         "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-21",
-        "last_updated_at": "2026-03-21",
-        "remarks": "Migrated from v1 schedules"
+        "remarks": "新情報なし（BS11公式に3rd Season情報確認できず）"
       }
     }
   }

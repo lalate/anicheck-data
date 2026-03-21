@@ -1,0 +1,50 @@
+[
+  {
+    "anime_id": "202410_FateSFake_c1",
+    "title": "Fate/strange Fake",
+    "ep_num": 12,
+    "station_id": "mx",
+    "start_time": "2026-03-21T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202410_FateSFake_c1",
+    "title": "Fate/strange Fake",
+    "ep_num": 12,
+    "station_id": "bs11",
+    "start_time": "2026-03-21T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_medalist_c2",
+    "title": "メダリスト 第2期",
+    "ep_num": 22,
+    "station_id": "ABCテレビ",
+    "start_time": "2026-03-21T25:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_medalist_c2",
+    "title": "メダリスト 第2期",
+    "ep_num": 22,
+    "station_id": "テレビ朝日",
+    "start_time": "2026-03-21T25:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_medalist_c2",
+    "title": "メダリスト 第2期",
+    "ep_num": 22,
+    "station_id": "メ～テレ",
+    "start_time": "2026-03-21T25:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_medalist_c2",
+    "title": "メダリスト 第2期",
+    "ep_num": 22,
+    "station_id": "HTB北海道テレビ",
+    "start_time": "2026-03-21T25:30:00+09:00",
+    "status": "normal"
+  }
+]
