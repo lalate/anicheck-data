@@ -1,0 +1,18 @@
+{
+  "ep_num": 12,
+  "title": "武士道",
+  "summary": "五稜郭内に攻め込んできた第七師団を迎撃する杉元たち。そんな中、二階堂に狙撃された土方をかばった都丹が致命傷を負ってしまう。",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "mx",
+      "start_time": "2026-03-23T23:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "bs11",
+      "start_time": "2026-03-23T23:00:00+09:00",
+      "status": "normal"
+    }
+  ]
+}

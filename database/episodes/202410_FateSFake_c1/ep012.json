@@ -1,16 +1,16 @@
 {
   "ep_num": 12,
   "title": "逃避の果て",
-  "summary": "ゆめのなか\"に顕れたケルベルスだが、繰丘邸にて椿らが対峙する。逃避の果てに訪れる運命を描く。",
+  "summary": null,
   "preview_youtube_id": "1iXtq1y6HFA",
   "broadcasts": [
     {
-      "station_id": "mx",
+      "station_id": "TOKYO MX",
       "start_time": "2026-03-21T23:30:00+09:00",
       "status": "normal"
     },
     {
-      "station_id": "bs11",
+      "station_id": "BS11",
       "start_time": "2026-03-21T23:30:00+09:00",
       "status": "normal"
     }

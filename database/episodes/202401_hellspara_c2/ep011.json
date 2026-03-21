@@ -1,0 +1,28 @@
+{
+  "ep_num": 11,
+  "title": "儚と火",
+  "summary": "結との日々を思い返す画眉丸は、生きて妻に会うために、命以外は全て懸けると決めた。信念も道理も超えて戦う画眉丸と、共に戦う杠。蘭との戦いに決着が迫る。",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "tx",
+      "start_time": "2026-03-22T00:40:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "tvh",
+      "start_time": "2026-03-22T00:40:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "tvo",
+      "start_time": "2026-03-22T00:40:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "tva",
+      "start_time": "2026-03-22T00:40:00+09:00",
+      "status": "normal"
+    }
+  ]
+}

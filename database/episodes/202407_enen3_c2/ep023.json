@@ -1,0 +1,28 @@
+{
+  "ep_num": 23,
+  "title": "絶望の聖女",
+  "summary": "“アドラ”空間でハウメアと対峙するシンラとショウ。死こそが人類が集合的無意識に抱いた願いだと考えるハウメアは、シンラたちの目の前でインカやスミレを殺してしまう。ハウメアの言葉を否定し、攻撃を仕掛けるシンラとショウだったが、2人の攻撃はなぜか通じず……",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "mbs",
+      "start_time": "2026-03-21T01:53:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "tbs",
+      "start_time": "2026-03-21T01:53:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "cbc",
+      "start_time": "2026-03-21T01:53:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "bs-tbs",
+      "start_time": "2026-03-21T02:30:00+09:00",
+      "status": "delayed"
+    }
+  ]
+}

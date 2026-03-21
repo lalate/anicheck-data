@@ -1,8 +1,13 @@
 {
-  "anime_id": "202501_jujutsu3_c3",
-  "ep_num": 12,
-  "title": "完璧準備編 その②",
-  "prev_summary": "百鬼夜行が目前に迫る中、虎杖たちは真希の特級術式を巡り伏黒との激闘を繰り広げた。\n日下部は漏瑚を倒し、五条の救出に奔走する。\n最終決戦の準備が整う中、宿儺の影が忍び寄る。",
-  "next_preview_youtube_id": null,
-  "original_vol": 23
+  "ep_num": 11,
+  "title": "東京第1結界⑤",
+  "summary": "苦戦を強いられていた伏黒は、逃げたふりをしレジィを体育館に誘い込み、領域展開「嵌合暗翳庭」を発動。伏黒とレジィの攻防が繰り広げられる。",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "BS日テレ",
+      "start_time": "2026-03-21T23:00:00+09:00",
+      "status": "delayed"
+    }
+  ]
 }

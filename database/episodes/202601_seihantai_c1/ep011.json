@@ -1,0 +1,33 @@
+{
+  "ep_num": 11,
+  "title": "修学旅行！（後編）",
+  "summary": "修学旅行２日目、山田に「会いたい」と呼び出された西は、ようやく自分の気持ちに気付く。一方、テーマパークを楽しむ鈴木と谷だったが、谷に「もっと一緒にいたい」と引き止められ……。",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "MBS",
+      "start_time": "2026-03-22T17:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "TBS",
+      "start_time": "2026-03-22T17:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "HBC",
+      "start_time": "2026-03-22T17:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "CBC",
+      "start_time": "2026-03-22T17:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "Abema",
+      "start_time": "2026-03-22T21:00:00+09:00",
+      "status": "normal"
+    }
+  ]
+}

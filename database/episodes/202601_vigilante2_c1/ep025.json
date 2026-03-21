@@ -1,0 +1,23 @@
+{
+  "ep_num": 25,
+  "title": "これがヒーロー！！",
+  "summary": "爆弾ヴィランの大爆発で崩壊寸前のスカイエッグに、あのヒーローが降臨。傷顔の男の正体が明らかになる。",
+  "preview_youtube_id": "SYKvckFUiTg",
+  "broadcasts": [
+    {
+      "station_id": "TOKYO MX",
+      "start_time": "2026-03-23T22:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "BS日テレ",
+      "start_time": "2026-03-23T23:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "読売テレビ",
+      "start_time": "2026-03-23T25:59:00+09:00",
+      "status": "normal"
+    }
+  ]
+}

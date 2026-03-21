@@ -1,8 +1,13 @@
 {
-  "anime_id": "202407_matoslav_c2",
-  "ep_num": 9,
-  "title": "スレイブ・サバイバル",
-  "prev_summary": "八雲たちは桃神将・李桃との激戦を制すも、新たな脅威が反転部の前に立ちはだかる。\n十紋との因縁が明らかになり、京子の過去が語られる。\n次なる戦いの幕開けが迫る。",
-  "next_preview_youtube_id": "0vJqKzZqZ5A",
-  "original_vol": 6
+  "ep_num": 11,
+  "title": "無窮の鎖 天",
+  "summary": "空折と渡り合うも、決定打を欠く魔防隊。戦況を打開すべく、優希は《天進》へと形態を変え、京香も技で動きを高める。",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "bs-asahi",
+      "start_time": "2026-03-23T01:00:00+09:00",
+      "status": "delayed"
+    }
+  ]
 }

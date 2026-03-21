@@ -5,7 +5,7 @@
     "platforms": {
       "ntv": {
         "last_ep_num": 9,
-        "remarks": "第37話（通算）3月20日放送確認"
+        "remarks": "第37話（通算）3月20日放送確認、TVer/ABEMA等で見逃し配信中"
       }
     }
   },
@@ -20,6 +20,10 @@
       "tbs": {
         "last_ep_num": 11,
         "remarks": ""
+      },
+      "BS日テレ": {
+        "last_ep_num": 10,
+        "remarks": "遅れ放送"
       }
     }
   },
@@ -99,7 +103,7 @@
     "title": "メダリスト 第2期",
     "overall_latest_ep": 22,
     "platforms": {
-      "abc": {
+      "ABC": {
         "last_ep_num": 21,
         "remarks": ""
       }
@@ -107,22 +111,22 @@
   },
   "202407_enen3_c2": {
     "title": "炎炎ノ消防隊 参ノ章 第2クール",
-    "overall_latest_ep": 10,
+    "overall_latest_ep": 23,
     "platforms": {
       "mbs": {
-        "last_ep_num": 10,
+        "last_ep_num": 23,
         "remarks": ""
       },
       "tbs": {
-        "last_ep_num": 10,
+        "last_ep_num": 23,
         "remarks": ""
       },
       "cbc": {
-        "last_ep_num": 10,
+        "last_ep_num": 23,
         "remarks": ""
       },
       "bs-tbs": {
-        "last_ep_num": 10,
+        "last_ep_num": 23,
         "remarks": "遅れネット"
       }
     }
@@ -155,7 +159,7 @@
   },
   "202501_MFGhost_c3": {
     "title": "MFゴースト 3rd Season",
-    "overall_latest_ep": 35,
+    "overall_latest_ep": 36,
     "platforms": {
       "mx": {
         "last_ep_num": 35,
@@ -164,6 +168,10 @@
       "bs11": {
         "last_ep_num": 12,
         "remarks": "新情報なし（BS11公式に3rd Season情報確認できず）"
+      },
+      "BS日テレ": {
+        "last_ep_num": 35,
+        "remarks": "2026-03-15 Turn35「最強トレイン」放送済み"
       }
     }
   },
@@ -173,11 +181,11 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "水曜日 22:30"
+        "remarks": "水曜日 22:30 (放送開始: 2026-04-01)"
       },
       "bsntv": {
         "last_ep_num": 0,
-        "remarks": "水曜日 24:30"
+        "remarks": "水曜日 24:30 (放送開始: 2026-04-01)"
       }
     }
   },
@@ -187,11 +195,11 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "水曜日 22:00"
+        "remarks": "水曜日 22:00 (2026/4/1開始予定)"
       },
       "bsntv": {
         "last_ep_num": 0,
-        "remarks": "木曜日 23:00"
+        "remarks": "木曜日 23:00 (2026/4/2開始予定)"
       }
     }
   },
@@ -201,11 +209,11 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "土曜日 23:30"
+        "remarks": "土曜日 23:30（4月4日開始）"
       },
       "bs11": {
         "last_ep_num": 0,
-        "remarks": "土曜日 23:30"
+        "remarks": "土曜日 23:30（4月4日開始）"
       }
     }
   },
@@ -215,11 +223,27 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "土曜日 24:30"
+        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
       },
       "bs11": {
         "last_ep_num": 0,
-        "remarks": "土曜日 24:30"
+        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "remarks": "地上波同時最速配信 (第1話: 2026-04-04 予定)"
+      },
+      "gunma_tv": {
+        "last_ep_num": 0,
+        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
+      },
+      "tochigi_tv": {
+        "last_ep_num": 0,
+        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
+      },
+      "wowow": {
+        "last_ep_num": 0,
+        "remarks": "火曜日 24:00 (第1話: 2026-04-07 予定)"
       }
     }
   },
@@ -229,11 +253,11 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "土曜日 25:00"
+        "remarks": "土曜日 25:00（初回4月4日予定）"
       },
       "bs11": {
         "last_ep_num": 0,
-        "remarks": "土曜日 25:00"
+        "remarks": "土曜日 25:00（初回4月4日予定）"
       }
     }
   },
@@ -241,23 +265,47 @@
     "title": "神の雫",
     "overall_latest_ep": 0,
     "platforms": {
-      "mx": {
+      "TOKYO MX": {
         "last_ep_num": 0,
-        "remarks": "金曜日 23:30"
+        "remarks": "4月10日(金) 23:30開始予定"
+      },
+      "BS日テレ": {
+        "last_ep_num": 0,
+        "remarks": "4月11日(土) 23:00開始予定"
+      },
+      "関西テレビ": {
+        "last_ep_num": 0,
+        "remarks": "4月12日(日) 25:54開始予定"
+      },
+      "Anime Times": {
+        "last_ep_num": 0,
+        "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
+      },
+      "Hulu": {
+        "last_ep_num": 0,
+        "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
+      },
+      "Lemino": {
+        "last_ep_num": 0,
+        "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
       }
     }
   },
   "202604_shuumatsuvalkyrie_c1": {
     "title": "終末のワルキューレⅢ",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 15,
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "金曜日 24:30"
+        "remarks": "4月3日(金)24:30開始予定、初回3話連続"
       },
       "bs11": {
         "last_ep_num": 0,
-        "remarks": "金曜日 24:30"
+        "remarks": "4月3日(金)24:30開始予定、初回3話連続"
+      },
+      "Netflix": {
+        "last_ep_num": 15,
+        "remarks": "2025/12/10 全話独占配信済み"
       }
     }
   },
@@ -267,7 +315,11 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "木曜日 24:30"
+        "remarks": "2026年4月2日(木) 24:30 放送開始予定"
+      },
+      "HIDIVE": {
+        "last_ep_num": 0,
+        "remarks": "TV同時配信予定"
       }
     }
   },
@@ -277,21 +329,29 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "日曜日 24:00"
+        "remarks": "2026/4/7(火) 25:00～ 開始予定"
+      },
+      "bs11": {
+        "last_ep_num": 0,
+        "remarks": "2026/4/5(日) 25:10～ 開始予定"
       }
     }
   },
   "202604_ookiionnanoko_c1": {
     "title": "大きい女の子は好きですか？",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 1,
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "日曜日 24:00"
+        "remarks": "2026/4/5 25:05 第1話予定"
       },
       "bs11": {
         "last_ep_num": 0,
-        "remarks": "日曜日 24:00"
+        "remarks": "2026/4/5 25:05 第1話予定"
+      },
+      "AnimeFesta": {
+        "last_ep_num": 1,
+        "remarks": "プレミアム版第1話先行配信中（2026/3/13開始）"
       }
     }
   },
@@ -299,21 +359,20 @@
     "title": "Re:ゼロから始める異世界生活 4th season",
     "overall_latest_ep": 0,
     "platforms": {
-      "mx": {
+      "TOKYO MX": {
         "last_ep_num": 0,
-        "remarks": "水曜日 24:00"
+        "remarks": "2026/4/8(水) 23:00開始予定"
+      },
+      "AT-X": {
+        "last_ep_num": 0,
+        "remarks": "2026/4/8(水) 22:00開始予定"
       }
     }
   },
   "202604_akanebanashi_c1": {
     "title": "あかね噺",
     "overall_latest_ep": 0,
-    "platforms": {
-      "mx": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 23:30"
-      }
-    }
+    "platforms": {}
   },
   "202604_drstone_c1": {
     "title": "Dr.STONE SCIENCE FUTURE 第3クール",
@@ -321,26 +380,34 @@
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "木曜日 22:00"
+        "remarks": "2026年4月2日(木)22:00よりTOKYO MXにて第1話放送開始予定"
       }
     }
   },
   "202601_jujutsushimetsu_c1": {
     "title": "呪術廻戦 死滅回游 前編",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 58,
     "platforms": {
-      "mbs": {
-        "last_ep_num": 12,
-        "remarks": "水 24:59"
+      "MBS/TBS系": {
+        "last_ep_num": 58,
+        "remarks": "木曜深夜0:26"
+      },
+      "BS日テレ": {
+        "last_ep_num": 57,
+        "remarks": "土曜23:00 遅れ放送"
+      },
+      "ABEMA": {
+        "last_ep_num": 58,
+        "remarks": "配信"
       }
     }
   },
   "202601_slave2_c1": {
     "title": "魔都精兵のスレイブ2",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 11,
     "platforms": {
       "mx": {
-        "last_ep_num": 12,
+        "last_ep_num": 11,
         "remarks": "木 24:00"
       }
     }
@@ -349,53 +416,89 @@
     "title": "真夜中ハートチューン",
     "overall_latest_ep": 12,
     "platforms": {
-      "kan": {
-        "last_ep_num": 12,
-        "remarks": "火 23:00"
+      "KBS京都": {
+        "last_ep_num": 11,
+        "remarks": "火 23:00 (第11話 3/17放送済み)"
+      },
+      "カンテレ": {
+        "last_ep_num": 11,
+        "remarks": "火 23:00 (第11話 3/17放送済み)"
+      },
+      "BS朝日": {
+        "last_ep_num": 11,
+        "remarks": "金 23:00 遅れ放送 (3/20)"
       }
     }
   },
   "202601_darwin_c1": {
     "title": "ダーウィン事変",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 11,
     "platforms": {
       "tx": {
-        "last_ep_num": 12,
+        "last_ep_num": 11,
         "remarks": "火 24:00"
+      },
+      "prime_video": {
+        "last_ep_num": 11,
+        "remarks": "水 0:30 独占配信"
       }
     }
   },
   "202601_himesama2_c1": {
     "title": "姫様“拷問”の時間です 第2期",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 22,
     "platforms": {
       "mx": {
-        "last_ep_num": 12,
+        "last_ep_num": 22,
         "remarks": "月 23:30"
       },
       "bs11": {
-        "last_ep_num": 12,
-        "remarks": "火 23:00"
+        "last_ep_num": 22,
+        "remarks": "月 23:30"
       }
     }
   },
   "202601_vigilante2_c1": {
     "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "overall_latest_ep": 13,
+    "overall_latest_ep": 24,
     "platforms": {
-      "mx": {
-        "last_ep_num": 13,
+      "TOKYO MX": {
+        "last_ep_num": 24,
         "remarks": "月 22:00"
+      },
+      "BS日テレ": {
+        "last_ep_num": 24,
+        "remarks": "月 23:00"
+      },
+      "読売テレビ": {
+        "last_ep_num": 24,
+        "remarks": "月 25:59 (3/9,3/16は26:09遅れ)"
       }
     }
   },
   "202601_shibomeshi_c1": {
     "title": "死亡遊戯で飯を食う。",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 11,
     "platforms": {
       "mx": {
-        "last_ep_num": 12,
-        "remarks": "水 23:00"
+        "last_ep_num": 11,
+        "remarks": "2026-03-18 水 23:30"
+      },
+      "bs_nippon": {
+        "last_ep_num": 11,
+        "remarks": "2026-03-18 水 25:00"
+      },
+      "tvh": {
+        "last_ep_num": 11,
+        "remarks": "2026-03-18 水 25:30"
+      },
+      "abc": {
+        "last_ep_num": 11,
+        "remarks": "2026-03-18 水 26:45"
+      },
+      "atx": {
+        "last_ep_num": 11,
+        "remarks": "2026-03-19 木 22:30"
       }
     }
   },
@@ -404,12 +507,16 @@
     "overall_latest_ep": 12,
     "platforms": {
       "atx": {
-        "last_ep_num": 12,
-        "remarks": "水 21:30"
+        "last_ep_num": 11,
+        "remarks": "水 21:30 (最終話#12は3/25予定)"
       },
       "mx": {
-        "last_ep_num": 12,
-        "remarks": "水 22:30"
+        "last_ep_num": 11,
+        "remarks": "水 25:00 (最終話#12は3/25予定)"
+      },
+      "BS11": {
+        "last_ep_num": 11,
+        "remarks": "遅れ放送 (最終話#12は3/25時間変更)"
       }
     }
   },
@@ -418,18 +525,26 @@
     "overall_latest_ep": 12,
     "platforms": {
       "mx": {
-        "last_ep_num": 12,
-        "remarks": "水 22:00"
+        "last_ep_num": 11,
+        "remarks": "2026/03/18 水 22:00"
       }
     }
   },
   "202601_seihantai_c1": {
     "title": "正反対な君と僕",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 10,
     "platforms": {
       "mbs": {
-        "last_ep_num": 12,
-        "remarks": "日 24:30"
+        "last_ep_num": 10,
+        "remarks": "日 17:00-17:30"
+      },
+      "tbs": {
+        "last_ep_num": 10,
+        "remarks": "日 17:00-17:30"
+      },
+      "abema": {
+        "last_ep_num": 10,
+        "remarks": "日 21:00-21:30 最速配信"
       }
     }
   },
@@ -438,22 +553,30 @@
     "overall_latest_ep": 12,
     "platforms": {
       "atx": {
-        "last_ep_num": 12,
-        "remarks": "火 23:00"
+        "last_ep_num": 11,
+        "remarks": "火 23:00 次回第12話 2026-03-24"
       },
       "mx": {
-        "last_ep_num": 12,
-        "remarks": "火 23:30"
+        "last_ep_num": 11,
+        "remarks": "火 24:30 次回第12話 2026-03-24"
       }
     }
   },
   "202601_kinishite_c1": {
     "title": "綺麗にしてもらえますか。",
-    "overall_latest_ep": 13,
+    "overall_latest_ep": 11,
     "platforms": {
       "mx": {
-        "last_ep_num": 13,
+        "last_ep_num": 11,
         "remarks": "月 24:00"
+      },
+      "at-x": {
+        "last_ep_num": 11,
+        "remarks": ""
+      },
+      "bs-asahi": {
+        "last_ep_num": 11,
+        "remarks": "金 23:30"
       }
     }
   }

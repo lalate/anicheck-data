@@ -1,0 +1,18 @@
+{
+  "ep_num": 12,
+  "title": "地域に根ざしたまごころサービスを",
+  "summary": "金目さんがクリーニング店開業2年目を迎え、常連客に感謝の2周年感謝フェアを考える。あれこれ悩みながら、今日も街中を走り回る。",
+  "preview_youtube_id": null,
+  "broadcasts": [
+    {
+      "station_id": "AT-X",
+      "start_time": "2026-03-23T22:00:00+09:00",
+      "status": "normal"
+    },
+    {
+      "station_id": "TOKYO MX",
+      "start_time": "2026-03-24T00:00:00+09:00",
+      "status": "normal"
+    }
+  ]
+}
