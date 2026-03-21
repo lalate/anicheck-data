@@ -1,76 +1,28 @@
 ```json
 [
   {
-    "title": "春夏秋冬代行者 春の舞",
-    "official_url": "https://4seasons-anime.com/",
+    "title": "ようこそ実力至上主義の教室へ 4th Season",
+    "short_id": "youzitsu",
+    "official_url": "http://you-zitsu.com/",
     "ep_num": 1,
     "schedules": [
-      {"station": "mx", "day_of_week": "土曜日", "time": "24:00"},
-      {"station": "bs11", "day_of_week": "土曜日", "time": "24:00"}
+      {"station": "mx", "day_of_week": "水曜日", "time": "22:30"},
+      {"station": "bsntv", "day_of_week": "水曜日", "time": "24:30"}
     ]
   },
   {
-    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～",
-    "official_url": "https://www.iseleve.com/",
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
+    "short_id": "jihanki",
+    "official_url": "https://jihanki-anime.com/",
     "ep_num": 1,
     "schedules": [
-      {"station": "mx", "day_of_week": "月曜日", "time": "24:00"},
-      {"station": "bs11", "day_of_week": "月曜日", "time": "25:00"}
-    ]
-  },
-  {
-    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "official_url": "https://nigetsuri-anime.com/",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "mx", "day_of_week": "水曜日", "time": "24:00"},
-      {"station": "bs11", "day_of_week": "水曜日", "time": "24:00"}
-    ]
-  },
-  {
-    "title": "リィンカーネーションの花弁",
-    "official_url": "https://petals-of-reincarnation-anime.com/",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "mx", "day_of_week": "木曜日", "time": "24:30"}
-    ]
-  },
-  {
-    "title": "氷の城壁",
-    "official_url": "https://korinojoheki-pr.com/",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "tbs", "day_of_week": "木曜日", "time": "23:56"}
-    ]
-  },
-  {
-    "title": "終末のワルキューレⅢ",
-    "official_url": "https://ragnarok-official.com/",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "mx", "day_of_week": "金曜日", "time": "24:30"},
-      {"station": "bs11", "day_of_week": "金曜日", "time": "24:30"}
-    ]
-  },
-  {
-    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 第2期",
-    "official_url": "https://otonarino-tenshisama.jp/",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "mx", "day_of_week": "金曜日", "time": "22:30"}
-    ]
-  },
-  {
-    "title": "転生したらスライムだった件 第4期",
-    "official_url": "https://www.ten-sura.com/anime/tensura",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "ntv", "day_of_week": "金曜日", "time": "23:00"},
-      {"station": "bs11", "day_of_week": "土曜日", "time": "22:00"}
+      {"station": "mx", "day_of_week": "水曜日", "time": "22:00"},
+      {"station": "bsntv", "day_of_week": "木曜日", "time": "23:00"}
     ]
   },
   {
     "title": "黄泉のツガイ",
+    "short_id": "yominotsugai",
     "official_url": "https://yominotsugai.com/",
     "ep_num": 1,
     "schedules": [
@@ -79,38 +31,97 @@
     ]
   },
   {
-    "title": "魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～",
-    "official_url": "https://animationid.com/mamonogurai/",
+    "title": "NEEDY GIRL OVERDOSE",
+    "short_id": "needyoverdose",
+    "official_url": null,
     "ep_num": 1,
     "schedules": [
-      {"station": "mx", "day_of_week": "木曜日", "time": "25:00"}
+      {"station": "mx", "day_of_week": "土曜日", "time": "24:30"},
+      {"station": "bs11", "day_of_week": "土曜日", "time": "24:30"}
     ]
   },
   {
-    "title": "灰原くんの強くて青春ニューゲーム",
-    "official_url": "https://haibarakun-anime.com/",
+    "title": "カナン様はあくまでチョロい",
+    "short_id": "kanachoro",
+    "official_url": "https://kanachoro-anime.com/",
     "ep_num": 1,
     "schedules": [
-      {"station": "tbs", "day_of_week": "木曜日", "time": "25:28"},
-      {"station": "bs11", "day_of_week": "金曜日", "time": "23:00"}
+      {"station": "mx", "day_of_week": "土曜日", "time": "25:00"},
+      {"station": "bs11", "day_of_week": "土曜日", "time": "25:00"}
     ]
   },
   {
-    "title": "Dr.STONE SCIENCE FUTURE (第4期)",
+    "title": "神の雫",
+    "short_id": "dropsgod",
+    "official_url": "https://dropsofgod-anime.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "金曜日", "time": "23:30"}
+    ]
+  },
+  {
+    "title": "終末のワルキューレⅢ",
+    "short_id": "shuumatsuvalkyrie",
+    "official_url": "https://ragnarok-official.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "金曜日", "time": "24:30"},
+      {"station": "bs11", "day_of_week": "金曜日", "time": "24:30"}
+    ]
+  },
+  {
+    "title": "リィンカーネーションの花弁",
+    "short_id": "reinkabane",
+    "official_url": "https://petals-of-reincarnation-anime.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "木曜日", "time": "24:30"}
+    ]
+  },
+  {
+    "title": "インゴクダンチ",
+    "short_id": "ingokudanchi",
+    "official_url": "https://ingoku-danchi.deregula.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "日曜日", "time": "24:00"}
+    ]
+  },
+  {
+    "title": "大きい女の子は好きですか？",
+    "short_id": "ookiionnanoko",
+    "official_url": "https://ookii-onnanoko.af-original.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "日曜日", "time": "24:00"},
+      {"station": "bs11", "day_of_week": "日曜日", "time": "24:00"}
+    ]
+  },
+  {
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "short_id": "rezero",
+    "official_url": "https://re-zero-anime.jp/tv/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "水曜日", "time": "24:00"}
+    ]
+  },
+  {
+    "title": "あかね噺",
+    "short_id": "akanebanashi",
+    "official_url": "https://akane-banashi.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "土曜日", "time": "23:30"}
+    ]
+  },
+  {
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "short_id": "drstone",
     "official_url": "https://dr-stone.jp/",
     "ep_num": 1,
     "schedules": [
-      {"station": "mx", "day_of_week": "木曜日", "time": "22:00"},
-      {"station": "bs11", "day_of_week": "木曜日", "time": "24:00"}
-    ]
-  },
-  {
-    "title": "ようこそ実力至上主義の教室へ 4th Season",
-    "official_url": "http://you-zitsu.com/",
-    "ep_num": 1,
-    "schedules": [
-      {"station": "mx", "day_of_week": "水曜日", "time": "22:30"},
-      {"station": "bsntv", "day_of_week": "水曜日", "time": "24:30"}
+      {"station": "mx", "day_of_week": "木曜日", "time": "22:00"}
     ]
   }
 ]

@@ -167,107 +167,35 @@
       }
     }
   },
-  "202604_gen_25066c90": {
-    "title": "春夏秋冬代行者 春の舞",
+  "202604_youzitsu_c1": {
+    "title": "ようこそ実力至上主義の教室へ 4th Season",
     "overall_latest_ep": 0,
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "土曜日 24:00"
+        "remarks": "水曜日 22:30"
       },
-      "bs11": {
+      "bsntv": {
         "last_ep_num": 0,
-        "remarks": "土曜日 24:00"
+        "remarks": "水曜日 24:30"
       }
     }
   },
-  "202604_gen_5e52eb45": {
-    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～",
+  "202604_jihanki_c1": {
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
     "overall_latest_ep": 0,
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "月曜日 24:00"
+        "remarks": "水曜日 22:00"
       },
-      "bs11": {
+      "bsntv": {
         "last_ep_num": 0,
-        "remarks": "月曜日 25:00"
+        "remarks": "木曜日 23:00"
       }
     }
   },
-  "202604_gen_3f3b150f": {
-    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "mx": {
-        "last_ep_num": 0,
-        "remarks": "水曜日 24:00"
-      },
-      "bs11": {
-        "last_ep_num": 0,
-        "remarks": "水曜日 24:00"
-      }
-    }
-  },
-  "202604_gen_a6954c97": {
-    "title": "リィンカーネーションの花弁",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "mx": {
-        "last_ep_num": 0,
-        "remarks": "木曜日 24:30"
-      }
-    }
-  },
-  "202604_gen_3c2482a0": {
-    "title": "氷の城壁",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "tbs": {
-        "last_ep_num": 0,
-        "remarks": "木曜日 23:56"
-      }
-    }
-  },
-  "202604_gen_f71a2557": {
-    "title": "終末のワルキューレⅢ",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "mx": {
-        "last_ep_num": 0,
-        "remarks": "金曜日 24:30"
-      },
-      "bs11": {
-        "last_ep_num": 0,
-        "remarks": "金曜日 24:30"
-      }
-    }
-  },
-  "202604_gen_00f44778": {
-    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 第2期",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "mx": {
-        "last_ep_num": 0,
-        "remarks": "金曜日 22:30"
-      }
-    }
-  },
-  "202604_gen_903d6282": {
-    "title": "転生したらスライムだった件 第4期",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "ntv": {
-        "last_ep_num": 0,
-        "remarks": "金曜日 23:00"
-      },
-      "bs11": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 22:00"
-      }
-    }
-  },
-  "202604_gen_13c723cc": {
+  "202604_yominotsugai_c1": {
     "title": "黄泉のツガイ",
     "overall_latest_ep": 0,
     "platforms": {
@@ -281,55 +209,119 @@
       }
     }
   },
-  "202604_gen_e2a71c3d": {
-    "title": "魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～",
+  "202604_needyoverdose_c1": {
+    "title": "NEEDY GIRL OVERDOSE",
     "overall_latest_ep": 0,
     "platforms": {
       "mx": {
         "last_ep_num": 0,
-        "remarks": "木曜日 25:00"
-      }
-    }
-  },
-  "202604_gen_eab294d7": {
-    "title": "灰原くんの強くて青春ニューゲーム",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "tbs": {
-        "last_ep_num": 0,
-        "remarks": "木曜日 25:28"
+        "remarks": "土曜日 24:30"
       },
       "bs11": {
         "last_ep_num": 0,
-        "remarks": "金曜日 23:00"
+        "remarks": "土曜日 24:30"
       }
     }
   },
-  "202604_gen_7e41fc6d": {
-    "title": "Dr.STONE SCIENCE FUTURE (第4期)",
+  "202604_kanachoro_c1": {
+    "title": "カナン様はあくまでチョロい",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "土曜日 25:00"
+      },
+      "bs11": {
+        "last_ep_num": 0,
+        "remarks": "土曜日 25:00"
+      }
+    }
+  },
+  "202604_dropsgod_c1": {
+    "title": "神の雫",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "金曜日 23:30"
+      }
+    }
+  },
+  "202604_shuumatsuvalkyrie_c1": {
+    "title": "終末のワルキューレⅢ",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "金曜日 24:30"
+      },
+      "bs11": {
+        "last_ep_num": 0,
+        "remarks": "金曜日 24:30"
+      }
+    }
+  },
+  "202604_reinkabane_c1": {
+    "title": "リィンカーネーションの花弁",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "木曜日 24:30"
+      }
+    }
+  },
+  "202604_ingokudanchi_c1": {
+    "title": "インゴクダンチ",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "日曜日 24:00"
+      }
+    }
+  },
+  "202604_ookiionnanoko_c1": {
+    "title": "大きい女の子は好きですか？",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "日曜日 24:00"
+      },
+      "bs11": {
+        "last_ep_num": 0,
+        "remarks": "日曜日 24:00"
+      }
+    }
+  },
+  "202604_rezero_c1": {
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "水曜日 24:00"
+      }
+    }
+  },
+  "202604_akanebanashi_c1": {
+    "title": "あかね噺",
+    "overall_latest_ep": 0,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 0,
+        "remarks": "土曜日 23:30"
+      }
+    }
+  },
+  "202604_drstone_c1": {
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
     "overall_latest_ep": 0,
     "platforms": {
       "mx": {
         "last_ep_num": 0,
         "remarks": "木曜日 22:00"
-      },
-      "bs11": {
-        "last_ep_num": 0,
-        "remarks": "木曜日 24:00"
-      }
-    }
-  },
-  "202604_gen_6fb712f7": {
-    "title": "ようこそ実力至上主義の教室へ 4th Season",
-    "overall_latest_ep": 0,
-    "platforms": {
-      "mx": {
-        "last_ep_num": 0,
-        "remarks": "水曜日 22:30"
-      },
-      "bsntv": {
-        "last_ep_num": 0,
-        "remarks": "水曜日 24:30"
       }
     }
   }

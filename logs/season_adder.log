@@ -280,3 +280,149 @@
 2026-03-21 16:53:02,895 [INFO] ============================================================
 2026-03-21 16:53:02,895 [INFO] 🎉 season_adder.py 完了！ 新規追加: 13件, スキップ: 0件
 2026-03-21 16:53:02,895 [INFO] ログ: /Volumes/DevSSD/Dev/AniCheck/AniJson/logs/season_adder.log
+2026-03-21 17:05:27,495 [INFO] ============================================================
+2026-03-21 17:05:27,495 [INFO] [LOG: START] Step 0: season_adder.py 起動
+2026-03-21 17:05:27,495 [INFO] [THOUGHT: dry_run=False]
+2026-03-21 17:05:27,495 [INFO] [THOUGHT: BASE_DIR=/Volumes/DevSSD/Dev/AniCheck/AniJson]
+2026-03-21 17:05:27,495 [INFO] [LOG: START] Step 1: 次期シーズン判定
+2026-03-21 17:05:27,495 [INFO] [OUTPUT] season_str=2026年春アニメ, season_key=2026_spring, yyyymm=202604
+2026-03-21 17:05:27,495 [INFO] [LOG: END] Step 1
+2026-03-21 17:05:27,495 [INFO] [LOG: START] Step 2: 既存ファイル読み込み
+2026-03-21 17:05:27,496 [INFO] [OUTPUT] watch_list=10件, broadcast_history=10キー
+2026-03-21 17:05:27,496 [INFO] [LOG: END] Step 2
+2026-03-21 17:05:27,496 [INFO] [LOG: START] Step 3: Grok API 呼び出し (season=2026年春アニメ)
+2026-03-21 17:05:27,496 [INFO] [THOUGHT: Grokへのプロンプト送信] ターゲット=2026年春アニメ, model=grok-4-1-fast-reasoning
+2026-03-21 17:06:07,462 [INFO] [OUTPUT] Grok 応答受信: 3438 chars
+2026-03-21 17:06:07,462 [INFO] [LOG: END] Step 3
+2026-03-21 17:06:07,473 [INFO] [OUTPUT] 生レスポンス保存: raw_grok_output_2026年春アニメ.txt
+2026-03-21 17:06:07,474 [INFO] [LOG: START] Step 4: Grok レスポンスのパース
+2026-03-21 17:06:07,474 [INFO] [THOUGHT: 正規表現でJSONコードブロックを抽出] テキスト長=3438
+2026-03-21 17:06:07,474 [INFO] [OUTPUT] パース成功: 13 件
+2026-03-21 17:06:07,475 [INFO] [LOG: END] Step 4
+2026-03-21 17:06:07,475 [INFO] [LOG: START] Step 5: 各アニメの処理
+2026-03-21 17:06:07,475 [INFO] --- [1/13] ようこそ実力至上主義の教室へ 4th Season ---
+2026-03-21 17:06:07,475 [INFO] [THOUGHT: official_url=http://you-zitsu.com/, schedules=2件]
+2026-03-21 17:06:07,475 [INFO] [OUTPUT] anime_id 生成: 202604_youzitsu_c1
+2026-03-21 17:06:07,475 [INFO] [LOG: START] Jikan 検索: ようこそ実力至上主義の教室へ 4th Season
+2026-03-21 17:06:07,475 [INFO] [THOUGHT: Jikan API に 'ようこそ実力至上主義の教室へ 4th Season' を問い合わせ]
+2026-03-21 17:06:08,968 [INFO] [OUTPUT] Jikan 取得成功: mal_id=59708, score=None, studio=Lerche
+2026-03-21 17:06:08,973 [INFO] [OUTPUT] Master 保存: 202604_youzitsu_c1.json
+2026-03-21 17:06:08,974 [INFO] [OUTPUT] watch_list に追記: 202604_youzitsu_c1
+2026-03-21 17:06:08,974 [INFO] [OUTPUT] broadcast_history に追記: 202604_youzitsu_c1
+2026-03-21 17:06:08,974 [INFO] --- [2/13] 自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season ---
+2026-03-21 17:06:08,974 [INFO] [THOUGHT: official_url=https://jihanki-anime.com/, schedules=2件]
+2026-03-21 17:06:08,974 [INFO] [OUTPUT] anime_id 生成: 202604_jihanki_c1
+2026-03-21 17:06:08,975 [INFO] [LOG: START] Jikan 検索: 自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season
+2026-03-21 17:06:08,975 [INFO] [THOUGHT: Jikan API に '自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season' を問い合わせ]
+2026-03-21 17:06:11,039 [INFO] [OUTPUT] Jikan 取得成功: mal_id=62512, score=None, studio=Studio Gokumi
+2026-03-21 17:06:11,054 [INFO] [OUTPUT] Master 保存: 202604_jihanki_c1.json
+2026-03-21 17:06:11,054 [INFO] [OUTPUT] watch_list に追記: 202604_jihanki_c1
+2026-03-21 17:06:11,054 [INFO] [OUTPUT] broadcast_history に追記: 202604_jihanki_c1
+2026-03-21 17:06:11,054 [INFO] --- [3/13] 黄泉のツガイ ---
+2026-03-21 17:06:11,054 [INFO] [THOUGHT: official_url=https://yominotsugai.com/, schedules=2件]
+2026-03-21 17:06:11,054 [INFO] [OUTPUT] anime_id 生成: 202604_yominotsugai_c1
+2026-03-21 17:06:11,055 [INFO] [LOG: START] Jikan 検索: 黄泉のツガイ
+2026-03-21 17:06:11,055 [INFO] [THOUGHT: Jikan API に '黄泉のツガイ' を問い合わせ]
+2026-03-21 17:06:12,575 [INFO] [OUTPUT] Jikan 取得成功: mal_id=62001, score=None, studio=Bones Film
+2026-03-21 17:06:12,576 [INFO] [OUTPUT] Master 保存: 202604_yominotsugai_c1.json
+2026-03-21 17:06:12,576 [INFO] [OUTPUT] watch_list に追記: 202604_yominotsugai_c1
+2026-03-21 17:06:12,576 [INFO] [OUTPUT] broadcast_history に追記: 202604_yominotsugai_c1
+2026-03-21 17:06:12,576 [INFO] --- [4/13] NEEDY GIRL OVERDOSE ---
+2026-03-21 17:06:12,576 [INFO] [THOUGHT: official_url=None, schedules=2件]
+2026-03-21 17:06:12,577 [INFO] [OUTPUT] anime_id 生成: 202604_needyoverdose_c1
+2026-03-21 17:06:12,577 [INFO] [LOG: START] Jikan 検索: NEEDY GIRL OVERDOSE
+2026-03-21 17:06:12,577 [INFO] [THOUGHT: Jikan API に 'NEEDY GIRL OVERDOSE' を問い合わせ]
+2026-03-21 17:06:14,152 [INFO] [OUTPUT] Jikan 取得成功: mal_id=62913, score=None, studio=Yostar Pictures
+2026-03-21 17:06:14,167 [INFO] [OUTPUT] Master 保存: 202604_needyoverdose_c1.json
+2026-03-21 17:06:14,167 [INFO] [OUTPUT] watch_list に追記: 202604_needyoverdose_c1
+2026-03-21 17:06:14,167 [INFO] [OUTPUT] broadcast_history に追記: 202604_needyoverdose_c1
+2026-03-21 17:06:14,167 [INFO] --- [5/13] カナン様はあくまでチョロい ---
+2026-03-21 17:06:14,167 [INFO] [THOUGHT: official_url=https://kanachoro-anime.com/, schedules=2件]
+2026-03-21 17:06:14,167 [INFO] [OUTPUT] anime_id 生成: 202604_kanachoro_c1
+2026-03-21 17:06:14,167 [INFO] [LOG: START] Jikan 検索: カナン様はあくまでチョロい
+2026-03-21 17:06:14,167 [INFO] [THOUGHT: Jikan API に 'カナン様はあくまでチョロい' を問い合わせ]
+2026-03-21 17:06:16,258 [INFO] [OUTPUT] Jikan 取得成功: mal_id=61501, score=None, studio=Studio KAI
+2026-03-21 17:06:16,258 [INFO] [OUTPUT] Master 保存: 202604_kanachoro_c1.json
+2026-03-21 17:06:16,259 [INFO] [OUTPUT] watch_list に追記: 202604_kanachoro_c1
+2026-03-21 17:06:16,259 [INFO] [OUTPUT] broadcast_history に追記: 202604_kanachoro_c1
+2026-03-21 17:06:16,259 [INFO] --- [6/13] 神の雫 ---
+2026-03-21 17:06:16,259 [INFO] [THOUGHT: official_url=https://dropsofgod-anime.com/, schedules=1件]
+2026-03-21 17:06:16,259 [INFO] [OUTPUT] anime_id 生成: 202604_dropsgod_c1
+2026-03-21 17:06:16,259 [INFO] [LOG: START] Jikan 検索: 神の雫
+2026-03-21 17:06:16,259 [INFO] [THOUGHT: Jikan API に '神の雫' を問い合わせ]
+2026-03-21 17:06:17,794 [INFO] [OUTPUT] Jikan 取得成功: mal_id=62981, score=None, studio=Satelight
+2026-03-21 17:06:17,794 [INFO] [OUTPUT] Master 保存: 202604_dropsgod_c1.json
+2026-03-21 17:06:17,795 [INFO] [OUTPUT] watch_list に追記: 202604_dropsgod_c1
+2026-03-21 17:06:17,795 [INFO] [OUTPUT] broadcast_history に追記: 202604_dropsgod_c1
+2026-03-21 17:06:17,795 [INFO] --- [7/13] 終末のワルキューレⅢ ---
+2026-03-21 17:06:17,795 [INFO] [THOUGHT: official_url=https://ragnarok-official.com/, schedules=2件]
+2026-03-21 17:06:17,795 [INFO] [OUTPUT] anime_id 生成: 202604_shuumatsuvalkyrie_c1
+2026-03-21 17:06:17,795 [INFO] [LOG: START] Jikan 検索: 終末のワルキューレⅢ
+2026-03-21 17:06:17,795 [INFO] [THOUGHT: Jikan API に '終末のワルキューレⅢ' を問い合わせ]
+2026-03-21 17:06:20,455 [INFO] [OUTPUT] Jikan 取得成功: mal_id=44942, score=6.83, studio=Graphinica
+2026-03-21 17:06:20,456 [INFO] [OUTPUT] Master 保存: 202604_shuumatsuvalkyrie_c1.json
+2026-03-21 17:06:20,456 [INFO] [OUTPUT] watch_list に追記: 202604_shuumatsuvalkyrie_c1
+2026-03-21 17:06:20,456 [INFO] [OUTPUT] broadcast_history に追記: 202604_shuumatsuvalkyrie_c1
+2026-03-21 17:06:20,456 [INFO] --- [8/13] リィンカーネーションの花弁 ---
+2026-03-21 17:06:20,456 [INFO] [THOUGHT: official_url=https://petals-of-reincarnation-anime.com/, schedules=1件]
+2026-03-21 17:06:20,456 [INFO] [OUTPUT] anime_id 生成: 202604_reinkabane_c1
+2026-03-21 17:06:20,456 [INFO] [LOG: START] Jikan 検索: リィンカーネーションの花弁
+2026-03-21 17:06:20,456 [INFO] [THOUGHT: Jikan API に 'リィンカーネーションの花弁' を問い合わせ]
+2026-03-21 17:06:21,993 [INFO] [OUTPUT] Jikan 取得成功: mal_id=59443, score=None, studio=BENTEN Film
+2026-03-21 17:06:21,998 [INFO] [OUTPUT] Master 保存: 202604_reinkabane_c1.json
+2026-03-21 17:06:21,999 [INFO] [OUTPUT] watch_list に追記: 202604_reinkabane_c1
+2026-03-21 17:06:21,999 [INFO] [OUTPUT] broadcast_history に追記: 202604_reinkabane_c1
+2026-03-21 17:06:21,999 [INFO] --- [9/13] インゴクダンチ ---
+2026-03-21 17:06:21,999 [INFO] [THOUGHT: official_url=https://ingoku-danchi.deregula.com/, schedules=1件]
+2026-03-21 17:06:22,000 [INFO] [OUTPUT] anime_id 生成: 202604_ingokudanchi_c1
+2026-03-21 17:06:22,000 [INFO] [LOG: START] Jikan 検索: インゴクダンチ
+2026-03-21 17:06:22,000 [INFO] [THOUGHT: Jikan API に 'インゴクダンチ' を問い合わせ]
+2026-03-21 17:06:23,529 [WARNING] [THOUGHT: Jikan 結果なし] 'インゴクダンチ' → フォールバック空データを使用
+2026-03-21 17:06:23,530 [INFO] [OUTPUT] Master 保存: 202604_ingokudanchi_c1.json
+2026-03-21 17:06:23,530 [INFO] [OUTPUT] watch_list に追記: 202604_ingokudanchi_c1
+2026-03-21 17:06:23,530 [INFO] [OUTPUT] broadcast_history に追記: 202604_ingokudanchi_c1
+2026-03-21 17:06:23,530 [INFO] --- [10/13] 大きい女の子は好きですか？ ---
+2026-03-21 17:06:23,530 [INFO] [THOUGHT: official_url=https://ookii-onnanoko.af-original.com/, schedules=2件]
+2026-03-21 17:06:23,531 [INFO] [OUTPUT] anime_id 生成: 202604_ookiionnanoko_c1
+2026-03-21 17:06:23,531 [INFO] [LOG: START] Jikan 検索: 大きい女の子は好きですか？
+2026-03-21 17:06:23,531 [INFO] [THOUGHT: Jikan API に '大きい女の子は好きですか？' を問い合わせ]
+2026-03-21 17:06:25,102 [INFO] [OUTPUT] Jikan 取得成功: mal_id=63248, score=None, studio=Studio Hokiboshi
+2026-03-21 17:06:25,108 [INFO] [OUTPUT] Master 保存: 202604_ookiionnanoko_c1.json
+2026-03-21 17:06:25,108 [INFO] [OUTPUT] watch_list に追記: 202604_ookiionnanoko_c1
+2026-03-21 17:06:25,108 [INFO] [OUTPUT] broadcast_history に追記: 202604_ookiionnanoko_c1
+2026-03-21 17:06:25,108 [INFO] --- [11/13] Re:ゼロから始める異世界生活 4th season ---
+2026-03-21 17:06:25,108 [INFO] [THOUGHT: official_url=https://re-zero-anime.jp/tv/, schedules=1件]
+2026-03-21 17:06:25,109 [INFO] [OUTPUT] anime_id 生成: 202604_rezero_c1
+2026-03-21 17:06:25,109 [INFO] [LOG: START] Jikan 検索: Re:ゼロから始める異世界生活 4th season
+2026-03-21 17:06:25,109 [INFO] [THOUGHT: Jikan API に 'Re:ゼロから始める異世界生活 4th season' を問い合わせ]
+2026-03-21 17:06:26,758 [INFO] [OUTPUT] Jikan 取得成功: mal_id=61316, score=None, studio=White Fox
+2026-03-21 17:06:26,759 [INFO] [OUTPUT] Master 保存: 202604_rezero_c1.json
+2026-03-21 17:06:26,759 [INFO] [OUTPUT] watch_list に追記: 202604_rezero_c1
+2026-03-21 17:06:26,760 [INFO] [OUTPUT] broadcast_history に追記: 202604_rezero_c1
+2026-03-21 17:06:26,760 [INFO] --- [12/13] あかね噺 ---
+2026-03-21 17:06:26,760 [INFO] [THOUGHT: official_url=https://akane-banashi.com/, schedules=1件]
+2026-03-21 17:06:26,760 [INFO] [OUTPUT] anime_id 生成: 202604_akanebanashi_c1
+2026-03-21 17:06:26,760 [INFO] [LOG: START] Jikan 検索: あかね噺
+2026-03-21 17:06:26,760 [INFO] [THOUGHT: Jikan API に 'あかね噺' を問い合わせ]
+2026-03-21 17:06:28,662 [INFO] [OUTPUT] Jikan 取得成功: mal_id=62164, score=None, studio=Zexcs
+2026-03-21 17:06:28,663 [INFO] [OUTPUT] Master 保存: 202604_akanebanashi_c1.json
+2026-03-21 17:06:28,664 [INFO] [OUTPUT] watch_list に追記: 202604_akanebanashi_c1
+2026-03-21 17:06:28,664 [INFO] [OUTPUT] broadcast_history に追記: 202604_akanebanashi_c1
+2026-03-21 17:06:28,664 [INFO] --- [13/13] Dr.STONE SCIENCE FUTURE 第3クール ---
+2026-03-21 17:06:28,664 [INFO] [THOUGHT: official_url=https://dr-stone.jp/, schedules=1件]
+2026-03-21 17:06:28,664 [INFO] [OUTPUT] anime_id 生成: 202604_drstone_c1
+2026-03-21 17:06:28,664 [INFO] [LOG: START] Jikan 検索: Dr.STONE SCIENCE FUTURE 第3クール
+2026-03-21 17:06:28,664 [INFO] [THOUGHT: Jikan API に 'Dr.STONE SCIENCE FUTURE 第3クール' を問い合わせ]
+2026-03-21 17:06:30,408 [INFO] [OUTPUT] Jikan 取得成功: mal_id=62568, score=None, studio=TMS Entertainment
+2026-03-21 17:06:30,416 [INFO] [OUTPUT] Master 保存: 202604_drstone_c1.json
+2026-03-21 17:06:30,417 [INFO] [OUTPUT] watch_list に追記: 202604_drstone_c1
+2026-03-21 17:06:30,417 [INFO] [OUTPUT] broadcast_history に追記: 202604_drstone_c1
+2026-03-21 17:06:30,417 [INFO] [OUTPUT] 処理完了: 新規追加=13件, スキップ=0件
+2026-03-21 17:06:30,417 [INFO] [LOG: END] Step 5
+2026-03-21 17:06:30,418 [INFO] [LOG: START] Step 6: ファイル保存
+2026-03-21 17:06:30,419 [INFO] [OUTPUT] watch_list 保存完了: 23件
+2026-03-21 17:06:30,420 [INFO] [OUTPUT] broadcast_history 保存完了: 23キー
+2026-03-21 17:06:30,420 [INFO] [LOG: END] Step 6
+2026-03-21 17:06:30,420 [INFO] ============================================================
+2026-03-21 17:06:30,420 [INFO] 🎉 season_adder.py 完了！ 新規追加: 13件, スキップ: 0件
+2026-03-21 17:06:30,420 [INFO] ログ: /Volumes/DevSSD/Dev/AniCheck/AniJson/logs/season_adder.log
