@@ -9,6 +9,7 @@
   5. broadcast_history / daily_schedule / episodes / watch_list を更新
   6. 既存 V2 データ構造（ファイルパス・JSONキー）との互換性を完全維持
 """
+import argparse
 import json
 import re
 import datetime
@@ -43,6 +44,47 @@ if not logging.getLogger().handlers:
             logging.StreamHandler(),
         ],
     )
+
+# =================================================================
+# デバッグ用 JSONL フォーマッター
+# =================================================================
+
+class JsonlFormatter(logging.Formatter):
+    """各ログレコードを1行のJSON（JSONL）として出力するフォーマッター。
+
+    extra={"data": <任意のdict>} で渡したデータは "data" キーに含まれる。
+    """
+
+    def format(self, record: logging.LogRecord) -> str:
+        entry: Dict[str, Any] = {
+            "timestamp": self.formatTime(record, "%Y-%m-%dT%H:%M:%S"),
+            "level": record.levelname,
+            "message": record.getMessage(),
+        }
+        data = getattr(record, "data", None)
+        if data is not None:
+            entry["data"] = data
+        return json.dumps(entry, ensure_ascii=False)
+
+
+def setup_debug_logger(log_path: Path) -> logging.Logger:
+    """デバッグ用構造化ログを JSONL ファイルに出力する Logger を生成して返す。
+
+    Args:
+        log_path: 出力先ファイルパス（例: logs/daily_fetch_debug.jsonl）
+
+    Returns:
+        設定済みの logging.Logger。
+    """
+    logger = logging.getLogger("anicheck_debug")
+    logger.setLevel(logging.DEBUG)
+    if not logger.handlers:
+        handler = logging.FileHandler(log_path, encoding="utf-8")
+        handler.setFormatter(JsonlFormatter())
+        logger.addHandler(handler)
+    logger.propagate = False  # ルートロガーへの伝播を防ぎ二重出力を避ける
+    return logger
+
 
 # =================================================================
 # 定数・設定
@@ -422,12 +464,19 @@ def match_syoboi_to_watch(
     prog_items: List[Dict[str, Any]],
     active_animes: List[Dict[str, Any]],
     ch_map: Dict[str, str],
+    debug_logger: Optional[logging.Logger] = None,
 ) -> Dict[str, List[Dict[str, Any]]]:
     """Syoboi の放送アイテムを watch_list の各作品にタイトルマッチングする。
 
     マッチング戦略:
       ① prog_item の Title が watch_list title と完全一致
       ② prog_item の Title の小文字版が watch_list base_title（シーズン表記除去後）に含まれる、または逆
+
+    Args:
+        prog_items: Syoboi ProgramByDate のアイテムリスト。
+        active_animes: watch_list の is_active 作品リスト。
+        ch_map: Syoboi ChID → ChName マップ。
+        debug_logger: 指定時に詳細な構造化デバッグログを JSONL で出力する Logger。
 
     Returns:
         {anime_id: [matched_prog_items]} の辞書。
@@ -452,8 +501,15 @@ def match_syoboi_to_watch(
             if key and key not in watch_index:
                 watch_index[key] = anime_id
 
+    if debug_logger:
+        debug_logger.debug(
+            "watch_index_generated",
+            extra={"data": {"watch_index": watch_index}},
+        )
+
     results: Dict[str, List[Dict[str, Any]]] = {}
     unmatched_tids: set = set()
+    watch_keys = list(watch_index.keys())
 
     for item in prog_items:
         prog_title = (item.get("Title") or "").strip()
@@ -461,16 +517,33 @@ def match_syoboi_to_watch(
             continue
         prog_lower = prog_title.lower()
         matched_id: Optional[str] = None
+        match_type: str = "none"
 
         # ① 完全一致
         if prog_lower in watch_index:
             matched_id = watch_index[prog_lower]
+            match_type = "exact"
         else:
             # ② 部分一致（4文字以上のキーのみ検索して誤爆を抑制）
             for key, aid in watch_index.items():
                 if len(key) >= 4 and (key in prog_lower or prog_lower in key):
                     matched_id = aid
+                    match_type = "partial"
                     break
+
+        if debug_logger:
+            debug_logger.debug(
+                "title_match",
+                extra={
+                    "data": {
+                        "syoboi_title": prog_title,
+                        "normalized_syoboi_title": prog_lower,
+                        "watch_keys_checked": watch_keys,
+                        "match_type": match_type,
+                        "matched_id": matched_id,
+                    }
+                },
+            )
 
         if matched_id:
             if matched_id not in results:
@@ -689,7 +762,23 @@ def save_episode_file(
 # メイン実行
 # =================================================================
 
-if __name__ == "__main__":
+def main() -> None:
+    """エントリーポイント。argparse で引数を処理し、メイン処理を実行する。"""
+    parser = argparse.ArgumentParser(description="anicheck_daily — Syoboi-first daily fetch")
+    parser.add_argument(
+        "--debug-log",
+        action="store_true",
+        help="詳細なデバッグログを logs/daily_fetch_debug.jsonl に JSONL 形式で出力する",
+    )
+    args = parser.parse_args()
+
+    # --debug-log フラグが立っている場合のみデバッグロガーをセットアップ
+    debug_logger: Optional[logging.Logger] = None
+    if args.debug_log:
+        debug_log_path = log_dir / "daily_fetch_debug.jsonl"
+        debug_logger = setup_debug_logger(debug_log_path)
+        logging.info(f"[LOG: DEBUG-MODE] デバッグログ出力先: {debug_log_path}")
+
     today_date = datetime.date.today()
     today_str = today_date.strftime("%Y-%m-%d")
 
@@ -727,7 +816,7 @@ if __name__ == "__main__":
     # =========================================================
     logging.info("[LOG: START] Step 1: Syoboi ProgramByDate & Channel 取得")
     ch_map = fetch_syoboi_channels()
-    prog_items = fetch_syoboi_proglist(today_date, days=3)
+    prog_items = fetch_syoboi_proglist(today_date, days=7)
     logging.info(
         f"[OUTPUT] Syoboi 取得: ProgramByDate={len(prog_items)}件, Channel={len(ch_map)}局"
     )
@@ -736,7 +825,7 @@ if __name__ == "__main__":
     # Step 2: watch_list × Syoboi マッチング
     # =========================================================
     logging.info("[LOG: START] Step 2: watch_list × Syoboi マッチング")
-    syoboi_matches = match_syoboi_to_watch(prog_items, active_animes, ch_map)
+    syoboi_matches = match_syoboi_to_watch(prog_items, active_animes, ch_map, debug_logger=debug_logger)
     syoboi_hit_count = len(syoboi_matches)
     logging.info(
         f"[OUTPUT] Syoboiマッチング完了: {syoboi_hit_count}/{len(active_animes)} 作品がヒット"
@@ -946,3 +1035,7 @@ if __name__ == "__main__":
         f"daily_schedule={len(all_broadcasts)}件"
     )
     logging.info(f"ログ: {log_file.absolute()}")
+
+
+if __name__ == "__main__":
+    main()
