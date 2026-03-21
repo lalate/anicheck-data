@@ -98,5 +98,135 @@
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": "2026-03-31"
+  },
+  {
+    "anime_id": "202604_gen_25066c90",
+    "mal_id": 61443,
+    "title": "春夏秋冬代行者 春の舞",
+    "official_url": "https://4seasons-anime.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_5e52eb45",
+    "mal_id": 52830,
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～",
+    "official_url": "https://www.iseleve.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_3f3b150f",
+    "mal_id": 62893,
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "official_url": "https://nigetsuri-anime.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_a6954c97",
+    "mal_id": 59443,
+    "title": "リィンカーネーションの花弁",
+    "official_url": "https://petals-of-reincarnation-anime.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_3c2482a0",
+    "mal_id": 60852,
+    "title": "氷の城壁",
+    "official_url": "https://korinojoheki-pr.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_f71a2557",
+    "mal_id": 44942,
+    "title": "終末のワルキューレⅢ",
+    "official_url": "https://ragnarok-official.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_00f44778",
+    "mal_id": 50739,
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 第2期",
+    "official_url": "https://otonarino-tenshisama.jp/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_903d6282",
+    "mal_id": 63129,
+    "title": "転生したらスライムだった件 第4期",
+    "official_url": "https://www.ten-sura.com/anime/tensura",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_13c723cc",
+    "mal_id": 62001,
+    "title": "黄泉のツガイ",
+    "official_url": "https://yominotsugai.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_e2a71c3d",
+    "mal_id": 63304,
+    "title": "魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～",
+    "official_url": "https://animationid.com/mamonogurai/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_eab294d7",
+    "mal_id": 61943,
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "official_url": "https://haibarakun-anime.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_7e41fc6d",
+    "mal_id": 61322,
+    "title": "Dr.STONE SCIENCE FUTURE (第4期)",
+    "official_url": "https://dr-stone.jp/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202604_gen_6fb712f7",
+    "mal_id": 59708,
+    "title": "ようこそ実力至上主義の教室へ 4th Season",
+    "official_url": "http://you-zitsu.com/",
+    "last_checked_ep": 0,
+    "is_active": true,
+    "season": "2026_spring",
+    "season_end_date": null
   }
 ]

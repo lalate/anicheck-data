@@ -1,0 +1,117 @@
+```json
+[
+  {
+    "title": "春夏秋冬代行者 春の舞",
+    "official_url": "https://4seasons-anime.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "土曜日", "time": "24:00"},
+      {"station": "bs11", "day_of_week": "土曜日", "time": "24:00"}
+    ]
+  },
+  {
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～",
+    "official_url": "https://www.iseleve.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "月曜日", "time": "24:00"},
+      {"station": "bs11", "day_of_week": "月曜日", "time": "25:00"}
+    ]
+  },
+  {
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "official_url": "https://nigetsuri-anime.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "水曜日", "time": "24:00"},
+      {"station": "bs11", "day_of_week": "水曜日", "time": "24:00"}
+    ]
+  },
+  {
+    "title": "リィンカーネーションの花弁",
+    "official_url": "https://petals-of-reincarnation-anime.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "木曜日", "time": "24:30"}
+    ]
+  },
+  {
+    "title": "氷の城壁",
+    "official_url": "https://korinojoheki-pr.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "tbs", "day_of_week": "木曜日", "time": "23:56"}
+    ]
+  },
+  {
+    "title": "終末のワルキューレⅢ",
+    "official_url": "https://ragnarok-official.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "金曜日", "time": "24:30"},
+      {"station": "bs11", "day_of_week": "金曜日", "time": "24:30"}
+    ]
+  },
+  {
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 第2期",
+    "official_url": "https://otonarino-tenshisama.jp/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "金曜日", "time": "22:30"}
+    ]
+  },
+  {
+    "title": "転生したらスライムだった件 第4期",
+    "official_url": "https://www.ten-sura.com/anime/tensura",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "ntv", "day_of_week": "金曜日", "time": "23:00"},
+      {"station": "bs11", "day_of_week": "土曜日", "time": "22:00"}
+    ]
+  },
+  {
+    "title": "黄泉のツガイ",
+    "official_url": "https://yominotsugai.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "土曜日", "time": "23:30"},
+      {"station": "bs11", "day_of_week": "土曜日", "time": "23:30"}
+    ]
+  },
+  {
+    "title": "魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～",
+    "official_url": "https://animationid.com/mamonogurai/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "木曜日", "time": "25:00"}
+    ]
+  },
+  {
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "official_url": "https://haibarakun-anime.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "tbs", "day_of_week": "木曜日", "time": "25:28"},
+      {"station": "bs11", "day_of_week": "金曜日", "time": "23:00"}
+    ]
+  },
+  {
+    "title": "Dr.STONE SCIENCE FUTURE (第4期)",
+    "official_url": "https://dr-stone.jp/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "木曜日", "time": "22:00"},
+      {"station": "bs11", "day_of_week": "木曜日", "time": "24:00"}
+    ]
+  },
+  {
+    "title": "ようこそ実力至上主義の教室へ 4th Season",
+    "official_url": "http://you-zitsu.com/",
+    "ep_num": 1,
+    "schedules": [
+      {"station": "mx", "day_of_week": "水曜日", "time": "22:30"},
+      {"station": "bsntv", "day_of_week": "水曜日", "time": "24:30"}
+    ]
+  }
+]
+```
