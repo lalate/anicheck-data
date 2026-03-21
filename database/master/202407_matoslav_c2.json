@@ -27,8 +27,18 @@
       }
     ]
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 58505,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Ecchi"
+  ],
+  "themes": [
+    "Harem"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1668/148737l.webp",
+  "title_english": "Chained Soldier Season 2",
+  "title_japanese": "魔都精兵のスレイブ2",
+  "score": 7.48,
+  "studio": "Passione"
 }

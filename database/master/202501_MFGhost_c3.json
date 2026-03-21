@@ -16,8 +16,16 @@
     "manga_amazon": "https://www.amazon.co.jp/s?k=MF%E3%82%B4%E3%82%B9%E3%83%88",
     "goods": []
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 60602,
+  "genres": [
+    "Drama"
+  ],
+  "themes": [
+    "Racing"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1419/154458l.webp",
+  "title_english": "MF Ghost Season 3",
+  "title_japanese": "MFゴースト 3rd Season",
+  "score": 7.91,
+  "studio": "Felix Film"
 }

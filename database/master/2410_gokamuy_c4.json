@@ -17,8 +17,19 @@
     "manga_amazon": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%AB%E3%83%A0%E3%82%A4",
     "goods": []
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 36028,
+  "genres": [
+    "Action",
+    "Adventure"
+  ],
+  "themes": [
+    "Adult Cast",
+    "Historical",
+    "Military"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1145/90880l.webp",
+  "title_english": "Golden Kamuy",
+  "title_japanese": "ゴールデンカムイ",
+  "score": 7.89,
+  "studio": "Geno Studio"
 }

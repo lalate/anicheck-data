@@ -33,8 +33,18 @@
       }
     ]
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 40748,
+  "genres": [
+    "Action",
+    "Award Winning",
+    "Supernatural"
+  ],
+  "themes": [
+    "School"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1171/109222l.webp",
+  "title_english": "Jujutsu Kaisen",
+  "title_japanese": "呪術廻戦",
+  "score": 8.51,
+  "studio": "MAPPA"
 }

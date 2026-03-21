@@ -33,8 +33,18 @@
       }
     ]
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 51818,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "themes": [
+    "Urban Fantasy"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1527/146836l.webp",
+  "title_english": "Fire Force Season 3",
+  "title_japanese": "炎炎ノ消防隊 参ノ章",
+  "score": 7.71,
+  "studio": "David Production"
 }

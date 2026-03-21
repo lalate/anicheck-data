@@ -18,8 +18,17 @@
     "manga_amazon": "https://www.amazon.co.jp/s?k=Fate%2Fstrange+Fake",
     "goods": []
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 55830,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "themes": [
+    "Urban Fantasy"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1752/150192l.webp",
+  "title_english": "Fate/strange Fake",
+  "title_japanese": "Fate/strange Fake",
+  "score": 8.5,
+  "studio": "A-1 Pictures"
 }

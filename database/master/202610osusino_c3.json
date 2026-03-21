@@ -38,8 +38,17 @@
       }
     ]
   },
-  "mal_id": null,
-  "genres": [],
-  "themes": [],
-  "image_url": null
+  "mal_id": 60058,
+  "genres": [
+    "Drama"
+  ],
+  "themes": [
+    "Reincarnation",
+    "Showbiz"
+  ],
+  "image_url": "https://myanimelist.net/images/anime/1979/153329l.webp",
+  "title_english": "[Oshi No Ko] Season 3",
+  "title_japanese": "【推しの子】 第3期",
+  "score": 8.6,
+  "studio": "Doga Kobo"
 }

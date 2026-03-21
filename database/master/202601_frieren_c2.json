@@ -18,8 +18,16 @@
     "manga_amazon": "https://www.amazon.co.jp/s?k=%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3",
     "goods": []
   },
-  "mal_id": null,
-  "genres": [],
+  "mal_id": 59978,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy"
+  ],
   "themes": [],
-  "image_url": null
+  "image_url": "https://myanimelist.net/images/anime/1921/154528l.webp",
+  "title_english": "Frieren: Beyond Journey's End Season 2",
+  "title_japanese": "葬送のフリーレン 第2期",
+  "score": 9.11,
+  "studio": "Madhouse"
 }
