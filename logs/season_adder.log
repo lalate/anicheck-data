@@ -426,3 +426,49 @@
 2026-03-21 17:06:30,420 [INFO] ============================================================
 2026-03-21 17:06:30,420 [INFO] 🎉 season_adder.py 完了！ 新規追加: 13件, スキップ: 0件
 2026-03-21 17:06:30,420 [INFO] ログ: /Volumes/DevSSD/Dev/AniCheck/AniJson/logs/season_adder.log
+2026-03-21 20:01:28,218 [INFO] ============================================================
+2026-03-21 20:01:28,219 [INFO] [LOG: START] Step 0: season_adder.py 起動
+2026-03-21 20:01:28,219 [INFO] [THOUGHT: dry_run=False]
+2026-03-21 20:01:28,219 [INFO] [THOUGHT: BASE_DIR=/Volumes/DevSSD/Dev/AniCheck/AniJson]
+2026-03-21 20:01:28,219 [INFO] [LOG: START] Step 1: 次期シーズン判定
+2026-03-21 20:01:28,219 [INFO] [OUTPUT] season_str=2026年冬アニメ, season_key=2026_winter, yyyymm=202601
+2026-03-21 20:01:28,219 [INFO] [LOG: END] Step 1
+2026-03-21 20:01:28,219 [INFO] [LOG: START] Step 2: 既存ファイル読み込み
+2026-03-21 20:01:28,221 [INFO] [OUTPUT] watch_list=23件, broadcast_history=23キー
+2026-03-21 20:01:28,221 [INFO] [LOG: END] Step 2
+2026-03-21 20:01:28,221 [INFO] [LOG: START] Step 3: Grok API 呼び出し (season=2026年冬アニメ)
+2026-03-21 20:01:28,221 [INFO] [THOUGHT: Grokへのプロンプト送信] ターゲット=2026年冬アニメ, model=grok-4-1-fast-reasoning
+2026-03-21 20:02:22,261 [INFO] [OUTPUT] Grok 応答受信: 307 chars
+2026-03-21 20:02:22,262 [INFO] [LOG: END] Step 3
+2026-03-21 20:02:22,296 [INFO] [OUTPUT] 生レスポンス保存: raw_grok_output_2026年冬アニメ.txt
+2026-03-21 20:02:22,297 [INFO] [LOG: START] Step 4: Grok レスポンスのパース
+2026-03-21 20:02:22,297 [INFO] [THOUGHT: 正規表現でJSONコードブロックを抽出] テキスト長=307
+2026-03-21 20:02:22,297 [INFO] [THOUGHT: コードブロックなし → 裸の JSON 配列へフォールバック]
+2026-03-21 20:02:22,299 [INFO] [OUTPUT] パース成功: 2 件
+2026-03-21 20:02:22,299 [INFO] [LOG: END] Step 4
+2026-03-21 20:02:22,299 [INFO] [LOG: START] Step 5: 各アニメの処理
+2026-03-21 20:02:22,299 [WARNING] [THOUGHT: タイトル空] idx=0 → スキップ
+2026-03-21 20:02:22,299 [WARNING] [THOUGHT: タイトル空] idx=1 → スキップ
+2026-03-21 20:02:22,299 [INFO] [OUTPUT] 処理完了: 新規追加=0件, スキップ=2件
+2026-03-21 20:02:22,300 [INFO] [LOG: END] Step 5
+2026-03-21 20:02:22,300 [INFO] [LOG: START] Step 6: ファイル保存
+2026-03-21 20:02:22,300 [INFO] [THOUGHT: 新規追加なし] ファイル保存をスキップします
+2026-03-21 20:02:22,301 [INFO] [LOG: END] Step 6
+2026-03-21 20:02:22,301 [INFO] ============================================================
+2026-03-21 20:02:22,301 [INFO] 🎉 season_adder.py 完了！ 新規追加: 0件, スキップ: 2件
+2026-03-21 20:02:22,301 [INFO] ログ: /Volumes/DevSSD/Dev/AniCheck/AniJson/logs/season_adder.log
+2026-03-21 20:04:30,163 [INFO] Target Season: 2026年冬アニメ
+2026-03-21 20:04:30,166 [INFO] [LOG: START] Step 3: Grok API 呼び出し (target=2026年冬アニメ)
+2026-03-21 20:05:15,711 [INFO] Added: 呪術廻戦 死滅回游 前編 (202601_jujutsushimetsu_c1)
+2026-03-21 20:05:17,320 [INFO] Added: 魔都精兵のスレイブ2 (202601_slave2_c1)
+2026-03-21 20:05:18,841 [INFO] Added: 真夜中ハートチューン (202601_mayochu_c1)
+2026-03-21 20:05:20,384 [INFO] Added: ダーウィン事変 (202601_darwin_c1)
+2026-03-21 20:05:22,039 [INFO] Added: 姫様“拷問”の時間です 第2期 (202601_himesama2_c1)
+2026-03-21 20:05:23,797 [INFO] Added: ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期 (202601_vigilante2_c1)
+2026-03-21 20:05:25,525 [INFO] Added: 死亡遊戯で飯を食う。 (202601_shibomeshi_c1)
+2026-03-21 20:05:27,082 [INFO] Added: 29歳独身中堅冒険者の日常 (202601_adventurer29_c1)
+2026-03-21 20:05:28,583 [INFO] Added: 魔王の娘は優しすぎる!! (202601_maomusume_c1)
+2026-03-21 20:05:30,208 [INFO] Added: 正反対な君と僕 (202601_seihantai_c1)
+2026-03-21 20:05:31,753 [INFO] Added: 異世界の沙汰は社畜次第 (202601_iseshachi_c1)
+2026-03-21 20:05:33,619 [INFO] Added: 綺麗にしてもらえますか。 (202601_kinishite_c1)
+2026-03-21 20:05:33,636 [INFO] Finished. Added 12 items.

@@ -324,5 +324,137 @@
         "remarks": "木曜日 22:00"
       }
     }
+  },
+  "202601_jujutsushimetsu_c1": {
+    "title": "呪術廻戦 死滅回游 前編",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mbs": {
+        "last_ep_num": 12,
+        "remarks": "水 24:59"
+      }
+    }
+  },
+  "202601_slave2_c1": {
+    "title": "魔都精兵のスレイブ2",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 12,
+        "remarks": "木 24:00"
+      }
+    }
+  },
+  "202601_mayochu_c1": {
+    "title": "真夜中ハートチューン",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "kan": {
+        "last_ep_num": 12,
+        "remarks": "火 23:00"
+      }
+    }
+  },
+  "202601_darwin_c1": {
+    "title": "ダーウィン事変",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "tx": {
+        "last_ep_num": 12,
+        "remarks": "火 24:00"
+      }
+    }
+  },
+  "202601_himesama2_c1": {
+    "title": "姫様“拷問”の時間です 第2期",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 12,
+        "remarks": "月 23:30"
+      },
+      "bs11": {
+        "last_ep_num": 12,
+        "remarks": "火 23:00"
+      }
+    }
+  },
+  "202601_vigilante2_c1": {
+    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
+    "overall_latest_ep": 13,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 13,
+        "remarks": "月 22:00"
+      }
+    }
+  },
+  "202601_shibomeshi_c1": {
+    "title": "死亡遊戯で飯を食う。",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 12,
+        "remarks": "水 23:00"
+      }
+    }
+  },
+  "202601_adventurer29_c1": {
+    "title": "29歳独身中堅冒険者の日常",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "atx": {
+        "last_ep_num": 12,
+        "remarks": "水 21:30"
+      },
+      "mx": {
+        "last_ep_num": 12,
+        "remarks": "水 22:30"
+      }
+    }
+  },
+  "202601_maomusume_c1": {
+    "title": "魔王の娘は優しすぎる!!",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 12,
+        "remarks": "水 22:00"
+      }
+    }
+  },
+  "202601_seihantai_c1": {
+    "title": "正反対な君と僕",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "mbs": {
+        "last_ep_num": 12,
+        "remarks": "日 24:30"
+      }
+    }
+  },
+  "202601_iseshachi_c1": {
+    "title": "異世界の沙汰は社畜次第",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "atx": {
+        "last_ep_num": 12,
+        "remarks": "火 23:00"
+      },
+      "mx": {
+        "last_ep_num": 12,
+        "remarks": "火 23:30"
+      }
+    }
+  },
+  "202601_kinishite_c1": {
+    "title": "綺麗にしてもらえますか。",
+    "overall_latest_ep": 13,
+    "platforms": {
+      "mx": {
+        "last_ep_num": 13,
+        "remarks": "月 24:00"
+      }
+    }
   }
 }

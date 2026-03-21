@@ -228,5 +228,125 @@
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null
+  },
+  {
+    "anime_id": "202601_jujutsushimetsu_c1",
+    "mal_id": 57658,
+    "title": "呪術廻戦 死滅回游 前編",
+    "official_url": "https://jujutsukaisen.jp/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_slave2_c1",
+    "mal_id": 58505,
+    "title": "魔都精兵のスレイブ2",
+    "official_url": "https://mabotai.jp/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_mayochu_c1",
+    "mal_id": 61211,
+    "title": "真夜中ハートチューン",
+    "official_url": "https://mayochu-anime.com/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_darwin_c1",
+    "mal_id": 58886,
+    "title": "ダーウィン事変",
+    "official_url": "https://darwinsincident.net/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_himesama2_c1",
+    "mal_id": 58524,
+    "title": "姫様“拷問”の時間です 第2期",
+    "official_url": "https://himesama-goumon.com/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_vigilante2_c1",
+    "mal_id": 61942,
+    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
+    "official_url": "https://vigilante-anime.com/",
+    "last_checked_ep": 13,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_shibomeshi_c1",
+    "mal_id": 59711,
+    "title": "死亡遊戯で飯を食う。",
+    "official_url": "https://shibou-yuugi.com/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_adventurer29_c1",
+    "mal_id": 61637,
+    "title": "29歳独身中堅冒険者の日常",
+    "official_url": "https://anime-29sai-dokushin.com/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_maomusume_c1",
+    "mal_id": 61884,
+    "title": "魔王の娘は優しすぎる!!",
+    "official_url": "https://maomusu.com/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "mal_id": 60371,
+    "title": "正反対な君と僕",
+    "official_url": "https://sh-anime.shochiku.co.jp/seihantai_anime/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_iseshachi_c1",
+    "mal_id": 60226,
+    "title": "異世界の沙汰は社畜次第",
+    "official_url": "https://iseshachi.com/",
+    "last_checked_ep": 12,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
+  },
+  {
+    "anime_id": "202601_kinishite_c1",
+    "mal_id": 61782,
+    "title": "綺麗にしてもらえますか。",
+    "official_url": "https://kinishite.com/",
+    "last_checked_ep": 13,
+    "is_active": true,
+    "season": "2026_winter",
+    "season_end_date": null
   }
 ]
