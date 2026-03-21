@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Optional, Dict, Any, List
 
 import requests
+from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, field_validator
 
@@ -52,6 +53,8 @@ MAX_GROK_CALLS_PER_DAY: int = 5
 
 # Syoboi Calendar API エンドポイント
 SYOBOI_API_URL: str = "http://cal.syoboi.jp/json.php"
+# Syoboi チャンネル一覧 HTML エンドポイント（JSON APIが廃止されたためHTMLスクレイピングへ移行）
+SYOBOI_CHLIST_HTML_URL: str = "https://cal.syoboi.jp/mng?Action=ShowChList"
 SYOBOI_REQUEST_TIMEOUT: int = 15  # seconds
 
 # =================================================================
@@ -327,33 +330,47 @@ def parse_grok_output(text: str, title: str) -> Optional[Dict[str, Any]]:
 # =================================================================
 
 def fetch_syoboi_channels() -> Dict[str, str]:
-    """Syoboi ChList から {ChID: 局名} マップを取得する。
+    """Syoboi チャンネル一覧 HTML から {ChID: ChName} マップを取得する。
+
+    HTMLテーブル（class="tframe output"）をBeautifulSoupで解析し、
+    各行の2列目(ChID)と4列目(ChName)を抽出する。
 
     Returns:
         局 ID（文字列）→ 局名（文字列）の辞書。失敗時は空辞書。
     """
-    logging.info("[LOG: START] Syoboi ChList 取得")
+    logging.info("[LOG: START] Syoboi ChList HTML 取得")
+    logging.info(f"  [INPUT] URL: {SYOBOI_CHLIST_HTML_URL}")
     try:
         resp = requests.get(
-            SYOBOI_API_URL,
-            params={"Command": "ChList"},
+            SYOBOI_CHLIST_HTML_URL,
             timeout=SYOBOI_REQUEST_TIMEOUT,
         )
         resp.raise_for_status()
-        data = resp.json()
-        ch_items: Dict[str, Any] = data.get("ChList", {}).get("Items", {})
+        logging.info(f"  [THOUGHT] HTTP {resp.status_code} 取得成功。BeautifulSoupでlxmlパース開始")
+
+        soup = BeautifulSoup(resp.content, "lxml")
+
+        # class="tframe output" のテーブルを探す
+        table = soup.find("table", class_="output")
+        if table is None:
+            logging.warning("  ⚠️ チャンネル一覧テーブルが見つかりません — 空マップで継続")
+            return {}
+
         ch_map: Dict[str, str] = {}
-        for ch_id, ch_info in ch_items.items():
-            name = (
-                ch_info.get("ChName")
-                or ch_info.get("ChShortName")
-                or str(ch_id)
-            )
-            ch_map[str(ch_id)] = name
-        logging.info(f"  [OUTPUT] Syoboi ChList: {len(ch_map)} 局取得")
+        for tr in table.find_all("tr"):
+            tds = tr.find_all("td")
+            # ヘッダ行（<th>のみ）はスキップ。データ行は <td> が4列以上
+            if len(tds) < 4:
+                continue
+            ch_id = tds[1].get_text(strip=True)
+            ch_name = tds[3].get_text(strip=True)
+            if ch_id and ch_name:
+                ch_map[ch_id] = ch_name
+
+        logging.info(f"  [OUTPUT] Syoboi Channel (HTML): {len(ch_map)} 局取得")
         return ch_map
     except Exception as e:
-        logging.warning(f"  ⚠️ Syoboi ChList 取得失敗: {e} — 空マップで継続")
+        logging.warning(f"  ⚠️ Syoboi ChList HTML 取得/解析失敗: {e} — 空マップで継続")
         return {}
 
 
@@ -375,13 +392,13 @@ def fetch_syoboi_proglist(start_date: datetime.date, days: int = 3) -> List[Dict
         Syoboi の Items 値のリスト。失敗時は空リスト。
     """
     logging.info(
-        f"[LOG: START] Syoboi ProgList 取得 (Start={start_date.strftime('%Y%m%d')}, Days={days})"
+        f"[LOG: START] Syoboi ProgramByDate 取得 (Start={start_date.strftime('%Y%m%d')}, Days={days})"
     )
     try:
         resp = requests.get(
             SYOBOI_API_URL,
             params={
-                "Command": "ProgList",
+                "Req": "ProgramByDate",
                 "Start": start_date.strftime("%Y%m%d"),
                 "Days": str(days),
             },
@@ -389,15 +406,15 @@ def fetch_syoboi_proglist(start_date: datetime.date, days: int = 3) -> List[Dict
         )
         resp.raise_for_status()
         data = resp.json()
-        items_raw = data.get("ProgList", {}).get("Items", {})
+        items_raw = data.get("Programs", {})
         # Items は辞書形式（数値キー）または配列形式どちらでも対応
         items: List[Dict[str, Any]] = (
             list(items_raw.values()) if isinstance(items_raw, dict) else items_raw
         )
-        logging.info(f"  [OUTPUT] Syoboi ProgList: {len(items)} 件取得")
+        logging.info(f"  [OUTPUT] Syoboi ProgramByDate: {len(items)} 件取得")
         return items
     except Exception as e:
-        logging.error(f"  ❌ Syoboi ProgList 取得失敗: {e}")
+        logging.error(f"  ❌ Syoboi ProgramByDate 取得失敗: {e}")
         return []
 
 
@@ -708,11 +725,11 @@ if __name__ == "__main__":
     # =========================================================
     # Step 1: Syoboi から3日分の放送データを一括取得
     # =========================================================
-    logging.info("[LOG: START] Step 1: Syoboi ProgList & ChList 取得")
+    logging.info("[LOG: START] Step 1: Syoboi ProgramByDate & Channel 取得")
     ch_map = fetch_syoboi_channels()
     prog_items = fetch_syoboi_proglist(today_date, days=3)
     logging.info(
-        f"[OUTPUT] Syoboi 取得: ProgList={len(prog_items)}件, ChList={len(ch_map)}局"
+        f"[OUTPUT] Syoboi 取得: ProgramByDate={len(prog_items)}件, Channel={len(ch_map)}局"
     )
 
     # =========================================================
