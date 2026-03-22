@@ -70,6 +70,10 @@ JIKAN_SLEEP = 0.5
 GROK_MAX_RETRIES = 3
 # 正規化後の文字列で部分一致を重複とみなす最小文字数
 DUPLICATE_MIN_LEN = 8
+# ARM（Anime Relations Map）APIのベースURL
+# GET /api/ids?service=<service>&id=<id>
+# 例: ?service=mal&id=5114 → {"mal_id":5114,"anilist_id":5114,"annict_id":1745,"syobocal_tid":1575}
+ARM_API_URL = "https://arm.kawaiioverflow.com/api/ids"
 
 # =================================================================
 # Pydanticスキーマ（Grok出力のバリデーション用）
@@ -108,6 +112,19 @@ class GrokAnimeItem(BaseModel):
 
 class GrokAnimeList(BaseModel):
     items: list[GrokAnimeItem]
+
+
+# watch_list.json の各エントリを表すスキーマ（syoboi_tid フィールド含む）
+class AnimeSeasonEntry(BaseModel):
+    anime_id: str
+    mal_id: Optional[int] = None
+    title: str
+    official_url: Optional[str] = None
+    last_checked_ep: int = 1
+    is_active: bool = True
+    season: str = ""
+    season_end_date: Optional[str] = None
+    syoboi_tid: Optional[int] = None
 
 
 # =================================================================
@@ -500,6 +517,58 @@ def enrich_with_jikan(title: str) -> dict:
 
 
 # =================================================================
+# ARM API（Anime Relations Map）ID取得
+# =================================================================
+def fetch_arm_ids(id_type: str, id_value: str) -> dict | None:
+    """
+    arm.kawaiioverflow.com の /api/ids を呼び出し、各DBのID対応表を取得する。
+
+    引数:
+        id_type:  "mal", "anilist", "anidb" など（APIの service パラメータ）
+        id_value: 対応するID文字列
+
+    戻り値:
+        成功時: {"mal_id": int, "anilist_id": int, "syobocal_tid": int, ...} の辞書
+        失敗時: None（スクリプト全体を停止しない）
+    """
+    logger.info(f"[LOG: START] fetch_arm_ids: id_type={id_type}, id_value={id_value}")
+    try:
+        url = f"{ARM_API_URL}?service={id_type}&id={id_value}"
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            # レスポンスはオブジェクト 1件 または 配列の場合を両方考慮
+            if isinstance(data, list):
+                if not data:
+                    logger.warning(
+                        f"[THOUGHT: ARM API 空配列レスポンス: id_type={id_type}, id_value={id_value}]"
+                    )
+                    return None
+                result = data[0]
+            elif isinstance(data, dict):
+                result = data
+            else:
+                logger.warning(f"[THOUGHT: ARM API 予期しないレスポンス型: {type(data)}]")
+                return None
+            logger.info(f"[LOG: END] fetch_arm_ids → {result}")
+            return result
+        elif response.status_code == 404:
+            logger.info(
+                f"[THOUGHT: ARM API 404 Not Found（未登録）: id_type={id_type}, id_value={id_value}]"
+            )
+            return None
+        else:
+            logger.warning(
+                f"[THOUGHT: ARM API ステータスエラー: {response.status_code} "
+                f"id_type={id_type}, id_value={id_value}]"
+            )
+            return None
+    except Exception as e:
+        logger.error(f"[THOUGHT: fetch_arm_ids 例外: {e} (id_type={id_type}, id_value={id_value})]")
+        return None
+
+
+# =================================================================
 # メイン処理
 # =================================================================
 def main() -> None:
@@ -550,6 +619,23 @@ def main() -> None:
             # --- Jikan補完 ---
             jikan = enrich_with_jikan(title)
 
+            # --- ARM APIで syoboi_tid を取得 ---
+            syoboi_tid: Optional[int] = None
+            if jikan.get("mal_id"):
+                arm_ids = fetch_arm_ids("mal", str(jikan["mal_id"]))
+                if arm_ids and arm_ids.get("syobocal_tid"):
+                    syoboi_tid = int(arm_ids["syobocal_tid"])
+                    logger.info(
+                        f"[OUTPUT] syoboi_tid取得成功: '{title}' "
+                        f"mal_id={jikan['mal_id']} → syoboi_tid={syoboi_tid}"
+                    )
+                else:
+                    logger.info(
+                        f"[THOUGHT: syoboi_tid取得不可: '{title}' mal_id={jikan['mal_id']}]"
+                    )
+            else:
+                logger.debug(f"[THOUGHT: mal_idなしのためARM APIスキップ: '{title}']")
+
             # --- masterデータ構築 ---
             station_master = (
                 anime.schedules[0].station.upper() if anime.schedules else None
@@ -563,6 +649,7 @@ def main() -> None:
                 "cast": [],
                 "staff": {},
                 "sources": {"manga_amazon": None, "goods": []},
+                "syoboi_tid": syoboi_tid,
                 **jikan,
             }
 
@@ -580,6 +667,7 @@ def main() -> None:
                     "is_active": True,
                     "season": season_info["season_key"],
                     "season_end_date": None,
+                    "syoboi_tid": syoboi_tid,
                 })
                 platforms = {}
                 for sch in anime.schedules:
@@ -612,6 +700,38 @@ def main() -> None:
             json.dumps(broadcast_history, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         logger.info("[THOUGHT: watch_list.json / broadcast_history.json を更新しました]")
+
+    # --- 既存エントリの syoboi_tid 遡及補完 ---
+    # mal_id はあるが syoboi_tid が未設定のエントリを ARM API で補完する。
+    # 新規追加分も含め watch_list 全体を対象とする。
+    logger.info("[LOG: START] Step 既存watch_listの syoboi_tid 遡及補完")
+    arm_updated = 0
+    for entry in watch_list:
+        if entry.get("mal_id") and entry.get("syoboi_tid") is None:
+            arm_ids = fetch_arm_ids("mal", str(entry["mal_id"]))
+            if arm_ids and arm_ids.get("syobocal_tid"):
+                entry["syoboi_tid"] = int(arm_ids["syobocal_tid"])
+                arm_updated += 1
+                logger.info(
+                    f"[OUTPUT] syoboi_tid遡及補完: '{entry.get('title')}' "
+                    f"mal_id={entry['mal_id']} → syoboi_tid={entry['syoboi_tid']}"
+                )
+            else:
+                logger.debug(
+                    f"[THOUGHT: syoboi_tid遡及補完不可: '{entry.get('title')}' "
+                    f"mal_id={entry.get('mal_id')}]"
+                )
+
+    if not args.dry_run and arm_updated > 0:
+        WATCH_LIST_FILE.write_text(
+            json.dumps(watch_list, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        logger.info(
+            f"[THOUGHT: syoboi_tid遡及補完により {arm_updated}件 watch_list.json を更新しました]"
+        )
+    logger.info(
+        f"[LOG: END] syoboi_tid遡及補完完了。arm_updated={arm_updated}件"
+    )
 
     logger.info(
         f"[LOG: END] season_adder.py 終了。"
