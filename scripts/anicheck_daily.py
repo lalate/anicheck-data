@@ -784,7 +784,7 @@ def main() -> None:
 
     logging.info(f"[LOG: START] anicheck_daily.py v3.0 — {today_str}")
     logging.info(
-        "[THOUGHT: Syoboi-first戦略: Syoboi APIで3日分を一括取得し、"
+        "[THOUGHT: Syoboi-first戦略: Syoboi APIで7日分を一括取得し、"
         f"不足分のみGrok呼出（上限{MAX_GROK_CALLS_PER_DAY}回/日）]"
     )
 
@@ -812,13 +812,21 @@ def main() -> None:
         logging.info("broadcast_history.json が存在しないため空辞書で初期化します")
 
     # =========================================================
-    # Step 1: Syoboi から3日分の放送データを一括取得
+    # Step 1: Syoboi から7日分の放送データを一括取得
     # =========================================================
     logging.info("[LOG: START] Step 1: Syoboi ProgramByDate & Channel 取得")
     ch_map = fetch_syoboi_channels()
     prog_items = fetch_syoboi_proglist(today_date, days=7)
     logging.info(
         f"[OUTPUT] Syoboi 取得: ProgramByDate={len(prog_items)}件, Channel={len(ch_map)}局"
+    )
+    debug_logger.debug( "syoboi_data_fetched",
+        extra={
+            "data": {
+                "ch_map": ch_map,
+                "prog_items": prog_items,
+            }
+        },
     )
 
     # =========================================================

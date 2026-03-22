@@ -1,7 +1,25 @@
-.env
-venv/
+# Ignore files for AniJson submodule
+
+# Python bytecode
 __pycache__/
 *.pyc
-.DS_Store
-raw_grok_output.txt
-anicheck_daily/*/
+
+# Virtual environment
+venv/
+
+# Logs
+logs/
+
+# Temporary plan files
+plan_*.md
+
+# Raw Grok outputs (temporary)
+raw_grok_output_*.txt
+
+# Review files and conversation logs
+anicheck_daily厳し目レビュー.m
+season_adder厳し目レビューbyGrok.md
+Grokとの会話ログ.md
+
+# anicheck_daily's temporary output dir
+anicheck_daily/
