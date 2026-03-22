@@ -4,8 +4,7 @@
 __pycache__/
 *.pyc
 
-# Virtual environment
-venv/
+# Virtual environmentenv/
 
 # Logs
 logs/
@@ -23,3 +22,6 @@ Grokとの会話ログ.md
 
 # anicheck_daily's temporary output dir
 anicheck_daily/
+
+# Environment variables
+.env
