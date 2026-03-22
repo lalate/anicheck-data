@@ -460,101 +460,171 @@ def fetch_syoboi_proglist(start_date: datetime.date, days: int = 3) -> List[Dict
         return []
 
 
-def match_syoboi_to_watch(
+def map_syoboi_to_watchlist_by_tid(
     prog_items: List[Dict[str, Any]],
     active_animes: List[Dict[str, Any]],
     ch_map: Dict[str, str],
     debug_logger: Optional[logging.Logger] = None,
 ) -> Dict[str, List[Dict[str, Any]]]:
-    """Syoboi の放送アイテムを watch_list の各作品にタイトルマッチングする。
+    """Syoboi の放送アイテムを watch_list の各作品に TID ベースでマッチングする。
 
     マッチング戦略:
-      ① prog_item の Title が watch_list title と完全一致
-      ② prog_item の Title の小文字版が watch_list base_title（シーズン表記除去後）に含まれる、または逆
+      ① watch_list エントリに syoboi_tid フィールドがある場合は Syoboi TID で直接マッチ（高精度・決定論的）
+      ② syoboi_tid がない作品（または TID 未マッチ）はタイトル完全一致 → 部分一致にフォールバック（後方互換）
 
     Args:
         prog_items: Syoboi ProgramByDate のアイテムリスト。
         active_animes: watch_list の is_active 作品リスト。
-        ch_map: Syoboi ChID → ChName マップ。
+        ch_map: Syoboi ChID → ChName マップ（本関数では参照しないが API 統一のために受け取る）。
         debug_logger: 指定時に詳細な構造化デバッグログを JSONL で出力する Logger。
 
     Returns:
-        {anime_id: [matched_prog_items]} の辞書。
+        {anime_id: [matched_prog_items]} の辞書。anime_id は watch_list.json の anime_id キー。
     """
-    logging.info("[LOG: START] Syoboi × watch_list タイトルマッチング")
-    logging.info("[THOUGHT: タイトル完全一致 → 部分一致の順でマッチング]")
+    logging.info("[LOG: START] Syoboi × watch_list TIDベース マッチング")
+    logging.info(
+        "[THOUGHT: syoboi_tid フィールドがある作品はTIDで直接マッチ（誤爆なし）。"
+        "未設定の作品はタイトルマッチにフォールバック（後方互換）]"
+    )
 
-    # watch_list のタイトルを正規化して索引を作成
-    # key = 小文字化タイトル、value = anime_id
-    watch_index: Dict[str, str] = {}
-    for anime in active_animes:
-        anime_id = anime["anime_id"]
-        title = anime.get("title", "")
-        # シーズン表記（第2期・Season 2・2nd Season 等）の前までをベースタイトルとして抽出
-        base_title = re.split(
-            r"[\s　]+(?:第\d+期|Season\s*\d+|\d+nd\s+Season|\d+rd\s+Season|\d+th\s+Season|S\d+|シーズン\d+)",
-            title,
-            maxsplit=1,
-        )[0].strip()
-        for t in [title, base_title]:
-            key = t.lower().replace("　", " ").strip()
-            if key and key not in watch_index:
-                watch_index[key] = anime_id
+    # ── Step A: prog_items を TID でグループ化 ────────────────────────
+    tid_to_items: Dict[str, List[Dict[str, Any]]] = {}
+    for item in prog_items:
+        tid = str(item.get("TID") or "").strip()
+        if not tid:
+            continue
+        if tid not in tid_to_items:
+            tid_to_items[tid] = []
+        tid_to_items[tid].append(item)
 
     if debug_logger:
         debug_logger.debug(
-            "watch_index_generated",
-            extra={"data": {"watch_index": watch_index}},
+            "tid_groups_generated",
+            extra={"data": {"tid_count": len(tid_to_items), "tids": list(tid_to_items.keys())}},
         )
 
     results: Dict[str, List[Dict[str, Any]]] = {}
-    unmatched_tids: set = set()
-    watch_keys = list(watch_index.keys())
+    tid_matched_anime_ids: set = set()
+    tid_matched_tids: set = set()
 
-    for item in prog_items:
-        prog_title = (item.get("Title") or "").strip()
-        if not prog_title:
+    # ── Step B: syoboi_tid を持つ作品を TID で直接マッチ ─────────────
+    for anime in active_animes:
+        anime_id = anime["anime_id"]
+        syoboi_tid = str(anime.get("syoboi_tid") or "").strip()
+        if not syoboi_tid:
             continue
-        prog_lower = prog_title.lower()
-        matched_id: Optional[str] = None
-        match_type: str = "none"
-
-        # ① 完全一致
-        if prog_lower in watch_index:
-            matched_id = watch_index[prog_lower]
-            match_type = "exact"
+        if syoboi_tid in tid_to_items:
+            results[anime_id] = tid_to_items[syoboi_tid]
+            tid_matched_anime_ids.add(anime_id)
+            tid_matched_tids.add(syoboi_tid)
+            if debug_logger:
+                debug_logger.debug(
+                    "tid_direct_match",
+                    extra={
+                        "data": {
+                            "anime_id": anime_id,
+                            "syoboi_tid": syoboi_tid,
+                            "hit_count": len(results[anime_id]),
+                        }
+                    },
+                )
         else:
-            # ② 部分一致（4文字以上のキーのみ検索して誤爆を抑制）
-            for key, aid in watch_index.items():
-                if len(key) >= 4 and (key in prog_lower or prog_lower in key):
-                    matched_id = aid
-                    match_type = "partial"
-                    break
+            if debug_logger:
+                debug_logger.debug(
+                    "tid_miss",
+                    extra={"data": {"anime_id": anime_id, "syoboi_tid": syoboi_tid}},
+                )
+
+    logging.info(
+        f"  [OUTPUT] TIDマッチ: {len(tid_matched_anime_ids)}/{len(active_animes)} 作品"
+    )
+
+    # ── Step C: syoboi_tid 未設定の作品はタイトルマッチにフォールバック ──
+    remaining_animes = [a for a in active_animes if a["anime_id"] not in tid_matched_anime_ids]
+    if remaining_animes:
+        logging.info(
+            f"  [THOUGHT: {len(remaining_animes)} 作品が syoboi_tid 未設定 → タイトルフォールバック開始]"
+        )
+
+        # タイトル索引を作成（残りの作品のみ）
+        # key = 小文字化タイトル、value = anime_id
+        watch_index: Dict[str, str] = {}
+        for anime in remaining_animes:
+            anime_id = anime["anime_id"]
+            title = anime.get("title", "")
+            # シーズン表記（第2期・Season 2・2nd Season 等）の前までをベースタイトルとして抽出
+            base_title = re.split(
+                r"[\s　]+(?:第\d+期|Season\s*\d+|\d+nd\s+Season|\d+rd\s+Season|\d+th\s+Season|S\d+|シーズン\d+)",
+                title,
+                maxsplit=1,
+            )[0].strip()
+            for t in [title, base_title]:
+                key = t.lower().replace("　", " ").strip()
+                if key and key not in watch_index:
+                    watch_index[key] = anime_id
 
         if debug_logger:
             debug_logger.debug(
-                "title_match",
-                extra={
-                    "data": {
-                        "syoboi_title": prog_title,
-                        "normalized_syoboi_title": prog_lower,
-                        "watch_keys_checked": watch_keys,
-                        "match_type": match_type,
-                        "matched_id": matched_id,
-                    }
-                },
+                "fallback_watch_index_generated",
+                extra={"data": {"watch_index": watch_index}},
             )
 
-        if matched_id:
-            if matched_id not in results:
-                results[matched_id] = []
-            results[matched_id].append(item)
-        else:
-            unmatched_tids.add(item.get("TID", "?"))
+        # TIDマッチ済みの TID に属する prog_items は除外して誤爆を防ぐ
+        fallback_items = [
+            item for item in prog_items
+            if str(item.get("TID") or "").strip() not in tid_matched_tids
+        ]
+
+        unmatched_tids: set = set()
+        for item in fallback_items:
+            prog_title = (item.get("Title") or "").strip()
+            if not prog_title:
+                continue
+            prog_lower = prog_title.lower()
+            matched_id: Optional[str] = None
+            match_type: str = "none"
+
+            # ① 完全一致
+            if prog_lower in watch_index:
+                matched_id = watch_index[prog_lower]
+                match_type = "exact"
+            else:
+                # ② 部分一致（4文字以上のキーのみ検索して誤爆を抑制）
+                for key, aid in watch_index.items():
+                    if len(key) >= 4 and (key in prog_lower or prog_lower in key):
+                        matched_id = aid
+                        match_type = "partial"
+                        break
+
+            if debug_logger:
+                debug_logger.debug(
+                    "title_fallback_match",
+                    extra={
+                        "data": {
+                            "syoboi_title": prog_title,
+                            "normalized_syoboi_title": prog_lower,
+                            "match_type": match_type,
+                            "matched_id": matched_id,
+                        }
+                    },
+                )
+
+            if matched_id:
+                if matched_id not in results:
+                    results[matched_id] = []
+                results[matched_id].append(item)
+            else:
+                unmatched_tids.add(item.get("TID", "?"))
+
+        fallback_hit_count = len([a for a in remaining_animes if a["anime_id"] in results])
+        logging.info(
+            f"  [OUTPUT] タイトルフォールバック: {fallback_hit_count}/{len(remaining_animes)} 作品がヒット"
+            f" (未マッチ TID 数={len(unmatched_tids)})"
+        )
 
     logging.info(
-        f"  [OUTPUT] マッチング結果: {len(results)}/{len(active_animes)} 作品が Syoboi にヒット"
-        f" (未マッチ TID 数={len(unmatched_tids)})"
+        f"  [OUTPUT] マッチング合計: {len(results)}/{len(active_animes)} 作品が Syoboi にヒット"
+        f" (TIDマッチ={len(tid_matched_anime_ids)}, タイトルフォールバック={len(results) - len(tid_matched_anime_ids)})"
     )
     return results
 
@@ -833,7 +903,7 @@ def main() -> None:
     # Step 2: watch_list × Syoboi マッチング
     # =========================================================
     logging.info("[LOG: START] Step 2: watch_list × Syoboi マッチング")
-    syoboi_matches = match_syoboi_to_watch(prog_items, active_animes, ch_map, debug_logger=debug_logger)
+    syoboi_matches = map_syoboi_to_watchlist_by_tid(prog_items, active_animes, ch_map, debug_logger=debug_logger)
     syoboi_hit_count = len(syoboi_matches)
     logging.info(
         f"[OUTPUT] Syoboiマッチング完了: {syoboi_hit_count}/{len(active_animes)} 作品がヒット"
