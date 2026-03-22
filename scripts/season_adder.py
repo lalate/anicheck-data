@@ -178,6 +178,18 @@ def normalize_title(title: str) -> str:
     return title.lower().strip()
 
 
+def _normalize_for_short_name(title_en: str) -> str:
+    """
+    英語タイトルを short_name 用に CamelCase へ正規化する。
+    例: "Fire Force Season 3" → "FireForceSeason3"
+         "SPY×FAMILY Part 2"  → "SPYFAMILYPart2"
+    """
+    # 英数字とスペースのみ残す
+    cleaned = re.sub(r"[^a-zA-Z0-9\s]", " ", title_en).strip()
+    # 単語ごとに先頭大文字（Title Case）にしてスペースを結合
+    return "".join(word.capitalize() for word in cleaned.split())
+
+
 def is_duplicate(new_title: str, existing_list: list) -> bool:
     """
     正規化後のタイトルで重複チェックを行う。
@@ -461,6 +473,82 @@ def find_syoboi_tid(title: str, syoboi_maps: dict) -> Optional[int]:
 
 
 # =================================================================
+# しょぼいカレンダー 個別TID詳細取得
+# =================================================================
+_SYOBOI_DETAIL_URL = "http://cal.syoboi.jp/db.php?Command=TitleLookup&TID={tid}&Fields=TID,Title,Comment"
+
+
+def fetch_syoboi_details(syoboi_tid: int) -> dict:
+    """
+    しょぼいカレンダー API から指定 TID の詳細情報（公式URL / Xハンドル）を取得する。
+
+    XMLレスポンスの Comment フィールドを解析し、以下を抽出する:
+    - official_url: twitter.com / x.com 以外の最初の URL
+    - x_handle:     twitter.com/xxx または x.com/xxx のユーザー名、
+                    または @xxx 形式のアカウント名
+
+    APIコール後に time.sleep(0.5) でサーバー負荷を軽減する。
+
+    引数:
+        syoboi_tid: しょぼいカレンダーのタイトルID
+
+    戻り値:
+        {"x_handle": str | None, "official_url": str | None}
+        取得失敗時は両キーが None の辞書を返す。
+    """
+    logger.info(f"[LOG: START] fetch_syoboi_details: TID={syoboi_tid}")
+    result: dict = {"x_handle": None, "official_url": None}
+    url = _SYOBOI_DETAIL_URL.format(tid=syoboi_tid)
+    try:
+        response = requests.get(url, timeout=15)
+        if response.status_code != 200:
+            logger.warning(
+                f"[THOUGHT: fetch_syoboi_details HTTPエラー: TID={syoboi_tid}, "
+                f"status={response.status_code}]"
+            )
+            return result
+
+        root = ET.fromstring(response.content)
+        comment_elem = root.find(".//Comment")
+        comment_text = (comment_elem.text or "").strip() if comment_elem is not None else ""
+        logger.info(
+            f"[THOUGHT: fetch_syoboi_details Comment取得: TID={syoboi_tid}, "
+            f"len={len(comment_text)}]"
+        )
+
+        if comment_text:
+            # X (Twitter) ハンドル抽出: twitter.com/xxx または x.com/xxx を優先
+            x_url_match = re.search(
+                r"https?://(?:twitter\.com|x\.com)/([A-Za-z0-9_]+)", comment_text
+            )
+            if x_url_match:
+                result["x_handle"] = x_url_match.group(1)
+            else:
+                # フォールバック: @xxx 形式（連続する英数字+アンダースコア）
+                at_match = re.search(r"@([A-Za-z0-9_]{2,50})", comment_text)
+                if at_match:
+                    result["x_handle"] = at_match.group(1)
+
+            # official_url 抽出: twitter.com / x.com 以外の最初の URL
+            for url_match in re.finditer(r"https?://[^\s<>\"']+", comment_text):
+                found_url = url_match.group(0).rstrip(".,;)")
+                if not re.search(r"(?:twitter\.com|x\.com)", found_url, re.IGNORECASE):
+                    result["official_url"] = found_url
+                    break
+
+        logger.info(
+            f"[OUTPUT] fetch_syoboi_details: TID={syoboi_tid} → "
+            f"official_url={result['official_url']}, x_handle={result['x_handle']}"
+        )
+    except Exception as e:
+        logger.error(f"[THOUGHT: fetch_syoboi_details 例外: TID={syoboi_tid}, {e}]")
+    finally:
+        time.sleep(0.5)
+    logger.info(f"[LOG: END] fetch_syoboi_details: TID={syoboi_tid}")
+    return result
+
+
+# =================================================================
 # メイン処理
 # =================================================================
 def main() -> None:
@@ -518,11 +606,9 @@ def main() -> None:
                 continue
 
             mal_id = anime.get("mal_id")
-            short_id = str(mal_id) if mal_id else ""
-            anime_id = generate_anime_id(title, short_id, season_info["yyyymm"])
-            logger.info(f"[THOUGHT: 処理中: '{title}' → anime_id='{anime_id}', mal_id={mal_id}]")
 
             # --- Jikanシーズン一覧データをそのまま利用（個別API呼び出しを省略） ---
+            # short_name の第2優先候補 title_english を参照するため、先に抽出する。
             jikan = _extract_jikan_fields(anime)
 
             # --- しょぼいカレンダーで syoboi_tid を取得 ---
@@ -534,8 +620,45 @@ def main() -> None:
             else:
                 logger.info(f"[THOUGHT: syoboi_tid取得不可: '{title}']")
 
-            # --- official_url: MAL URL を利用 ---
-            official_url = anime.get("url")
+            # --- syoboi_tid が取得できた作品のみ詳細情報（x_handle / official_url）を取得 ---
+            syoboi_details: dict = {}
+            if syoboi_tid is not None:
+                syoboi_details = fetch_syoboi_details(syoboi_tid)
+
+            # --- short_name の決定（優先順位: x_handle > title_english > mal_id） ---
+            x_handle = syoboi_details.get("x_handle")
+            title_en = jikan.get("title_english") or ""
+            if x_handle:
+                # 第1優先: Xアカウント名（英数字とアンダースコアのみ残し、小文字化）
+                short_name = re.sub(r"[^a-zA-Z0-9_]", "", x_handle).lower()
+                logger.info(
+                    f"[THOUGHT: short_name決定(x_handle): '{x_handle}' → '{short_name}']"
+                )
+            elif title_en:
+                # 第2優先: 英語タイトルを CamelCase 正規化
+                short_name = _normalize_for_short_name(title_en)
+                logger.info(
+                    f"[THOUGHT: short_name決定(title_en): '{title_en}' → '{short_name}']"
+                )
+            else:
+                # 第3優先: MAL ID の文字列
+                short_name = str(mal_id) if mal_id else ""
+                logger.info(f"[THOUGHT: short_name決定(mal_id): '{short_name}']")
+
+            # --- anime_id 生成: short_name が空の場合はタイトルハッシュでフォールバック ---
+            clean_short_name = re.sub(r"[^a-zA-Z0-9_]", "", short_name)
+            if not clean_short_name:
+                digest = hashlib.sha256(title.encode("utf-8")).hexdigest()[:8]
+                clean_short_name = f"gen_{digest}"
+                logger.warning(
+                    f"[THOUGHT: short_name='{short_name}' が無効。"
+                    f"タイトルハッシュでフォールバック。title='{title}']"
+                )
+            anime_id = f"{season_info['yyyymm']}_{clean_short_name}_c1"
+            logger.info(f"[THOUGHT: 処理中: '{title}' → anime_id='{anime_id}', mal_id={mal_id}]")
+
+            # --- official_url の決定（優先順位: syoboi_details > Jikan URL） ---
+            official_url = syoboi_details.get("official_url") or anime.get("url")
 
             # --- masterデータ構築 ---
             master = {
