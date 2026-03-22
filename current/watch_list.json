@@ -7,7 +7,8 @@
     "last_checked_ep": 11,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": "2026-03-31"
+    "season_end_date": "2026-03-31",
+    "syoboi_tid": 7629
   },
   {
     "anime_id": "202501_jujutsu3_c3",
@@ -27,7 +28,8 @@
     "last_checked_ep": 10,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": "2026-03-31"
+    "season_end_date": "2026-03-31",
+    "syoboi_tid": 7689
   },
   {
     "anime_id": "202401_hellspara_c2",
@@ -47,7 +49,8 @@
     "last_checked_ep": 11,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": "2026-03-31"
+    "season_end_date": "2026-03-31",
+    "syoboi_tid": 7656
   },
   {
     "anime_id": "202410_FateSFake_c1",
@@ -67,7 +70,8 @@
     "last_checked_ep": 9,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": "2026-03-31"
+    "season_end_date": "2026-03-31",
+    "syoboi_tid": 7645
   },
   {
     "anime_id": "202407_enen3_c2",
@@ -77,7 +81,8 @@
     "last_checked_ep": 10,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": "2026-03-31"
+    "season_end_date": "2026-03-31",
+    "syoboi_tid": 7686
   },
   {
     "anime_id": "202407_matoslav_c2",
@@ -97,7 +102,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": "2026-03-31"
+    "season_end_date": "2026-03-31",
+    "syoboi_tid": 7687
   },
   {
     "anime_id": "202604_youzitsu_c1",
@@ -117,7 +123,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7797
   },
   {
     "anime_id": "202604_yominotsugai_c1",
@@ -127,7 +134,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7800
   },
   {
     "anime_id": "202604_needyoverdose_c1",
@@ -137,7 +145,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7795
   },
   {
     "anime_id": "202604_kanachoro_c1",
@@ -147,7 +156,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7742
   },
   {
     "anime_id": "202604_dropsgod_c1",
@@ -157,7 +167,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7776
   },
   {
     "anime_id": "202604_shuumatsuvalkyrie_c1",
@@ -167,7 +178,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7778
   },
   {
     "anime_id": "202604_reinkabane_c1",
@@ -177,7 +189,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7812
   },
   {
     "anime_id": "202604_ingokudanchi_c1",
@@ -187,7 +200,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7777
   },
   {
     "anime_id": "202604_ookiionnanoko_c1",
@@ -207,7 +221,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7780
   },
   {
     "anime_id": "202604_akanebanashi_c1",
@@ -217,7 +232,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7750
   },
   {
     "anime_id": "202604_drstone_c1",
@@ -227,7 +243,8 @@
     "last_checked_ep": 0,
     "is_active": true,
     "season": "2026_spring",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7774
   },
   {
     "anime_id": "202601_jujutsushimetsu_c1",
@@ -237,7 +254,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7685
   },
   {
     "anime_id": "202601_slave2_c1",
@@ -247,7 +265,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7657
   },
   {
     "anime_id": "202601_mayochu_c1",
@@ -257,7 +276,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7662
   },
   {
     "anime_id": "202601_darwin_c1",
@@ -267,7 +287,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7695
   },
   {
     "anime_id": "202601_himesama2_c1",
@@ -277,7 +298,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7658
   },
   {
     "anime_id": "202601_vigilante2_c1",
@@ -287,7 +309,8 @@
     "last_checked_ep": 13,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7683
   },
   {
     "anime_id": "202601_shibomeshi_c1",
@@ -297,7 +320,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7675
   },
   {
     "anime_id": "202601_adventurer29_c1",
@@ -307,7 +331,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7670
   },
   {
     "anime_id": "202601_maomusume_c1",
@@ -317,7 +342,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7661
   },
   {
     "anime_id": "202601_seihantai_c1",
@@ -327,7 +353,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7691
   },
   {
     "anime_id": "202601_iseshachi_c1",
@@ -337,7 +364,8 @@
     "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7696
   },
   {
     "anime_id": "202601_kinishite_c1",
@@ -347,6 +375,7 @@
     "last_checked_ep": 13,
     "is_active": true,
     "season": "2026_winter",
-    "season_end_date": null
+    "season_end_date": null,
+    "syoboi_tid": 7660
   }
 ]

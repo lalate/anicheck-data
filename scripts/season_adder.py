@@ -22,6 +22,7 @@ import sys
 import time
 import unicodedata
 import urllib.parse
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Optional
 
@@ -70,10 +71,9 @@ JIKAN_SLEEP = 0.5
 GROK_MAX_RETRIES = 3
 # 正規化後の文字列で部分一致を重複とみなす最小文字数
 DUPLICATE_MIN_LEN = 8
-# ARM（Anime Relations Map）APIのベースURL
-# GET /api/ids?service=<service>&id=<id>
-# 例: ?service=mal&id=5114 → {"mal_id":5114,"anilist_id":5114,"annict_id":1745,"syobocal_tid":1575}
-ARM_API_URL = "https://arm.kawaiioverflow.com/api/ids"
+# しょぼいカレンダー 全タイトル一括取得エンドポイント
+# 起動時に一度だけ呼び出し、正規化タイトル → TID の辞書を構築する。
+SYOBOI_TITLE_LOOKUP_URL = "http://cal.syoboi.jp/db.php/db?Command=TitleLookup&TID=*&Fields=TID,Title"
 
 # =================================================================
 # Pydanticスキーマ（Grok出力のバリデーション用）
@@ -517,55 +517,65 @@ def enrich_with_jikan(title: str) -> dict:
 
 
 # =================================================================
-# ARM API（Anime Relations Map）ID取得
+# しょぼいカレンダー 一括タイトルマップ
 # =================================================================
-def fetch_arm_ids(id_type: str, id_value: str) -> dict | None:
+def build_syoboi_title_map() -> dict:
     """
-    arm.kawaiioverflow.com の /api/ids を呼び出し、各DBのID対応表を取得する。
-
-    引数:
-        id_type:  "mal", "anilist", "anidb" など（APIの service パラメータ）
-        id_value: 対応するID文字列
+    しょぼいカレンダーから全タイトル情報を一括取得し、
+    正規化タイトル → TID のマッピング辞書を構築する。
+    起動時に一度だけ呼び出すことで、個別API呼び出しのオーバーヘッドを排除する。
 
     戻り値:
-        成功時: {"mal_id": int, "anilist_id": int, "syobocal_tid": int, ...} の辞書
-        失敗時: None（スクリプト全体を停止しない）
+        {normalize_title(作品名): TID(int)} の辞書。取得失敗時は空辞書。
     """
-    logger.info(f"[LOG: START] fetch_arm_ids: id_type={id_type}, id_value={id_value}")
+    logger.info("[LOG: START] build_syoboi_title_map: しょぼいカレンダー全タイトル一括取得")
+    title_map: dict[str, int] = {}
     try:
-        url = f"{ARM_API_URL}?service={id_type}&id={id_value}"
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200:
-            data = response.json()
-            # レスポンスはオブジェクト 1件 または 配列の場合を両方考慮
-            if isinstance(data, list):
-                if not data:
-                    logger.warning(
-                        f"[THOUGHT: ARM API 空配列レスポンス: id_type={id_type}, id_value={id_value}]"
-                    )
-                    return None
-                result = data[0]
-            elif isinstance(data, dict):
-                result = data
-            else:
-                logger.warning(f"[THOUGHT: ARM API 予期しないレスポンス型: {type(data)}]")
-                return None
-            logger.info(f"[LOG: END] fetch_arm_ids → {result}")
-            return result
-        elif response.status_code == 404:
-            logger.info(
-                f"[THOUGHT: ARM API 404 Not Found（未登録）: id_type={id_type}, id_value={id_value}]"
-            )
-            return None
-        else:
+        response = requests.get(SYOBOI_TITLE_LOOKUP_URL, timeout=30)
+        if response.status_code != 200:
             logger.warning(
-                f"[THOUGHT: ARM API ステータスエラー: {response.status_code} "
-                f"id_type={id_type}, id_value={id_value}]"
+                f"[THOUGHT: しょぼいカレンダーTitleLookup HTTPエラー: {response.status_code}]"
             )
-            return None
+            return title_map
+        root = ET.fromstring(response.content)
+        for item in root.iter("TitleItem"):
+            tid_elem = item.find("TID")
+            title_elem = item.find("Title")
+            if tid_elem is not None and title_elem is not None:
+                tid_text = (tid_elem.text or "").strip()
+                title_text = (title_elem.text or "").strip()
+                if tid_text and title_text:
+                    try:
+                        title_map[normalize_title(title_text)] = int(tid_text)
+                    except (ValueError, TypeError):
+                        pass
+        logger.info(f"[LOG: END] build_syoboi_title_map: {len(title_map)}件のタイトルマップを構築")
     except Exception as e:
-        logger.error(f"[THOUGHT: fetch_arm_ids 例外: {e} (id_type={id_type}, id_value={id_value})]")
+        logger.error(f"[THOUGHT: build_syoboi_title_map 例外: {e}]")
+    return title_map
+
+
+def find_syoboi_tid(title: str, syoboi_maps: dict) -> Optional[int]:
+    """
+    正規化タイトルでしょぼいカレンダーのTIDを検索する。
+    完全一致を優先し、見つからない場合は None を返す。
+
+    引数:
+        title:       検索対象のアニメタイトル
+        syoboi_maps: build_syoboi_title_map() で構築した辞書
+
+    戻り値:
+        TID(int) または None
+    """
+    if not title or not syoboi_maps:
         return None
+    norm = normalize_title(title)
+    tid = syoboi_maps.get(norm)
+    if tid is not None:
+        logger.info(f"[OUTPUT] find_syoboi_tid: '{title}' (正規化: '{norm}') → TID={tid}")
+    else:
+        logger.debug(f"[THOUGHT: find_syoboi_tid: '{title}' (正規化: '{norm}') → 未マッチ]")
+    return tid
 
 
 # =================================================================
@@ -581,6 +591,9 @@ def main() -> None:
 
     season_info = get_season_info(args.season)
     logger.info(f"[THOUGHT: Target Season: {season_info['season_str']}, yyyymm={season_info['yyyymm']}]")
+
+    syoboi_maps = build_syoboi_title_map()
+    logger.info(f"[THOUGHT: しょぼいカレンダーマップ構築完了: {len(syoboi_maps)}件]")
 
     watch_list = load_json_safe(WATCH_LIST_FILE, [])
     broadcast_history = load_json_safe(BROADCAST_HISTORY_FILE, {})
@@ -619,22 +632,14 @@ def main() -> None:
             # --- Jikan補完 ---
             jikan = enrich_with_jikan(title)
 
-            # --- ARM APIで syoboi_tid を取得 ---
-            syoboi_tid: Optional[int] = None
-            if jikan.get("mal_id"):
-                arm_ids = fetch_arm_ids("mal", str(jikan["mal_id"]))
-                if arm_ids and arm_ids.get("syobocal_tid"):
-                    syoboi_tid = int(arm_ids["syobocal_tid"])
-                    logger.info(
-                        f"[OUTPUT] syoboi_tid取得成功: '{title}' "
-                        f"mal_id={jikan['mal_id']} → syoboi_tid={syoboi_tid}"
-                    )
-                else:
-                    logger.info(
-                        f"[THOUGHT: syoboi_tid取得不可: '{title}' mal_id={jikan['mal_id']}]"
-                    )
+            # --- しょぼいカレンダーで syoboi_tid を取得 ---
+            syoboi_tid: Optional[int] = find_syoboi_tid(title, syoboi_maps)
+            if syoboi_tid is not None:
+                logger.info(
+                    f"[OUTPUT] syoboi_tid取得成功: '{title}' → syoboi_tid={syoboi_tid}"
+                )
             else:
-                logger.debug(f"[THOUGHT: mal_idなしのためARM APIスキップ: '{title}']")
+                logger.info(f"[THOUGHT: syoboi_tid取得不可: '{title}']")
 
             # --- masterデータ構築 ---
             station_master = (
@@ -707,19 +712,18 @@ def main() -> None:
     logger.info("[LOG: START] Step 既存watch_listの syoboi_tid 遡及補完")
     arm_updated = 0
     for entry in watch_list:
-        if entry.get("mal_id") and entry.get("syoboi_tid") is None:
-            arm_ids = fetch_arm_ids("mal", str(entry["mal_id"]))
-            if arm_ids and arm_ids.get("syobocal_tid"):
-                entry["syoboi_tid"] = int(arm_ids["syobocal_tid"])
+        if entry.get("syoboi_tid") is None:
+            syoboi_tid = find_syoboi_tid(entry.get("title", ""), syoboi_maps)
+            if syoboi_tid is not None:
+                entry["syoboi_tid"] = syoboi_tid
                 arm_updated += 1
                 logger.info(
                     f"[OUTPUT] syoboi_tid遡及補完: '{entry.get('title')}' "
-                    f"mal_id={entry['mal_id']} → syoboi_tid={entry['syoboi_tid']}"
+                    f"→ syoboi_tid={entry['syoboi_tid']}"
                 )
             else:
                 logger.debug(
-                    f"[THOUGHT: syoboi_tid遡及補完不可: '{entry.get('title')}' "
-                    f"mal_id={entry.get('mal_id')}]"
+                    f"[THOUGHT: syoboi_tid遡及補完不可: '{entry.get('title')}']"
                 )
 
     if not args.dry_run and arm_updated > 0:
