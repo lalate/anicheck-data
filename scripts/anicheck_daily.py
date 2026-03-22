@@ -890,14 +890,16 @@ def main() -> None:
     logging.info(
         f"[OUTPUT] Syoboi 取得: ProgramByDate={len(prog_items)}件, Channel={len(ch_map)}局"
     )
-    debug_logger.debug( "syoboi_data_fetched",
-        extra={
-            "data": {
-                "ch_map": ch_map,
-                "prog_items": prog_items,
-            }
-        },
-    )
+    if debug_logger:
+        debug_logger.debug(
+            "syoboi_data_fetched",
+            extra={
+                "data": {
+                    "ch_map": ch_map,
+                    "prog_items": prog_items,
+                }
+            },
+        )
 
     # =========================================================
     # Step 2: watch_list × Syoboi マッチング
@@ -915,11 +917,23 @@ def main() -> None:
     all_broadcasts: List[Dict[str, Any]] = []
     grok_call_count: int = 0
     syoboi_confirmed_count: int = 0
-    total = len(active_animes)
+
+    # [THOUGHT: Syoboi にヒットした作品を先頭に並べることで、Grokの1日上限枠を
+    # 「番組表に掲載されていてあらすじが未取得の作品」に優先消費させる。
+    # syoboi_tid未設定の配信限定作品などに先に枠を奪われないようにするための並び替え。]
+    syoboi_hit_ids = set(syoboi_matches.keys())
+    syoboi_hit_animes = [a for a in active_animes if (a.get("anime_id") or a.get("title", "")) in syoboi_hit_ids]
+    non_syoboi_animes = [a for a in active_animes if (a.get("anime_id") or a.get("title", "")) not in syoboi_hit_ids]
+    prioritized_animes = syoboi_hit_animes + non_syoboi_animes
+    logging.info(
+        f"[THOUGHT: 処理順序を優先化 — Syoboiヒット:{len(syoboi_hit_animes)}件 → 非ヒット:{len(non_syoboi_animes)}件]"
+    )
+
+    total = len(prioritized_animes)
 
     logging.info(f"[LOG: START] Step 3: 全{total}作品の処理開始")
 
-    for i, anime in enumerate(active_animes):
+    for i, anime in enumerate(prioritized_animes):
         anime_id: str = anime.get("anime_id") or anime.get("title", f"unknown_{i}")
         title: str = anime.get("title", "不明")
         logging.info(f"  [{i+1}/{total}] {title} (id={anime_id})")
