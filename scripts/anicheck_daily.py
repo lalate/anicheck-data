@@ -1022,66 +1022,80 @@ def main() -> None:
                     )
 
             else:
-                # ── Syoboi にヒットしない作品（配信限定等） ───
-                logging.info(
-                    f"    [THOUGHT: Syoboiにヒットなし — 配信限定の可能性。Grok候補]"
-                )
-                if grok_call_count < MAX_GROK_CALLS_PER_DAY:
+                # ── Syoboi にヒットしない作品 ──────────────────────────────────────────────────
+                syoboi_tid_val = str(anime.get("syoboi_tid") or "").strip()
+                if syoboi_tid_val:
+                    # syoboi_tid が設定されているのに向こう7日間の番組表に載っていない
+                    # → 放送前 / 放送終了 / 特番等による休止 のいずれかと判断。Grok呼出不要。
                     logging.info(
-                        f"    → Grok問い合わせ "
-                        f"(今日の残り呼出: {MAX_GROK_CALLS_PER_DAY - grok_call_count}回)"
+                        f"    [THOUGHT: syoboi_tid={syoboi_tid_val} 設定済みだが向こう7日間の番組表にヒットなし "
+                        f"→ 放送前・放送終了・特番休止のいずれかと判断。Grokをスキップします]"
                     )
-                    current_history = broadcast_history.get(anime_id, {"platforms": {}})
-                    try:
-                        raw_text = call_grok_for_anime(
-                            title, anime.get("official_url"), current_history
-                        )
-                        grok_call_count += 1
-                        logging.info(
-                            f"    [Grok呼出 {grok_call_count}/{MAX_GROK_CALLS_PER_DAY}]"
-                        )
-
-                        grok_result = parse_grok_output(raw_text, title)
-                        if grok_result:
-                            update_history_from_grok(
-                                broadcast_history,
-                                anime_id,
-                                title,
-                                grok_result["update"],
-                                today_str,
-                            )
-                            today_ep: Optional[EpisodeSchedule] = grok_result["today"]
-                            if today_ep is not None:
-                                ep_num_g: int = today_ep.ep_num
-                                save_episode_file(anime_id, ep_num_g, today_ep)
-
-                                # watch_list の last_checked_ep を更新
-                                if ep_num_g > (anime.get("last_checked_ep") or 0):
-                                    anime["last_checked_ep"] = ep_num_g
-                                    logging.info(f"    last_checked_ep 更新 → {ep_num_g}")
-
-                                # daily_schedule に追加（Grok が局情報を持つ場合）
-                                for bc in today_ep.broadcasts:
-                                    all_broadcasts.append(
-                                        {
-                                            "anime_id": anime_id,
-                                            "title": title,
-                                            "ep_num": ep_num_g,
-                                            "station_id": bc.station_id,
-                                            "start_time": bc.start_time,
-                                            "status": bc.status,
-                                        }
-                                    )
-                        else:
-                            logging.warning(f"    ⚠️ Grokレスポンスのパース失敗: {title}")
-                    except Exception as grok_err:
-                        logging.error(
-                            f"    🔥 Grokエラー: {title} — {grok_err}", exc_info=True
-                        )
+                    logging.info(
+                        f"    ⏭️ Grokスキップ (syoboi_tid={syoboi_tid_val} 設定済み: "
+                        f"今週は休みまたは放送前/終了のためSyoboi番組表に掲載なし)"
+                    )
                 else:
+                    # syoboi_tid 未設定 → 配信限定またはTID未特定の作品のみGrokへ問い合わせ
                     logging.info(
-                        f"    ⚠️ Grok上限到達 ({MAX_GROK_CALLS_PER_DAY}回/日) — スキップ"
+                        f"    [THOUGHT: syoboi_tidなし — 配信限定作品またはTID未特定。Grok候補]"
                     )
+                    if grok_call_count < MAX_GROK_CALLS_PER_DAY:
+                        logging.info(
+                            f"    → Grok問い合わせ "
+                            f"(今日の残り呼出: {MAX_GROK_CALLS_PER_DAY - grok_call_count}回)"
+                        )
+                        current_history = broadcast_history.get(anime_id, {"platforms": {}})
+                        try:
+                            raw_text = call_grok_for_anime(
+                                title, anime.get("official_url"), current_history
+                            )
+                            grok_call_count += 1
+                            logging.info(
+                                f"    [Grok呼出 {grok_call_count}/{MAX_GROK_CALLS_PER_DAY}]"
+                            )
+
+                            grok_result = parse_grok_output(raw_text, title)
+                            if grok_result:
+                                update_history_from_grok(
+                                    broadcast_history,
+                                    anime_id,
+                                    title,
+                                    grok_result["update"],
+                                    today_str,
+                                )
+                                today_ep: Optional[EpisodeSchedule] = grok_result["today"]
+                                if today_ep is not None:
+                                    ep_num_g: int = today_ep.ep_num
+                                    save_episode_file(anime_id, ep_num_g, today_ep)
+
+                                    # watch_list の last_checked_ep を更新
+                                    if ep_num_g > (anime.get("last_checked_ep") or 0):
+                                        anime["last_checked_ep"] = ep_num_g
+                                        logging.info(f"    last_checked_ep 更新 → {ep_num_g}")
+
+                                    # daily_schedule に追加（Grok が局情報を持つ場合）
+                                    for bc in today_ep.broadcasts:
+                                        all_broadcasts.append(
+                                            {
+                                                "anime_id": anime_id,
+                                                "title": title,
+                                                "ep_num": ep_num_g,
+                                                "station_id": bc.station_id,
+                                                "start_time": bc.start_time,
+                                                "status": bc.status,
+                                            }
+                                        )
+                            else:
+                                logging.warning(f"    ⚠️ Grokレスポンスのパース失敗: {title}")
+                        except Exception as grok_err:
+                            logging.error(
+                                f"    🔥 Grokエラー: {title} — {grok_err}", exc_info=True
+                            )
+                    else:
+                        logging.info(
+                            f"    ⚠️ Grok上限到達 ({MAX_GROK_CALLS_PER_DAY}回/日) — スキップ"
+                        )
 
             logging.info(f"    ✅ {anime_id} 処理完了")
 
