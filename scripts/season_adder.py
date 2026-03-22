@@ -28,10 +28,7 @@ from typing import Optional
 
 import requests
 from dotenv import load_dotenv
-from pydantic import BaseModel, Field, field_validator, ValidationError
-from xai_sdk import Client
-from xai_sdk.chat import system, user
-from xai_sdk.tools import web_search, x_search
+from pydantic import BaseModel
 
 load_dotenv()
 
@@ -68,7 +65,6 @@ logger = logging.getLogger(__name__)
 # =================================================================
 JIKAN_API_BASE = "https://api.jikan.moe/v4"
 JIKAN_SLEEP = 0.5
-GROK_MAX_RETRIES = 3
 # 正規化後の文字列で部分一致を重複とみなす最小文字数
 DUPLICATE_MIN_LEN = 8
 # しょぼいカレンダー 全タイトル一括取得エンドポイント
@@ -76,43 +72,8 @@ DUPLICATE_MIN_LEN = 8
 SYOBOI_TITLE_LOOKUP_URL = "http://cal.syoboi.jp/db.php/db?Command=TitleLookup&TID=*&Fields=TID,Title"
 
 # =================================================================
-# Pydanticスキーマ（Grok出力のバリデーション用）
+# Pydanticスキーマ（watch_list.json エントリ定義）
 # =================================================================
-
-class GrokSchedule(BaseModel):
-    station: str = ""
-    day_of_week: str = ""
-    time: str = ""
-
-
-class GrokAnimeItem(BaseModel):
-    title: str
-    short_id: str = ""
-    official_url: Optional[str] = None
-    ep_num: int = 1
-    schedules: list[GrokSchedule] = Field(default_factory=list)
-
-    @field_validator("title")
-    @classmethod
-    def title_must_not_be_empty(cls, v: str) -> str:
-        v = v.strip()
-        if not v:
-            raise ValueError("title is empty")
-        return v
-
-    @field_validator("ep_num", mode="before")
-    @classmethod
-    def ep_num_coerce(cls, v) -> int:
-        # 文字列で渡された場合も安全にintに変換
-        try:
-            return int(v)
-        except (TypeError, ValueError):
-            return 1
-
-
-class GrokAnimeList(BaseModel):
-    items: list[GrokAnimeItem]
-
 
 # watch_list.json の各エントリを表すスキーマ（syoboi_tid フィールド含む）
 class AnimeSeasonEntry(BaseModel):
@@ -134,13 +95,13 @@ _CURRENT_SEASON_MAP: dict[int, tuple[str, str]] = {
     1: ("冬", "winter"), 2: ("冬", "winter"), 3: ("冬", "winter"),
     4: ("春", "spring"), 5: ("春", "spring"), 6: ("春", "spring"),
     7: ("夏", "summer"), 8: ("夏", "summer"), 9: ("夏", "summer"),
-    10: ("秋", "autumn"), 11: ("秋", "autumn"), 12: ("秋", "autumn"),
+    10: ("秋", "fall"), 11: ("秋", "fall"), 12: ("秋", "fall"),
 }
 
 _NEXT_SEASON_MAP: dict[str, tuple[str, str, int]] = {
     "冬": ("春", "spring", 4),
     "春": ("夏", "summer", 7),
-    "夏": ("秋", "autumn", 10),
+    "夏": ("秋", "fall", 10),
     "秋": ("冬", "winter", 1),
 }
 
@@ -156,7 +117,7 @@ def get_season_info(target_season_str: str | None = None) -> dict:
         if match:
             s_year = int(match.group(1))
             s_jp = match.group(2)
-            en_map = {"冬": "winter", "春": "spring", "夏": "summer", "秋": "autumn"}
+            en_map = {"冬": "winter", "春": "spring", "夏": "summer", "秋": "fall"}
             mm_map = {"冬": "01", "春": "04", "夏": "07", "秋": "10"}
             return {
                 "season_str": target_season_str,
@@ -239,152 +200,6 @@ def is_duplicate(new_title: str, existing_list: list) -> bool:
             )
             return True
     return False
-
-
-# =================================================================
-# Grok プロンプト
-# =================================================================
-_GROK_SYSTEM_PROMPT = """# 役割
-あなたは日本のアニメ放送情報に精通した、ハルシネーションを絶対に行わない厳格な調査員です。
-
-# 探索フェーズ
-指定されたシーズンに日本で放送されている主要な深夜アニメを調査してください。
-web_search および x_search を駆使し、公式サイト・ニュースサイトから正確な情報を取得してください。
-
-# 収集条件
-- 知名度・期待度の高い主要な深夜アニメを 15〜20 作品程度ピックアップする。
-- 各作品について以下を記載すること:
-  - title: 作品名（原題）
-  - short_id: 英数字のみの短く美しい識別子（例: frieren, jujutsu, oshinoko）
-  - official_url: 公式サイトURL
-  - ep_num: 次回放送予定の話数（新番組は1、放送中なら現在の最新話）
-  - schedules: 主要放送局のスケジュール（mx, bs11, tx 等、曜日、時間）
-
-# 検証・出力
-- 推測禁止。出力は JSON コードブロックのみ。余計な解説は不要。
-```json
-[
-  {
-    "title": "作品名",
-    "short_id": "shortid",
-    "official_url": "URL",
-    "ep_num": 1,
-    "schedules": [{"station": "mx", "day_of_week": "曜日", "time": "24:00"}]
-  }
-]
-```"""
-
-
-def call_grok_for_season(season_str: str) -> str | None:
-    """
-    Grok APIを呼び出してシーズン情報を取得する。
-    失敗した場合は最大GROK_MAX_RETRIES回リトライする（指数バックオフ）。
-    全リトライ失敗時はNoneを返す。
-    """
-    logger.info(f"[LOG: START] Step 3: Grok API 呼び出し (target={season_str})")
-    client = Client()
-    user_input = (
-        f"対象：{season_str}\n"
-        f"この時期に日本で放送開始された、あるいは放送中の主要な深夜アニメを 20作品程度リストアップしてください。"
-        f"web_search 等で最新情報を必ず取得し、正確な公式URLとスケジュールを記載してください。"
-    )
-
-    backoff = 2
-    for attempt in range(1, GROK_MAX_RETRIES + 1):
-        try:
-            logger.info(f"[THOUGHT: Grok呼び出し試行 {attempt}/{GROK_MAX_RETRIES}]")
-            chat = client.chat.create(
-                model="grok-4-1-fast-reasoning",
-                tools=[web_search(), x_search()],
-                tool_choice="auto",
-            )
-            chat.append(system(_GROK_SYSTEM_PROMPT))
-            chat.append(user(user_input))
-            response = chat.sample()
-            content = response.content or ""
-            if content:
-                logger.info(f"[LOG: END] Grok呼び出し成功 (attempt={attempt}, len={len(content)})")
-                return content
-            logger.warning(f"[THOUGHT: Grok応答が空。リトライ {attempt}/{GROK_MAX_RETRIES}]")
-        except Exception as e:
-            logger.error(f"[THOUGHT: Grok例外 attempt={attempt}: {e}]")
-
-        if attempt < GROK_MAX_RETRIES:
-            logger.info(f"[THOUGHT: {backoff}秒待機後リトライ]")
-            time.sleep(backoff)
-            backoff *= 2
-
-    logger.error(f"[LOG: END] Grok全リトライ失敗 (season={season_str})")
-    return None
-
-
-# =================================================================
-# Grokレスポンスのパース（Pydanticバリデーション付き）
-# =================================================================
-def _extract_json_candidate(text: str) -> str | None:
-    """
-    テキストからJSONらしき文字列（配列）を抽出する。
-    コードブロック優先、なければ裸のJSON配列を探す。
-    """
-    # ```json ... ``` ブロックを優先抽出（バッククォートの乱れに対応）
-    block_match = re.search(r"```(?:json)?\s*(\[.*?\])\s*```", text, re.DOTALL)
-    if block_match:
-        return block_match.group(1)
-
-    # コードブロックがない場合、最外側の配列を抽出（ネスト対応）
-    depth = 0
-    start = None
-    for i, ch in enumerate(text):
-        if ch == "[":
-            if depth == 0:
-                start = i
-            depth += 1
-        elif ch == "]":
-            depth -= 1
-            if depth == 0 and start is not None:
-                return text[start : i + 1]
-    return None
-
-
-def parse_grok_response(text: str) -> list[GrokAnimeItem] | None:
-    """
-    GrokのテキストレスポンスからJSONを抽出し、Pydanticでバリデーションする。
-    失敗した場合はログを出力してNoneを返す（即死しない）。
-    """
-    logger.info("[LOG: START] Step 4: Grokレスポンスのパース")
-    logger.debug(f"[INPUT] raw_text length={len(text)}, preview={text[:200]!r}")
-
-    candidate = _extract_json_candidate(text)
-    if not candidate:
-        logger.error("[THOUGHT: JSON候補が見つからなかった。テキスト全体を確認してください。]")
-        logger.debug(f"[OUTPUT] parse_grok_response → None (no JSON found)")
-        return None
-
-    logger.debug(f"[THOUGHT: JSON候補抽出成功 length={len(candidate)}]")
-
-    try:
-        raw_list = json.loads(candidate)
-        if not isinstance(raw_list, list):
-            logger.error(f"[THOUGHT: JSONがリストでない: {type(raw_list)}]")
-            return None
-    except json.JSONDecodeError as e:
-        logger.error(f"[THOUGHT: JSONDecodeError: {e}]")
-        logger.debug(f"[INPUT] 問題のある候補: {candidate[:300]!r}")
-        return None
-
-    validated: list[GrokAnimeItem] = []
-    for idx, item in enumerate(raw_list):
-        try:
-            validated.append(GrokAnimeItem.model_validate(item))
-        except ValidationError as e:
-            logger.warning(f"[THOUGHT: アイテム{idx}バリデーション失敗（スキップ）: {e.errors()}]")
-
-    if not validated:
-        logger.error("[THOUGHT: バリデーション通過アイテムが0件]")
-        return None
-
-    logger.info(f"[LOG: END] parse_grok_response → {len(validated)}件 validated")
-    return validated
 
 
 # =================================================================
@@ -516,6 +331,73 @@ def enrich_with_jikan(title: str) -> dict:
     return result
 
 
+def _extract_jikan_fields(anime: dict) -> dict:
+    """
+    Jikan シーズン一覧 API（/seasons/{year}/{season}）の1エントリから
+    enrich_with_jikan と同じキー構成の辞書を生成して返す。
+    シーズン一覧エントリは /anime/{id}/full と同等の情報を含むため、
+    個別APIコールを省略してAPIコール数を大幅削減できる。
+    """
+    images = anime.get("images", {})
+    titles = anime.get("titles", [])
+    return {
+        "mal_id": anime.get("mal_id"),
+        "image_url": (
+            images.get("webp", {}).get("large_image_url")
+            or images.get("jpg", {}).get("large_image_url")
+        ),
+        "genres": [g["name"] for g in anime.get("genres", []) if "Explicit" not in g["name"]],
+        "themes": [t["name"] for t in anime.get("themes", []) if "Explicit" not in t["name"]],
+        "score": anime.get("score") if (anime.get("score") or 0) > 0 else None,
+        "studio": anime["studios"][0]["name"] if anime.get("studios") else None,
+        "title_english": next(
+            (t["title"] for t in titles if t.get("type") == "English"), None
+        ),
+        "title_japanese": next(
+            (t["title"] for t in titles if t.get("type") == "Japanese"), None
+        ),
+    }
+
+
+def fetch_season_from_jikan(year: int, season: str) -> list[dict]:
+    """
+    Jikan API の /seasons/{year}/{season} エンドポイントから
+    指定シーズンのアニメ一覧を全ページ取得して返す。
+
+    引数:
+        year:   西暦年 (例: 2026)
+        season: Jikan API 用シーズン名 ("winter" / "spring" / "summer" / "fall")
+
+    戻り値:
+        アニメ情報の辞書リスト。取得失敗時は空リスト。
+    """
+    logger.info(f"[LOG: START] fetch_season_from_jikan: year={year}, season={season}")
+    all_anime: list[dict] = []
+    page = 1
+    while True:
+        url = f"{JIKAN_API_BASE}/seasons/{year}/{season}?page={page}"
+        logger.info(f"[THOUGHT: Jikan season API 呼び出し: {url}]")
+        res = _fetch_jikan_with_backoff(url)
+        if not res or not res.get("data"):
+            if page == 1:
+                logger.error(
+                    f"[THOUGHT: Jikan seasons API からデータなし (year={year}, season={season})]"
+                )
+            break
+        page_data = res["data"]
+        all_anime.extend(page_data)
+        logger.info(
+            f"[THOUGHT: page={page} → {len(page_data)}件取得 (累計={len(all_anime)}件)]"
+        )
+        pagination = res.get("pagination", {})
+        if not pagination.get("has_next_page", False):
+            break
+        page += 1
+        time.sleep(1)
+    logger.info(f"[LOG: END] fetch_season_from_jikan: 合計{len(all_anime)}件取得")
+    return all_anime
+
+
 # =================================================================
 # しょぼいカレンダー 一括タイトルマップ
 # =================================================================
@@ -599,26 +481,35 @@ def main() -> None:
     broadcast_history = load_json_safe(BROADCAST_HISTORY_FILE, {})
     logger.info(f"[THOUGHT: 既存watch_list={len(watch_list)}件読み込み]")
 
-    # --- Grok呼び出し ---
-    raw_text = call_grok_for_season(season_info["season_str"])
-    if not raw_text:
-        logger.error("[LOG: END] Grok応答が取得できなかったため終了。")
+    # --- Jikan シーズン一覧取得 ---
+    year = int(season_info["yyyymm"][:4])
+    season_en = season_info["season_en"]
+    logger.info(
+        f"[LOG: START] Step 3: Jikan シーズン一覧取得 (year={year}, season={season_en})"
+    )
+    jikan_season_data = fetch_season_from_jikan(year, season_en)
+    if not jikan_season_data:
+        logger.error("[LOG: END] Jikan APIからシーズンデータが取得できなかったため終了。")
         sys.exit(1)
 
-    # --- Grokレスポンスパース ---
-    anime_list = parse_grok_response(raw_text)
-    if not anime_list:
-        logger.error("[LOG: END] Grokレスポンスのパースに失敗したため終了。")
-        sys.exit(1)
-
-    logger.info(f"[THOUGHT: Grokから{len(anime_list)}件のアニメ情報を取得]")
+    logger.info(f"[THOUGHT: Jikan APIから{len(jikan_season_data)}件のアニメ情報を取得]")
 
     new_count = 0
     skip_count = 0
     error_count = 0
 
-    for anime in anime_list:
-        title = anime.title
+    for anime in jikan_season_data:
+        # タイトル取得: Japanese title 優先、なければ default title（英語/ローマ字）
+        titles = anime.get("titles", [])
+        title_japanese = next(
+            (t["title"] for t in titles if t.get("type") == "Japanese"), None
+        )
+        title = title_japanese or anime.get("title", "")
+        if not title:
+            logger.warning("[THOUGHT: タイトルが取得できなかったためスキップ]")
+            skip_count += 1
+            continue
+
         try:
             # --- 重複チェック ---
             if is_duplicate(title, watch_list):
@@ -626,11 +517,13 @@ def main() -> None:
                 skip_count += 1
                 continue
 
-            anime_id = generate_anime_id(title, anime.short_id, season_info["yyyymm"])
-            logger.info(f"[THOUGHT: 処理中: '{title}' → anime_id='{anime_id}']")
+            mal_id = anime.get("mal_id")
+            short_id = str(mal_id) if mal_id else ""
+            anime_id = generate_anime_id(title, short_id, season_info["yyyymm"])
+            logger.info(f"[THOUGHT: 処理中: '{title}' → anime_id='{anime_id}', mal_id={mal_id}]")
 
-            # --- Jikan補完 ---
-            jikan = enrich_with_jikan(title)
+            # --- Jikanシーズン一覧データをそのまま利用（個別API呼び出しを省略） ---
+            jikan = _extract_jikan_fields(anime)
 
             # --- しょぼいカレンダーで syoboi_tid を取得 ---
             syoboi_tid: Optional[int] = find_syoboi_tid(title, syoboi_maps)
@@ -641,16 +534,16 @@ def main() -> None:
             else:
                 logger.info(f"[THOUGHT: syoboi_tid取得不可: '{title}']")
 
+            # --- official_url: MAL URL を利用 ---
+            official_url = anime.get("url")
+
             # --- masterデータ構築 ---
-            station_master = (
-                anime.schedules[0].station.upper() if anime.schedules else None
-            )
             master = {
                 "anime_id": anime_id,
                 "title": title,
-                "official_url": anime.official_url,
+                "official_url": official_url,
                 "hashtag": None,
-                "station_master": station_master,
+                "station_master": None,
                 "cast": [],
                 "staff": {},
                 "sources": {"manga_amazon": None, "goods": []},
@@ -665,25 +558,27 @@ def main() -> None:
                 )
                 watch_list.append({
                     "anime_id": anime_id,
-                    "mal_id": jikan["mal_id"],
+                    "mal_id": mal_id,
                     "title": title,
-                    "official_url": anime.official_url,
-                    "last_checked_ep": anime.ep_num,
+                    "official_url": official_url,
+                    "last_checked_ep": 1,
                     "is_active": True,
                     "season": season_info["season_key"],
                     "season_end_date": None,
                     "syoboi_tid": syoboi_tid,
                 })
-                platforms = {}
-                for sch in anime.schedules:
-                    station_key = sch.station or "unknown"
-                    platforms[station_key] = {
-                        "last_ep_num": anime.ep_num,
-                        "remarks": f"{sch.day_of_week} {sch.time}".strip(),
+                # broadcast_history: Jikan の broadcast フィールドを利用
+                platforms: dict = {}
+                broadcast_info = anime.get("broadcast") or {}
+                broadcast_string = broadcast_info.get("string") or ""
+                if broadcast_string:
+                    platforms["broadcast"] = {
+                        "last_ep_num": 1,
+                        "remarks": broadcast_string,
                     }
                 broadcast_history[anime_id] = {
                     "title": title,
-                    "overall_latest_ep": anime.ep_num,
+                    "overall_latest_ep": 1,
                     "platforms": platforms,
                 }
 
