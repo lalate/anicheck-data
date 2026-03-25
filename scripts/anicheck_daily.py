@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""anicheck_daily.py — v3.3 (Syoboi-first + Grok-summary/preview, 動的クールダウン)
+"""anicheck_daily.py — v3.4 (Syoboi-first + Grok-summary/preview, 動的クールダウン)
 
 フロー:
   1. Syoboi Calendar API から向こう3日間の放送データを一括取得
@@ -145,14 +145,32 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
     "nhk総合": "nhk",
     "nhk bs": "nhk-bs",
     "nhk bs1": "nhk-bs1",
+    "nhk bs2": "nhk-bs2",
+    "nhk bsp": "nhk-bsp",
+    "nhk bsプレミアム": "nhk-bsp",
+    "nhk bs premium": "nhk-bsp",
+    "nhk bs4k": "nhk-bs4k",
+    "nhk 4k": "nhk-bs4k",
     "nhk eテレ": "nhk-e",
     "nhk教育": "nhk-e",
     # ── CBC ───────────────────────────────────────────────────
     "cbc": "cbc",
     "cbcテレビ": "cbc",
+    # ── 地方キー局系 ─────────────────────────────────────────
+    "tva": "tva",
+    "テレビ愛知": "tva",
+    "tvh": "tvh",
+    "テレビ北海道": "tvh",
+    "tvo": "tvo",
+    "テレビ大阪": "tvo",
+    "tvq": "tvq",
+    "tvq九州放送": "tvq",
+    "テレビ西日本": "tni",
+    "tni": "tni",
     # ── BS channels ───────────────────────────────────────────
     "bs11": "bs11",
     "bs11デジタル": "bs11",
+    "bs11!": "bs11",
     "at-x": "at-x",
     "atx": "at-x",
     "bs日テレ": "bs-ntv",
@@ -163,13 +181,17 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
     "bstbs": "bs-tbs",
     "bs-tbsテレビ": "bs-tbs",
     "bstbsテレビ": "bs-tbs",
-    # ── 地方キー局系 ─────────────────────────────────────────
-    "tva": "tva",
-    "テレビ愛知": "tva",
-    "tvh": "tvh",
-    "テレビ北海道": "tvh",
-    "tvo": "tvo",
-    "テレビ大阪": "tvo",
+    "wowow": "wowow",
+    "wowowライブ": "wowow",
+    "wowowプライム": "wowow",
+    "wowow prime": "wowow",
+    "wowow live": "wowow",
+    "animax": "animax",
+    "アニマックス": "animax",
+    "kids station": "kids-station",
+    "キッズステーション": "kids-station",
+    "bs anime saimai": "bs-anime",
+    "bsアニメ": "bs-anime",
     # ── Streaming / Digital ───────────────────────────────────
     "abema": "abema",
     "abematv": "abema",
@@ -194,10 +216,12 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
 TV_BROADCAST_STATION_IDS: frozenset = frozenset({
     # 地上波
     "mx", "tbs", "mbs", "cx", "tx", "ex", "ntv",
-    "nhk", "nhk-e", "cbc", "tva", "tvh", "tvo",
+    "nhk", "nhk-e", "cbc", "tva", "tvh", "tvo", "tvq", "tni",
     # BS / CS
-    "nhk-bs", "nhk-bs1", "bs11", "at-x",
+    "nhk-bs", "nhk-bs1", "nhk-bs2", "nhk-bsp", "nhk-bs4k",
+    "bs11", "at-x",
     "bs-ntv", "bs-ex", "bs-cx", "bs-tbs",
+    "wowow", "animax", "kids-station", "bs-anime",
 })
 
 
@@ -285,13 +309,14 @@ Episode_Summary_And_Preview JSONブロック
 {
   "ep_num": 整数 (必ず最新話の番号。情報がない場合は 0),
   "summary": "あらすじ要約（3行以内）。情報がない場合は null",
-  "preview_youtube_id": "予告のYouTube ID。情報がない場合は null"
+  "preview_youtube_id": "予告のYouTube 動画IDのみ（11文字）。例: https://www.youtube.com/watch?v=dQw4w9WgXcQ の場合は 'dQw4w9WgXcQ'。URLではなくIDのみを格納すること。情報がない場合は null"
 }
 
 # 検証フェーズ（厳格な制約とハルシネーション排除）
 最後に、集めた情報を厳しく精査します。以下のルールに違反する情報は捨ててください。
 - 【重要】出力に含める情報は、公式サイト、放送局公式、信頼できるニュースソースで裏付けが取れたもののみとしてください。
 - ソースのない噂や推測による捏造は絶対に行わないでください。確認できない項目は `null` にしてください。
+- `preview_youtube_id` はURLではなく、'watch?v=' の後に続く11文字の動画IDのみを格納してください。URLが見つかった場合はIDを抽出してください。
 - 出力は上記の1つのJSONブロックと、最後に【ソース確認】（参照したURL）のみとし、余計な解説は省いてください。"""
 
 
@@ -319,7 +344,9 @@ def call_grok_for_anime(
         # Syoboi でエピソード確認済み: そのエピソードのあらすじと予告 YouTube ID のみ依頼
         user_input = (
             f"作品名：{title}{url_hint}\n\n"
-            f"エピソード {ep_num} のあらすじ（3行以内）と予告編のYouTube IDのみを取得してください。\n"
+            f"【対象エピソード】第 {ep_num} 話 のあらすじ（3行以内）と予告編のYouTube IDのみを取得してください。\n"
+            f"他のエピソードの情報は不要です。必ず第 {ep_num} 話に絞って検索してください。\n"
+            f"YouTube IDはURLではなく動画IDのみ（'watch?v='の後の11文字）を格納してください。\n"
             f"放送日時・放送局・放送スケジュール等の情報は不要です。\n"
             f"システムプロンプトで指定した Episode_Summary_And_Preview JSONブロックを1つだけ出力してください。"
         )
@@ -328,6 +355,7 @@ def call_grok_for_anime(
         user_input = (
             f"作品名：{title}{url_hint}\n\n"
             f"この作品の最新エピソードのあらすじ（3行以内）と予告編のYouTube IDのみを取得してください。\n"
+            f"YouTube IDはURLではなく動画IDのみ（'watch?v='の後の11文字）を格納してください。\n"
             f"放送日時・放送局・放送スケジュール等の情報は不要です。\n"
             f"システムプロンプトで指定した Episode_Summary_And_Preview JSONブロックを1つだけ出力してください。"
         )
@@ -350,8 +378,14 @@ def parse_grok_output(text: str, title: str) -> Optional[Dict[str, Any]]:
 
     Returns:
         {"today": EpisodeSchedule | None, "sources": str}
-        パース失敗時は None を返す。
+        テキストが空/None の場合も {"today": None, "sources": "..."} を返す。
+        JSONパース・バリデーション失敗時も {"today": None, ...} を返し、None は返さない。
     """
+    # 空レスポンス・None の早期リターン（GrokがAPIエラー等で空を返したケース）
+    if not text or not text.strip():
+        logging.warning(f"  ⚠️ Grokレスポンスが空です（空文字またはNone）: {title}")
+        return {"today": None, "sources": "Grokレスポンスなし（空文字）"}
+
     json_blocks = re.findall(r"```json\s*([\s\S]*?)\s*```", text)
     if not json_blocks:
         # フェンスなしの生JSONフォールバック（先頭1つを採用）
@@ -360,7 +394,7 @@ def parse_grok_output(text: str, title: str) -> Optional[Dict[str, Any]]:
         )
         if not json_blocks:
             logging.error(f"  JSONブロックが見つかりません: {title}")
-            return None
+            return {"today": None, "sources": "JSONブロック抽出失敗"}
 
     try:
         raw_today = json_blocks[0].strip()
@@ -368,6 +402,27 @@ def parse_grok_output(text: str, title: str) -> Optional[Dict[str, Any]]:
         today_data: Optional[EpisodeSchedule] = (
             None if raw_today in ("{}", "{ }") else EpisodeSchedule.model_validate_json(raw_today)
         )
+        # summary と preview_youtube_id が空文字の場合は明示的に None に正規化
+        if today_data is not None:
+            if today_data.summary == "":
+                today_data.summary = None
+            if today_data.preview_youtube_id == "":
+                today_data.preview_youtube_id = None
+            # YouTube ID の長さ検証: 11文字でない場合はフルURLが混入している可能性あり
+            if today_data.preview_youtube_id and len(today_data.preview_youtube_id) != 11:
+                # URLが混入した場合は watch?v= 以降の11文字を抽出を試みる
+                yt_match = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", today_data.preview_youtube_id)
+                if yt_match:
+                    logging.warning(
+                        f"  ⚠️ preview_youtube_id にURLが混入 → IDを抽出: {today_data.preview_youtube_id[:60]}"
+                    )
+                    today_data.preview_youtube_id = yt_match.group(1)
+                else:
+                    logging.warning(
+                        f"  ⚠️ preview_youtube_id が不正（11文字でなく、URLからも抽出不可） → None にリセット: "
+                        f"'{today_data.preview_youtube_id[:30]}'"
+                    )
+                    today_data.preview_youtube_id = None
     except Exception as e:
         logging.warning(f"  EpisodeSchedule バリデーション失敗（スキップ）: {e}")
         today_data = None
@@ -422,6 +477,15 @@ def fetch_syoboi_channels() -> Dict[str, str]:
 
         logging.info(f"  [OUTPUT] Syoboi Channel (HTML): {len(ch_map)} 局取得")
         return ch_map
+    except requests.exceptions.Timeout:
+        logging.warning(f"  ⚠️ Syoboi ChList HTML タイムアウト ({SYOBOI_REQUEST_TIMEOUT}s) — 空マップで継続")
+        return {}
+    except requests.exceptions.ConnectionError as e:
+        logging.warning(f"  ⚠️ Syoboi ChList HTML 接続エラー: {e} — 空マップで継続")
+        return {}
+    except requests.exceptions.HTTPError as e:
+        logging.warning(f"  ⚠️ Syoboi ChList HTML HTTPエラー: {e} — 空マップで継続")
+        return {}
     except Exception as e:
         logging.warning(f"  ⚠️ Syoboi ChList HTML 取得/解析失敗: {e} — 空マップで継続")
         return {}
@@ -466,6 +530,20 @@ def fetch_syoboi_proglist(start_date: datetime.date, days: int = 3) -> List[Dict
         )
         logging.info(f"  [OUTPUT] Syoboi ProgramByDate: {len(items)} 件取得")
         return items
+    except requests.exceptions.Timeout:
+        logging.error(
+            f"  ❌ Syoboi ProgramByDate タイムアウト ({SYOBOI_REQUEST_TIMEOUT}s) — 空リストで継続"
+        )
+        return []
+    except requests.exceptions.ConnectionError as e:
+        logging.error(f"  ❌ Syoboi ProgramByDate 接続エラー: {e} — 空リストで継続")
+        return []
+    except requests.exceptions.HTTPError as e:
+        logging.error(f"  ❌ Syoboi ProgramByDate HTTPエラー: {e} — 空リストで継続")
+        return []
+    except ValueError as e:
+        logging.error(f"  ❌ Syoboi ProgramByDate JSONパース失敗: {e} — 空リストで継続")
+        return []
     except Exception as e:
         logging.error(f"  ❌ Syoboi ProgramByDate 取得失敗: {e}")
         return []
@@ -937,7 +1015,7 @@ def main() -> None:
     today_date = datetime.date.today()
     today_str = today_date.strftime("%Y-%m-%d")
 
-    logging.info(f"[LOG: START] anicheck_daily.py v3.3 — {today_str}")
+    logging.info(f"[LOG: START] anicheck_daily.py v3.4 — {today_str}")
     logging.info(
         "[THOUGHT: Syoboi-first戦略: Syoboi APIで7日分を一括取得し、"
         f"不足分のみGrok呼出（上限{MAX_GROK_CALLS_PER_DAY}回/日）]"
@@ -1005,6 +1083,7 @@ def main() -> None:
     # Step 3: 各作品の処理
     # =========================================================
     all_broadcasts: List[Dict[str, Any]] = []
+    # grok_call_count = 今日の Grok API 呼び出し回数（grok_calls_today と同義）
     grok_call_count: int = 0
     syoboi_confirmed_count: int = 0
 
