@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""anicheck_daily.py — v3.2 (Syoboi-first + Grok-summary/preview, 動的クールダウン)
+"""anicheck_daily.py — v3.3 (Syoboi-first + Grok-summary/preview, 動的クールダウン)
 
 フロー:
   1. Syoboi Calendar API から向こう3日間の放送データを一括取得
@@ -269,7 +269,8 @@ class EpisodeSchedule(BaseModel):
 # =================================================================
 
 SYSTEM_PROMPT = """# 役割
-あなたは日本のアニメ放送・配信情報に精通した調査員です。
+あなたは日本のアニメのエピソードあらすじと予告編情報を収集する専門の調査員です。
+放送スケジュール・放送局・配信サービスの情報は**扱いません**。あらすじと予告編YouTube IDのみを調査してください。
 
 # 探索フェーズ（情報の海を泳ぐ）
 指定された作品の「最新エピソードのあらすじ要約」と「予告編の YouTube ID」を、全方位から幅広く収集してください。
@@ -318,13 +319,17 @@ def call_grok_for_anime(
         # Syoboi でエピソード確認済み: そのエピソードのあらすじと予告 YouTube ID のみ依頼
         user_input = (
             f"作品名：{title}{url_hint}\n\n"
-            f"エピソード {ep_num} のあらすじ（3行以内）と予告編のYouTube IDを出力してください。"
+            f"エピソード {ep_num} のあらすじ（3行以内）と予告編のYouTube IDのみを取得してください。\n"
+            f"放送日時・放送局・放送スケジュール等の情報は不要です。\n"
+            f"システムプロンプトで指定した Episode_Summary_And_Preview JSONブロックを1つだけ出力してください。"
         )
     else:
         # エピソード不明: 最新エピソードのあらすじと予告 YouTube ID を依頼
         user_input = (
             f"作品名：{title}{url_hint}\n\n"
-            f"この作品の最新エピソードのあらすじ（3行以内）と予告編のYouTube IDを出力してください。"
+            f"この作品の最新エピソードのあらすじ（3行以内）と予告編のYouTube IDのみを取得してください。\n"
+            f"放送日時・放送局・放送スケジュール等の情報は不要です。\n"
+            f"システムプロンプトで指定した Episode_Summary_And_Preview JSONブロックを1つだけ出力してください。"
         )
 
     chat = client.chat.create(
@@ -932,7 +937,7 @@ def main() -> None:
     today_date = datetime.date.today()
     today_str = today_date.strftime("%Y-%m-%d")
 
-    logging.info(f"[LOG: START] anicheck_daily.py v3.2 — {today_str}")
+    logging.info(f"[LOG: START] anicheck_daily.py v3.3 — {today_str}")
     logging.info(
         "[THOUGHT: Syoboi-first戦略: Syoboi APIで7日分を一括取得し、"
         f"不足分のみGrok呼出（上限{MAX_GROK_CALLS_PER_DAY}回/日）]"
