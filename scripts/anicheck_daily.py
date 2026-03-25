@@ -92,6 +92,7 @@ def setup_debug_logger(log_path: Path) -> logging.Logger:
 
 # 1日あたりの Grok API 呼び出し上限
 MAX_GROK_CALLS_PER_DAY: int = 5
+GROK_COOLDOWN_DAYS: int = 7 # Syoboi TIDがない作品へのGrok呼出クールダウン日数
 
 # Syoboi Calendar API エンドポイント
 SYOBOI_API_URL: str = "http://cal.syoboi.jp/json.php"
@@ -255,33 +256,29 @@ SYSTEM_PROMPT = """# 役割
 あなたは日本のアニメ放送・配信情報に精通した調査員です。
 
 # 探索フェーズ（情報の海を泳ぐ）
-指定された作品の「現在最も新しい配信・放送済みエピソード」および「直近3日間（本日〜明後日）の放送予定」に関する情報を、全方位から幅広く収集してください。
+指定された作品の「あらすじ要約」と「予告編の YouTube ID」、および「現在最も新しい配信・放送済みエピソード」に関する情報を、全方位から幅広く収集してください。
 - ツール（web_search, x_search）を必ず駆使し、公式発表、ニュースサイト（ANN、Natalie等）、番組表サイト、公式Twitter、一般ユーザーの実況や噂まで、まずは広く情報を集めてください。
 - 検索時は広範な情報収集を意識し、作品名や略称、局名などを組み合わせて検索してください。
-- ユーザーから提供される「前回の局別進捗（履歴）」をヒントに、それ以降の新しい情報（最新話は第何話か、向こう3日間で放送されるのは第何話か）を探してください。
+- ユーザーから提供される「前回の局別進捗（履歴）」をヒントに、それ以降の新しい情報（最新話は第何話か）を探してください。
 
 # 抽出フェーズ（情報の構造化）
-集めた情報から、以下の2つのJSONブロック（```json ... ```）を作成してください。
+集めた情報から、以下の2つのJSONブロック（```json ... ```）を**必ずこの順序で**作成してください。
 
 1. Broadcast_Update JSONブロック
-各局・配信プラットフォームごとの最新の放送/配信済み話数と、作品全体の最新話数。
+各局・配信プラットフォームごとの最新の放送/配信済み話数と、作品全体の最新話数。情報がない場合は、各フィールドを`null`または適切な空の値で埋める。
 {
-  "overall_latest_ep": 整数,
-  "platforms": {
+  "overall_latest_ep": 整数 (情報がない場合は 0),
+  "platforms": {  // 各プラットフォームの最新話数。情報がない場合は空オブジェクト。
     "局名A": { "last_ep_num": 整数, "remarks": "遅れ放送など" }
   }
 }
 
-2. Upcoming_Schedule_And_Episode JSONブロック
-「直近3日間（本日、明日、明後日）」に放送・配信される予定のエピソード情報。期間内に放送がない場合は `{}` を出力。
+2. Episode_Summary_And_Preview JSONブロック
+「最新エピソードのあらすじ要約」と「予告編の YouTube ID」。放送予定に関する情報は不要です。
 {
-  "ep_num": 整数,
-  "title": "サブタイトル",
-  "summary": "あらすじ要約（3行以内）",
-  "preview_youtube_id": "予告のYouTube ID または null",
-  "broadcasts": [
-    { "station_id": "局名", "start_time": "YYYY-MM-DDTHH:MM:SS+09:00", "status": "normal/delayed" }
-  ]
+  "ep_num": 整数 (必ず最新話の番号。情報がない場合は 0),
+  "summary": "あらすじ要約（3行以内）。情報がない場合は null",
+  "preview_youtube_id": "予告のYouTube ID。情報がない場合は null"
 }
 
 # 検証フェーズ（厳格な制約とハルシネーション排除）
@@ -709,6 +706,56 @@ def needs_grok_enrichment(anime_id: str, ep_num: int) -> bool:
         return True
 
 
+def should_call_grok_with_cooldown(
+    anime: Dict[str, Any],
+    grok_call_count: int,
+    max_grok_calls: int,
+    today_str: str,
+) -> bool:
+    """Grokを呼び出すべきかクールダウンを考慮して判定する。
+
+    - Grok呼び出し上限に達している場合は False
+    - syoboi_tid が設定されている作品は True を返し、呼び出し側で needs_grok_enrichment による
+      summary 取得済み確認を行うことを前提とする（ep_num が確定している main ループで行う）。
+    - syoboi_tid がない作品（配信限定等）は last_grok_date を参照し、
+      クールダウン期間（GROK_COOLDOWN_DAYS 日）中は False を返す。
+    """
+    if grok_call_count >= max_grok_calls:
+        logging.info(
+            f"    [THOUGHT: {anime['anime_id']}] Grok上限 ({max_grok_calls}回/日) 到達のためスキップ"
+        )
+        return False
+
+    anime_id = anime["anime_id"]
+    syoboi_tid_val = str(anime.get("syoboi_tid") or "").strip()
+    last_grok_date_str = anime.get("last_grok_date")
+
+    # Syoboi にヒットする作品 (syoboi_tid がある) の場合:
+    # ep_num ベースの needs_grok_enrichment チェックは呼び出し側 (main ループ) で行う
+    if syoboi_tid_val:
+        return True
+
+    # Syoboi にヒットしない作品 (syoboi_tid がない) の場合: クールダウンを適用
+    if not last_grok_date_str:
+        logging.info(f"    [THOUGHT: {anime_id}] last_grok_date がないため初回Grok呼出を許可")
+        return True
+
+    last_grok_date = datetime.date.fromisoformat(last_grok_date_str)
+    today = datetime.date.fromisoformat(today_str)
+    elapsed_days = (today - last_grok_date).days
+    if elapsed_days >= GROK_COOLDOWN_DAYS:
+        logging.info(
+            f"    [THOUGHT: {anime_id}] Grokクールダウン経過 ({elapsed_days}日 >= {GROK_COOLDOWN_DAYS}日) → Grok呼出を許可"
+        )
+        return True
+    else:
+        logging.info(
+            f"    [THOUGHT: {anime_id}] Grokクールダウン期間中 ({elapsed_days}日 < {GROK_COOLDOWN_DAYS}日, "
+            f"前回: {last_grok_date_str}) → Grok呼出をスキップ"
+        )
+        return False
+
+
 def update_history_from_syoboi(
     broadcast_history: Dict[str, Any],
     anime_id: str,
@@ -868,6 +915,11 @@ def main() -> None:
         exit(1)
 
     ANIMES_TO_CHECK: List[Dict[str, Any]] = load_json_file(watch_list_file)
+
+    # last_grok_date フィールドがない既存エントリに None で初期化（後方互換）
+    for _entry in ANIMES_TO_CHECK:
+        _entry.setdefault("last_grok_date", None)
+
     active_animes = [a for a in ANIMES_TO_CHECK if a.get("is_active", True)]
     logging.info(
         f"[INPUT] watch_list: 全{len(ANIMES_TO_CHECK)}件中 is_active={len(active_animes)}件"
@@ -989,7 +1041,9 @@ def main() -> None:
                 # ── Grok 補完が必要か判断 ───────────────────
                 should_call_grok = (
                     ep_num > 0
-                    and grok_call_count < MAX_GROK_CALLS_PER_DAY
+                    and should_call_grok_with_cooldown(
+                        anime, grok_call_count, MAX_GROK_CALLS_PER_DAY, today_str
+                    )
                     and needs_grok_enrichment(anime_id, ep_num)
                 )
                 if should_call_grok:
@@ -1003,8 +1057,10 @@ def main() -> None:
                             title, anime.get("official_url"), current_history
                         )
                         grok_call_count += 1
+                        anime["last_grok_date"] = today_str
                         logging.info(
                             f"    [Grok呼出 {grok_call_count}/{MAX_GROK_CALLS_PER_DAY}]"
+                            f" last_grok_date → {today_str}"
                         )
 
                         grok_result = parse_grok_output(raw_text, title)
@@ -1054,7 +1110,9 @@ def main() -> None:
                     logging.info(
                         f"    [THOUGHT: syoboi_tidなし — 配信限定作品またはTID未特定。Grok候補]"
                     )
-                    if grok_call_count < MAX_GROK_CALLS_PER_DAY:
+                    if should_call_grok_with_cooldown(
+                        anime, grok_call_count, MAX_GROK_CALLS_PER_DAY, today_str
+                    ):
                         logging.info(
                             f"    → Grok問い合わせ "
                             f"(今日の残り呼出: {MAX_GROK_CALLS_PER_DAY - grok_call_count}回)"
@@ -1065,8 +1123,10 @@ def main() -> None:
                                 title, anime.get("official_url"), current_history
                             )
                             grok_call_count += 1
+                            anime["last_grok_date"] = today_str
                             logging.info(
                                 f"    [Grok呼出 {grok_call_count}/{MAX_GROK_CALLS_PER_DAY}]"
+                                f" last_grok_date → {today_str}"
                             )
 
                             grok_result = parse_grok_output(raw_text, title)
@@ -1106,10 +1166,6 @@ def main() -> None:
                             logging.error(
                                 f"    🔥 Grokエラー: {title} — {grok_err}", exc_info=True
                             )
-                    else:
-                        logging.info(
-                            f"    ⚠️ Grok上限到達 ({MAX_GROK_CALLS_PER_DAY}回/日) — スキップ"
-                        )
 
             logging.info(f"    ✅ {anime_id} 処理完了")
 
