@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""anicheck_daily.py — v3.0 (Syoboi-first + Grok-supplement)
+"""anicheck_daily.py — v3.1 (Syoboi-first + Grok-supplement, 動的クールダウン)
 
 フロー:
   1. Syoboi Calendar API から向こう3日間の放送データを一括取得
@@ -92,7 +92,10 @@ def setup_debug_logger(log_path: Path) -> logging.Logger:
 
 # 1日あたりの Grok API 呼び出し上限
 MAX_GROK_CALLS_PER_DAY: int = 5
-GROK_COOLDOWN_DAYS: int = 7 # Syoboi TIDがない作品へのGrok呼出クールダウン日数
+# Grokクールダウン: TV放送（地上波/BS/CS）は短め、配信は長め
+GROK_COOLDOWN_TV_DAYS: int = 3      # TV放送作品のGrokクールダウン日数
+GROK_COOLDOWN_STREAM_DAYS: int = 14 # 配信限定作品のGrokクールダウン日数
+GROK_SHORT_COOLDOWN_DAYS: int = 2   # syoboi_tid設定済み作品の短期連続呼出抑制日数
 
 # Syoboi Calendar API エンドポイント
 SYOBOI_API_URL: str = "http://cal.syoboi.jp/json.php"
@@ -186,6 +189,17 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
     "funimation": "funimation",
 }
 
+# TV放送局（地上波・BS・CS）の正規化後 station_id セット。
+# このセットに含まれない局 ID は「配信サービス」として扱う。
+TV_BROADCAST_STATION_IDS: frozenset = frozenset({
+    # 地上波
+    "mx", "tbs", "mbs", "cx", "tx", "ex", "ntv",
+    "nhk", "nhk-e", "cbc", "tva", "tvh", "tvo",
+    # BS / CS
+    "nhk-bs", "nhk-bs1", "bs11", "at-x",
+    "bs-ntv", "bs-ex", "bs-cx", "bs-tbs",
+})
+
 
 def normalize_station(raw_name: str) -> str:
     """局名を正規化キーに変換する。
@@ -213,6 +227,18 @@ def normalize_station(raw_name: str) -> str:
     if best_val:
         return best_val
     return lower  # フォールバック: そのまま小文字化
+
+
+def is_tv_broadcast(station_id: str) -> bool:
+    """station_id が TV放送局（地上波/BS/CS）かどうかを判定する。
+
+    Args:
+        station_id: normalize_station() が返す正規化後の局 ID。
+
+    Returns:
+        TV放送局なら True、配信サービスなら False。
+    """
+    return station_id in TV_BROADCAST_STATION_IDS
 
 
 # =================================================================
@@ -292,6 +318,7 @@ def call_grok_for_anime(
     title: str,
     official_url: Optional[str] = None,
     current_history: Optional[Dict[str, Any]] = None,
+    ep_num: Optional[int] = None,
 ) -> str:
     """Grokに作品の最新放送進捗と直近3日間の放送予定を問い合わせる。
 
@@ -299,6 +326,7 @@ def call_grok_for_anime(
         title: 作品名。
         official_url: 公式サイトURL（参考情報として提示）。
         current_history: broadcast_history.json から取り出した局別進捗の辞書。
+        ep_num: Syoboi で確認済みのエピソード番号。指定時はあらすじ/予告IDに焦点を絞る。
 
     Returns:
         Grok の応答テキスト（失敗時は空文字）。
@@ -306,11 +334,22 @@ def call_grok_for_anime(
     client = Client()  # XAI_API_KEY が環境変数にある場合、api_key=不要
     history_str = json.dumps(current_history, ensure_ascii=False) if current_history else "{}"
     url_hint = f"\n公式URL（参考）：{official_url}" if official_url else ""
-    user_input = (
-        f"作品名：{title}{url_hint}\n"
-        f"前回の局別進捗：{history_str}\n\n"
-        f"上記を踏まえ、進捗の更新と直近3日間（本日〜明後日）の放送予定を出力せよ。"
-    )
+
+    if ep_num is not None and ep_num > 0:
+        # Syoboi でエピソード確認済み: あらすじと予告 YouTube ID のみ依頼
+        user_input = (
+            f"作品名：{title}{url_hint}\n"
+            f"前回の局別進捗：{history_str}\n\n"
+            f"Syoboiにてエピソード {ep_num} の放送/配信が確認されています。"
+            f"私が必要としているのは、このエピソードのあらすじ（3行以内）と予告編のYouTube IDのみです。"
+        )
+    else:
+        # エピソード不明: 進捗全般を問い合わせる
+        user_input = (
+            f"作品名：{title}{url_hint}\n"
+            f"前回の局別進捗：{history_str}\n\n"
+            f"上記を踏まえ、進捗の更新と直近3日間（本日〜明後日）の放送予定を出力せよ。"
+        )
 
     chat = client.chat.create(
         model="grok-4-1-fast-reasoning",  # 安価でツール対応良好
@@ -546,8 +585,11 @@ def map_syoboi_to_watchlist_by_tid(
         # タイトル索引を作成（残りの作品のみ）
         # key = 小文字化タイトル、value = anime_id
         watch_index: Dict[str, str] = {}
+        # anime_id から anime オブジェクトへの逆引きマップ（TID保存用）
+        anime_id_to_anime: Dict[str, Dict[str, Any]] = {}
         for anime in remaining_animes:
             anime_id = anime["anime_id"]
+            anime_id_to_anime[anime_id] = anime
             title = anime.get("title", "")
             # シーズン表記（第2期・Season 2・2nd Season 等）の前までをベースタイトルとして抽出
             base_title = re.split(
@@ -571,6 +613,9 @@ def map_syoboi_to_watchlist_by_tid(
             item for item in prog_items
             if str(item.get("TID") or "").strip() not in tid_matched_tids
         ]
+
+        # タイトルフォールバックで syoboi_tid が確定した anime_id を追跡（重複代入防止）
+        fallback_tid_assigned: set = set()
 
         unmatched_tids: set = set()
         for item in fallback_items:
@@ -610,6 +655,19 @@ def map_syoboi_to_watchlist_by_tid(
                 if matched_id not in results:
                     results[matched_id] = []
                 results[matched_id].append(item)
+
+                # タイトルフォールバックでマッチした場合、syoboi_tid を anime オブジェクトに保存する。
+                # 次回以降は TID 直接マッチに昇格し、誤爆リスクを低減する。
+                # 初回マッチ時のみ代入し、同一 anime に異なる TID が混在するのを防ぐ。
+                if matched_id not in fallback_tid_assigned:
+                    prog_tid = str(item.get("TID") or "").strip()
+                    if prog_tid and not anime_id_to_anime.get(matched_id, {}).get("syoboi_tid"):
+                        anime_id_to_anime[matched_id]["syoboi_tid"] = prog_tid
+                        fallback_tid_assigned.add(matched_id)
+                        logging.info(
+                            f"  [THOUGHT: タイトルフォールバックでsyoboi_tid={prog_tid}を"
+                            f"{matched_id}に設定 (match_type={match_type})]"
+                        )
             else:
                 unmatched_tids.add(item.get("TID", "?"))
 
@@ -680,10 +738,25 @@ def build_broadcasts_from_syoboi(
 # ユーティリティ
 # =================================================================
 
-def load_json_file(path: Path) -> Any:
-    """UTF-8 JSON ファイルを読み込んで返す。"""
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_json_file(path: Path, default: Any = None) -> Any:
+    """UTF-8 JSON ファイルを読み込んで返す。
+
+    Args:
+        path: 読み込むファイルのパス。
+        default: ファイル不在または JSON パース失敗時に返す値（デフォルト: None）。
+
+    Returns:
+        JSON デシリアライズ結果。失敗時は default を返す。
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        logging.error(f"  ❌ ファイルが見つかりません: {path}")
+        return default
+    except json.JSONDecodeError as e:
+        logging.error(f"  ❌ JSONパース失敗 ({path}): {e}")
+        return default
 
 
 def save_json_file(path: Path, data: Any) -> None:
@@ -711,14 +784,16 @@ def should_call_grok_with_cooldown(
     grok_call_count: int,
     max_grok_calls: int,
     today_str: str,
+    broadcast_history: Optional[Dict[str, Any]] = None,
 ) -> bool:
     """Grokを呼び出すべきかクールダウンを考慮して判定する。
 
     - Grok呼び出し上限に達している場合は False
-    - syoboi_tid が設定されている作品は True を返し、呼び出し側で needs_grok_enrichment による
-      summary 取得済み確認を行うことを前提とする（ep_num が確定している main ループで行う）。
+    - syoboi_tid が設定されている作品は基本 True だが、直近 GROK_SHORT_COOLDOWN_DAYS 日以内に
+      Grokを呼んでいた場合は短期連続呼出を抑制して False を返す。
     - syoboi_tid がない作品（配信限定等）は last_grok_date を参照し、
-      クールダウン期間（GROK_COOLDOWN_DAYS 日）中は False を返す。
+      broadcast_history に TV局がある場合は GROK_COOLDOWN_TV_DAYS 日、
+      それ以外（配信のみ）は GROK_COOLDOWN_STREAM_DAYS 日のクールダウンを適用する。
     """
     if grok_call_count >= max_grok_calls:
         logging.info(
@@ -731,26 +806,51 @@ def should_call_grok_with_cooldown(
     last_grok_date_str = anime.get("last_grok_date")
 
     # Syoboi にヒットする作品 (syoboi_tid がある) の場合:
-    # ep_num ベースの needs_grok_enrichment チェックは呼び出し側 (main ループ) で行う
+    # 直近 GROK_SHORT_COOLDOWN_DAYS 日以内の再呼出を抑制する
     if syoboi_tid_val:
+        if last_grok_date_str:
+            last_grok_date = datetime.date.fromisoformat(last_grok_date_str)
+            today = datetime.date.fromisoformat(today_str)
+            elapsed_days = (today - last_grok_date).days
+            if elapsed_days < GROK_SHORT_COOLDOWN_DAYS:
+                logging.info(
+                    f"    [THOUGHT: {anime_id}] syoboi_tid設定済みだが直近{elapsed_days}日以内にGrok呼出済 "
+                    f"(<{GROK_SHORT_COOLDOWN_DAYS}日) → 短期連続抑制スキップ"
+                )
+                return False
         return True
 
-    # Syoboi にヒットしない作品 (syoboi_tid がない) の場合: クールダウンを適用
+    # Syoboi にヒットしない作品 (syoboi_tid がない) の場合: 動的クールダウンを適用
     if not last_grok_date_str:
         logging.info(f"    [THOUGHT: {anime_id}] last_grok_date がないため初回Grok呼出を許可")
         return True
 
+    # broadcast_history から放送局タイプを判定し、クールダウン日数を動的に決定
+    cooldown_days = GROK_COOLDOWN_STREAM_DAYS  # デフォルト: 配信サービス
+    if broadcast_history is not None:
+        anime_hist = broadcast_history.get(anime_id, {})
+        platforms = anime_hist.get("platforms", {})
+        if any(is_tv_broadcast(sid) for sid in platforms):
+            cooldown_days = GROK_COOLDOWN_TV_DAYS
+            logging.info(
+                f"    [THOUGHT: {anime_id}] TV放送局を検出 → クールダウン {cooldown_days}日 を適用"
+            )
+        else:
+            logging.info(
+                f"    [THOUGHT: {anime_id}] TV局なし（配信のみ） → クールダウン {cooldown_days}日 を適用"
+            )
+
     last_grok_date = datetime.date.fromisoformat(last_grok_date_str)
     today = datetime.date.fromisoformat(today_str)
     elapsed_days = (today - last_grok_date).days
-    if elapsed_days >= GROK_COOLDOWN_DAYS:
+    if elapsed_days >= cooldown_days:
         logging.info(
-            f"    [THOUGHT: {anime_id}] Grokクールダウン経過 ({elapsed_days}日 >= {GROK_COOLDOWN_DAYS}日) → Grok呼出を許可"
+            f"    [THOUGHT: {anime_id}] Grokクールダウン経過 ({elapsed_days}日 >= {cooldown_days}日) → Grok呼出を許可"
         )
         return True
     else:
         logging.info(
-            f"    [THOUGHT: {anime_id}] Grokクールダウン期間中 ({elapsed_days}日 < {GROK_COOLDOWN_DAYS}日, "
+            f"    [THOUGHT: {anime_id}] Grokクールダウン期間中 ({elapsed_days}日 < {cooldown_days}日, "
             f"前回: {last_grok_date_str}) → Grok呼出をスキップ"
         )
         return False
@@ -1042,7 +1142,8 @@ def main() -> None:
                 should_call_grok = (
                     ep_num > 0
                     and should_call_grok_with_cooldown(
-                        anime, grok_call_count, MAX_GROK_CALLS_PER_DAY, today_str
+                        anime, grok_call_count, MAX_GROK_CALLS_PER_DAY, today_str,
+                        broadcast_history=broadcast_history,
                     )
                     and needs_grok_enrichment(anime_id, ep_num)
                 )
@@ -1054,7 +1155,8 @@ def main() -> None:
                     current_history = broadcast_history.get(anime_id, {"platforms": {}})
                     try:
                         raw_text = call_grok_for_anime(
-                            title, anime.get("official_url"), current_history
+                            title, anime.get("official_url"), current_history,
+                            ep_num=ep_num,
                         )
                         grok_call_count += 1
                         anime["last_grok_date"] = today_str
@@ -1111,7 +1213,8 @@ def main() -> None:
                         f"    [THOUGHT: syoboi_tidなし — 配信限定作品またはTID未特定。Grok候補]"
                     )
                     if should_call_grok_with_cooldown(
-                        anime, grok_call_count, MAX_GROK_CALLS_PER_DAY, today_str
+                        anime, grok_call_count, MAX_GROK_CALLS_PER_DAY, today_str,
+                        broadcast_history=broadcast_history,
                     ):
                         logging.info(
                             f"    → Grok問い合わせ "
