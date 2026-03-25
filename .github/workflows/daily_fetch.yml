@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install xai-sdk python-dotenv
+          pip install xai-sdk python-dotenv beautifulsoup4
 
       - name: Run daily fetch
         env:
@@ -36,3 +36,5 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "chore: 🤖 auto update daily anime schedule"
           git push
 
+
+          
