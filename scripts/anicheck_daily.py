@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""anicheck_daily.py — v3.1 (Syoboi-first + Grok-supplement, 動的クールダウン)
+"""anicheck_daily.py — v3.2 (Syoboi-first + Grok-summary/preview, 動的クールダウン)
 
 フロー:
   1. Syoboi Calendar API から向こう3日間の放送データを一括取得
@@ -245,16 +245,6 @@ def is_tv_broadcast(station_id: str) -> bool:
 # Pydantic モデル（Grok 応答バリデーション）
 # =================================================================
 
-class PlatformStatus(BaseModel):
-    last_ep_num: int
-    remarks: Optional[str] = None
-
-
-class BroadcastUpdate(BaseModel):
-    overall_latest_ep: int
-    platforms: Dict[str, PlatformStatus] = Field(default_factory=dict)
-
-
 class BroadcastEntry(BaseModel):
     station_id: str
     start_time: str
@@ -282,25 +272,15 @@ SYSTEM_PROMPT = """# 役割
 あなたは日本のアニメ放送・配信情報に精通した調査員です。
 
 # 探索フェーズ（情報の海を泳ぐ）
-指定された作品の「あらすじ要約」と「予告編の YouTube ID」、および「現在最も新しい配信・放送済みエピソード」に関する情報を、全方位から幅広く収集してください。
-- ツール（web_search, x_search）を必ず駆使し、公式発表、ニュースサイト（ANN、Natalie等）、番組表サイト、公式Twitter、一般ユーザーの実況や噂まで、まずは広く情報を集めてください。
-- 検索時は広範な情報収集を意識し、作品名や略称、局名などを組み合わせて検索してください。
-- ユーザーから提供される「前回の局別進捗（履歴）」をヒントに、それ以降の新しい情報（最新話は第何話か）を探してください。
+指定された作品の「最新エピソードのあらすじ要約」と「予告編の YouTube ID」を、全方位から幅広く収集してください。
+- ツール（web_search, x_search）を必ず駆使し、公式サイト、公式Twitter/X、動画配信サービス、ニュースサイト（ANN、Natalie等）から情報を集めてください。
+- 検索時は作品名・略称・エピソード番号などを組み合わせて検索し、公式YouTubeチャンネルも確認してください。
 
 # 抽出フェーズ（情報の構造化）
-集めた情報から、以下の2つのJSONブロック（```json ... ```）を**必ずこの順序で**作成してください。
+集めた情報から、以下の1つのJSONブロック（```json ... ```）を作成してください。
 
-1. Broadcast_Update JSONブロック
-各局・配信プラットフォームごとの最新の放送/配信済み話数と、作品全体の最新話数。情報がない場合は、各フィールドを`null`または適切な空の値で埋める。
-{
-  "overall_latest_ep": 整数 (情報がない場合は 0),
-  "platforms": {  // 各プラットフォームの最新話数。情報がない場合は空オブジェクト。
-    "局名A": { "last_ep_num": 整数, "remarks": "遅れ放送など" }
-  }
-}
-
-2. Episode_Summary_And_Preview JSONブロック
-「最新エピソードのあらすじ要約」と「予告編の YouTube ID」。放送予定に関する情報は不要です。
+Episode_Summary_And_Preview JSONブロック
+「最新エピソードのあらすじ要約」と「予告編の YouTube ID」。放送進捗や放送予定に関する情報は不要です。
 {
   "ep_num": 整数 (必ず最新話の番号。情報がない場合は 0),
   "summary": "あらすじ要約（3行以内）。情報がない場合は null",
@@ -311,44 +291,40 @@ SYSTEM_PROMPT = """# 役割
 最後に、集めた情報を厳しく精査します。以下のルールに違反する情報は捨ててください。
 - 【重要】出力に含める情報は、公式サイト、放送局公式、信頼できるニュースソースで裏付けが取れたもののみとしてください。
 - ソースのない噂や推測による捏造は絶対に行わないでください。確認できない項目は `null` にしてください。
-- 出力は上記の2つのJSONブロックと、最後に【ソース確認】（参照したURL）のみとし、余計な解説は省いてください。"""
+- 出力は上記の1つのJSONブロックと、最後に【ソース確認】（参照したURL）のみとし、余計な解説は省いてください。"""
 
 
 def call_grok_for_anime(
     title: str,
     official_url: Optional[str] = None,
-    current_history: Optional[Dict[str, Any]] = None,
+    current_history: Optional[Dict[str, Any]] = None,  # 後方互換のため保持（未使用）
     ep_num: Optional[int] = None,
 ) -> str:
-    """Grokに作品の最新放送進捗と直近3日間の放送予定を問い合わせる。
+    """Grokに作品の最新エピソードのあらすじと予告編YouTube IDを問い合わせる。
 
     Args:
         title: 作品名。
         official_url: 公式サイトURL（参考情報として提示）。
-        current_history: broadcast_history.json から取り出した局別進捗の辞書。
-        ep_num: Syoboi で確認済みのエピソード番号。指定時はあらすじ/予告IDに焦点を絞る。
+        current_history: 後方互換のためシグネチャに保持（本関数内では未使用）。
+        ep_num: Syoboi で確認済みのエピソード番号。指定時はそのエピソードに焦点を絞る。
 
     Returns:
         Grok の応答テキスト（失敗時は空文字）。
     """
     client = Client()  # XAI_API_KEY が環境変数にある場合、api_key=不要
-    history_str = json.dumps(current_history, ensure_ascii=False) if current_history else "{}"
     url_hint = f"\n公式URL（参考）：{official_url}" if official_url else ""
 
     if ep_num is not None and ep_num > 0:
-        # Syoboi でエピソード確認済み: あらすじと予告 YouTube ID のみ依頼
+        # Syoboi でエピソード確認済み: そのエピソードのあらすじと予告 YouTube ID のみ依頼
         user_input = (
-            f"作品名：{title}{url_hint}\n"
-            f"前回の局別進捗：{history_str}\n\n"
-            f"Syoboiにてエピソード {ep_num} の放送/配信が確認されています。"
-            f"私が必要としているのは、このエピソードのあらすじ（3行以内）と予告編のYouTube IDのみです。"
+            f"作品名：{title}{url_hint}\n\n"
+            f"エピソード {ep_num} のあらすじ（3行以内）と予告編のYouTube IDを出力してください。"
         )
     else:
-        # エピソード不明: 進捗全般を問い合わせる
+        # エピソード不明: 最新エピソードのあらすじと予告 YouTube ID を依頼
         user_input = (
-            f"作品名：{title}{url_hint}\n"
-            f"前回の局別進捗：{history_str}\n\n"
-            f"上記を踏まえ、進捗の更新と直近3日間（本日〜明後日）の放送予定を出力せよ。"
+            f"作品名：{title}{url_hint}\n\n"
+            f"この作品の最新エピソードのあらすじ（3行以内）と予告編のYouTube IDを出力してください。"
         )
 
     chat = client.chat.create(
@@ -365,31 +341,25 @@ def call_grok_for_anime(
 
 
 def parse_grok_output(text: str, title: str) -> Optional[Dict[str, Any]]:
-    """Grokの応答テキストから2つのJSONブロックを Pydantic でバリデーションしつつ抽出する。
+    """Grokの応答テキストから Episode_Summary_And_Preview JSONブロックを Pydantic でバリデーションしつつ抽出する。
 
     Returns:
-        {"update": BroadcastUpdate, "today": EpisodeSchedule | None, "sources": str}
+        {"today": EpisodeSchedule | None, "sources": str}
         パース失敗時は None を返す。
     """
     json_blocks = re.findall(r"```json\s*([\s\S]*?)\s*```", text)
-    if len(json_blocks) < 2:
-        # フェンスなしの生JSONフォールバック（先頭2つを採用）
+    if not json_blocks:
+        # フェンスなしの生JSONフォールバック（先頭1つを採用）
         json_blocks = re.findall(
-            r"(\{[\s\S]*?\})(?=\s*(?:\{|\【ソース確認】|$))", text, re.DOTALL
+            r"(\{[\s\S]*?\})(?=\s*(?:\【ソース確認】|$))", text, re.DOTALL
         )
-        if len(json_blocks) < 2:
-            logging.error(f"  JSONブロック不足({len(json_blocks)}個): {title}")
+        if not json_blocks:
+            logging.error(f"  JSONブロックが見つかりません: {title}")
             return None
 
     try:
-        update_data = BroadcastUpdate.model_validate_json(json_blocks[0].strip())
-    except Exception as e:
-        logging.error(f"  BroadcastUpdate バリデーション失敗: {e}\nRaw: {json_blocks[0][:300]}")
-        return None
-
-    try:
-        raw_today = json_blocks[1].strip()
-        # 空オブジェクト（放送なし）は None として扱う
+        raw_today = json_blocks[0].strip()
+        # 空オブジェクト（情報なし）は None として扱う
         today_data: Optional[EpisodeSchedule] = (
             None if raw_today in ("{}", "{ }") else EpisodeSchedule.model_validate_json(raw_today)
         )
@@ -400,7 +370,7 @@ def parse_grok_output(text: str, title: str) -> Optional[Dict[str, Any]]:
     source_match = re.search(r"【ソース確認】([\s\S]*)", text, re.DOTALL)
     sources = source_match.group(1).strip() if source_match else "ソース抽出失敗"
 
-    return {"update": update_data, "today": today_data, "sources": sources}
+    return {"today": today_data, "sources": sources}
 
 
 # =================================================================
@@ -896,43 +866,6 @@ def update_history_from_syoboi(
             plat["last_updated_at"] = today_str
 
 
-def update_history_from_grok(
-    broadcast_history: Dict[str, Any],
-    anime_id: str,
-    title: str,
-    update_data: BroadcastUpdate,
-    today_str: str,
-) -> None:
-    """Grok の BroadcastUpdate で broadcast_history を更新する（破壊的更新）。"""
-    if anime_id not in broadcast_history:
-        broadcast_history[anime_id] = {"title": title, "overall_latest_ep": 0, "platforms": {}}
-
-    broadcast_history[anime_id]["title"] = title
-    # overall_latest_ep は Grok の値が大きければ採用
-    prev_latest = broadcast_history[anime_id].get("overall_latest_ep") or 0
-    if update_data.overall_latest_ep > prev_latest:
-        broadcast_history[anime_id]["overall_latest_ep"] = update_data.overall_latest_ep
-
-    if "platforms" not in broadcast_history[anime_id]:
-        broadcast_history[anime_id]["platforms"] = {}
-
-    for platform_name, plat_status in update_data.platforms.items():
-        sid = normalize_station(platform_name)
-        if sid not in broadcast_history[anime_id]["platforms"]:
-            broadcast_history[anime_id]["platforms"][sid] = {
-                "last_ep_num": 0,
-                "last_broadcast_date": None,
-                "last_updated_at": today_str,
-                "remarks": plat_status.remarks,
-            }
-        plat = broadcast_history[anime_id]["platforms"][sid]
-        if plat_status.last_ep_num >= (plat.get("last_ep_num") or 0):
-            plat["last_ep_num"] = plat_status.last_ep_num
-            plat["last_updated_at"] = today_str
-            if plat_status.remarks:
-                plat["remarks"] = plat_status.remarks
-
-
 def save_episode_file(
     anime_id: str,
     ep_num: int,
@@ -999,7 +932,7 @@ def main() -> None:
     today_date = datetime.date.today()
     today_str = today_date.strftime("%Y-%m-%d")
 
-    logging.info(f"[LOG: START] anicheck_daily.py v3.0 — {today_str}")
+    logging.info(f"[LOG: START] anicheck_daily.py v3.2 — {today_str}")
     logging.info(
         "[THOUGHT: Syoboi-first戦略: Syoboi APIで7日分を一括取得し、"
         f"不足分のみGrok呼出（上限{MAX_GROK_CALLS_PER_DAY}回/日）]"
@@ -1014,7 +947,7 @@ def main() -> None:
         logging.critical(f"❌ {watch_list_file} が見つかりません")
         exit(1)
 
-    ANIMES_TO_CHECK: List[Dict[str, Any]] = load_json_file(watch_list_file)
+    ANIMES_TO_CHECK: List[Dict[str, Any]] = load_json_file(watch_list_file, default=[])
 
     # last_grok_date フィールドがない既存エントリに None で初期化（後方互換）
     for _entry in ANIMES_TO_CHECK:
@@ -1167,14 +1100,6 @@ def main() -> None:
 
                         grok_result = parse_grok_output(raw_text, title)
                         if grok_result:
-                            # broadcast_history を Grok データでさらに補完
-                            update_history_from_grok(
-                                broadcast_history,
-                                anime_id,
-                                title,
-                                grok_result["update"],
-                                today_str,
-                            )
                             # エピソードファイルに summary / preview を補完
                             save_episode_file(
                                 anime_id, ep_num, grok_result["today"],
@@ -1234,17 +1159,24 @@ def main() -> None:
 
                             grok_result = parse_grok_output(raw_text, title)
                             if grok_result:
-                                update_history_from_grok(
-                                    broadcast_history,
-                                    anime_id,
-                                    title,
-                                    grok_result["update"],
-                                    today_str,
-                                )
                                 today_ep: Optional[EpisodeSchedule] = grok_result["today"]
                                 if today_ep is not None:
                                     ep_num_g: int = today_ep.ep_num
                                     save_episode_file(anime_id, ep_num_g, today_ep)
+
+                                    # broadcast_history の overall_latest_ep を ep_num から更新
+                                    if anime_id not in broadcast_history:
+                                        broadcast_history[anime_id] = {
+                                            "title": title,
+                                            "overall_latest_ep": 0,
+                                            "platforms": {},
+                                        }
+                                    prev_latest = broadcast_history[anime_id].get("overall_latest_ep") or 0
+                                    if ep_num_g > prev_latest:
+                                        broadcast_history[anime_id]["overall_latest_ep"] = ep_num_g
+                                        logging.info(
+                                            f"    broadcast_history overall_latest_ep 更新 → {ep_num_g}"
+                                        )
 
                                     # watch_list の last_checked_ep を更新
                                     if ep_num_g > (anime.get("last_checked_ep") or 0):
