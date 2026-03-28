@@ -31,7 +31,7 @@ load_dotenv()  # ローカル開発用。GitHub Actionsでは不要（secretsで
 # =================================================================
 # ロギング設定（Actionsのログでも見やすいように）
 # =================================================================
-log_dir = Path("logs")
+log_dir = Path("fetch_logs")
 log_dir.mkdir(exist_ok=True)
 log_file = log_dir / "daily_fetch.log"
 
@@ -123,18 +123,20 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
     "毎日放送": "mbs",
     "mbsテレビ": "mbs",
     # ── Fuji TV ───────────────────────────────────────────────
-    "cx": "cx",
-    "フジテレビ": "cx",
-    "fuji tv": "cx",
+    "fujitv": "fujitv",
+    "cx": "fujitv",
+    "フジテレビ": "fujitv",
+    "fuji tv": "fujitv",
     # ── TV Tokyo ──────────────────────────────────────────────
     "tx": "tx",
     "テレビ東京": "tx",
     "tv tokyo": "tx",
     "tvtokyo": "tx",
     # ── TV Asahi ──────────────────────────────────────────────
-    "ex": "ex",
-    "テレビ朝日": "ex",
-    "tv asahi": "ex",
+    "tv_asahi": "tv_asahi",
+    "ex": "tv_asahi",
+    "テレビ朝日": "tv_asahi",
+    "tv asahi": "tv_asahi",
     # ── NTV ───────────────────────────────────────────────────
     "ntv": "ntv",
     "日本テレビ": "ntv",
@@ -173,14 +175,14 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
     "bs11!": "bs11",
     "at-x": "at-x",
     "atx": "at-x",
-    "bs日テレ": "bs-ntv",
-    "bs日本": "bs-ntv",
-    "bs朝日": "bs-ex",
-    "bsフジ": "bs-cx",
-    "bs-tbs": "bs-tbs",
-    "bstbs": "bs-tbs",
-    "bs-tbsテレビ": "bs-tbs",
-    "bstbsテレビ": "bs-tbs",
+    "bs日テレ": "bs_ntv",
+    "bs日本": "bs_ntv",
+    "bs朝日": "bs_asahi",
+    "bsフジ": "bs_fuji",
+    "bs-tbs": "bs_tbs",
+    "bstbs": "bs_tbs",
+    "bs-tbsテレビ": "bs_tbs",
+    "bstbsテレビ": "bs_tbs",
     "wowow": "wowow",
     "wowowライブ": "wowow",
     "wowowプライム": "wowow",
@@ -200,10 +202,11 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
     "dアニメ": "d-anime",
     "d anime store": "d-anime",
     "netflix": "netflix",
-    "amazon prime": "amazon",
-    "amazon prime video": "amazon",
-    "prime video": "amazon",
-    "amazon": "amazon",
+    "prime_video": "prime_video",
+    "amazon prime": "prime_video",
+    "amazon prime video": "prime_video",
+    "prime video": "prime_video",
+    "amazon": "prime_video",
     "hulu": "hulu",
     "disney+": "disney-plus",
     "u-next": "u-next",
@@ -215,12 +218,12 @@ STATION_NORMALIZE_MAP: Dict[str, str] = {
 # このセットに含まれない局 ID は「配信サービス」として扱う。
 TV_BROADCAST_STATION_IDS: frozenset = frozenset({
     # 地上波
-    "mx", "tbs", "mbs", "cx", "tx", "ex", "ntv",
+    "mx", "tbs", "mbs", "fujitv", "tx", "tv_asahi", "ntv",
     "nhk", "nhk-e", "cbc", "tva", "tvh", "tvo", "tvq", "tni",
     # BS / CS
     "nhk-bs", "nhk-bs1", "nhk-bs2", "nhk-bsp", "nhk-bs4k",
     "bs11", "at-x",
-    "bs-ntv", "bs-ex", "bs-cx", "bs-tbs",
+    "bs_ntv", "bs_asahi", "bs_fuji", "bs_tbs",
     "wowow", "animax", "kids-station", "bs-anime",
 })
 
@@ -309,14 +312,14 @@ Episode_Summary_And_Preview JSONブロック
 {
   "ep_num": 整数 (必ず最新話の番号。情報がない場合は 0),
   "summary": "あらすじ要約（3行以内）。情報がない場合は null",
-  "preview_youtube_id": "予告のYouTube 動画IDのみ（11文字）。例: https://www.youtube.com/watch?v=dQw4w9WgXcQ の場合は 'dQw4w9WgXcQ'。URLではなくIDのみを格納すること。情報がない場合は null"
+  "preview_youtube_id": "予告のYouTube 動画IDのみ（11文字）。例: https://www.youtube.com/watch?v=dQw4w9WgXcQ の場合は 'dQw4w9WgXcQ'。URLは絶対に入れないこと。11文字のIDのみを格納すること。情報がない場合は null"
 }
 
 # 検証フェーズ（厳格な制約とハルシネーション排除）
 最後に、集めた情報を厳しく精査します。以下のルールに違反する情報は捨ててください。
 - 【重要】出力に含める情報は、公式サイト、放送局公式、信頼できるニュースソースで裏付けが取れたもののみとしてください。
 - ソースのない噂や推測による捏造は絶対に行わないでください。確認できない項目は `null` にしてください。
-- `preview_youtube_id` はURLではなく、'watch?v=' の後に続く11文字の動画IDのみを格納してください。URLが見つかった場合はIDを抽出してください。
+- `preview_youtube_id` はURLではなく、'watch?v=' の後に続く**11文字の動画IDのみ**を格納してください。フルURLや不完全な文字列が混入した場合は、直ちにID部分のみを抽出して整形してください。
 - 出力は上記の1つのJSONブロックと、最後に【ソース確認】（参照したURL）のみとし、余計な解説は省いてください。"""
 
 

@@ -1,11 +1,29 @@
 {
   "202601_frieren_c2": {
     "title": "葬送のフリーレン 第2期",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 38,
     "platforms": {
       "ntv": {
         "last_ep_num": 9,
         "remarks": "第37話（通算）3月20日放送確認、TVer/ABEMA等で見逃し配信中"
+      },
+      "animax": {
+        "last_ep_num": 36,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 38,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "bs-ntv": {
+        "last_ep_num": 38,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
       }
     }
   },
@@ -386,7 +404,7 @@
   },
   "202601_jujutsushimetsu_c1": {
     "title": "呪術廻戦 死滅回游 前編",
-    "overall_latest_ep": 58,
+    "overall_latest_ep": 59,
     "platforms": {
       "MBS/TBS系": {
         "last_ep_num": 58,
@@ -399,6 +417,12 @@
       "ABEMA": {
         "last_ep_num": 58,
         "remarks": "配信"
+      },
+      "bs-ntv": {
+        "last_ep_num": 59,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
       }
     }
   },
@@ -427,6 +451,12 @@
       "BS朝日": {
         "last_ep_num": 11,
         "remarks": "金 23:00 遅れ放送 (3/20)"
+      },
+      "at-x": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
       }
     }
   },
@@ -473,6 +503,12 @@
       "読売テレビ": {
         "last_ep_num": 24,
         "remarks": "月 25:59 (3/9,3/16は26:09遅れ)"
+      },
+      "animax": {
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
       }
     }
   },
@@ -499,6 +535,12 @@
       "atx": {
         "last_ep_num": 11,
         "remarks": "2026-03-19 木 22:30"
+      },
+      "アニメlive": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
       }
     }
   },
@@ -577,6 +619,3292 @@
       "bs-asahi": {
         "last_ep_num": 11,
         "remarks": "金 23:30"
+      }
+    }
+  },
+  "202601_55825_c1": {
+    "title": "地獄楽第二期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:45 (JST)"
+      }
+    }
+  },
+  "202601_56009_c1": {
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 22:30 (JST)"
+      }
+    }
+  },
+  "202601_61469_c1": {
+    "title": "スティール・ボール・ラン ジョジョの奇妙な冒険",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61128_c1": {
+    "title": "勇者パーティを追い出された器用貧乏",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:30 (JST)"
+      }
+    }
+  },
+  "202601_58788_c1": {
+    "title": "違国日記",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_62896_c1": {
+    "title": "超かぐや姫！",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_59047_c1": {
+    "title": "多聞くん今どっち!?",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 01:00 (JST)"
+      }
+    }
+  },
+  "202601_61983_c1": {
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_54863_c1": {
+    "title": "TRIGUN STARGAZE",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_61663_c1": {
+    "title": "うるわしの宵の月",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 16:30 (JST)"
+      }
+    }
+  },
+  "202601_60692_c1": {
+    "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_60810_c1": {
+    "title": "魔術師クノンは見えている",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:00 (JST)"
+      }
+    }
+  },
+  "202601_61549_c1": {
+    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202601_59971_c1": {
+    "title": "劇場版 転生したらスライムだった件 蒼海の涙編",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60460_c1": {
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:05 (JST)"
+      }
+    }
+  },
+  "202601_63019_c1": {
+    "title": "プリズム輪舞曲〈ロンド〉",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60151_c1": {
+    "title": "エリスの聖杯",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 23:56 (JST)"
+      }
+    }
+  },
+  "202601_60395_c1": {
+    "title": "透明男と人間女～そのうち夫婦になるふたり～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_60223_c1": {
+    "title": "カヤちゃんはコワくない",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 17:30 (JST)"
+      }
+    }
+  },
+  "202601_61587_c1": {
+    "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 00:30 (JST)"
+      }
+    }
+  },
+  "202601_61114_c1": {
+    "title": "BEASTARS (新章)",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62000_c1": {
+    "title": "悪役令嬢は隣国の王太子に溺愛される",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_59985_c1": {
+    "title": "僕の心のヤバイやつ 劇場版",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62582_c1": {
+    "title": "青春ブタ野郎はディアフレンドの夢を見ない",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_56906_c1": {
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61196_c1": {
+    "title": "デッドアカウント",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_61359_c1": {
+    "title": "幼馴染とはラブコメにならない",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_50668_c1": {
+    "title": "魔法使いの夜",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60509_c1": {
+    "title": "シャンピニオンの魔女",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:58 (JST)"
+      }
+    }
+  },
+  "202601_58861_c1": {
+    "title": "花ざかりの君たちへ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 21:30 (JST)"
+      }
+    }
+  },
+  "202601_62543_c1": {
+    "title": "わたしが恋人になれるわけないじゃん、ムリムリ! (※ムリじゃなかった!?) ～ネクストシャイン！～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62421_c1": {
+    "title": "劇場版『暗殺教室』みんなの時間",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61207_c1": {
+    "title": "転生したらドラゴンの卵だった",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202601_59853_c1": {
+    "title": "DARK MOON　-黒の月: 月の祭壇-",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_60071_c1": {
+    "title": "穏やか貴族の休暇のすすめ。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_58573_c1": {
+    "title": "刃牙道",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61217_c1": {
+    "title": "勇者のクズ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 00:55 (JST)"
+      }
+    }
+  },
+  "202601_62432_c1": {
+    "title": "人外教室の人間嫌い教師",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_60255_c1": {
+    "title": "アルネの事件簿",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 01:29 (JST)"
+      }
+    }
+  },
+  "202601_61886_c1": {
+    "title": "拷問バイトくんの日常",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 00:30 (JST)"
+      }
+    }
+  },
+  "202601_61694_c1": {
+    "title": "アンドロイドは経験人数に入りますか??",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:00 (JST)"
+      }
+    }
+  },
+  "202601_61192_c1": {
+    "title": "ALL YOU NEED IS KILL",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_38716_c1": {
+    "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61325_c1": {
+    "title": "どうせ、恋してしまうんだ。第2期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:28 (JST)"
+      }
+    }
+  },
+  "202601_62277_c1": {
+    "title": "新劇場版 銀魂 -吉原大炎上-",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_58735_c1": {
+    "title": "花緑青が明ける日に",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61608_c1": {
+    "title": "地獄先生ぬ～べ～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 23:45 (JST)"
+      }
+    }
+  },
+  "202601_61333_c1": {
+    "title": "青のミブロ 芹沢暗殺編",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 17:30 (JST)"
+      }
+    }
+  },
+  "202601_62927_c1": {
+    "title": "放开那个女巫",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_54697_c1": {
+    "title": "테러맨",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61084_c1": {
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_61830_c1": {
+    "title": "鎧真伝サムライトルーパー",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_61969_c1": {
+    "title": "最推しの義兄を愛でるため、長生きします!",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 21:55 (JST)"
+      }
+    }
+  },
+  "202601_63392_c1": {
+    "title": "エヴァンゲリオン 放送30周年記念特別興行",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62193_c1": {
+    "title": "パリに咲くエトワール",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63042_c1": {
+    "title": "名探偵プリキュア！",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 08:30 (JST)"
+      }
+    }
+  },
+  "202601_61418_c1": {
+    "title": "クスノキの番人",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62804_c1": {
+    "title": "ハイスクール！奇面組",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_62864_c1": {
+    "title": "お前はまだグンマを知らない～令和版～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202601_62897_c1": {
+    "title": "イチゴ哀歌～雑で生イキな妹と割り切れない兄～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62518_c1": {
+    "title": "劇場 銀河特急 ミルキー☆サブウェイ 各駅停車劇場行き",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_59217_c1": {
+    "title": "GROTESQQQE",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62270_c1": {
+    "title": "BanG Dream! Ave Mujica prima aurora",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63087_c1": {
+    "title": "闇芝居 十六期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 02:20 (JST)"
+      }
+    }
+  },
+  "202601_62246_c1": {
+    "title": "一人之下6",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61964_c1": {
+    "title": "迷宮のしおり",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_58756_c1": {
+    "title": "KILLTUBE (キルチューブ)",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60294_c1": {
+    "title": "天穂のサクナヒメ ココロワ稲作日誌",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62987_c1": {
+    "title": "北斗の拳 拳王軍ザコたちの挽歌",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 20:00 (JST)"
+      }
+    }
+  },
+  "202601_62521_c1": {
+    "title": "#神奈川に住んでるエルフ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 22:55 (JST)"
+      }
+    }
+  },
+  "202601_60191_c1": {
+    "title": "成何体统 第2季",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62649_c1": {
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 08:00 (JST)"
+      }
+    }
+  },
+  "202601_62686_c1": {
+    "title": "制服は着たままで",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60587_c1": {
+    "title": "驭灵师",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_58773_c1": {
+    "title": "新劇場版☆ケロロ軍曹 復活して速攻地球滅亡の危機であります！",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62973_c1": {
+    "title": "我々は宇宙人",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63396_c1": {
+    "title": "お姉ちゃんごっこ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63504_c1": {
+    "title": "プリンセス・プリンシパル Crown Handler 第4話「Fabulous Platypus」",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61156_c1": {
+    "title": "アイドルマスター ミリオンライブ！ ～いつか、真ん中で～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63074_c1": {
+    "title": "もう一度, してみたい.",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61556_c1": {
+    "title": "大主宰 年番2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61562_c1": {
+    "title": "择天记",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63026_c1": {
+    "title": "剣鬼バルゴ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61492_c1": {
+    "title": "映画 えんとつ町のプペル ～約束の時計台～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63027_c1": {
+    "title": "L'amour fou de l'automate",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63084_c1": {
+    "title": "聖光閃姫ポニーセレス",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61495_c1": {
+    "title": "ひな菊の人生",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62508_c1": {
+    "title": "映画ドラえもん 新・のび太の海底鬼岩城",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63245_c1": {
+    "title": "シルベ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63159_c1": {
+    "title": "アナルマニアオタクとアナニー大好きなお嬢様",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60574_c1": {
+    "title": "深空彼岸",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63349_c1": {
+    "title": "セレナーデ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63158_c1": {
+    "title": "蛇と蜘蛛",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61119_c1": {
+    "title": "Duel Masters LOST ～忘却の太陽～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62157_c1": {
+    "title": "광장",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63232_c1": {
+    "title": "ファントム・アルケミア ~シルヴィアのドキドキ搾精都市計画~",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62280_c1": {
+    "title": "修罗武神2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63398_c1": {
+    "title": "ray 超かぐや姫！Version",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_60569_c1": {
+    "title": "中国奇谭2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63414_c1": {
+    "title": "LUCA",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62955_c1": {
+    "title": "有兽焉 第五季",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63033_c1": {
+    "title": "映画ひみつのアイプリ まんかいバズリウムライブ！",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63297_c1": {
+    "title": "満ちる月影の彼方",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62690_c1": {
+    "title": "おしり前マン～復活のおしり前帝国～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63628_c1": {
+    "title": "ファッションビート",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63365_c1": {
+    "title": "Magic",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63497_c1": {
+    "title": "过年者联盟之新春赛马",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61783_c1": {
+    "title": "FOXING: Kitsuné-tsuki (きつねつき)",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63222_c1": {
+    "title": "能登半島復興応援企画",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63270_c1": {
+    "title": "月に向かって撃て",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63360_c1": {
+    "title": "史上最强炼体老祖",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63106_c1": {
+    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 05:00 (JST)"
+      },
+      "tvk": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_63216_c1": {
+    "title": "ゲルぴよ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 21:54 (JST)"
+      }
+    }
+  },
+  "202601_63533_c1": {
+    "title": "呼唤少女特别篇 想做的事到底是什么",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63439_c1": {
+    "title": "盗妖行",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63267_c1": {
+    "title": "アドレナ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63236_c1": {
+    "title": "花の芥 -Re;bloom- PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63321_c1": {
+    "title": "雪舞う空と二秒の永遠",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63288_c1": {
+    "title": "BABY",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63416_c1": {
+    "title": "龙破九天",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63291_c1": {
+    "title": "魔法使いの日記",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63586_c1": {
+    "title": "《崩坏：星穹铁道》即兴巡演PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_62211_c1": {
+    "title": "大鱼海棠之融松传",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63404_c1": {
+    "title": "海馬成長痛 × Mass Destruction -Reload- マッシュアップ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63427_c1": {
+    "title": "汤直志异",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63485_c1": {
+    "title": "修仙者大战超能力",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63558_c1": {
+    "title": "ザ・ホラーズ・ホラー・ホーム",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63300_c1": {
+    "title": "あいあいあいあい♡あいらぶゆー",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63354_c1": {
+    "title": "ReDreaming Angel",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_61626_c1": {
+    "title": "搜神记",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63591_c1": {
+    "title": "ピュア feat.橋本絵莉子",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63317_c1": {
+    "title": "신비아파트 10주년 극장판: 한 번 더, 소환",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63142_c1": {
+    "title": "메탈카드봇W",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 07:45 (JST)"
+      }
+    }
+  },
+  "202601_63363_c1": {
+    "title": "ドッペルゲンガー",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63493_c1": {
+    "title": "Dou-Da? Doing!",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63334_c1": {
+    "title": "『コウペンちゃん』新春スペシャル 完全版",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63275_c1": {
+    "title": "ブラックジャックやねん",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63595_c1": {
+    "title": "沧元图前传 东宁府的夏天",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63577_c1": {
+    "title": "Chatter Chatter",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63729_c1": {
+    "title": "OH!!",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63567_c1": {
+    "title": "餓狼伝説 CotW｜ナイトメアギース｜ロングアニメーショントレーラー",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63336_c1": {
+    "title": "カードファイト!! ヴァンガード 15周年記念PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63739_c1": {
+    "title": "もし、これから生まれるのなら",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63319_c1": {
+    "title": "一体いつから",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63327_c1": {
+    "title": "幻界",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63369_c1": {
+    "title": "把心跳變成節奏",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63287_c1": {
+    "title": "Stand by Me",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63373_c1": {
+    "title": "宝可梦动画图鉴 转瞬缤纷",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63475_c1": {
+    "title": "KiLLKiSS feat. ロドスバンドガールズ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63411_c1": {
+    "title": "ふくふくの地図",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63562_c1": {
+    "title": "まぼろしの行方",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63200_c1": {
+    "title": "秘密結社 鷹の爪XX（ダブルエックス）",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63328_c1": {
+    "title": "星屑のコンチェルト",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63570_c1": {
+    "title": "살아남은 로맨스 PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63333_c1": {
+    "title": "AI CHAN",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63599_c1": {
+    "title": "千鳥",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63428_c1": {
+    "title": "喜羊羊与灰太狼之古古怪界有古怪",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Unknown"
+      }
+    }
+  },
+  "202601_63474_c1": {
+    "title": "ウザ可愛くて何が悪い！",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63568_c1": {
+    "title": "KAMACHO",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63415_c1": {
+    "title": "乐乐便利店",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63574_c1": {
+    "title": "ENDLESS DANCE",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63629_c1": {
+    "title": "よもすがら",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63592_c1": {
+    "title": "人形の街",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63746_c1": {
+    "title": "Two Faced",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63332_c1": {
+    "title": "占卜占星tion!",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63426_c1": {
+    "title": "熊熊帮帮团4",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Unknown"
+      }
+    }
+  },
+  "202601_63278_c1": {
+    "title": "Q.E.D.",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63425_c1": {
+    "title": "熊出没·年年有熊",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63420_c1": {
+    "title": "生活の",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63698_c1": {
+    "title": "全肯定!",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63710_c1": {
+    "title": "櫂",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63593_c1": {
+    "title": "ハーモニー feat. 原口沙輔, 初音ミク",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63461_c1": {
+    "title": "ポピンのズンドコ節",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63738_c1": {
+    "title": "背中にリボン",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63604_c1": {
+    "title": "me・愛・ラ・sun・虫",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63296_c1": {
+    "title": "すすめ！ペンギンウォーク",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63496_c1": {
+    "title": "Buddy",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63727_c1": {
+    "title": "'Arirang' Animation Trailer: What Is Your Love Song?",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63758_c1": {
+    "title": "Wildest Flower",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63495_c1": {
+    "title": "言い訳ナイナー",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63470_c1": {
+    "title": "いのちめぐる",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63490_c1": {
+    "title": "どこ？どこ？",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_63491_c1": {
+    "title": "こだまでしょうか",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_59970_c1": {
+    "title": "転生したらスライムだった件 第4期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_51553_c1": {
+    "title": "とんがり帽子のアトリエ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_56876_c1": {
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 2期制",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_59983_c1": {
+    "title": "杖と剣のウィストリア Season 2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 16:30 (JST)"
+      }
+    }
+  },
+  "202604_57466_c1": {
+    "title": "本好きの下剋上 ～司書になるためには手段を選んでいられません～ 領主の養女",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 17:30 (JST)"
+      }
+    }
+  },
+  "202604_60310_c1": {
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 18:15 (JST)"
+      }
+    }
+  },
+  "202604_57779_c1": {
+    "title": "ドロヘドロ Season2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_62146_c1": {
+    "title": "異世界のんびり農家2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_61831_c1": {
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_60028_c1": {
+    "title": "姫騎士は蛮族の嫁",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202604_63130_c1": {
+    "title": "僕のヒーローアカデミア More",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_59174_c1": {
+    "title": "魔法科高校の劣等生 四葉継承編",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_56734_c1": {
+    "title": "クラスで２番目に可愛い女の子と友だちになった",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_62331_c1": {
+    "title": "LIAR GAME",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_60055_c1": {
+    "title": "夜桜さんちの大作戦 第2期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 17:00 (JST)"
+      }
+    }
+  },
+  "202604_62485_c1": {
+    "title": "彼女、お借りします 第5期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:53 (JST)"
+      }
+    }
+  },
+  "202604_61839_c1": {
+    "title": "愛してるゲームを終わらせたい",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_62601_c1": {
+    "title": "マリッジトキシン",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_61931_c1": {
+    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_59551_c1": {
+    "title": "ガンバレ！中村くん!!",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:30 (JST)"
+      }
+    }
+  },
+  "202604_59393_c1": {
+    "title": "ニワトリ・ファイター",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_62604_c1": {
+    "title": "オタクに優しいギャルはいない!?",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 23:45 (JST)"
+      }
+    }
+  },
+  "202604_61443_c1": {
+    "title": "春夏秋冬代行者 春の舞",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_60444_c1": {
+    "title": "よわよわ先生",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202604_62512_c1": {
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う3期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_60852_c1": {
+    "title": "氷の城壁",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 23:56 (JST)"
+      }
+    }
+  },
+  "202604_58877_c1": {
+    "title": "ダイヤのA actⅡ Second Season",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 17:30 (JST)"
+      }
+    }
+  },
+  "202604_62048_c1": {
+    "title": "MAO",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:45 (JST)"
+      }
+    }
+  },
+  "202604_61687_c1": {
+    "title": "自称悪役令嬢な婚約者の観察記録。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_61186_c1": {
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_61230_c1": {
+    "title": "最終楽章 響け！ユーフォニアム",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_62825_c1": {
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_56646_c1": {
+    "title": "北斗の拳 -FIST OF THE NORTH STAR-",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:00 (JST)"
+      }
+    }
+  },
+  "202604_62171_c1": {
+    "title": "黒猫と魔女の教室",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_62893_c1": {
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_61943_c1": {
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:28 (JST)"
+      }
+    }
+  },
+  "202604_61202_c1": {
+    "title": "劇場版モノノ怪 第三章 蛇神",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_61425_c1": {
+    "title": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 23:24 (JST)"
+      }
+    }
+  },
+  "202604_61013_c1": {
+    "title": "レプリカだって、恋をする。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_62964_c1": {
+    "title": "また殺されてしまったのですね、探偵様",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:58 (JST)"
+      }
+    }
+  },
+  "202604_62050_c1": {
+    "title": "神の庭付き楠木邸",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 01:30 (JST)"
+      }
+    }
+  },
+  "202604_58820_c1": {
+    "title": "淡島百景",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:45 (JST)"
+      }
+    }
+  },
+  "202604_62391_c1": {
+    "title": "キルアオ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_62983_c1": {
+    "title": "茉莉花ちゃんの好感度はぶっ壊れている",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 01:00 (JST)"
+      }
+    }
+  },
+  "202604_53732_c1": {
+    "title": "左ききのエレン",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_63375_c1": {
+    "title": "日本三國",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_62342_c1": {
+    "title": "メイドさんは食べるだけ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_62018_c1": {
+    "title": "一畳間まんきつ暮らし！",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 02:00 (JST)"
+      }
+    }
+  },
+  "202604_63304_c1": {
+    "title": "魔物喰らいの冒険者 ~俺だけ魔物を喰らって強くなる~",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:00 (JST)"
+      }
+    }
+  },
+  "202604_58832_c1": {
+    "title": "クジマ歌えば家ほろろ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_59835_c1": {
+    "title": "霧尾ファンクラブ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 00:26 (JST)"
+      }
+    }
+  },
+  "202604_62068_c1": {
+    "title": "スノウボールアース",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_63014_c1": {
+    "title": "ただいま、おじゃまされます！",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 01:29 (JST)"
+      }
+    }
+  },
+  "202604_63376_c1": {
+    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 01:59 (JST)"
+      }
+    }
+  },
+  "202604_59889_c1": {
+    "title": "機動警察パトレイバー EZY（イズィー）",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63433_c1": {
+    "title": "大賢者リドルの時間逆行",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 21:55 (JST)"
+      }
+    }
+  },
+  "202604_59176_c1": {
+    "title": "魔法の姉妹ルルットリリィ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_63572_c1": {
+    "title": "だんでらいおん",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_62852_c1": {
+    "title": "ゴーストコンサート: missing Songs",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 00:30 (JST)"
+      }
+    }
+  },
+  "202604_62387_c1": {
+    "title": "名探偵コナン ハイウェイの堕天使",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_61806_c1": {
+    "title": "映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63469_c1": {
+    "title": "百鬼夜行抄",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 21:55 (JST)"
+      }
+    }
+  },
+  "202604_60153_c1": {
+    "title": "リラックマ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 09:25 (JST)"
+      }
+    }
+  },
+  "202604_63125_c1": {
+    "title": "おでかけ子ザメ シーズン2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63345_c1": {
+    "title": "ラブはギャルから始まる運命",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63352_c1": {
+    "title": "おねがいアイプリ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 09:30 (JST)"
+      }
+    }
+  },
+  "202604_63394_c1": {
+    "title": "痴魅悶凌",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63582_c1": {
+    "title": "巨乳が2人いないと勃起しない夫のために友達を連れてきた妻",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63520_c1": {
+    "title": "とどの妻り",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63276_c1": {
+    "title": "キャンディーカリエス",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:55 (JST)"
+      }
+    }
+  },
+  "202604_63606_c1": {
+    "title": "遮天剧场版 背棺战王腾",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63153_c1": {
+    "title": "百姓貴族 3rd Season",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_63657_c1": {
+    "title": "性指導員のお仕事",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_62933_c1": {
+    "title": "小３アシベ QQゴマちゃん",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 07:00 (JST)"
+      }
+    }
+  },
+  "202604_63356_c1": {
+    "title": "それいけ！アンパンマン パンタンと約束の星",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_62495_c1": {
+    "title": "ねずみくんのチョッキ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 09:30 (JST)"
+      }
+    }
+  },
+  "202604_63383_c1": {
+    "title": "クマーバ シーズン3",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 07:00 (JST)"
+      }
+    }
+  },
+  "202604_63762_c1": {
+    "title": "おしりたんてい",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 09:00 (JST)"
+      }
+    }
+  },
+  "202604_63765_c1": {
+    "title": "ヌきヌき ずっぽしイズム",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_HellSParadiseSeason2_c1": {
+    "title": "地獄楽第二期",
+    "overall_latest_ep": 24,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:45 (JST)"
+      },
+      "at-x": {
+        "last_ep_num": 24,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_yushakei_pj_c1": {
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 22:30 (JST)"
+      }
+    }
+  },
+  "202601_SteelBallRunJojoSBizarreAdventure_c1": {
+    "title": "スティール・ボール・ラン ジョジョの奇妙な冒険",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_kiyou_bimbou_c1": {
+    "title": "勇者パーティを追い出された器用貧乏",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:30 (JST)"
+      }
+    }
+  },
+  "202601_ikoku_anime_c1": {
+    "title": "違国日記",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_CosmicPrincessKaguya_c1": {
+    "title": "超かぐや姫！",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_tamon_anime_c1": {
+    "title": "多聞くん今どっち!?",
+    "overall_latest_ep": 13,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 01:00 (JST)"
+      },
+      "bs11": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_yuukawa_anime_c1": {
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_trigun_anime_c1": {
+    "title": "TRIGUN STARGAZE",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:00 (JST)"
+      },
+      "tva": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "tx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "tvh": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "tvo": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_uruwashi_anime_c1": {
+    "title": "うるわしの宵の月",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 16:30 (JST)"
+      }
+    }
+  },
+  "202601_kizokutensei_pr_c1": {
+    "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:00 (JST)"
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_animekunon_c1": {
+    "title": "魔術師クノンは見えている",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:00 (JST)"
+      }
+    }
+  },
+  "202601_okiraku_anime_c1": {
+    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 22:00 (JST)"
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "サンテレビジョン": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_ten_sura_anime_c1": {
+    "title": "劇場版 転生したらスライムだった件 蒼海の涙編",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_hellmode_anime_c1": {
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:05 (JST)"
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "bs-ntv": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_LoveThroughAPrism_c1": {
+    "title": "プリズム輪舞曲〈ロンド〉",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_project_of_eris_c1": {
+    "title": "エリスの聖杯",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 23:56 (JST)"
+      }
+    }
+  },
+  "202601_tomeiotoko_c1": {
+    "title": "透明男と人間女～そのうち夫婦になるふたり～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_KayaChanIsnTScary_c1": {
+    "title": "カヤちゃんはコワくない",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 17:30 (JST)"
+      }
+    }
+  },
+  "202601_omagoto_anime_c1": {
+    "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 00:30 (JST)"
+      },
+      "at-x": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_akudeki_anime_c1": {
+    "title": "悪役令嬢は隣国の王太子に溺愛される",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:00 (JST)"
+      }
+    }
+  },
+  "202601_RascalDoesNotDreamOfADearFriend_c1": {
+    "title": "青春ブタ野郎はディアフレンドの夢を見ない",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1": {
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_ddac_wm_c1": {
+    "title": "デッドアカウント",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:30 (JST)"
+      },
+      "メ～テレ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "ex": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_love_osnnjm_wm_c1": {
+    "title": "幼馴染とはラブコメにならない",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 00:00 (JST)"
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_WitchOnTheHolyNight_c1": {
+    "title": "魔法使いの夜",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_champignon_pr_c1": {
+    "title": "シャンピニオンの魔女",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:58 (JST)"
+      }
+    }
+  },
+  "202601_hanakimi_anime_c1": {
+    "title": "花ざかりの君たちへ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 21:30 (JST)"
+      }
+    }
+  },
+  "202601_ReincarnatedAsADragonHatchling_c1": {
+    "title": "転生したらドラゴンの卵だった",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202601_aniplex_c1": {
+    "title": "DARK MOON　-黒の月: 月の祭壇-",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_odayaka_pr_c1": {
+    "title": "穏やか貴族の休暇のすすめ。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202601_yushanokuzu_c1": {
+    "title": "勇者のクズ",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 00:55 (JST)"
+      },
+      "ntv": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "広島テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "中京テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_jingaikyoshitsu_c1": {
+    "title": "人外教室の人間嫌い教師",
+    "overall_latest_ep": 12,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 00:00 (JST)"
+      },
+      "at-x": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "メ～テレ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "ex": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_arne_jknb_c1": {
+    "title": "アルネの事件簿",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 01:29 (JST)"
+      }
+    }
+  },
+  "202601_goumonbt_anime_c1": {
+    "title": "拷問バイトくんの日常",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 00:30 (JST)"
+      }
+    }
+  },
+  "202601_hanisuka_anime_c1": {
+    "title": "アンドロイドは経験人数に入りますか??",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:00 (JST)"
+      }
+    }
+  },
+  "202601_MobileSuitGundamHathawayTheSorceryOfNymphCirce_c1": {
+    "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_koishima_pr_c1": {
+    "title": "どうせ、恋してしまうんだ。第2期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:28 (JST)"
+      }
+    }
+  },
+  "202601_ANewDawn_c1": {
+    "title": "花緑青が明ける日に",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_HellTeacherJigokuSenseiNubePart2_c1": {
+    "title": "地獄先生ぬ～べ～",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 23:45 (JST)"
+      }
+    }
+  },
+  "202601_BlueMiburoSeason2_c1": {
+    "title": "青のミブロ 芹沢暗殺編",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 17:30 (JST)"
+      }
+    }
+  },
+  "202601_ReleaseThatWitch_c1": {
+    "title": "放开那个女巫",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TerrorMan_c1": {
+    "title": "테러맨",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_hikuidori_pj_c1": {
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_samuraitroo_pr_c1": {
+    "title": "鎧真伝サムライトルーパー",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_baloon_project_c1": {
+    "title": "最推しの義兄を愛でるため、長生きします!",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 21:55 (JST)"
+      }
+    }
+  },
+  "202601_Evangelion30thAnniversarySpecial_c1": {
+    "title": "エヴァンゲリオン 放送30周年記念特別興行",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_LEtoileDeParisEnFleur_c1": {
+    "title": "パリに咲くエトワール",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_StarDetectivePrecure_c1": {
+    "title": "名探偵プリキュア！",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 08:30 (JST)"
+      }
+    }
+  },
+  "202601_HighSchoolKimengumi2026_c1": {
+    "title": "ハイスクール！奇面組",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 23:30 (JST)"
+      }
+    }
+  },
+  "202601_ichigoaikaanime_c1": {
+    "title": "イチゴ哀歌～雑で生イキな妹と割り切れない兄～",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_MilkySubwayTheGalacticLimitedExpressMovie_c1": {
+    "title": "劇場 銀河特急 ミルキー☆サブウェイ 各駅停車劇場行き",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_yamishibai_tx_c1": {
+    "title": "闇芝居 十六期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 02:20 (JST)"
+      }
+    }
+  },
+  "202601_TheOutcastSeason6_c1": {
+    "title": "一人之下6",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_frontierworks_c1": {
+    "title": "北斗の拳 拳王軍ザコたちの挽歌",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 20:00 (JST)"
+      }
+    }
+  },
+  "202601_kanael_tvk_c1": {
+    "title": "#神奈川に住んでるエルフ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 22:55 (JST)"
+      }
+    }
+  },
+  "202601_HowDareYouSeason2_c1": {
+    "title": "成何体统 第2季",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_CardfightVanguardDivinezParallacticClash_c1": {
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "overall_latest_ep": 10,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 08:00 (JST)"
+      },
+      "tva": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "tx": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "bs-ntv": {
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-03-28",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202601_BKing_c1": {
+    "title": "驭灵师",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_WeAreAliens_c1": {
+    "title": "我々は宇宙人",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_PlayingSister_c1": {
+    "title": "お姉ちゃんごっこ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TheGreatRuler2_c1": {
+    "title": "大主宰 年番2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_WayOfChoices_c1": {
+    "title": "择天记",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_DaisySLife_c1": {
+    "title": "ひな菊の人生",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_DoraemonTheMovie2026NewNobitaAndTheCastleOfTheUnderseaDevil_c1": {
+    "title": "映画ドラえもん 新・のび太の海底鬼岩城",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TheOtherSideOfDeepSpace_c1": {
+    "title": "深空彼岸",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_MartialGodAsura2_c1": {
+    "title": "修罗武神2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_YaoChineseFolktales2_c1": {
+    "title": "中国奇谭2",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_FabulousBeasts5thSeason_c1": {
+    "title": "有兽焉 第五季",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_BeyondTheFullMoon_c1": {
+    "title": "満ちる月影の彼方",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_FashionBeat_c1": {
+    "title": "ファッションビート",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_Magic_c1": {
+    "title": "Magic",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_NotoPeninsulaReconstructionSupportProject_c1": {
+    "title": "能登半島復興応援企画",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_Moonshot_c1": {
+    "title": "月に向かって撃て",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TheSupremeBodyRefiningMaster_c1": {
+    "title": "史上最强炼体老祖",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_CallUpGirlsSpecial_c1": {
+    "title": "呼唤少女特别篇 想做的事到底是什么",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_AliensAmongImmortals_c1": {
+    "title": "盗妖行",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_FlowerDustPv_c1": {
+    "title": "花の芥 -Re;bloom- PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_FallingSnowAndTwoSecondsOfEternity_c1": {
+    "title": "雪舞う空と二秒の永遠",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_DragonSTriumphInTheCelestialRealm_c1": {
+    "title": "龙破九天",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_WizardSDiary_c1": {
+    "title": "魔法使いの日記",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_HonkaiStarRailImprovTourTrailers_c1": {
+    "title": "《崩坏：星穹铁道》即兴巡演PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_BigFishBegoniaRongSong_c1": {
+    "title": "大鱼海棠之融松传",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TheHorrorsHorrorHome_c1": {
+    "title": "ザ・ホラーズ・ホラー・ホーム",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_PureFeatErikoHashimoto_c1": {
+    "title": "ピュア feat.橋本絵莉子",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_ShinbiSHauntedHouseOneMoreSummon_c1": {
+    "title": "신비아파트 10주년 극장판: 한 번 더, 소환",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_MetalCardbotW_c1": {
+    "title": "메탈카드봇W",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 07:45 (JST)"
+      }
+    }
+  },
+  "202601_PreludeOfTheDemonHunterDongningPrefectureInSummer_c1": {
+    "title": "沧元图前传 东宁府的夏天",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_FatalFuryCityOfTheWolvesNightmareGeeseTrailer_c1": {
+    "title": "餓狼伝説 CotW｜ナイトメアギース｜ロングアニメーショントレーラー",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_CardfightVanguard15thAnniversaryAnimationPv_c1": {
+    "title": "カードファイト!! ヴァンガード 15周年記念PV",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_SinceWhen_c1": {
+    "title": "一体いつから",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_ThePhantomWorld_c1": {
+    "title": "幻界",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TurnHeartbeatsIntoTempo_c1": {
+    "title": "把心跳變成節奏",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_KillkissFeatRhodesIslandBandGirls_c1": {
+    "title": "KiLLKiSS feat. ロドスバンドガールズ",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_MapOfFukufuku_c1": {
+    "title": "ふくふくの地図",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_WhereaboutsOfThePhantom_c1": {
+    "title": "まぼろしの行方",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_Plover_c1": {
+    "title": "千鳥",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_EndlessDance_c1": {
+    "title": "ENDLESS DANCE",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_TwoFaced_c1": {
+    "title": "Two Faced",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_BoonieSquad4_c1": {
+    "title": "熊熊帮帮团4",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Unknown"
+      }
+    }
+  },
+  "202601_QED_c1": {
+    "title": "Q.E.D.",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_BoonieBearsTheHiddenProtector_c1": {
+    "title": "熊出没·年年有熊",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_Living_c1": {
+    "title": "生活の",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_Paddle_c1": {
+    "title": "櫂",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202601_WildestFlower_c1": {
+    "title": "Wildest Flower",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_ten_sura_anime_c1": {
+    "title": "転生したらスライムだった件 第4期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_tongari_anime_c1": {
+    "title": "とんがり帽子のアトリエ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_TheAngelNextDoorSpoilsMeRottenSeason2_c1": {
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 2期制",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_wistoria_pr_c1": {
+    "title": "杖と剣のウィストリア Season 2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 16:30 (JST)"
+      }
+    }
+  },
+  "202604_AscendanceOfABookwormAdoptedDaughterOfAnArchduke_c1": {
+    "title": "本好きの下剋上 ～司書になるためには手段を選んでいられません～ 領主の養女",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 17:30 (JST)"
+      }
+    }
+  },
+  "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1": {
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 18:15 (JST)"
+      }
+    }
+  },
+  "202604_nonbiri_nouka_c1": {
+    "title": "異世界のんびり農家2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_saikyo2dome_c1": {
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_himekishi_anime_c1": {
+    "title": "姫騎士は蛮族の嫁",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202604_MyHeroAcademiaMore_c1": {
+    "title": "僕のヒーローアカデミア More",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_TheIrregularAtMagicHighSchoolTheMovieYotsubaSuccessionArc_c1": {
+    "title": "魔法科高校の劣等生 四葉継承編",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_2ndinclass_c1": {
+    "title": "クラスで２番目に可愛い女の子と友だちになった",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_officialhitsuji_c1": {
+    "title": "夜桜さんちの大作戦 第2期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 17:00 (JST)"
+      }
+    }
+  },
+  "202604_kanokari_anime_c1": {
+    "title": "彼女、お借りします 第5期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 01:53 (JST)"
+      }
+    }
+  },
+  "202604_aishiterugame_c1": {
+    "title": "愛してるゲームを終わらせたい",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_marritoxi_pr_c1": {
+    "title": "マリッジトキシン",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_lastame_pr_c1": {
+    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_nkmr_kun_tv_c1": {
+    "title": "ガンバレ！中村くん!!",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:30 (JST)"
+      }
+    }
+  },
+  "202604_niwatorifighte1_c1": {
+    "title": "ニワトリ・ファイター",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_otagal_official_c1": {
+    "title": "オタクに優しいギャルはいない!?",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 23:45 (JST)"
+      }
+    }
+  },
+  "202604_4seasons_anime_c1": {
+    "title": "春夏秋冬代行者 春の舞",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 00:00 (JST)"
+      },
+      "bs11": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "cbc": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "mbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202604_yowayowa_anime_c1": {
+    "title": "よわよわ先生",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 21:30 (JST)"
+      }
+    }
+  },
+  "202604_RebornAsAVendingMachineINowWanderTheDungeonSeason3_c1": {
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う3期",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_korinojoheki_pr_c1": {
+    "title": "氷の城壁",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 23:56 (JST)"
+      }
+    }
+  },
+  "202604_AceOfDiamondActIiSeason2_c1": {
+    "title": "ダイヤのA actⅡ Second Season",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 17:30 (JST)"
+      }
+    }
+  },
+  "202604_jisho_akuyakupr_c1": {
+    "title": "自称悪役令嬢な婚約者の観察記録。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1": {
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 00:00 (JST)"
+      },
+      "bs11": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-28",
+        "remarks": null
+      }
+    }
+  },
+  "202604_SoundEuphoniumTheFinalMovie_c1": {
+    "title": "最終楽章 響け！ユーフォニアム",
+    "overall_latest_ep": 1,
+    "platforms": {}
+  },
+  "202604_kanteishi_anime_c1": {
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_witch_classroom_c1": {
+    "title": "黒猫と魔女の教室",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_nigetsuri_anime_c1": {
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_haibara_anime_c1": {
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:28 (JST)"
+      }
+    }
+  },
+  "202604_ponsuka_anime_c1": {
+    "title": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 23:24 (JST)"
+      }
+    }
+  },
+  "202604_replico_dengeki_c1": {
+    "title": "レプリカだって、恋をする。",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_matakoro_anime_c1": {
+    "title": "また殺されてしまったのですね、探偵様",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 01:58 (JST)"
+      }
+    }
+  },
+  "202604_kusunoki_anime_c1": {
+    "title": "神の庭付き楠木邸",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 01:30 (JST)"
+      }
+    }
+  },
+  "202604_killblue_pr_c1": {
+    "title": "キルアオ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Saturdays at 23:00 (JST)"
+      }
+    }
+  },
+  "202604_MarikaSLoveMeterMalfunction_c1": {
+    "title": "茉莉花ちゃんの好感度はぶっ壊れている",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Mondays at 01:00 (JST)"
+      }
+    }
+  },
+  "202604_eren_anime_pr_c1": {
+    "title": "左ききのエレン",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_sangoku_pr_c1": {
+    "title": "日本三國",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Tuesdays at 00:00 (JST)"
+      }
+    }
+  },
+  "202604_lovetoeat_maid_c1": {
+    "title": "メイドさんは食べるだけ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:00 (JST)"
+      }
+    }
+  },
+  "202604_ichijyoma_anime_c1": {
+    "title": "一畳間まんきつ暮らし！",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 02:00 (JST)"
+      }
+    }
+  },
+  "202604_kujima_anime_c1": {
+    "title": "クジマ歌えば家ほろろ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Thursdays at 22:30 (JST)"
+      }
+    }
+  },
+  "202604_kirio_fc_c1": {
+    "title": "霧尾ファンクラブ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 00:26 (JST)"
+      }
+    }
+  },
+  "202604_snowballearth_o_c1": {
+    "title": "スノウボールアース",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Fridays at 23:30 (JST)"
+      }
+    }
+  },
+  "202604_tadaoja_anime_c1": {
+    "title": "ただいま、おじゃまされます！",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Wednesdays at 01:29 (JST)"
+      }
+    }
+  },
+  "202604_luluttolilly_c1": {
+    "title": "魔法の姉妹ルルットリリィ",
+    "overall_latest_ep": 1,
+    "platforms": {
+      "broadcast": {
+        "last_ep_num": 1,
+        "remarks": "Sundays at 22:30 (JST)"
       }
     }
   }
