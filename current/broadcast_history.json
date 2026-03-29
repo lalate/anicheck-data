@@ -177,11 +177,13 @@
   },
   "202501_MFGhost_c3": {
     "title": "MFゴースト 3rd Season",
-    "overall_latest_ep": 36,
+    "overall_latest_ep": 37,
     "platforms": {
       "mx": {
-        "last_ep_num": 35,
-        "remarks": "2026-03-15 Turn35「最強トレイン」放送済み"
+        "last_ep_num": 37,
+        "remarks": "2026-03-15 Turn35「最強トレイン」放送済み",
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29"
       },
       "bs11": {
         "last_ep_num": 12,
@@ -190,6 +192,12 @@
       "BS日テレ": {
         "last_ep_num": 35,
         "remarks": "2026-03-15 Turn35「最強トレイン」放送済み"
+      },
+      "bs_ntv": {
+        "last_ep_num": 37,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -428,11 +436,17 @@
   },
   "202601_slave2_c1": {
     "title": "魔都精兵のスレイブ2",
-    "overall_latest_ep": 11,
+    "overall_latest_ep": 12,
     "platforms": {
       "mx": {
         "last_ep_num": 11,
         "remarks": "木 24:00"
+      },
+      "bs_asahi": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -476,7 +490,7 @@
   },
   "202601_himesama2_c1": {
     "title": "姫様“拷問”の時間です 第2期",
-    "overall_latest_ep": 22,
+    "overall_latest_ep": 23,
     "platforms": {
       "mx": {
         "last_ep_num": 22,
@@ -485,6 +499,12 @@
       "bs11": {
         "last_ep_num": 22,
         "remarks": "月 23:30"
+      },
+      "関西テレビ": {
+        "last_ep_num": 23,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -574,19 +594,37 @@
   },
   "202601_seihantai_c1": {
     "title": "正反対な君と僕",
-    "overall_latest_ep": 10,
+    "overall_latest_ep": 12,
     "platforms": {
       "mbs": {
-        "last_ep_num": 10,
-        "remarks": "日 17:00-17:30"
+        "last_ep_num": 12,
+        "remarks": "日 17:00-17:30",
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29"
       },
       "tbs": {
-        "last_ep_num": 10,
-        "remarks": "日 17:00-17:30"
+        "last_ep_num": 12,
+        "remarks": "日 17:00-17:30",
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29"
       },
       "abema": {
-        "last_ep_num": 10,
-        "remarks": "日 21:00-21:30 最速配信"
+        "last_ep_num": 12,
+        "remarks": "日 21:00-21:30 最速配信",
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29"
+      },
+      "cbc": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2475,7 +2513,7 @@
   },
   "202601_HellSParadiseSeason2_c1": {
     "title": "地獄楽第二期",
-    "overall_latest_ep": 24,
+    "overall_latest_ep": 25,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
@@ -2486,16 +2524,52 @@
         "last_broadcast_date": "2026-03-28",
         "last_updated_at": "2026-03-28",
         "remarks": null
+      },
+      "tva": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tx": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tvh": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tvo": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
   "202601_yushakei_pj_c1": {
     "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 22:30 (JST)"
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2516,11 +2590,29 @@
   },
   "202601_ikoku_anime_c1": {
     "title": "違国日記",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 13,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 23:00 (JST)"
+      },
+      "bs_asahi": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2603,11 +2695,47 @@
   },
   "202601_uruwashi_anime_c1": {
     "title": "うるわしの宵の月",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 16:30 (JST)"
+      },
+      "tbs": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "cbc": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "mbs": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2622,18 +2750,30 @@
       "abema": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_updated_at": "2026-03-29",
         "remarks": null
       }
     }
   },
   "202601_animekunon_c1": {
     "title": "魔術師クノンは見えている",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 13,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 22:00 (JST)"
+      },
+      "mx": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "bs_asahi": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2667,6 +2807,12 @@
         "last_ep_num": 12,
         "last_broadcast_date": "2026-03-28",
         "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
         "remarks": null
       }
     }
@@ -2725,11 +2871,47 @@
   },
   "202601_KayaChanIsnTScary_c1": {
     "title": "カヤちゃんはコワくない",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 17:30 (JST)"
+      },
+      "tva": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tvo": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tvh": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2751,11 +2933,17 @@
   },
   "202601_akudeki_anime_c1": {
     "title": "悪役令嬢は隣国の王太子に溺愛される",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 23:00 (JST)"
+      },
+      "mx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2866,11 +3054,17 @@
   },
   "202601_odayaka_pr_c1": {
     "title": "穏やか貴族の休暇のすすめ。",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:00 (JST)"
+      },
+      "tva": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -2898,6 +3092,12 @@
         "last_ep_num": 12,
         "last_broadcast_date": "2026-03-29",
         "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
         "remarks": null
       }
     }
@@ -2985,11 +3185,17 @@
   },
   "202601_koishima_pr_c1": {
     "title": "どうせ、恋してしまうんだ。第2期",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 24,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 01:28 (JST)"
+      },
+      "bs11": {
+        "last_ep_num": 24,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -3030,11 +3236,35 @@
   },
   "202601_hikuidori_pj_c1": {
     "title": "火喰鳥 羽州ぼろ鳶組",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 11,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 23:30 (JST)"
+      },
+      "cbc": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "tbs": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "mbs": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -3070,11 +3300,23 @@
   },
   "202601_StarDetectivePrecure_c1": {
     "title": "名探偵プリキュア！",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 9,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 08:30 (JST)"
+      },
+      "tv_asahi": {
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "メ～テレ": {
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-03-29",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },
@@ -3100,11 +3342,17 @@
   },
   "202601_yamishibai_tx_c1": {
     "title": "闇芝居 十六期",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Mondays at 02:20 (JST)"
+      },
+      "tx": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-03-30",
+        "last_updated_at": "2026-03-29",
+        "remarks": null
       }
     }
   },

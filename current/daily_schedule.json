@@ -1,386 +1,378 @@
 [
   {
-    "anime_id": "202601_love_osnnjm_wm_c1",
-    "title": "幼馴染とはラブコメにならない",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-28T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_shibomeshi_c1",
-    "title": "死亡遊戯で飯を食う。",
-    "ep_num": 0,
-    "station_id": "アニメlive",
-    "start_time": "2026-03-28T05:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
-    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
-    "ep_num": 10,
-    "station_id": "tva",
-    "start_time": "2026-03-28T08:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
-    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
-    "ep_num": 10,
-    "station_id": "tx",
-    "start_time": "2026-03-28T08:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_63106_c1",
-    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
-    "ep_num": 12,
-    "station_id": "tvk",
-    "start_time": "2026-03-28T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_hellmode_anime_c1",
-    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-28T10:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-28T16:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_vigilante2_c1",
-    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "ep_num": 19,
-    "station_id": "animax",
-    "start_time": "2026-03-28T19:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_frieren_c2",
-    "title": "葬送のフリーレン 第2期",
-    "ep_num": 36,
-    "station_id": "animax",
-    "start_time": "2026-03-28T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_frieren_c2",
-    "title": "葬送のフリーレン 第2期",
-    "ep_num": 38,
-    "station_id": "at-x",
-    "start_time": "2026-03-28T21:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_HellSParadiseSeason2_c1",
-    "title": "地獄楽第二期",
-    "ep_num": 24,
-    "station_id": "at-x",
-    "start_time": "2026-03-28T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
-    "ep_num": 12,
-    "station_id": "mx",
-    "start_time": "2026-03-28T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
-    "ep_num": 12,
-    "station_id": "bs11",
-    "start_time": "2026-03-28T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
-    "ep_num": 12,
-    "station_id": "サンテレビジョン",
-    "start_time": "2026-03-28T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_omagoto_anime_c1",
-    "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
-    "ep_num": 12,
-    "station_id": "at-x",
-    "start_time": "2026-03-28T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jujutsushimetsu_c1",
-    "title": "呪術廻戦 死滅回游 前編",
-    "ep_num": 59,
-    "station_id": "bs-ntv",
-    "start_time": "2026-03-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_trigun_anime_c1",
-    "title": "TRIGUN STARGAZE",
-    "ep_num": 12,
-    "station_id": "tva",
-    "start_time": "2026-03-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_trigun_anime_c1",
-    "title": "TRIGUN STARGAZE",
-    "ep_num": 12,
-    "station_id": "tx",
-    "start_time": "2026-03-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_trigun_anime_c1",
-    "title": "TRIGUN STARGAZE",
-    "ep_num": 12,
-    "station_id": "tvh",
-    "start_time": "2026-03-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_trigun_anime_c1",
-    "title": "TRIGUN STARGAZE",
-    "ep_num": 12,
-    "station_id": "tvo",
-    "start_time": "2026-03-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_mayochu_c1",
-    "title": "真夜中ハートチューン",
-    "ep_num": 12,
-    "station_id": "at-x",
-    "start_time": "2026-03-28T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_ddac_wm_c1",
-    "title": "デッドアカウント",
-    "ep_num": 12,
-    "station_id": "メ～テレ",
-    "start_time": "2026-03-28T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_ddac_wm_c1",
-    "title": "デッドアカウント",
-    "ep_num": 12,
-    "station_id": "ex",
-    "start_time": "2026-03-28T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_ddac_wm_c1",
-    "title": "デッドアカウント",
-    "ep_num": 12,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-03-28T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_ddac_wm_c1",
-    "title": "デッドアカウント",
-    "ep_num": 12,
-    "station_id": "abcテレビ",
-    "start_time": "2026-03-28T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
-    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
-    "ep_num": 10,
-    "station_id": "bs-ntv",
-    "start_time": "2026-03-28T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_hellmode_anime_c1",
-    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
-    "ep_num": 12,
-    "station_id": "bs-ntv",
-    "start_time": "2026-03-29T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jingaikyoshitsu_c1",
-    "title": "人外教室の人間嫌い教師",
-    "ep_num": 12,
-    "station_id": "at-x",
-    "start_time": "2026-03-29T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 1,
-    "station_id": "bs11",
-    "start_time": "2026-03-29T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2026-03-29T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_frieren_c2",
-    "title": "葬送のフリーレン 第2期",
-    "ep_num": 38,
-    "station_id": "bs-ntv",
-    "start_time": "2026-03-29T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
-    "title": "上伊那ぼたん、酔へる姿は百合の花",
-    "ep_num": 0,
-    "station_id": "bs11",
-    "start_time": "2026-03-29T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
-    "title": "上伊那ぼたん、酔へる姿は百合の花",
-    "ep_num": 0,
-    "station_id": "mx",
-    "start_time": "2026-03-29T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 12,
-    "station_id": "ntv",
-    "start_time": "2026-03-29T00:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_tamon_anime_c1",
-    "title": "多聞くん今どっち!?",
-    "ep_num": 13,
-    "station_id": "bs11",
-    "start_time": "2026-03-29T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_tamon_anime_c1",
-    "title": "多聞くん今どっち!?",
-    "ep_num": 13,
-    "station_id": "mx",
-    "start_time": "2026-03-29T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_trigun_anime_c1",
-    "title": "TRIGUN STARGAZE",
-    "ep_num": 12,
-    "station_id": "abema",
-    "start_time": "2026-03-29T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 12,
-    "station_id": "広島テレビ",
-    "start_time": "2026-03-29T01:25:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 12,
-    "station_id": "中京テレビ",
-    "start_time": "2026-03-29T01:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jingaikyoshitsu_c1",
-    "title": "人外教室の人間嫌い教師",
-    "ep_num": 12,
-    "station_id": "メ～テレ",
-    "start_time": "2026-03-29T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jingaikyoshitsu_c1",
-    "title": "人外教室の人間嫌い教師",
-    "ep_num": 12,
-    "station_id": "ex",
-    "start_time": "2026-03-29T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jingaikyoshitsu_c1",
-    "title": "人外教室の人間嫌い教師",
-    "ep_num": 12,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-03-29T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jingaikyoshitsu_c1",
-    "title": "人外教室の人間嫌い教師",
-    "ep_num": 12,
-    "station_id": "abcテレビ",
-    "start_time": "2026-03-29T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 1,
-    "station_id": "cbc",
-    "start_time": "2026-03-29T02:07:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 1,
-    "station_id": "mbs",
-    "start_time": "2026-03-29T02:08:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 1,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-03-29T02:28:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jingaikyoshitsu_c1",
-    "title": "人外教室の人間嫌い教師",
-    "ep_num": 12,
-    "station_id": "abema",
-    "start_time": "2026-03-29T02:30:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202601_kizokutensei_pr_c1",
     "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
     "ep_num": 0,
     "station_id": "abema",
     "start_time": "2026-03-29T03:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 9,
+    "station_id": "tv_asahi",
+    "start_time": "2026-03-29T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 9,
+    "station_id": "メ～テレ",
+    "start_time": "2026-03-29T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-03-29T09:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 12,
+    "station_id": "tbs",
+    "start_time": "2026-03-29T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 12,
+    "station_id": "cbc",
+    "start_time": "2026-03-29T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 12,
+    "station_id": "mbs",
+    "start_time": "2026-03-29T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 12,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-03-29T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
+    "ep_num": 12,
+    "station_id": "tbs",
+    "start_time": "2026-03-29T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
+    "ep_num": 12,
+    "station_id": "cbc",
+    "start_time": "2026-03-29T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
+    "ep_num": 12,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-03-29T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
+    "ep_num": 12,
+    "station_id": "mbs",
+    "start_time": "2026-03-29T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "tva",
+    "start_time": "2026-03-29T17:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "tx",
+    "start_time": "2026-03-29T17:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "tvo",
+    "start_time": "2026-03-29T17:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "tvh",
+    "start_time": "2026-03-29T17:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
+    "ep_num": 12,
+    "station_id": "abema",
+    "start_time": "2026-03-29T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "at-x",
+    "start_time": "2026-03-29T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_animekunon_c1",
+    "title": "魔術師クノンは見えている",
+    "ep_num": 13,
+    "station_id": "mx",
+    "start_time": "2026-03-29T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 11,
+    "station_id": "at-x",
+    "start_time": "2026-03-29T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 12,
+    "station_id": "abema",
+    "start_time": "2026-03-29T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_ikoku_anime_c1",
+    "title": "違国日記",
+    "ep_num": 13,
+    "station_id": "bs_asahi",
+    "start_time": "2026-03-29T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "abema",
+    "start_time": "2026-03-29T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_akudeki_anime_c1",
+    "title": "悪役令嬢は隣国の王太子に溺愛される",
+    "ep_num": 12,
+    "station_id": "mx",
+    "start_time": "2026-03-29T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yushanokuzu_c1",
+    "title": "勇者のクズ",
+    "ep_num": 11,
+    "station_id": "at-x",
+    "start_time": "2026-03-29T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_MFGhost_c3",
+    "title": "MFゴースト 3rd Season",
+    "ep_num": 37,
+    "station_id": "bs_ntv",
+    "start_time": "2026-03-29T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_MFGhost_c3",
+    "title": "MFゴースト 3rd Season",
+    "ep_num": 37,
+    "station_id": "mx",
+    "start_time": "2026-03-29T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_okiraku_anime_c1",
+    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "ep_num": 12,
+    "station_id": "at-x",
+    "start_time": "2026-03-29T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_koishima_pr_c1",
+    "title": "どうせ、恋してしまうんだ。第2期",
+    "ep_num": 24,
+    "station_id": "bs11",
+    "start_time": "2026-03-29T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_HellSParadiseSeason2_c1",
+    "title": "地獄楽第二期",
+    "ep_num": 25,
+    "station_id": "tva",
+    "start_time": "2026-03-29T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_HellSParadiseSeason2_c1",
+    "title": "地獄楽第二期",
+    "ep_num": 25,
+    "station_id": "tx",
+    "start_time": "2026-03-29T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_HellSParadiseSeason2_c1",
+    "title": "地獄楽第二期",
+    "ep_num": 25,
+    "station_id": "tvh",
+    "start_time": "2026-03-29T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_HellSParadiseSeason2_c1",
+    "title": "地獄楽第二期",
+    "ep_num": 25,
+    "station_id": "tvo",
+    "start_time": "2026-03-29T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hikuidori_pj_c1",
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "ep_num": 11,
+    "station_id": "cbc",
+    "start_time": "2026-03-29T23:50:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hikuidori_pj_c1",
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "ep_num": 11,
+    "station_id": "tbs",
+    "start_time": "2026-03-29T23:50:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hikuidori_pj_c1",
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "ep_num": 11,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-03-29T23:50:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hikuidori_pj_c1",
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "ep_num": 11,
+    "station_id": "mbs",
+    "start_time": "2026-03-29T23:50:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_ikoku_anime_c1",
+    "title": "違国日記",
+    "ep_num": 13,
+    "station_id": "mx",
+    "start_time": "2026-03-30T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_ikoku_anime_c1",
+    "title": "違国日記",
+    "ep_num": 13,
+    "station_id": "abcテレビ",
+    "start_time": "2026-03-30T00:40:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_slave2_c1",
+    "title": "魔都精兵のスレイブ2",
+    "ep_num": 12,
+    "station_id": "bs_asahi",
+    "start_time": "2026-03-30T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_odayaka_pr_c1",
+    "title": "穏やか貴族の休暇のすすめ。",
+    "ep_num": 12,
+    "station_id": "tva",
+    "start_time": "2026-03-30T01:20:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yushakei_pj_c1",
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+    "ep_num": 12,
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-03-30T01:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_animekunon_c1",
+    "title": "魔術師クノンは見えている",
+    "ep_num": 13,
+    "station_id": "bs_asahi",
+    "start_time": "2026-03-30T02:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_himesama2_c1",
+    "title": "姫様“拷問”の時間です 第2期",
+    "ep_num": 23,
+    "station_id": "関西テレビ",
+    "start_time": "2026-03-30T02:24:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yamishibai_tx_c1",
+    "title": "闇芝居 十六期",
+    "ep_num": 12,
+    "station_id": "tx",
+    "start_time": "2026-03-30T02:50:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-03-30T03:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yushakei_pj_c1",
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-03-30T04:30:00+09:00",
     "status": "normal"
   }
 ]
