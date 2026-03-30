@@ -50,12 +50,12 @@
     "mal_id": null,
     "title": "ゴールデンカムイ 最終章",
     "official_url": "https://kamuy-anime.com/",
-    "last_checked_ep": 11,
+    "last_checked_ep": 62,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": "2026-03-31",
     "syoboi_tid": 7656,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-30"
   },
   {
     "anime_id": "202410_FateSFake_c1",
@@ -85,12 +85,12 @@
     "mal_id": null,
     "title": "炎炎ノ消防隊 参ノ章 第2クール",
     "official_url": "https://fireforce-anime.jp/",
-    "last_checked_ep": 10,
+    "last_checked_ep": 24,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": "2026-03-31",
     "syoboi_tid": 7686,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-30"
   },
   {
     "anime_id": "202407_matoslav_c2",
@@ -322,7 +322,7 @@
     "mal_id": 58524,
     "title": "姫様“拷問”の時間です 第2期",
     "official_url": "https://himesama-goumon.com/",
-    "last_checked_ep": 23,
+    "last_checked_ep": 24,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": null,
@@ -334,12 +334,12 @@
     "mal_id": 61942,
     "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
     "official_url": "https://vigilante-anime.com/",
-    "last_checked_ep": 19,
+    "last_checked_ep": 26,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7683,
-    "last_grok_date": "2026-03-28"
+    "last_grok_date": "2026-03-30"
   },
   {
     "anime_id": "202601_shibomeshi_c1",
@@ -471,7 +471,7 @@
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7668,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-30"
   },
   {
     "anime_id": "202601_CosmicPrincessKaguya_c1",
@@ -675,7 +675,7 @@
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7679,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-30"
   },
   {
     "anime_id": "202601_59985_c1",
@@ -754,7 +754,7 @@
     "mal_id": 60509,
     "title": "シャンピニオンの魔女",
     "official_url": "https://champignon-pr.com/]]",
-    "last_checked_ep": 1,
+    "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": null,
@@ -1234,7 +1234,7 @@
     "mal_id": 62987,
     "title": "北斗の拳 拳王軍ザコたちの挽歌",
     "official_url": "https://zakoban.com/]]",
-    "last_checked_ep": 1,
+    "last_checked_ep": 12,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": null,
