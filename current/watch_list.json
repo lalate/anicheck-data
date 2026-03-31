@@ -310,12 +310,12 @@
     "mal_id": 58886,
     "title": "ダーウィン事変",
     "official_url": "https://darwinsincident.net/",
-    "last_checked_ep": 12,
+    "last_checked_ep": 13,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7695,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-31"
   },
   {
     "anime_id": "202601_himesama2_c1",
@@ -327,7 +327,7 @@
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7658,
-    "last_grok_date": "2026-03-29"
+    "last_grok_date": "2026-03-31"
   },
   {
     "anime_id": "202601_vigilante2_c1",
@@ -502,12 +502,12 @@
     "mal_id": 61983,
     "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
     "official_url": "https://yuukawa-anime.com/]]",
-    "last_checked_ep": 1,
+    "last_checked_ep": 13,
     "is_active": true,
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7667,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-31"
   },
   {
     "anime_id": "202601_trigun_anime_c1",
@@ -555,7 +555,7 @@
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7673,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-31"
   },
   {
     "anime_id": "202601_okiraku_anime_c1",
@@ -591,7 +591,7 @@
     "season": "2026_winter",
     "season_end_date": null,
     "syoboi_tid": 7669,
-    "last_grok_date": null
+    "last_grok_date": "2026-03-31"
   },
   {
     "anime_id": "202601_LoveThroughAPrism_c1",

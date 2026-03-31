@@ -1,202 +1,162 @@
 [
   {
-    "anime_id": "202601_KayaChanIsnTScary_c1",
-    "title": "カヤちゃんはコワくない",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-30T03:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushakei_pj_c1",
-    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-30T04:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_uruwashi_anime_c1",
-    "title": "うるわしの宵の月",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-30T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_himesama2_c1",
-    "title": "姫様“拷問”の時間です 第2期",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-30T17:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202407_enen3_c2",
-    "title": "炎炎ノ消防隊 参ノ章 第2クール",
-    "ep_num": 24,
-    "station_id": "at-x",
-    "start_time": "2026-03-30T21:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_vigilante2_c1",
-    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "ep_num": 26,
-    "station_id": "mx",
-    "start_time": "2026-03-30T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 1,
-    "station_id": "at-x",
-    "start_time": "2026-03-30T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_vigilante2_c1",
-    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "ep_num": 26,
-    "station_id": "abema",
-    "start_time": "2026-03-30T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_ikoku_anime_c1",
-    "title": "違国日記",
-    "ep_num": 13,
-    "station_id": "at-x",
-    "start_time": "2026-03-30T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "2410_gokamuy_c4",
-    "title": "ゴールデンカムイ 最終章",
-    "ep_num": 62,
-    "station_id": "mx",
-    "start_time": "2026-03-30T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "2410_gokamuy_c4",
-    "title": "ゴールデンカムイ 最終章",
-    "ep_num": 62,
-    "station_id": "bs11",
-    "start_time": "2026-03-30T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_vigilante2_c1",
-    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "ep_num": 26,
-    "station_id": "bs_ntv",
-    "start_time": "2026-03-30T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_akudeki_anime_c1",
-    "title": "悪役令嬢は隣国の王太子に溺愛される",
-    "ep_num": 12,
-    "station_id": "kbs京都",
-    "start_time": "2026-03-30T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_champignon_pr_c1",
-    "title": "シャンピニオンの魔女",
-    "ep_num": 12,
-    "station_id": "at-x",
-    "start_time": "2026-03-30T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_himesama2_c1",
-    "title": "姫様“拷問”の時間です 第2期",
-    "ep_num": 24,
-    "station_id": "mx",
-    "start_time": "2026-03-30T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_himesama2_c1",
-    "title": "姫様“拷問”の時間です 第2期",
-    "ep_num": 24,
-    "station_id": "bs11",
-    "start_time": "2026-03-30T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_akudeki_anime_c1",
-    "title": "悪役令嬢は隣国の王太子に溺愛される",
-    "ep_num": 12,
-    "station_id": "bs_ntv",
-    "start_time": "2026-03-30T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_akudeki_anime_c1",
-    "title": "悪役令嬢は隣国の王太子に溺愛される",
-    "ep_num": 12,
-    "station_id": "サンテレビジョン",
-    "start_time": "2026-03-30T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_himesama2_c1",
-    "title": "姫様“拷問”の時間です 第2期",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-31T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_63106_c1",
-    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
-    "ep_num": 12,
-    "station_id": "bs_ntv",
-    "start_time": "2026-03-31T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "2410_gokamuy_c4",
-    "title": "ゴールデンカムイ 最終章",
-    "ep_num": 62,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-03-31T01:29:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_frontierworks_c1",
-    "title": "北斗の拳 拳王軍ザコたちの挽歌",
-    "ep_num": 12,
-    "station_id": "abema",
-    "start_time": "2026-03-31T01:40:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_vigilante2_c1",
-    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "ep_num": 26,
-    "station_id": "読売テレビ",
-    "start_time": "2026-03-31T01:59:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "2410_gokamuy_c4",
-    "title": "ゴールデンカムイ 最終章",
-    "ep_num": 62,
-    "station_id": "読売テレビ",
-    "start_time": "2026-03-31T02:29:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202601_maomusume_c1",
     "title": "魔王の娘は優しすぎる!!",
     "ep_num": 0,
     "station_id": "abema",
     "start_time": "2026-03-31T03:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yuukawa_anime_c1",
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-03-31T09:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_omagoto_anime_c1",
+    "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-03-31T15:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hikuidori_pj_c1",
+    "title": "火喰鳥 羽州ぼろ鳶組",
+    "ep_num": 11,
+    "station_id": "at-x",
+    "start_time": "2026-03-31T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hellmode_anime_c1",
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+    "ep_num": 12,
+    "station_id": "at-x",
+    "start_time": "2026-03-31T20:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_akudeki_anime_c1",
+    "title": "悪役令嬢は隣国の王太子に溺愛される",
+    "ep_num": 12,
+    "station_id": "at-x",
+    "start_time": "2026-03-31T21:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yuukawa_anime_c1",
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "ep_num": 13,
+    "station_id": "mx",
+    "start_time": "2026-03-31T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_himesama2_c1",
+    "title": "姫様“拷問”の時間です 第2期",
+    "ep_num": 24,
+    "station_id": "at-x",
+    "start_time": "2026-03-31T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_darwin_c1",
+    "title": "ダーウィン事変",
+    "ep_num": 13,
+    "station_id": "tvo",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_darwin_c1",
+    "title": "ダーウィン事変",
+    "ep_num": 13,
+    "station_id": "tx",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_darwin_c1",
+    "title": "ダーウィン事変",
+    "ep_num": 13,
+    "station_id": "tva",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_darwin_c1",
+    "title": "ダーウィン事変",
+    "ep_num": 13,
+    "station_id": "tvh",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yuukawa_anime_c1",
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "ep_num": 13,
+    "station_id": "bs11",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 12,
+    "station_id": "wowow",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_lovetoeat_maid_c1",
+    "title": "メイドさんは食べるだけ",
+    "ep_num": 1,
+    "station_id": "abema",
+    "start_time": "2026-04-01T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_animekunon_c1",
+    "title": "魔術師クノンは見えている",
+    "ep_num": 13,
+    "station_id": "wowow",
+    "start_time": "2026-04-01T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_MFGhost_c3",
+    "title": "MFゴースト 3rd Season",
+    "ep_num": 37,
+    "station_id": "tva",
+    "start_time": "2026-04-01T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yushanokuzu_c1",
+    "title": "勇者のクズ",
+    "ep_num": 12,
+    "station_id": "読売テレビ",
+    "start_time": "2026-04-01T01:59:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_slave2_c1",
+    "title": "魔都精兵のスレイブ2",
+    "ep_num": 12,
+    "station_id": "mbs",
+    "start_time": "2026-04-01T02:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_ddac_wm_c1",
+    "title": "デッドアカウント",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-01T04:00:00+09:00",
     "status": "normal"
   }
 ]
