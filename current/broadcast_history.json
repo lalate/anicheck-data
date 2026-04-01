@@ -245,11 +245,13 @@
   },
   "202604_jihanki_c1": {
     "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 1,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "水曜日 22:00 (2026/4/1開始予定)"
+        "last_ep_num": 1,
+        "remarks": "水曜日 22:00 (2026/4/1開始予定)",
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01"
       },
       "bsntv": {
         "last_ep_num": 0,
@@ -539,6 +541,12 @@
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-03-31",
         "remarks": null
+      },
+      "bsテレ東": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -735,6 +743,12 @@
       "mx": {
         "last_ep_num": 11,
         "remarks": "火 24:30 次回第12話 2026-03-24"
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -1539,6 +1553,12 @@
         "last_ep_num": 12,
         "last_broadcast_date": "2026-03-31",
         "last_updated_at": "2026-03-30",
+        "remarks": null
+      },
+      "uhb北海道文化放送": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
         "remarks": null
       }
     }
@@ -2946,6 +2966,12 @@
         "last_broadcast_date": "2026-03-29",
         "last_updated_at": "2026-03-29",
         "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -3129,7 +3155,14 @@
   "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1": {
     "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
     "overall_latest_ep": 1,
-    "platforms": {}
+    "platforms": {
+      "異世界ファンタジー": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
+      }
+    }
   },
   "202601_ddac_wm_c1": {
     "title": "デッドアカウント",
@@ -3166,7 +3199,7 @@
       "abema": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-04-01",
-        "last_updated_at": "2026-03-31",
+        "last_updated_at": "2026-04-01",
         "remarks": null
       }
     }
@@ -3291,6 +3324,12 @@
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-03-31",
         "remarks": null
+      },
+      "stv札幌テレビ": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -3352,11 +3391,17 @@
   },
   "202601_goumonbt_anime_c1": {
     "title": "拷問バイトくんの日常",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 9,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Mondays at 00:30 (JST)"
+      },
+      "at-x": {
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -3940,6 +3985,18 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 23:30 (JST)"
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "fujitv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -4030,6 +4087,18 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:30 (JST)"
+      },
+      "bs11": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -4183,6 +4252,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 22:00 (JST)"
+      },
+      "abema": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -4203,6 +4278,18 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:00 (JST)"
+      },
+      "mx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },
@@ -4233,6 +4320,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 23:30 (JST)"
+      },
+      "youtube": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-01",
+        "last_updated_at": "2026-04-01",
+        "remarks": null
       }
     }
   },

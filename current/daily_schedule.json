@@ -1,162 +1,138 @@
 [
   {
-    "anime_id": "202601_maomusume_c1",
-    "title": "魔王の娘は優しすぎる!!",
+    "anime_id": "202601_ddac_wm_c1",
+    "title": "デッドアカウント",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-03-31T03:00:00+09:00",
+    "start_time": "2026-04-01T04:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_yuukawa_anime_c1",
-    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "anime_id": "202601_iseshachi_c1",
+    "title": "異世界の沙汰は社畜次第",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-03-31T09:00:00+09:00",
+    "start_time": "2026-04-01T06:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_omagoto_anime_c1",
-    "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
     "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-03-31T15:00:00+09:00",
+    "station_id": "異世界ファンタジー",
+    "start_time": "2026-04-01T12:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_hikuidori_pj_c1",
-    "title": "火喰鳥 羽州ぼろ鳶組",
-    "ep_num": 11,
-    "station_id": "at-x",
-    "start_time": "2026-03-31T20:00:00+09:00",
+    "anime_id": "202604_replico_dengeki_c1",
+    "title": "レプリカだって、恋をする。",
+    "ep_num": 0,
+    "station_id": "youtube",
+    "start_time": "2026-04-01T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_hellmode_anime_c1",
-    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
-    "ep_num": 12,
-    "station_id": "at-x",
-    "start_time": "2026-03-31T20:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_akudeki_anime_c1",
-    "title": "悪役令嬢は隣国の王太子に溺愛される",
-    "ep_num": 12,
-    "station_id": "at-x",
-    "start_time": "2026-03-31T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yuukawa_anime_c1",
-    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
-    "ep_num": 13,
+    "anime_id": "202604_jihanki_c1",
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
+    "ep_num": 1,
     "station_id": "mx",
-    "start_time": "2026-03-31T23:00:00+09:00",
+    "start_time": "2026-04-01T22:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_himesama2_c1",
-    "title": "姫様“拷問”の時間です 第2期",
-    "ep_num": 24,
-    "station_id": "at-x",
-    "start_time": "2026-03-31T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_darwin_c1",
-    "title": "ダーウィン事変",
-    "ep_num": 13,
-    "station_id": "tvo",
-    "start_time": "2026-04-01T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_darwin_c1",
-    "title": "ダーウィン事変",
-    "ep_num": 13,
-    "station_id": "tx",
-    "start_time": "2026-04-01T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_darwin_c1",
-    "title": "ダーウィン事変",
-    "ep_num": 13,
-    "station_id": "tva",
-    "start_time": "2026-04-01T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_darwin_c1",
-    "title": "ダーウィン事変",
-    "ep_num": 13,
-    "station_id": "tvh",
-    "start_time": "2026-04-01T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yuukawa_anime_c1",
-    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
-    "ep_num": 13,
-    "station_id": "bs11",
-    "start_time": "2026-04-01T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_KayaChanIsnTScary_c1",
-    "title": "カヤちゃんはコワくない",
-    "ep_num": 12,
-    "station_id": "wowow",
-    "start_time": "2026-04-01T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lovetoeat_maid_c1",
-    "title": "メイドさんは食べるだけ",
+    "anime_id": "202604_kanteishi_anime_c1",
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
     "ep_num": 1,
     "station_id": "abema",
-    "start_time": "2026-04-01T00:00:00+09:00",
+    "start_time": "2026-04-01T22:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_animekunon_c1",
-    "title": "魔術師クノンは見えている",
+    "anime_id": "202601_goumonbt_anime_c1",
+    "title": "拷問バイトくんの日常",
+    "ep_num": 9,
+    "station_id": "at-x",
+    "start_time": "2026-04-01T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_saikyo2dome_c1",
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "ep_num": 1,
+    "station_id": "at-x",
+    "start_time": "2026-04-01T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_darwin_c1",
+    "title": "ダーウィン事変",
     "ep_num": 13,
-    "station_id": "wowow",
-    "start_time": "2026-04-01T00:30:00+09:00",
+    "station_id": "bsテレ東",
+    "start_time": "2026-04-02T00:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202501_MFGhost_c3",
-    "title": "MFゴースト 3rd Season",
-    "ep_num": 37,
-    "station_id": "tva",
-    "start_time": "2026-04-01T01:30:00+09:00",
+    "anime_id": "202604_nigetsuri_anime_c1",
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "ep_num": 1,
+    "station_id": "mx",
+    "start_time": "2026-04-02T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nigetsuri_anime_c1",
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "ep_num": 1,
+    "station_id": "bs11",
+    "start_time": "2026-04-02T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nkmr_kun_tv_c1",
+    "title": "ガンバレ！中村くん!!",
+    "ep_num": 1,
+    "station_id": "bs11",
+    "start_time": "2026-04-02T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nkmr_kun_tv_c1",
+    "title": "ガンバレ！中村くん!!",
+    "ep_num": 1,
+    "station_id": "mx",
+    "start_time": "2026-04-02T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_saikyo2dome_c1",
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "ep_num": 1,
+    "station_id": "fujitv",
+    "start_time": "2026-04-02T00:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_63106_c1",
+    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
+    "ep_num": 12,
+    "station_id": "uhb北海道文化放送",
+    "start_time": "2026-04-02T00:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_okiraku_anime_c1",
+    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "ep_num": 12,
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-04-02T01:55:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202601_yushanokuzu_c1",
     "title": "勇者のクズ",
     "ep_num": 12,
-    "station_id": "読売テレビ",
-    "start_time": "2026-04-01T01:59:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_slave2_c1",
-    "title": "魔都精兵のスレイブ2",
-    "ep_num": 12,
-    "station_id": "mbs",
-    "start_time": "2026-04-01T02:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_ddac_wm_c1",
-    "title": "デッドアカウント",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-01T04:00:00+09:00",
+    "station_id": "stv札幌テレビ",
+    "start_time": "2026-04-02T01:59:00+09:00",
     "status": "normal"
   }
 ]
