@@ -1,138 +1,250 @@
 [
   {
-    "anime_id": "202601_ddac_wm_c1",
-    "title": "デッドアカウント",
+    "anime_id": "202601_trigun_anime_c1",
+    "title": "TRIGUN STARGAZE",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-04-01T04:00:00+09:00",
+    "start_time": "2026-04-02T14:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_iseshachi_c1",
-    "title": "異世界の沙汰は社畜次第",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-01T06:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
-    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-04-01T12:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
+    "anime_id": "202604_kirio_fc_c1",
+    "title": "霧尾ファンクラブ",
     "ep_num": 0,
     "station_id": "youtube",
-    "start_time": "2026-04-01T20:00:00+09:00",
+    "start_time": "2026-04-02T19:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202610osusino_c3",
+    "title": "【推しの子】第3期",
+    "ep_num": 0,
+    "station_id": "youtube",
+    "start_time": "2026-04-02T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 25,
+    "station_id": "mx",
+    "start_time": "2026-04-02T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 25,
+    "station_id": "kbs京都",
+    "start_time": "2026-04-02T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nigetsuri_anime_c1",
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "ep_num": 1,
+    "station_id": "mx",
+    "start_time": "2026-04-02T22:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_jihanki_c1",
     "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
     "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2026-04-01T22:00:00+09:00",
+    "station_id": "bs_ntv",
+    "start_time": "2026-04-02T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_kanteishi_anime_c1",
-    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
-    "ep_num": 1,
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 25,
     "station_id": "abema",
-    "start_time": "2026-04-01T22:00:00+09:00",
+    "start_time": "2026-04-02T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_goumonbt_anime_c1",
-    "title": "拷問バイトくんの日常",
-    "ep_num": 9,
-    "station_id": "at-x",
-    "start_time": "2026-04-01T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_saikyo2dome_c1",
-    "title": "最強の王様、二度目の人生は何をする? Season2",
-    "ep_num": 1,
-    "station_id": "at-x",
-    "start_time": "2026-04-01T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_darwin_c1",
-    "title": "ダーウィン事変",
+    "anime_id": "202601_yuukawa_anime_c1",
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
     "ep_num": 13,
-    "station_id": "bsテレ東",
-    "start_time": "2026-04-02T00:00:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-04-02T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_nigetsuri_anime_c1",
-    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "anime_id": "202604_korinojoheki_pr_c1",
+    "title": "氷の城壁",
+    "ep_num": 1,
+    "station_id": "tbs",
+    "start_time": "2026-04-02T23:56:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_korinojoheki_pr_c1",
+    "title": "氷の城壁",
+    "ep_num": 1,
+    "station_id": "mbs",
+    "start_time": "2026-04-02T23:56:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_korinojoheki_pr_c1",
+    "title": "氷の城壁",
+    "ep_num": 1,
+    "station_id": "cbc",
+    "start_time": "2026-04-02T23:56:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_korinojoheki_pr_c1",
+    "title": "氷の城壁",
+    "ep_num": 1,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-02T23:56:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 25,
+    "station_id": "bs11",
+    "start_time": "2026-04-03T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_marritoxi_pr_c1",
+    "title": "マリッジトキシン",
+    "ep_num": 0,
+    "station_id": "uhb北海道文化放送",
+    "start_time": "2026-04-03T00:25:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kirio_fc_c1",
+    "title": "霧尾ファンクラブ",
+    "ep_num": 1,
+    "station_id": "tbs",
+    "start_time": "2026-04-03T00:26:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kirio_fc_c1",
+    "title": "霧尾ファンクラブ",
+    "ep_num": 1,
+    "station_id": "cbc",
+    "start_time": "2026-04-03T00:26:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kirio_fc_c1",
+    "title": "霧尾ファンクラブ",
+    "ep_num": 1,
+    "station_id": "mbs",
+    "start_time": "2026-04-03T00:26:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kirio_fc_c1",
+    "title": "霧尾ファンクラブ",
+    "ep_num": 1,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-03T00:26:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_reinkabane_c1",
+    "title": "リィンカーネーションの花弁",
     "ep_num": 1,
     "station_id": "mx",
-    "start_time": "2026-04-02T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nigetsuri_anime_c1",
-    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "ep_num": 1,
-    "station_id": "bs11",
-    "start_time": "2026-04-02T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nkmr_kun_tv_c1",
-    "title": "ガンバレ！中村くん!!",
-    "ep_num": 1,
-    "station_id": "bs11",
-    "start_time": "2026-04-02T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nkmr_kun_tv_c1",
-    "title": "ガンバレ！中村くん!!",
-    "ep_num": 1,
-    "station_id": "mx",
-    "start_time": "2026-04-02T00:30:00+09:00",
+    "start_time": "2026-04-03T00:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_saikyo2dome_c1",
     "title": "最強の王様、二度目の人生は何をする? Season2",
     "ep_num": 1,
-    "station_id": "fujitv",
-    "start_time": "2026-04-02T00:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_63106_c1",
-    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
-    "ep_num": 12,
     "station_id": "uhb北海道文化放送",
-    "start_time": "2026-04-02T00:55:00+09:00",
+    "start_time": "2026-04-03T00:55:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
-    "ep_num": 12,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-04-02T01:55:00+09:00",
+    "anime_id": "202601_yuukawa_anime_c1",
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "ep_num": 13,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-03T00:56:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 25,
+    "station_id": "サンテレビジョン",
+    "start_time": "2026-04-03T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nkmr_kun_tv_c1",
+    "title": "ガンバレ！中村くん!!",
+    "ep_num": 1,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-03T01:26:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 1,
+    "station_id": "tbs",
+    "start_time": "2026-04-03T01:28:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202501_MFGhost_c3",
+    "title": "MFゴースト 3rd Season",
+    "ep_num": 37,
+    "station_id": "読売テレビ",
+    "start_time": "2026-04-03T01:29:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 25,
+    "station_id": "tva",
+    "start_time": "2026-04-03T01:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202601_yushanokuzu_c1",
     "title": "勇者のクズ",
     "ep_num": 12,
-    "station_id": "stv札幌テレビ",
-    "start_time": "2026-04-02T01:59:00+09:00",
+    "station_id": "山口放送",
+    "start_time": "2026-04-03T01:54:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_matakoro_anime_c1",
+    "title": "また殺されてしまったのですね、探偵様",
+    "ep_num": 1,
+    "station_id": "tbs",
+    "start_time": "2026-04-03T01:58:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_himesama2_c1",
+    "title": "姫様“拷問”の時間です 第2期",
+    "ep_num": 24,
+    "station_id": "tvh",
+    "start_time": "2026-04-03T02:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_saikyo2dome_c1",
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "ep_num": 1,
+    "station_id": "関西テレビ",
+    "start_time": "2026-04-03T02:15:00+09:00",
     "status": "normal"
   }
 ]

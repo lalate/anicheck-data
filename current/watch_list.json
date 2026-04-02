@@ -203,12 +203,12 @@
     "mal_id": 59443,
     "title": "リィンカーネーションの花弁",
     "official_url": "https://petals-of-reincarnation-anime.com/",
-    "last_checked_ep": 0,
+    "last_checked_ep": 1,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7812,
-    "last_grok_date": null
+    "last_grok_date": "2026-04-02"
   },
   {
     "anime_id": "202604_ingokudanchi_c1",
@@ -262,12 +262,12 @@
     "mal_id": 62568,
     "title": "Dr.STONE SCIENCE FUTURE 第3クール",
     "official_url": "https://dr-stone.jp/",
-    "last_checked_ep": 0,
+    "last_checked_ep": 25,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7774,
-    "last_grok_date": null
+    "last_grok_date": "2026-04-02"
   },
   {
     "anime_id": "202601_jujutsushimetsu_c1",
@@ -2715,7 +2715,7 @@
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7805,
-    "last_grok_date": null
+    "last_grok_date": "2026-04-02"
   },
   {
     "anime_id": "202604_himekishi_anime_c1",
@@ -2847,7 +2847,7 @@
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7769,
-    "last_grok_date": null
+    "last_grok_date": "2026-04-02"
   },
   {
     "anime_id": "202604_niwatorifighte1_c1",

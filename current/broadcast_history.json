@@ -56,6 +56,12 @@
       "abema": {
         "last_ep_num": 10,
         "remarks": ""
+      },
+      "youtube": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -226,6 +232,12 @@
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-03-31",
         "remarks": null
+      },
+      "読売テレビ": {
+        "last_ep_num": 37,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -256,6 +268,12 @@
       "bsntv": {
         "last_ep_num": 0,
         "remarks": "木曜日 23:00 (2026/4/2開始予定)"
+      },
+      "bs_ntv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -367,11 +385,13 @@
   },
   "202604_reinkabane_c1": {
     "title": "リィンカーネーションの花弁",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 1,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "2026年4月2日(木) 24:30 放送開始予定"
+        "last_ep_num": 1,
+        "remarks": "2026年4月2日(木) 24:30 放送開始予定",
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02"
       },
       "HIDIVE": {
         "last_ep_num": 0,
@@ -432,11 +452,43 @@
   },
   "202604_drstone_c1": {
     "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 25,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "2026年4月2日(木)22:00よりTOKYO MXにて第1話放送開始予定"
+        "last_ep_num": 25,
+        "remarks": "2026年4月2日(木)22:00よりTOKYO MXにて第1話放送開始予定",
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02"
+      },
+      "kbs京都": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "サンテレビジョン": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "tva": {
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -582,6 +634,12 @@
         "last_ep_num": 24,
         "last_broadcast_date": "2026-03-31",
         "last_updated_at": "2026-03-31",
+        "remarks": null
+      },
+      "tvh": {
+        "last_ep_num": 24,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
         "remarks": null
       }
     }
@@ -2796,6 +2854,18 @@
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-03-31",
         "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -3329,6 +3399,12 @@
         "last_ep_num": 12,
         "last_broadcast_date": "2026-04-02",
         "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "山口放送": {
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
         "remarks": null
       }
     }
@@ -3997,6 +4073,18 @@
         "last_broadcast_date": "2026-04-02",
         "last_updated_at": "2026-04-01",
         "remarks": null
+      },
+      "uhb北海道文化放送": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "関西テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -4067,6 +4155,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 23:00 (JST)"
+      },
+      "uhb北海道文化放送": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -4098,6 +4192,12 @@
         "last_ep_num": 1,
         "last_broadcast_date": "2026-04-02",
         "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
         "remarks": null
       }
     }
@@ -4195,6 +4295,30 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 23:56 (JST)"
+      },
+      "tbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "mbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "cbc": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -4282,7 +4406,7 @@
       "mx": {
         "last_ep_num": 1,
         "last_broadcast_date": "2026-04-02",
-        "last_updated_at": "2026-04-01",
+        "last_updated_at": "2026-04-02",
         "remarks": null
       },
       "bs11": {
@@ -4300,6 +4424,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 01:28 (JST)"
+      },
+      "tbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -4336,6 +4466,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 01:58 (JST)"
+      },
+      "tbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
@@ -4432,6 +4568,36 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 00:26 (JST)"
+      },
+      "youtube": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-02",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "tbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "cbc": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "mbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "hbc北海道放送": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-03",
+        "last_updated_at": "2026-04-02",
+        "remarks": null
       }
     }
   },
