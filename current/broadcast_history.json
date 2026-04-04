@@ -8,9 +8,9 @@
         "remarks": "第37話（通算）3月20日放送確認、TVer/ABEMA等で見逃し配信中"
       },
       "animax": {
-        "last_ep_num": 36,
-        "last_broadcast_date": "2026-03-28",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 37,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "at-x": {
@@ -23,6 +23,12 @@
         "last_ep_num": 38,
         "last_broadcast_date": "2026-03-29",
         "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -262,6 +268,12 @@
         "last_broadcast_date": "2026-04-03",
         "last_updated_at": "2026-04-03",
         "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -309,29 +321,49 @@
   },
   "202604_yominotsugai_c1": {
     "title": "黄泉のツガイ",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 1,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 23:30（4月4日開始）"
+        "last_ep_num": 1,
+        "remarks": "土曜日 23:30（4月4日開始）",
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04"
       },
       "bs11": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 23:30（4月4日開始）"
+        "last_ep_num": 1,
+        "remarks": "土曜日 23:30（4月4日開始）",
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04"
+      },
+      "mbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "cbc": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
   "202604_needyoverdose_c1": {
     "title": "NEEDY GIRL OVERDOSE",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 1,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
+        "last_ep_num": 1,
+        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)",
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04"
       },
       "bs11": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
+        "last_ep_num": 1,
+        "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)",
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04"
       },
       "abema": {
         "last_ep_num": 0,
@@ -353,15 +385,19 @@
   },
   "202604_kanachoro_c1": {
     "title": "カナン様はあくまでチョロい",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 1,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 25:00（初回4月4日予定）"
+        "last_ep_num": 1,
+        "remarks": "土曜日 25:00（初回4月4日予定）",
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04"
       },
       "bs11": {
-        "last_ep_num": 0,
-        "remarks": "土曜日 25:00（初回4月4日予定）"
+        "last_ep_num": 1,
+        "remarks": "土曜日 25:00（初回4月4日予定）",
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04"
       }
     }
   },
@@ -487,8 +523,39 @@
   },
   "202604_akanebanashi_c1": {
     "title": "あかね噺",
-    "overall_latest_ep": 0,
-    "platforms": {}
+    "overall_latest_ep": 1,
+    "platforms": {
+      "abema": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "tv_asahi": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "メ～テレ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      }
+    }
   },
   "202604_drstone_c1": {
     "title": "Dr.STONE SCIENCE FUTURE 第3クール",
@@ -552,6 +619,12 @@
         "last_ep_num": 59,
         "last_broadcast_date": "2026-03-28",
         "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -709,9 +782,9 @@
         "last_updated_at": "2026-03-30"
       },
       "animax": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-03-28",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "mx": {
@@ -763,6 +836,12 @@
         "last_broadcast_date": "2026-03-28",
         "last_updated_at": "2026-03-28",
         "remarks": null
+      },
+      "深夜アニメ": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -781,6 +860,12 @@
       "BS11": {
         "last_ep_num": 11,
         "remarks": "遅れ放送 (最終話#12は3/25時間変更)"
+      },
+      "異世界ファンタジー": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -2310,6 +2395,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 23:45 (JST)"
+      },
+      "nhk": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -2752,9 +2843,9 @@
         "remarks": "Sundays at 23:45 (JST)"
       },
       "at-x": {
-        "last_ep_num": 24,
-        "last_broadcast_date": "2026-03-28",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 25,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "tva": {
@@ -2850,6 +2941,12 @@
         "last_ep_num": 13,
         "last_broadcast_date": "2026-03-30",
         "last_updated_at": "2026-03-30",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -3060,6 +3157,12 @@
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-03-31",
         "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -3105,6 +3208,12 @@
         "last_ep_num": 12,
         "last_broadcast_date": "2026-04-02",
         "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "異世界ファンタジー": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -3376,7 +3485,7 @@
       "アニメlive": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-04-04",
-        "last_updated_at": "2026-04-03",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -3481,22 +3590,22 @@
   },
   "202601_jingaikyoshitsu_c1": {
     "title": "人外教室の人間嫌い教師",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 13,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 00:00 (JST)"
       },
       "at-x": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "メ～テレ": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "ex": {
@@ -3506,21 +3615,27 @@
         "remarks": null
       },
       "htb北海道テレビ": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "abcテレビ": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "tv_asahi": {
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -3547,6 +3662,12 @@
         "last_ep_num": 9,
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "アニメlive": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -3783,28 +3904,34 @@
   },
   "202601_CardfightVanguardDivinezParallacticClash_c1": {
     "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
-    "overall_latest_ep": 10,
+    "overall_latest_ep": 11,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 08:00 (JST)"
       },
       "tva": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-03-28",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "tx": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-03-28",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "bs-ntv": {
         "last_ep_num": 10,
         "last_broadcast_date": "2026-03-28",
         "last_updated_at": "2026-03-28",
+        "remarks": null
+      },
+      "bs_ntv": {
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -4085,6 +4212,12 @@
         "last_broadcast_date": "2026-04-03",
         "last_updated_at": "2026-04-03",
         "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 73,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -4135,6 +4268,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 18:15 (JST)"
+      },
+      "nhk-e": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -4178,6 +4317,12 @@
         "last_ep_num": 1,
         "last_broadcast_date": "2026-04-03",
         "last_updated_at": "2026-04-02",
+        "remarks": null
+      },
+      "東海テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -4299,6 +4444,18 @@
         "last_broadcast_date": "2026-04-03",
         "last_updated_at": "2026-04-03",
         "remarks": null
+      },
+      "中京テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -4324,40 +4481,40 @@
   },
   "202604_4seasons_anime_c1": {
     "title": "春夏秋冬代行者 春の舞",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 00:00 (JST)"
       },
       "bs11": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "mbs": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-03-29",
-        "last_updated_at": "2026-03-28",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       },
       "at-x": {
@@ -4429,6 +4586,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 17:30 (JST)"
+      },
+      "tva": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
@@ -4471,16 +4634,28 @@
   },
   "202604_kanteishi_anime_c1": {
     "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 22:00 (JST)"
       },
       "abema": {
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "mx": {
         "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-01",
-        "last_updated_at": "2026-04-01",
+        "last_broadcast_date": "2026-04-04",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "bs_asahi": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
         "remarks": null
       }
     }
@@ -4594,6 +4769,30 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 01:30 (JST)"
+      },
+      "tv_asahi": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "メ～テレ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-05",
+        "last_updated_at": "2026-04-04",
+        "remarks": null
       }
     }
   },
