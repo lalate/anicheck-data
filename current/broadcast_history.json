@@ -352,6 +352,12 @@
         "last_broadcast_date": "2026-04-06",
         "last_updated_at": "2026-04-06",
         "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -384,8 +390,10 @@
         "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
       },
       "wowow": {
-        "last_ep_num": 0,
-        "remarks": "火曜日 24:00 (第1話: 2026-04-07 予定)"
+        "last_ep_num": 1,
+        "remarks": "火曜日 24:00 (第1話: 2026-04-07 予定)",
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07"
       }
     }
   },
@@ -498,8 +506,10 @@
     "overall_latest_ep": 1,
     "platforms": {
       "mx": {
-        "last_ep_num": 0,
-        "remarks": "2026/4/7(火) 25:00～ 開始予定"
+        "last_ep_num": 1,
+        "remarks": "2026/4/7(火) 25:00～ 開始予定",
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07"
       },
       "bs11": {
         "last_ep_num": 1,
@@ -538,6 +548,12 @@
       "AT-X": {
         "last_ep_num": 0,
         "remarks": "2026/4/8(水) 22:00開始予定"
+      },
+      "youtube": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -896,7 +912,7 @@
       "異世界ファンタジー": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-04-07",
-        "last_updated_at": "2026-04-06",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -2689,6 +2705,18 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 01:59 (JST)"
+      },
+      "ntv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -2770,6 +2798,12 @@
         "last_ep_num": 1,
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-06",
+        "remarks": null
+      },
+      "wowow": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -2982,8 +3016,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-03-30",
-        "last_updated_at": "2026-03-30",
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -3755,7 +3789,7 @@
       "アニメlive": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-04-07",
-        "last_updated_at": "2026-04-06",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -3809,6 +3843,12 @@
         "last_ep_num": 24,
         "last_broadcast_date": "2026-03-29",
         "last_updated_at": "2026-03-29",
+        "remarks": null
+      },
+      "ラブコメアニメ": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -3881,9 +3921,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-03-31",
-        "last_updated_at": "2026-03-31",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -4484,6 +4524,12 @@
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-06",
         "remarks": null
+      },
+      "bsテレ東": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -4560,6 +4606,18 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 23:30 (JST)"
+      },
+      "mx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "関西テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -4620,21 +4678,27 @@
         "remarks": "Tuesdays at 23:00 (JST)"
       },
       "uhb北海道文化放送": {
-        "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-03",
-        "last_updated_at": "2026-04-02",
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       },
       "関西テレビ": {
-        "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-06",
-        "last_updated_at": "2026-04-05",
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       },
       "東海テレビ": {
-        "last_ep_num": 0,
+        "last_ep_num": 1,
         "last_broadcast_date": "2026-04-07",
-        "last_updated_at": "2026-04-06",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "fujitv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -4646,6 +4710,30 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 22:00 (JST)"
+      },
+      "mx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "mbs": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -5032,8 +5120,14 @@
       },
       "mx": {
         "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-06",
-        "last_updated_at": "2026-04-06",
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -5050,6 +5144,48 @@
         "last_ep_num": 0,
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-04-01",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "サンテレビジョン": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "kbs京都": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "tva": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -5167,6 +5303,30 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 00:00 (JST)"
+      },
+      "tvo": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "tx": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "tva": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "tvh": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -5201,6 +5361,18 @@
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-06",
         "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "テレビ山口": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
@@ -5234,6 +5406,12 @@
         "last_ep_num": 1,
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-06",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-07",
+        "last_updated_at": "2026-04-07",
         "remarks": null
       }
     }
@@ -5345,6 +5523,18 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 01:29 (JST)"
+      },
+      "読売テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "ntv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-07",
+        "remarks": null
       }
     }
   },
