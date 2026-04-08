@@ -293,13 +293,13 @@
   },
   "202604_jihanki_c1": {
     "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "mx": {
-        "last_ep_num": 1,
+        "last_ep_num": 2,
         "remarks": "水曜日 22:00 (2026/4/1開始予定)",
-        "last_broadcast_date": "2026-04-01",
-        "last_updated_at": "2026-04-01"
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08"
       },
       "bsntv": {
         "last_ep_num": 0,
@@ -418,6 +418,12 @@
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-06",
         "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
       }
     }
   },
@@ -498,6 +504,12 @@
         "last_broadcast_date": "2026-04-05",
         "last_updated_at": "2026-04-05",
         "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
       }
     }
   },
@@ -539,7 +551,7 @@
   },
   "202604_rezero_c1": {
     "title": "Re:ゼロから始める異世界生活 4th season",
-    "overall_latest_ep": 0,
+    "overall_latest_ep": 67,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -553,6 +565,60 @@
         "last_ep_num": 0,
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "サンテレビジョン": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "bs11": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "kbs京都": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "中国放送": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "tva": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "tvh": {
+        "last_ep_num": 67,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       }
     }
@@ -2717,6 +2783,18 @@
         "last_broadcast_date": "2026-04-08",
         "last_updated_at": "2026-04-07",
         "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "bs_ntv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
       }
     }
   },
@@ -3451,6 +3529,12 @@
         "last_broadcast_date": "2026-04-01",
         "last_updated_at": "2026-03-31",
         "remarks": null
+      },
+      "アニメlive": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
       }
     }
   },
@@ -3796,16 +3880,16 @@
   },
   "202601_goumonbt_anime_c1": {
     "title": "拷問バイトくんの日常",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Mondays at 00:30 (JST)"
       },
       "at-x": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-04-01",
-        "last_updated_at": "2026-04-01",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       },
       "アニメlive": {
@@ -4535,22 +4619,22 @@
   },
   "202604_saikyo2dome_c1": {
     "title": "最強の王様、二度目の人生は何をする? Season2",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 23:30 (JST)"
       },
       "at-x": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-01",
-        "last_updated_at": "2026-04-01",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       },
       "fujitv": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-02",
-        "last_updated_at": "2026-04-01",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       },
       "uhb北海道文化放送": {
@@ -4739,22 +4823,22 @@
   },
   "202604_nkmr_kun_tv_c1": {
     "title": "ガンバレ！中村くん!!",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:30 (JST)"
       },
       "bs11": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-02",
-        "last_updated_at": "2026-04-01",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-02",
-        "last_updated_at": "2026-04-01",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       },
       "hbc北海道放送": {
@@ -4830,6 +4914,30 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 23:45 (JST)"
+      },
+      "tv_asahi": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "メ～テレ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-08",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
+      },
+      "abcテレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
       }
     }
   },
@@ -5041,6 +5149,12 @@
         "last_broadcast_date": "2026-04-05",
         "last_updated_at": "2026-04-04",
         "remarks": null
+      },
+      "htb北海道テレビ": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
+        "remarks": null
       }
     }
   },
@@ -5056,22 +5170,22 @@
   },
   "202604_nigetsuri_anime_c1": {
     "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:00 (JST)"
       },
       "mx": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-02",
-        "last_updated_at": "2026-04-02",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-02",
-        "last_updated_at": "2026-04-01",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       }
     }
@@ -5534,6 +5648,12 @@
         "last_ep_num": 1,
         "last_broadcast_date": "2026-04-08",
         "last_updated_at": "2026-04-07",
+        "remarks": null
+      },
+      "bs_ntv": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-04-09",
+        "last_updated_at": "2026-04-08",
         "remarks": null
       }
     }
