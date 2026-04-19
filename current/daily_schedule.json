@@ -1,506 +1,434 @@
 [
   {
-    "anime_id": "202610osusino_c3",
-    "title": "【推しの子】第3期",
+    "anime_id": "202601_project_of_eris_c1",
+    "title": "エリスの聖杯",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-04-18T06:00:00+09:00",
+    "start_time": "2026-04-19T08:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_yushakei_pj_c1",
-    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-18T07:00:00+09:00",
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 12,
+    "station_id": "メ～テレ",
+    "start_time": "2026-04-19T08:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 1,
-    "station_id": "tva",
-    "start_time": "2026-04-18T09:30:00+09:00",
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 12,
+    "station_id": "tv_asahi",
+    "start_time": "2026-04-19T08:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 1,
-    "station_id": "tx",
-    "start_time": "2026-04-18T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jujutsushimetsu_c1",
-    "title": "呪術廻戦 死滅回游 前編",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-18T12:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_KayaChanIsnTScary_c1",
-    "title": "カヤちゃんはコワくない",
-    "ep_num": 0,
-    "station_id": "アニメlive",
-    "start_time": "2026-04-18T16:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_tongari_anime_c1",
-    "title": "とんがり帽子のアトリエ",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-18T18:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
-    "title": "魔入りました！入間くん 第4シリーズ",
+    "anime_id": "202604_63352_c1",
+    "title": "おねがいアイプリ",
     "ep_num": 3,
-    "station_id": "nhk-e",
-    "start_time": "2026-04-18T18:25:00+09:00",
+    "station_id": "tva",
+    "start_time": "2026-04-19T09:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_vigilante2_c1",
-    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
-    "ep_num": 22,
-    "station_id": "animax",
-    "start_time": "2026-04-18T19:00:00+09:00",
+    "anime_id": "202604_63352_c1",
+    "title": "おねがいアイプリ",
+    "ep_num": 3,
+    "station_id": "tx",
+    "start_time": "2026-04-19T09:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_uruwashi_anime_c1",
+    "title": "うるわしの宵の月",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-19T13:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_wistoria_pr_c1",
+    "title": "杖と剣のウィストリア Season 2",
+    "ep_num": 14,
+    "station_id": "tbs",
+    "start_time": "2026-04-19T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_wistoria_pr_c1",
+    "title": "杖と剣のウィストリア Season 2",
+    "ep_num": 14,
+    "station_id": "cbc",
+    "start_time": "2026-04-19T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_wistoria_pr_c1",
+    "title": "杖と剣のウィストリア Season 2",
+    "ep_num": 14,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-19T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_wistoria_pr_c1",
+    "title": "杖と剣のウィストリア Season 2",
+    "ep_num": 14,
+    "station_id": "mbs",
+    "start_time": "2026-04-19T16:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_officialhitsuji_c1",
+    "title": "夜桜さんちの大作戦 第2期",
+    "ep_num": 29,
+    "station_id": "tbs",
+    "start_time": "2026-04-19T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_officialhitsuji_c1",
+    "title": "夜桜さんちの大作戦 第2期",
+    "ep_num": 29,
+    "station_id": "cbc",
+    "start_time": "2026-04-19T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_officialhitsuji_c1",
+    "title": "夜桜さんちの大作戦 第2期",
+    "ep_num": 29,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-19T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_officialhitsuji_c1",
+    "title": "夜桜さんちの大作戦 第2期",
+    "ep_num": 29,
+    "station_id": "mbs",
+    "start_time": "2026-04-19T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_AceOfDiamondActIiSeason2_c1",
+    "title": "ダイヤのA actⅡ Second Season",
+    "ep_num": 3,
+    "station_id": "tx",
+    "start_time": "2026-04-19T17:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_AceOfDiamondActIiSeason2_c1",
+    "title": "ダイヤのA actⅡ Second Season",
+    "ep_num": 3,
+    "station_id": "tva",
+    "start_time": "2026-04-19T17:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62852_c1",
+    "title": "ゴーストコンサート: missing Songs",
+    "ep_num": 0,
+    "station_id": "youtube",
+    "start_time": "2026-04-19T19:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_akanebanashi_c1",
     "title": "あかね噺",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-18T20:30:00+09:00",
+    "ep_num": 2,
+    "station_id": "テレ朝チャンネル1",
+    "start_time": "2026-04-19T21:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_korinojoheki_pr_c1",
-    "title": "氷の城壁",
-    "ep_num": 2,
+    "anime_id": "202604_AceOfDiamondActIiSeason2_c1",
+    "title": "ダイヤのA actⅡ Second Season",
+    "ep_num": 3,
     "station_id": "at-x",
-    "start_time": "2026-04-18T21:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yowayowa_anime_c1",
-    "title": "よわよわ先生",
-    "ep_num": 2,
-    "station_id": "at-x",
-    "start_time": "2026-04-18T21:30:00+09:00",
+    "start_time": "2026-04-19T21:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_ten_sura_anime_c1",
     "title": "転生したらスライムだった件 第4期",
     "ep_num": 75,
-    "station_id": "bs11",
-    "start_time": "2026-04-18T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanteishi_anime_c1",
-    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-18T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yowayowa_anime_c1",
-    "title": "よわよわ先生",
-    "ep_num": 2,
-    "station_id": "mx",
-    "start_time": "2026-04-18T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yowayowa_anime_c1",
-    "title": "よわよわ先生",
-    "ep_num": 2,
-    "station_id": "bs11",
-    "start_time": "2026-04-18T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanteishi_anime_c1",
-    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
-    "ep_num": 4,
-    "station_id": "abema",
-    "start_time": "2026-04-18T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
-    "ep_num": 2,
-    "station_id": "bs_ntv",
-    "start_time": "2026-04-18T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 2,
-    "station_id": "tvo",
-    "start_time": "2026-04-18T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 2,
-    "station_id": "tva",
-    "start_time": "2026-04-18T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 2,
-    "station_id": "tx",
-    "start_time": "2026-04-18T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 2,
-    "station_id": "tvh",
-    "start_time": "2026-04-18T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-18T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "bs11",
-    "start_time": "2026-04-18T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
-    "ep_num": 3,
-    "station_id": "abcテレビ",
-    "start_time": "2026-04-18T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanokari_anime_c1",
-    "title": "彼女、お借りします 第5期",
-    "ep_num": 50,
     "station_id": "at-x",
-    "start_time": "2026-04-18T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_killblue_pr_c1",
-    "title": "キルアオ",
-    "ep_num": 2,
-    "station_id": "abema",
-    "start_time": "2026-04-18T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_62048_c1",
-    "title": "MAO",
-    "ep_num": 3,
-    "station_id": "nhk",
-    "start_time": "2026-04-18T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "abema",
-    "start_time": "2026-04-19T00:00:00+09:00",
+    "start_time": "2026-04-19T21:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_akanebanashi_c1",
     "title": "あかね噺",
     "ep_num": 3,
-    "station_id": "tv_asahi",
-    "start_time": "2026-04-19T00:00:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-04-19T22:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
-    "ep_num": 3,
-    "station_id": "メ～テレ",
-    "start_time": "2026-04-19T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
-    "ep_num": 3,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-04-19T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 4,
-    "station_id": "bs11",
-    "start_time": "2026-04-19T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 4,
-    "station_id": "mx",
-    "start_time": "2026-04-19T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 4,
-    "station_id": "アニメlive",
-    "start_time": "2026-04-19T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_needyoverdose_c1",
-    "title": "NEEDY GIRL OVERDOSE",
+    "anime_id": "202604_lovetoeat_maid_c1",
+    "title": "メイドさんは食べるだけ",
     "ep_num": 3,
     "station_id": "mx",
-    "start_time": "2026-04-19T00:30:00+09:00",
+    "start_time": "2026-04-19T22:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_needyoverdose_c1",
-    "title": "NEEDY GIRL OVERDOSE",
-    "ep_num": 3,
-    "station_id": "bs11",
-    "start_time": "2026-04-19T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
-    "ep_num": 3,
+    "anime_id": "202604_lovetoeat_maid_c1",
+    "title": "メイドさんは食べるだけ",
+    "ep_num": 4,
     "station_id": "abema",
-    "start_time": "2026-04-19T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 14,
-    "station_id": "ntv",
-    "start_time": "2026-04-19T00:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanachoro_c1",
-    "title": "カナン様はあくまでチョロい",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-19T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanachoro_c1",
-    "title": "カナン様はあくまでチョロい",
-    "ep_num": 3,
-    "station_id": "bs11",
-    "start_time": "2026-04-19T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanteishi_anime_c1",
-    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
-    "ep_num": 3,
-    "station_id": "bs_asahi",
-    "start_time": "2026-04-19T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 14,
-    "station_id": "広島テレビ",
-    "start_time": "2026-04-19T01:25:00+09:00",
+    "start_time": "2026-04-19T22:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_saikyo2dome_c1",
     "title": "最強の王様、二度目の人生は何をする? Season2",
     "ep_num": 3,
-    "station_id": "東海テレビ",
-    "start_time": "2026-04-19T01:45:00+09:00",
+    "station_id": "abema",
+    "start_time": "2026-04-19T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
+    "ep_num": 2,
+    "station_id": "at-x",
+    "start_time": "2026-04-19T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_luluttolilly_c1",
+    "title": "魔法の姉妹ルルットリリィ",
+    "ep_num": 3,
+    "station_id": "mx",
+    "start_time": "2026-04-19T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_reinkabane_c1",
+    "title": "リィンカーネーションの花弁",
+    "ep_num": 3,
+    "station_id": "bs_ntv",
+    "start_time": "2026-04-19T23:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202601_yushanokuzu_c1",
     "title": "勇者のクズ",
-    "ep_num": 14,
-    "station_id": "中京テレビ",
-    "start_time": "2026-04-19T01:55:00+09:00",
+    "ep_num": 13,
+    "station_id": "at-x",
+    "start_time": "2026-04-19T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
+    "anime_id": "202604_lovetoeat_maid_c1",
+    "title": "メイドさんは食べるだけ",
     "ep_num": 3,
-    "station_id": "tv_asahi",
-    "start_time": "2026-04-19T02:00:00+09:00",
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-19T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
-    "ep_num": 3,
-    "station_id": "メ～テレ",
-    "start_time": "2026-04-19T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
-    "ep_num": 3,
-    "station_id": "abcテレビ",
-    "start_time": "2026-04-19T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
-    "ep_num": 3,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-04-19T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 4,
-    "station_id": "cbc",
-    "start_time": "2026-04-19T02:07:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "mbs",
-    "start_time": "2026-04-19T02:08:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nkmr_kun_tv_c1",
-    "title": "ガンバレ！中村くん!!",
-    "ep_num": 3,
-    "station_id": "中京テレビ",
-    "start_time": "2026-04-19T02:25:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 4,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-04-19T02:28:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ichijyoma_anime_c1",
-    "title": "一畳間まんきつ暮らし！",
-    "ep_num": 2,
-    "station_id": "tv_asahi",
-    "start_time": "2026-04-19T02:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ichijyoma_anime_c1",
-    "title": "一畳間まんきつ暮らし！",
-    "ep_num": 2,
-    "station_id": "メ～テレ",
-    "start_time": "2026-04-19T02:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ichijyoma_anime_c1",
-    "title": "一畳間まんきつ暮らし！",
-    "ep_num": 2,
-    "station_id": "abcテレビ",
-    "start_time": "2026-04-19T02:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ichijyoma_anime_c1",
-    "title": "一畳間まんきつ暮らし！",
-    "ep_num": 2,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-04-19T02:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 4,
-    "station_id": "mbs",
-    "start_time": "2026-04-19T02:38:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "cbc",
-    "start_time": "2026-04-19T02:43:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nkmr_kun_tv_c1",
-    "title": "ガンバレ！中村くん!!",
-    "ep_num": 3,
-    "station_id": "abcテレビ",
-    "start_time": "2026-04-19T03:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kujima_anime_c1",
-    "title": "クジマ歌えば家ほろろ",
-    "ep_num": 2,
-    "station_id": "mbs",
-    "start_time": "2026-04-19T03:08:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yowayowa_anime_c1",
-    "title": "よわよわ先生",
-    "ep_num": 1,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-04-19T03:10:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
+    "anime_id": "202604_luluttolilly_c1",
+    "title": "魔法の姉妹ルルットリリィ",
     "ep_num": 3,
     "station_id": "abema",
-    "start_time": "2026-04-19T03:30:00+09:00",
+    "start_time": "2026-04-19T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 2,
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-19T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 3,
+    "station_id": "at-x",
+    "start_time": "2026-04-19T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 2,
+    "station_id": "tbs",
+    "start_time": "2026-04-19T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 2,
+    "station_id": "cbc",
+    "start_time": "2026-04-19T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 2,
+    "station_id": "mbs",
+    "start_time": "2026-04-19T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 2,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-04-19T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 3,
+    "station_id": "mx",
+    "start_time": "2026-04-20T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 3,
+    "station_id": "カートゥーンネットワーク",
+    "start_time": "2026-04-20T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_63106_c1",
+    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
+    "ep_num": 3,
+    "station_id": "tvk",
+    "start_time": "2026-04-20T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_eren_anime_pr_c1",
+    "title": "左ききのエレン",
+    "ep_num": 2,
+    "station_id": "abema",
+    "start_time": "2026-04-20T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62852_c1",
+    "title": "ゴーストコンサート: missing Songs",
+    "ep_num": 3,
+    "station_id": "mx",
+    "start_time": "2026-04-20T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_luluttolilly_c1",
+    "title": "魔法の姉妹ルルットリリィ",
+    "ep_num": 3,
+    "station_id": "abcテレビ",
+    "start_time": "2026-04-20T00:40:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_akanebanashi_c1",
+    "title": "あかね噺",
+    "ep_num": 3,
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-20T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62852_c1",
+    "title": "ゴーストコンサート: missing Songs",
+    "ep_num": 3,
+    "station_id": "abema",
+    "start_time": "2026-04-20T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ingokudanchi_c1",
+    "title": "インゴクダンチ",
+    "ep_num": 3,
+    "station_id": "bs11",
+    "start_time": "2026-04-20T01:10:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_luluttolilly_c1",
+    "title": "魔法の姉妹ルルットリリィ",
+    "ep_num": 3,
+    "station_id": "tva",
+    "start_time": "2026-04-20T01:20:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62852_c1",
+    "title": "ゴーストコンサート: missing Songs",
+    "ep_num": 3,
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-20T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_himekishi_anime_c1",
+    "title": "姫騎士は蛮族の嫁",
+    "ep_num": 2,
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-04-20T01:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_dropsgod_c1",
+    "title": "神の雫",
+    "ep_num": 2,
+    "station_id": "関西テレビ",
+    "start_time": "2026-04-20T01:54:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yuukawa_anime_c1",
+    "title": "勇者パーティーにかわいい子がいたので、告白してみた。",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-20T02:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kusunoki_anime_c1",
+    "title": "神の庭付き楠木邸",
+    "ep_num": 3,
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-20T02:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62852_c1",
+    "title": "ゴーストコンサート: missing Songs",
+    "ep_num": 3,
+    "station_id": "関西テレビ",
+    "start_time": "2026-04-20T02:24:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 3,
+    "station_id": "abema",
+    "start_time": "2026-04-20T02:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nkmr_kun_tv_c1",
+    "title": "ガンバレ！中村くん!!",
+    "ep_num": 3,
+    "station_id": "中国放送",
+    "start_time": "2026-04-20T02:45:00+09:00",
     "status": "normal"
   }
 ]
