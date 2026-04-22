@@ -1,349 +1,5 @@
 [
   {
-    "anime_id": "202601_slave2_c1",
-    "title": "魔都精兵のスレイブ2",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-21T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_hellmode_anime_c1",
-    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-21T14:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_love_osnnjm_wm_c1",
-    "title": "幼馴染とはラブコメにならない",
-    "ep_num": 0,
-    "station_id": "アニメlive",
-    "start_time": "2026-04-21T15:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 2,
-    "station_id": "at-x",
-    "start_time": "2026-04-21T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_haibara_anime_c1",
-    "title": "灰原くんの強くて青春ニューゲーム",
-    "ep_num": 0,
-    "station_id": "youtube",
-    "start_time": "2026-04-21T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_tongari_anime_c1",
-    "title": "とんがり帽子のアトリエ",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-21T20:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_sangoku_pr_c1",
-    "title": "日本三國",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-21T20:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lovetoeat_maid_c1",
-    "title": "メイドさんは食べるだけ",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-21T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lastame_pr_c1",
-    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-21T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lastame_pr_c1",
-    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
-    "ep_num": 3,
-    "station_id": "abema",
-    "start_time": "2026-04-21T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ponsuka_anime_c1",
-    "title": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-21T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_aishiterugame_c1",
-    "title": "愛してるゲームを終わらせたい",
-    "ep_num": 2,
-    "station_id": "mx",
-    "start_time": "2026-04-21T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_marritoxi_pr_c1",
-    "title": "マリッジトキシン",
-    "ep_num": 3,
-    "station_id": "関西テレビ",
-    "start_time": "2026-04-21T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_marritoxi_pr_c1",
-    "title": "マリッジトキシン",
-    "ep_num": 3,
-    "station_id": "東海テレビ",
-    "start_time": "2026-04-21T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_marritoxi_pr_c1",
-    "title": "マリッジトキシン",
-    "ep_num": 3,
-    "station_id": "fujitv",
-    "start_time": "2026-04-21T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_marritoxi_pr_c1",
-    "title": "マリッジトキシン",
-    "ep_num": 3,
-    "station_id": "uhb北海道文化放送",
-    "start_time": "2026-04-21T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ichijyoma_anime_c1",
-    "title": "一畳間まんきつ暮らし！",
-    "ep_num": 2,
-    "station_id": "at-x",
-    "start_time": "2026-04-21T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_wistoria_pr_c1",
-    "title": "杖と剣のウィストリア Season 2",
-    "ep_num": 13,
-    "station_id": "bs_ntv",
-    "start_time": "2026-04-21T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_2ndinclass_c1",
-    "title": "クラスで２番目に可愛い女の子と友だちになった",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-21T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_aishiterugame_c1",
-    "title": "愛してるゲームを終わらせたい",
-    "ep_num": 2,
-    "station_id": "abema",
-    "start_time": "2026-04-21T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-21T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kujima_anime_c1",
-    "title": "クジマ歌えば家ほろろ",
-    "ep_num": 2,
-    "station_id": "bs_tbs",
-    "start_time": "2026-04-21T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_needyoverdose_c1",
-    "title": "NEEDY GIRL OVERDOSE",
-    "ep_num": 3,
-    "station_id": "wowow",
-    "start_time": "2026-04-22T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lastame_pr_c1",
-    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
-    "ep_num": 3,
-    "station_id": "bs11",
-    "start_time": "2026-04-22T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 3,
-    "station_id": "tvo",
-    "start_time": "2026-04-22T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 3,
-    "station_id": "tva",
-    "start_time": "2026-04-22T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 3,
-    "station_id": "tx",
-    "start_time": "2026-04-22T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 3,
-    "station_id": "tvh",
-    "start_time": "2026-04-22T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nonbiri_nouka_c1",
-    "title": "異世界のんびり農家2",
-    "ep_num": 3,
-    "station_id": "bsテレ東",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_officialhitsuji_c1",
-    "title": "夜桜さんちの大作戦 第2期",
-    "ep_num": 28,
-    "station_id": "bs_ntv",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "bs11",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "サンテレビジョン",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "kbs京都",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "abema",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_62852_c1",
-    "title": "ゴーストコンサート: missing Songs",
-    "ep_num": 3,
-    "station_id": "wowow",
-    "start_time": "2026-04-22T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ingokudanchi_c1",
-    "title": "インゴクダンチ",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-22T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 2,
-    "station_id": "wowow",
-    "start_time": "2026-04-22T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_2ndinclass_c1",
-    "title": "クラスで２番目に可愛い女の子と友だちになった",
-    "ep_num": 3,
-    "station_id": "関西テレビ",
-    "start_time": "2026-04-22T01:19:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_tadaoja_anime_c1",
-    "title": "ただいま、おじゃまされます！",
-    "ep_num": 3,
-    "station_id": "読売テレビ",
-    "start_time": "2026-04-22T01:29:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_tadaoja_anime_c1",
-    "title": "ただいま、おじゃまされます！",
-    "ep_num": 3,
-    "station_id": "ntv",
-    "start_time": "2026-04-22T01:35:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-04-22T01:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 14,
-    "station_id": "読売テレビ",
-    "start_time": "2026-04-22T01:59:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202601_akudeki_anime_c1",
     "title": "悪役令嬢は隣国の王太子に溺愛される",
     "ep_num": 0,
@@ -352,59 +8,283 @@
     "status": "normal"
   },
   {
-    "anime_id": "202604_sangoku_pr_c1",
-    "title": "日本三國",
+    "anime_id": "202604_reinkabane_c1",
+    "title": "リィンカーネーションの花弁",
     "ep_num": 3,
-    "station_id": "テレビ山口",
-    "start_time": "2026-04-22T02:00:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-04-22T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_replico_dengeki_c1",
-    "title": "レプリカだって、恋をする。",
-    "ep_num": 3,
-    "station_id": "tva",
-    "start_time": "2026-04-22T02:05:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63376_c1",
-    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
-    "ep_num": 3,
-    "station_id": "ntv",
-    "start_time": "2026-04-22T02:05:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_aishiterugame_c1",
-    "title": "愛してるゲームを終わらせたい",
-    "ep_num": 2,
-    "station_id": "mbs",
-    "start_time": "2026-04-22T02:30:00+09:00",
+    "anime_id": "202601_adventurer29_c1",
+    "title": "29歳独身中堅冒険者の日常",
+    "ep_num": 0,
+    "station_id": "異世界ファンタジー",
+    "start_time": "2026-04-22T20:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_63376_c1",
     "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
     "ep_num": 3,
+    "station_id": "at-x",
+    "start_time": "2026-04-22T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_jihanki_c1",
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
+    "ep_num": 4,
+    "station_id": "mx",
+    "start_time": "2026-04-22T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "at-x",
+    "start_time": "2026-04-22T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanachoro_c1",
+    "title": "カナン様はあくまでチョロい",
+    "ep_num": 3,
+    "station_id": "at-x",
+    "start_time": "2026-04-22T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
     "station_id": "abema",
-    "start_time": "2026-04-22T02:30:00+09:00",
+    "start_time": "2026-04-22T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_lastame_pr_c1",
-    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
-    "ep_num": 3,
-    "station_id": "mbs",
-    "start_time": "2026-04-22T03:00:00+09:00",
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "mx",
+    "start_time": "2026-04-22T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_seihantai_c1",
-    "title": "正反対な君と僕",
+    "anime_id": "202601_goumonbt_anime_c1",
+    "title": "拷問バイトくんの日常",
+    "ep_num": 12,
+    "station_id": "at-x",
+    "start_time": "2026-04-22T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_saikyo2dome_c1",
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "ep_num": 4,
+    "station_id": "at-x",
+    "start_time": "2026-04-22T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63376_c1",
+    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
     "ep_num": 3,
-    "station_id": "mbs",
-    "start_time": "2026-04-22T03:30:00+09:00",
+    "station_id": "bs_ntv",
+    "start_time": "2026-04-22T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 3,
+    "station_id": "tv_asahi",
+    "start_time": "2026-04-22T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 3,
+    "station_id": "メ～テレ",
+    "start_time": "2026-04-22T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 3,
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-04-22T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_ikoku_anime_c1",
+    "title": "違国日記",
+    "ep_num": 0,
+    "station_id": "アニメlive",
+    "start_time": "2026-04-23T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nigetsuri_anime_c1",
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "ep_num": 4,
+    "station_id": "mx",
+    "start_time": "2026-04-23T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nigetsuri_anime_c1",
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "ep_num": 4,
+    "station_id": "bs11",
+    "start_time": "2026-04-23T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_58820_c1",
+    "title": "淡島百景",
+    "ep_num": 2,
+    "station_id": "bs_fuji",
+    "start_time": "2026-04-23T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_tadaoja_anime_c1",
+    "title": "ただいま、おじゃまされます！",
+    "ep_num": 3,
+    "station_id": "bs_ntv",
+    "start_time": "2026-04-23T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kujima_anime_c1",
+    "title": "クジマ歌えば家ほろろ",
+    "ep_num": 2,
+    "station_id": "三重テレビ",
+    "start_time": "2026-04-23T00:20:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "サンテレビジョン",
+    "start_time": "2026-04-23T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nkmr_kun_tv_c1",
+    "title": "ガンバレ！中村くん!!",
+    "ep_num": 4,
+    "station_id": "bs11",
+    "start_time": "2026-04-23T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_nkmr_kun_tv_c1",
+    "title": "ガンバレ！中村くん!!",
+    "ep_num": 4,
+    "station_id": "mx",
+    "start_time": "2026-04-23T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_saikyo2dome_c1",
+    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "ep_num": 4,
+    "station_id": "fujitv",
+    "start_time": "2026-04-23T00:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_58820_c1",
+    "title": "淡島百景",
+    "ep_num": 2,
+    "station_id": "uhb北海道文化放送",
+    "start_time": "2026-04-23T00:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "bs11",
+    "start_time": "2026-04-23T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "kbs京都",
+    "start_time": "2026-04-23T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_63106_c1",
+    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
+    "ep_num": 3,
+    "station_id": "bs_ntv",
+    "start_time": "2026-04-23T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 3,
+    "station_id": "abcテレビ",
+    "start_time": "2026-04-23T01:03:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "中国放送",
+    "start_time": "2026-04-23T01:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanteishi_anime_c1",
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+    "ep_num": 3,
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-04-23T01:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_yushanokuzu_c1",
+    "title": "勇者のクズ",
+    "ep_num": 14,
+    "station_id": "stv札幌テレビ",
+    "start_time": "2026-04-23T01:59:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "tva",
+    "start_time": "2026-04-23T02:05:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 69,
+    "station_id": "tvh",
+    "start_time": "2026-04-23T02:15:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yowayowa_anime_c1",
+    "title": "よわよわ先生",
+    "ep_num": 2,
+    "station_id": "abcテレビ",
+    "start_time": "2026-04-23T02:15:00+09:00",
     "status": "normal"
   }
 ]
