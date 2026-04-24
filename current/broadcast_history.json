@@ -312,9 +312,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -447,7 +447,7 @@
   },
   "202604_dropsgod_c1": {
     "title": "神の雫",
-    "overall_latest_ep": 2,
+    "overall_latest_ep": 3,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -476,9 +476,9 @@
         "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
       },
       "mx": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "bs_ntv": {
@@ -500,25 +500,25 @@
     "overall_latest_ep": 15,
     "platforms": {
       "mx": {
-        "last_ep_num": 5,
+        "last_ep_num": 6,
         "remarks": "4月3日(金)24:30開始予定、初回3話連続",
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17"
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24"
       },
       "bs11": {
-        "last_ep_num": 5,
+        "last_ep_num": 6,
         "remarks": "4月3日(金)24:30開始予定、初回3話連続",
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17"
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24"
       },
       "Netflix": {
         "last_ep_num": 15,
         "remarks": "2025/12/10 全話独占配信済み"
       },
       "mbs": {
-        "last_ep_num": 5,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 6,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -550,9 +550,9 @@
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -787,8 +787,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-18",
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -815,8 +815,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-21",
-        "last_updated_at": "2026-04-21",
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -1055,8 +1055,8 @@
       },
       "アニメlive": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-10",
-        "last_updated_at": "2026-04-10",
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -2739,9 +2739,9 @@
         "remarks": null
       },
       "関西テレビ": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "東海テレビ": {
@@ -4057,6 +4057,12 @@
         "last_broadcast_date": "2026-04-07",
         "last_updated_at": "2026-04-07",
         "remarks": null
+      },
+      "深夜アニメ": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
+        "remarks": null
       }
     }
   },
@@ -4605,34 +4611,34 @@
   },
   "202604_ten_sura_anime_c1": {
     "title": "転生したらスライムだった件 第4期",
-    "overall_latest_ep": 75,
+    "overall_latest_ep": 76,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 23:00 (JST)"
       },
       "ntv": {
-        "last_ep_num": 75,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 76,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "中京テレビ": {
-        "last_ep_num": 75,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 76,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "読売テレビ": {
-        "last_ep_num": 75,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 76,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 75,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 76,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "bs11": {
@@ -4964,9 +4970,9 @@
         "remarks": null
       },
       "bs_asahi": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "at-x": {
@@ -5019,28 +5025,28 @@
   },
   "202604_kanokari_anime_c1": {
     "title": "彼女、お借りします 第5期",
-    "overall_latest_ep": 50,
+    "overall_latest_ep": 51,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 01:53 (JST)"
       },
       "tbs": {
-        "last_ep_num": 50,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 51,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 50,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 51,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "mbs": {
-        "last_ep_num": 50,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 51,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "at-x": {
@@ -5050,9 +5056,9 @@
         "remarks": null
       },
       "bs_tbs": {
-        "last_ep_num": 50,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 51,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "hbc北海道放送": {
@@ -5096,9 +5102,9 @@
         "remarks": null
       },
       "bs_asahi": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -5210,9 +5216,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "中京テレビ": {
@@ -5302,9 +5308,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "bs_asahi": {
@@ -5515,28 +5521,28 @@
   },
   "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1": {
     "title": "上伊那ぼたん、酔へる姿は百合の花",
-    "overall_latest_ep": 2,
+    "overall_latest_ep": 3,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 00:00 (JST)"
       },
       "bs11": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "at-x": {
@@ -5675,9 +5681,9 @@
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "at-x": {
@@ -5795,9 +5801,9 @@
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -5887,9 +5893,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }
@@ -5937,9 +5943,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 2,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 3,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "abema": {
@@ -6173,9 +6179,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "abema": {
@@ -6188,40 +6194,40 @@
   },
   "202604_snowballearth_o_c1": {
     "title": "スノウボールアース",
-    "overall_latest_ep": 3,
+    "overall_latest_ep": 4,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 23:30 (JST)"
       },
       "読売テレビ": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "ntv": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "中京テレビ": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-17",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-24",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 3,
-        "last_broadcast_date": "2026-04-18",
-        "last_updated_at": "2026-04-17",
+        "last_ep_num": 4,
+        "last_broadcast_date": "2026-04-25",
+        "last_updated_at": "2026-04-24",
         "remarks": null
       }
     }

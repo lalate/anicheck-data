@@ -1,386 +1,298 @@
 [
   {
-    "anime_id": "202601_ikoku_anime_c1",
-    "title": "違国日記",
+    "anime_id": "202601_slave2_c1",
+    "title": "魔都精兵のスレイブ2",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-24T09:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_maomusume_c1",
+    "title": "魔王の娘は優しすぎる!!",
     "ep_num": 0,
     "station_id": "アニメlive",
-    "start_time": "2026-04-23T00:00:00+09:00",
+    "start_time": "2026-04-24T16:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_shibomeshi_c1",
-    "title": "死亡遊戯で飯を食う。",
+    "anime_id": "202601_arne_jknb_c1",
+    "title": "アルネの事件簿",
     "ep_num": 0,
     "station_id": "深夜アニメ",
-    "start_time": "2026-04-23T08:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_iseshachi_c1",
-    "title": "異世界の沙汰は社畜次第",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-23T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
-    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-04-23T15:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-04-23T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_luluttolilly_c1",
-    "title": "魔法の姉妹ルルットリリィ",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-23T20:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_marritoxi_pr_c1",
-    "title": "マリッジトキシン",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-23T21:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-23T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 28,
-    "station_id": "mx",
-    "start_time": "2026-04-23T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 28,
-    "station_id": "kbs京都",
-    "start_time": "2026-04-23T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lastame_pr_c1",
-    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-23T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-23T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 3,
-    "station_id": "abema",
-    "start_time": "2026-04-23T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kujima_anime_c1",
-    "title": "クジマ歌えば家ほろろ",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-23T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_jihanki_c1",
-    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
-    "ep_num": 4,
-    "station_id": "bs_ntv",
-    "start_time": "2026-04-23T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 28,
-    "station_id": "abema",
-    "start_time": "2026-04-23T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanteishi_anime_c1",
-    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-04-23T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kujima_anime_c1",
-    "title": "クジマ歌えば家ほろろ",
-    "ep_num": 3,
-    "station_id": "mx",
-    "start_time": "2026-04-23T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_korinojoheki_pr_c1",
-    "title": "氷の城壁",
-    "ep_num": 4,
-    "station_id": "tbs",
-    "start_time": "2026-04-23T23:56:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_korinojoheki_pr_c1",
-    "title": "氷の城壁",
-    "ep_num": 4,
-    "station_id": "mbs",
-    "start_time": "2026-04-23T23:56:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_korinojoheki_pr_c1",
-    "title": "氷の城壁",
-    "ep_num": 4,
-    "station_id": "cbc",
-    "start_time": "2026-04-23T23:56:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_korinojoheki_pr_c1",
-    "title": "氷の城壁",
-    "ep_num": 4,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-04-23T23:56:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 28,
-    "station_id": "bs11",
-    "start_time": "2026-04-24T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_62048_c1",
-    "title": "MAO",
-    "ep_num": 3,
-    "station_id": "abema",
-    "start_time": "2026-04-24T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kirio_fc_c1",
-    "title": "霧尾ファンクラブ",
-    "ep_num": 4,
-    "station_id": "tbs",
-    "start_time": "2026-04-24T00:26:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kirio_fc_c1",
-    "title": "霧尾ファンクラブ",
-    "ep_num": 4,
-    "station_id": "cbc",
-    "start_time": "2026-04-24T00:26:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kirio_fc_c1",
-    "title": "霧尾ファンクラブ",
-    "ep_num": 4,
-    "station_id": "mbs",
-    "start_time": "2026-04-24T00:26:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kirio_fc_c1",
-    "title": "霧尾ファンクラブ",
-    "ep_num": 4,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-04-24T00:26:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_reinkabane_c1",
-    "title": "リィンカーネーションの花弁",
-    "ep_num": 4,
-    "station_id": "mx",
-    "start_time": "2026-04-24T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_saikyo2dome_c1",
-    "title": "最強の王様、二度目の人生は何をする? Season2",
-    "ep_num": 4,
-    "station_id": "uhb北海道文化放送",
-    "start_time": "2026-04-24T00:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_sangoku_pr_c1",
-    "title": "日本三國",
-    "ep_num": 3,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-04-24T00:56:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 28,
-    "station_id": "サンテレビジョン",
-    "start_time": "2026-04-24T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 3,
-    "station_id": "bs_ntv",
-    "start_time": "2026-04-24T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kirio_fc_c1",
-    "title": "霧尾ファンクラブ",
-    "ep_num": 4,
-    "station_id": "abema",
-    "start_time": "2026-04-24T01:00:00+09:00",
+    "start_time": "2026-04-24T20:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_nkmr_kun_tv_c1",
     "title": "ガンバレ！中村くん!!",
     "ep_num": 4,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-04-24T01:26:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-04-24T20:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_eren_anime_pr_c1",
+    "title": "左ききのエレン",
+    "ep_num": 3,
+    "station_id": "at-x",
+    "start_time": "2026-04-24T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_jihanki_c1",
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
+    "ep_num": 4,
+    "station_id": "at-x",
+    "start_time": "2026-04-24T21:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 3,
+    "station_id": "at-x",
+    "start_time": "2026-04-24T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kirio_fc_c1",
+    "title": "霧尾ファンクラブ",
+    "ep_num": 4,
+    "station_id": "at-x",
+    "start_time": "2026-04-24T22:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 76,
+    "station_id": "ntv",
+    "start_time": "2026-04-24T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 76,
+    "station_id": "中京テレビ",
+    "start_time": "2026-04-24T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 76,
+    "station_id": "読売テレビ",
+    "start_time": "2026-04-24T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 76,
+    "station_id": "stv札幌テレビ",
+    "start_time": "2026-04-24T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_2ndinclass_c1",
+    "title": "クラスで２番目に可愛い女の子と友だちになった",
+    "ep_num": 3,
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-24T23:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_haibara_anime_c1",
     "title": "灰原くんの強くて青春ニューゲーム",
     "ep_num": 4,
-    "station_id": "tbs",
-    "start_time": "2026-04-24T01:28:00+09:00",
+    "station_id": "bs11",
+    "start_time": "2026-04-24T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "広島テレビ",
-    "start_time": "2026-04-24T01:29:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 28,
-    "station_id": "tva",
-    "start_time": "2026-04-24T01:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 3,
-    "station_id": "関西テレビ",
-    "start_time": "2026-04-24T01:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_58820_c1",
-    "title": "淡島百景",
-    "ep_num": 3,
-    "station_id": "fujitv",
-    "start_time": "2026-04-24T01:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 3,
-    "station_id": "テレビ新広島",
-    "start_time": "2026-04-24T01:50:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 14,
-    "station_id": "山口放送",
-    "start_time": "2026-04-24T01:54:00+09:00",
+    "anime_id": "202604_killblue_pr_c1",
+    "title": "キルアオ",
+    "ep_num": 2,
+    "station_id": "at-x",
+    "start_time": "2026-04-24T23:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
-    "ep_num": 1,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-04-24T01:56:00+09:00",
+    "ep_num": 3,
+    "station_id": "mx",
+    "start_time": "2026-04-24T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_aishiterugame_c1",
+    "title": "愛してるゲームを終わらせたい",
+    "ep_num": 2,
+    "station_id": "bs_asahi",
+    "start_time": "2026-04-24T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-24T23:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_matakoro_anime_c1",
     "title": "また殺されてしまったのですね、探偵様",
     "ep_num": 4,
-    "station_id": "tbs",
-    "start_time": "2026-04-24T01:58:00+09:00",
+    "station_id": "bs11",
+    "start_time": "2026-04-24T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 3,
-    "station_id": "テレビ山口",
-    "start_time": "2026-04-24T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 2,
-    "station_id": "bs12トゥエルビ",
-    "start_time": "2026-04-24T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_saikyo2dome_c1",
-    "title": "最強の王様、二度目の人生は何をする? Season2",
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
     "ep_num": 4,
-    "station_id": "関西テレビ",
-    "start_time": "2026-04-24T02:15:00+09:00",
+    "station_id": "読売テレビ",
+    "start_time": "2026-04-24T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
+    "ep_num": 4,
+    "station_id": "ntv",
+    "start_time": "2026-04-24T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
+    "ep_num": 4,
+    "station_id": "中京テレビ",
+    "start_time": "2026-04-24T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
+    "ep_num": 4,
+    "station_id": "stv札幌テレビ",
+    "start_time": "2026-04-24T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
     "ep_num": 3,
-    "station_id": "メ～テレ",
-    "start_time": "2026-04-24T02:30:00+09:00",
+    "station_id": "mx",
+    "start_time": "2026-04-25T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
+    "ep_num": 3,
+    "station_id": "bs11",
+    "start_time": "2026-04-25T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_shuumatsuvalkyrie_c1",
+    "title": "終末のワルキューレⅢ",
+    "ep_num": 6,
+    "station_id": "bs11",
+    "start_time": "2026-04-25T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_shuumatsuvalkyrie_c1",
+    "title": "終末のワルキューレⅢ",
+    "ep_num": 6,
+    "station_id": "mx",
+    "start_time": "2026-04-25T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
+    "title": "上伊那ぼたん、酔へる姿は百合の花",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-25T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
+    "ep_num": 4,
+    "station_id": "abema",
+    "start_time": "2026-04-25T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_58820_c1",
+    "title": "淡島百景",
+    "ep_num": 3,
+    "station_id": "関西テレビ",
+    "start_time": "2026-04-25T01:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanokari_anime_c1",
+    "title": "彼女、お借りします 第5期",
+    "ep_num": 51,
+    "station_id": "tbs",
+    "start_time": "2026-04-25T01:53:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanokari_anime_c1",
+    "title": "彼女、お借りします 第5期",
+    "ep_num": 51,
+    "station_id": "cbc",
+    "start_time": "2026-04-25T01:53:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanokari_anime_c1",
+    "title": "彼女、お借りします 第5期",
+    "ep_num": 51,
+    "station_id": "mbs",
+    "start_time": "2026-04-25T01:53:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_shuumatsuvalkyrie_c1",
+    "title": "終末のワルキューレⅢ",
+    "ep_num": 6,
+    "station_id": "mbs",
+    "start_time": "2026-04-25T02:23:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_reinkabane_c1",
+    "title": "リィンカーネーションの花弁",
+    "ep_num": 3,
+    "station_id": "cbc",
+    "start_time": "2026-04-25T02:23:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanokari_anime_c1",
+    "title": "彼女、お借りします 第5期",
+    "ep_num": 51,
+    "station_id": "bs_tbs",
+    "start_time": "2026-04-25T02:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_jujutsushimetsu_c1",
+    "title": "呪術廻戦 死滅回游 前編",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-04-25T04:00:00+09:00",
     "status": "normal"
   }
 ]
