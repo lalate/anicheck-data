@@ -179,24 +179,24 @@
     "mal_id": 62981,
     "title": "神の雫",
     "official_url": "https://dropsofgod-anime.com/",
-    "last_checked_ep": 3,
+    "last_checked_ep": 4,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7776,
-    "last_grok_date": "2026-04-25"
+    "last_grok_date": "2026-05-01"
   },
   {
     "anime_id": "202604_shuumatsuvalkyrie_c1",
     "mal_id": 44942,
     "title": "終末のワルキューレⅢ",
     "official_url": "https://ragnarok-official.com/",
-    "last_checked_ep": 6,
+    "last_checked_ep": 7,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7778,
-    "last_grok_date": "2026-04-24"
+    "last_grok_date": "2026-05-01"
   },
   {
     "anime_id": "202604_reinkabane_c1",
@@ -2794,12 +2794,12 @@
     "mal_id": 62485,
     "title": "彼女、お借りします 第5期",
     "official_url": "https://kanokari-official.com/]]",
-    "last_checked_ep": 51,
+    "last_checked_ep": 52,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7799,
-    "last_grok_date": "2026-04-24"
+    "last_grok_date": "2026-05-01"
   },
   {
     "anime_id": "202604_aishiterugame_c1",
@@ -2811,7 +2811,7 @@
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7793,
-    "last_grok_date": "2026-04-24"
+    "last_grok_date": "2026-05-01"
   },
   {
     "anime_id": "202604_marritoxi_pr_c1",
@@ -2962,12 +2962,12 @@
     "mal_id": 61186,
     "title": "上伊那ぼたん、酔へる姿は百合の花",
     "official_url": "https://kamiina-botan.com/]]",
-    "last_checked_ep": 3,
+    "last_checked_ep": 4,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
     "syoboi_tid": 7747,
-    "last_grok_date": null
+    "last_grok_date": "2026-05-01"
   },
   {
     "anime_id": "202604_SoundEuphoniumTheFinalMovie_c1",
@@ -3226,7 +3226,7 @@
     "mal_id": 62068,
     "title": "スノウボールアース",
     "official_url": "https://snowballearth.net/]]",
-    "last_checked_ep": 4,
+    "last_checked_ep": 5,
     "is_active": true,
     "season": "2026_spring",
     "season_end_date": null,
