@@ -360,9 +360,9 @@
         "remarks": null
       },
       "htb北海道テレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "広島テレビ": {
@@ -416,10 +416,10 @@
         "remarks": "土曜日 24:30 (第1話: 2026-04-04 予定)"
       },
       "wowow": {
-        "last_ep_num": 9,
+        "last_ep_num": 10,
         "remarks": "火曜日 24:00 (第1話: 2026-04-07 予定)",
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02"
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09"
       },
       "アニメlive": {
         "last_ep_num": 0,
@@ -606,10 +606,10 @@
     "overall_latest_ep": 10,
     "platforms": {
       "mx": {
-        "last_ep_num": 9,
+        "last_ep_num": 10,
         "remarks": "2026/4/7(火) 25:00～ 開始予定",
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02"
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09"
       },
       "bs11": {
         "last_ep_num": 10,
@@ -2950,22 +2950,22 @@
   },
   "202604_63376_c1": {
     "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 01:59 (JST)"
       },
       "ntv": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "at-x": {
@@ -3063,9 +3063,9 @@
         "remarks": null
       },
       "wowow": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "youtube": {
@@ -3284,8 +3284,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-05-13",
-        "last_updated_at": "2026-05-13",
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       }
     }
@@ -4053,9 +4053,9 @@
         "remarks": null
       },
       "読売テレビ": {
-        "last_ep_num": 20,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 21,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "stv札幌テレビ": {
@@ -4891,9 +4891,9 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
@@ -4957,9 +4957,9 @@
         "remarks": null
       },
       "bsテレ東": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       }
     }
@@ -5067,9 +5067,9 @@
         "remarks": null
       },
       "wowow": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       }
     }
@@ -5086,22 +5086,22 @@
   },
   "202604_2ndinclass_c1": {
     "title": "クラスで２番目に可愛い女の子と友だちになった",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 23:30 (JST)"
       },
       "mx": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "関西テレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "bs_asahi": {
@@ -5118,8 +5118,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-04",
-        "last_updated_at": "2026-06-04",
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       }
     }
@@ -5157,9 +5157,9 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 34,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 35,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
@@ -5224,7 +5224,7 @@
   },
   "202604_aishiterugame_c1": {
     "title": "愛してるゲームを終わらせたい",
-    "overall_latest_ep": 8,
+    "overall_latest_ep": 9,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
@@ -5237,21 +5237,21 @@
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "mbs": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "bs_asahi": {
@@ -5264,34 +5264,34 @@
   },
   "202604_marritoxi_pr_c1": {
     "title": "マリッジトキシン",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 23:00 (JST)"
       },
       "uhb北海道文化放送": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "関西テレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "東海テレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "fujitv": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "at-x": {
@@ -5317,27 +5317,27 @@
         "remarks": "Tuesdays at 22:00 (JST)"
       },
       "mx": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "mbs": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "at-x": {
@@ -5826,9 +5826,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "bs12トゥエルビ": {
@@ -5934,9 +5934,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
@@ -5949,7 +5949,7 @@
   },
   "202604_replico_dengeki_c1": {
     "title": "レプリカだって、恋をする。",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
@@ -5962,45 +5962,45 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "サンテレビジョン": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "kbs京都": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "tva": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "アニメlive": {
@@ -6143,34 +6143,34 @@
   },
   "202604_eren_anime_pr_c1": {
     "title": "左ききのエレン",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 00:00 (JST)"
       },
       "tvo": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "tx": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "tva": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "tvh": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "at-x": {
@@ -6220,15 +6220,15 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "テレビ山口": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "hbc北海道放送": {
@@ -6278,9 +6278,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "youtube": {
@@ -6330,9 +6330,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "abema": {
@@ -6376,9 +6376,9 @@
         "remarks": null
       },
       "bs_tbs": {
-        "last_ep_num": 8,
-        "last_broadcast_date": "2026-06-02",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 9,
+        "last_broadcast_date": "2026-06-09",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "三重テレビ": {
@@ -6483,22 +6483,22 @@
   },
   "202604_tadaoja_anime_c1": {
     "title": "ただいま、おじゃまされます！",
-    "overall_latest_ep": 9,
+    "overall_latest_ep": 10,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 01:29 (JST)"
       },
       "読売テレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "ntv": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-02",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-10",
+        "last_updated_at": "2026-06-09",
         "remarks": null
       },
       "bs_ntv": {
