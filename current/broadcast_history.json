@@ -293,13 +293,13 @@
   },
   "202604_jihanki_c1": {
     "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
-    "overall_latest_ep": 10,
+    "overall_latest_ep": 11,
     "platforms": {
       "mx": {
-        "last_ep_num": 10,
+        "last_ep_num": 11,
         "remarks": "水曜日 22:00 (2026/4/1開始予定)",
-        "last_broadcast_date": "2026-06-03",
-        "last_updated_at": "2026-06-03"
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17"
       },
       "bsntv": {
         "last_ep_num": 0,
@@ -404,8 +404,8 @@
       "abema": {
         "last_ep_num": 0,
         "remarks": "地上波同時最速配信 (第1話: 2026-04-04 予定)",
-        "last_broadcast_date": "2026-06-06",
-        "last_updated_at": "2026-06-06"
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17"
       },
       "gunma_tv": {
         "last_ep_num": 0,
@@ -458,9 +458,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "abema": {
@@ -576,9 +576,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "cbc": {
@@ -639,7 +639,7 @@
   },
   "202604_rezero_c1": {
     "title": "Re:ゼロから始める異世界生活 4th season",
-    "overall_latest_ep": 76,
+    "overall_latest_ep": 77,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -656,57 +656,57 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "サンテレビジョン": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "kbs京都": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "中国放送": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "tva": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "tvh": {
-        "last_ep_num": 76,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 77,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
@@ -1095,8 +1095,8 @@
       },
       "異世界ファンタジー": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-04",
-        "last_updated_at": "2026-06-04",
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
@@ -2825,9 +2825,9 @@
         "remarks": null
       },
       "bs_fuji": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "uhb北海道文化放送": {
@@ -2969,15 +2969,15 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
@@ -4059,9 +4059,9 @@
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 21,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 22,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "山口放送": {
@@ -5350,22 +5350,22 @@
   },
   "202604_nkmr_kun_tv_c1": {
     "title": "ガンバレ！中村くん!!",
-    "overall_latest_ep": 11,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:30 (JST)"
       },
       "bs11": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "hbc北海道放送": {
@@ -5448,34 +5448,34 @@
   },
   "202604_otagal_official_c1": {
     "title": "オタクに優しいギャルはいない!?",
-    "overall_latest_ep": 10,
+    "overall_latest_ep": 11,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Wednesdays at 23:45 (JST)"
       },
       "tv_asahi": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "メ～テレ": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "htb北海道テレビ": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-10",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "abcテレビ": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "at-x": {
@@ -5583,9 +5583,9 @@
         "remarks": null
       },
       "abcテレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "htb北海道テレビ": {
@@ -5780,9 +5780,9 @@
         "remarks": null
       },
       "htb北海道テレビ": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "at-x": {
@@ -5847,28 +5847,28 @@
   },
   "202604_nigetsuri_anime_c1": {
     "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "overall_latest_ep": 11,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 00:00 (JST)"
       },
       "mx": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-14",
-        "last_updated_at": "2026-06-14",
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
@@ -6337,8 +6337,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-05-30",
-        "last_updated_at": "2026-05-30",
+        "last_broadcast_date": "2026-06-17",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
@@ -6382,9 +6382,9 @@
         "remarks": null
       },
       "三重テレビ": {
-        "last_ep_num": 9,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 10,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
@@ -6502,9 +6502,9 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-11",
-        "last_updated_at": "2026-06-10",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-06-18",
+        "last_updated_at": "2026-06-17",
         "remarks": null
       }
     }
