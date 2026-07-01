@@ -582,9 +582,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-24",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-01",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       },
       "cbc": {
@@ -855,8 +855,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-14",
-        "last_updated_at": "2026-06-14",
+        "last_broadcast_date": "2026-07-01",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
@@ -1197,8 +1197,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-12",
-        "last_updated_at": "2026-06-12",
+        "last_broadcast_date": "2026-07-01",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       },
       "アニメlive": {
@@ -2837,15 +2837,21 @@
         "remarks": null
       },
       "bs_fuji": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       },
       "uhb北海道文化放送": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
+        "remarks": null
+      },
+      "abema": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-07-01",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
@@ -4065,15 +4071,15 @@
         "remarks": null
       },
       "読売テレビ": {
-        "last_ep_num": 23,
-        "last_broadcast_date": "2026-06-24",
-        "last_updated_at": "2026-06-23",
+        "last_ep_num": 24,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 23,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 24,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       },
       "山口放送": {
@@ -4084,8 +4090,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-11",
-        "last_updated_at": "2026-04-11",
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
@@ -4324,16 +4330,16 @@
   },
   "202601_samuraitroo_pr_c1": {
     "title": "鎧真伝サムライトルーパー",
-    "overall_latest_ep": 11,
+    "overall_latest_ep": 12,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 23:30 (JST)"
       },
       "bs11": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
@@ -5252,8 +5258,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-30",
-        "last_updated_at": "2026-04-30",
+        "last_broadcast_date": "2026-07-01",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
@@ -5619,9 +5625,9 @@
         "remarks": null
       },
       "abcテレビ": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       },
       "htb北海道テレビ": {
@@ -5633,7 +5639,7 @@
       "abema": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-07-01",
-        "last_updated_at": "2026-06-30",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
@@ -6424,9 +6430,9 @@
         "remarks": null
       },
       "三重テレビ": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-24",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-01",
         "remarks": null
       }
     }
