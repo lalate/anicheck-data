@@ -520,9 +520,9 @@
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "abema": {
@@ -883,8 +883,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       }
     }
@@ -2683,9 +2683,9 @@
         "remarks": null
       },
       "アニメlive": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       }
     }
@@ -4083,15 +4083,15 @@
         "remarks": null
       },
       "山口放送": {
-        "last_ep_num": 23,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 24,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "abema": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-07-02",
-        "last_updated_at": "2026-07-01",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       }
     }
@@ -4928,8 +4928,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-05-21",
-        "last_updated_at": "2026-05-21",
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       }
     }
@@ -5337,9 +5337,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "abema": {
@@ -5656,34 +5656,34 @@
   },
   "202604_korinojoheki_pr_c1": {
     "title": "氷の城壁",
-    "overall_latest_ep": 13,
+    "overall_latest_ep": 14,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Thursdays at 23:56 (JST)"
       },
       "tbs": {
-        "last_ep_num": 13,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 14,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "mbs": {
-        "last_ep_num": 13,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 14,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 13,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 14,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 13,
-        "last_broadcast_date": "2026-06-25",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 14,
+        "last_broadcast_date": "2026-07-02",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "at-x": {
@@ -5880,9 +5880,9 @@
         "remarks": null
       },
       "bs12トゥエルビ": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-25",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-02",
         "remarks": null
       },
       "abema": {
