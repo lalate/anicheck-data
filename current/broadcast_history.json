@@ -479,7 +479,7 @@
   },
   "202604_dropsgod_c1": {
     "title": "神の雫",
-    "overall_latest_ep": 12,
+    "overall_latest_ep": 13,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -508,9 +508,9 @@
         "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
       },
       "mx": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "bs_ntv": {
@@ -4758,34 +4758,34 @@
   },
   "202604_ten_sura_anime_c1": {
     "title": "転生したらスライムだった件 第4期",
-    "overall_latest_ep": 84,
+    "overall_latest_ep": 85,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 23:00 (JST)"
       },
       "ntv": {
-        "last_ep_num": 84,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 85,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "中京テレビ": {
-        "last_ep_num": 84,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 85,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "読売テレビ": {
-        "last_ep_num": 84,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 85,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 84,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 85,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "bs11": {
@@ -5200,8 +5200,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-05-04",
-        "last_updated_at": "2026-05-04",
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "youtube": {
@@ -5297,9 +5297,9 @@
         "remarks": null
       },
       "bs_asahi": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       }
     }
@@ -6172,9 +6172,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 11,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 12,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       }
     }
@@ -6222,9 +6222,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-26",
-        "last_updated_at": "2026-06-26",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-03",
+        "last_updated_at": "2026-07-03",
         "remarks": null
       },
       "abema": {
