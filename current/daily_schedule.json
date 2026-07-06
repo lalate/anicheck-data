@@ -1,133 +1,5 @@
 [
   {
-    "anime_id": "202604_needyoverdose_c1",
-    "title": "NEEDY GIRL OVERDOSE",
-    "ep_num": 0,
-    "station_id": "youtube",
-    "start_time": "2026-07-05T05:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 0,
-    "station_id": "youtube",
-    "start_time": "2026-07-05T07:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 23,
-    "station_id": "tv_asahi",
-    "start_time": "2026-07-05T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 23,
-    "station_id": "メ～テレ",
-    "start_time": "2026-07-05T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 23,
-    "station_id": "abcテレビ",
-    "start_time": "2026-07-05T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 14,
-    "station_id": "tva",
-    "start_time": "2026-07-05T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 14,
-    "station_id": "tx",
-    "start_time": "2026-07-05T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_hanakimi_anime_c1",
-    "title": "花ざかりの君たちへ",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-05T18:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-05T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 85,
-    "station_id": "at-x",
-    "start_time": "2026-07-05T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_yushanokuzu_c1",
-    "title": "勇者のクズ",
-    "ep_num": 24,
-    "station_id": "at-x",
-    "start_time": "2026-07-05T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 1,
-    "station_id": "bs_ntv",
-    "start_time": "2026-07-05T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 13,
-    "station_id": "cbc",
-    "start_time": "2026-07-05T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 13,
-    "station_id": "tbs",
-    "start_time": "2026-07-05T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 13,
-    "station_id": "mbs",
-    "start_time": "2026-07-05T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 13,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-07-05T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202604_yowayowa_anime_c1",
     "title": "よわよわ先生",
     "ep_num": 0,
@@ -136,19 +8,83 @@
     "status": "normal"
   },
   {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 13,
+    "anime_id": "202604_needyoverdose_c1",
+    "title": "NEEDY GIRL OVERDOSE",
+    "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-06T01:00:00+09:00",
+    "start_time": "2026-07-06T07:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
+    "anime_id": "202604_eren_anime_pr_c1",
+    "title": "左ききのエレン",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-06T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanachoro_c1",
+    "title": "カナン様はあくまでチョロい",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-06T14:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_hellmode_anime_c1",
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-06T15:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "ep_num": 1,
+    "station_id": "mx",
+    "start_time": "2026-07-06T19:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_kizokutensei_pr_c1",
+    "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
+    "ep_num": 0,
+    "station_id": "異世界ファンタジー",
+    "start_time": "2026-07-06T19:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 14,
+    "station_id": "abema",
+    "start_time": "2026-07-06T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
     "ep_num": 13,
-    "station_id": "関西テレビ",
-    "start_time": "2026-07-06T01:59:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-07-06T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_wistoria_pr_c1",
+    "title": "杖と剣のウィストリア Season 2",
+    "ep_num": 24,
+    "station_id": "bs_ntv",
+    "start_time": "2026-07-07T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_58820_c1",
+    "title": "淡島百景",
+    "ep_num": 12,
+    "station_id": "東海テレビ",
+    "start_time": "2026-07-07T02:25:00+09:00",
     "status": "normal"
   }
 ]
