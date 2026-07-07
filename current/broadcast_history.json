@@ -360,9 +360,9 @@
         "remarks": null
       },
       "htb北海道テレビ": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-24",
-        "last_updated_at": "2026-06-23",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-08",
+        "last_updated_at": "2026-07-07",
         "remarks": null
       },
       "広島テレビ": {
@@ -1197,8 +1197,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-01",
-        "last_updated_at": "2026-07-01",
+        "last_broadcast_date": "2026-07-07",
+        "last_updated_at": "2026-07-07",
         "remarks": null
       },
       "アニメlive": {
@@ -3788,8 +3788,8 @@
       },
       "アニメlive": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-23",
-        "last_updated_at": "2026-06-23",
+        "last_broadcast_date": "2026-07-07",
+        "last_updated_at": "2026-07-07",
         "remarks": null
       }
     }
@@ -5169,6 +5169,12 @@
         "last_broadcast_date": "2026-06-23",
         "last_updated_at": "2026-06-23",
         "remarks": null
+      },
+      "ラブコメアニメ": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-07-07",
+        "last_updated_at": "2026-07-07",
+        "remarks": null
       }
     }
   },
@@ -5205,15 +5211,15 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 38,
-        "last_broadcast_date": "2026-07-01",
-        "last_updated_at": "2026-06-30",
+        "last_ep_num": 39,
+        "last_broadcast_date": "2026-07-08",
+        "last_updated_at": "2026-07-07",
         "remarks": null
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-03",
-        "last_updated_at": "2026-07-03",
+        "last_broadcast_date": "2026-07-07",
+        "last_updated_at": "2026-07-07",
         "remarks": null
       },
       "youtube": {
@@ -5892,9 +5898,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 12,
-        "last_broadcast_date": "2026-06-30",
-        "last_updated_at": "2026-06-30",
+        "last_ep_num": 13,
+        "last_broadcast_date": "2026-07-07",
+        "last_updated_at": "2026-07-07",
         "remarks": null
       },
       "bs12トゥエルビ": {
