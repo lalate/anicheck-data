@@ -1,74 +1,154 @@
 [
   {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
+    "anime_id": "202601_okiraku_anime_c1",
+    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "ep_num": 0,
+    "station_id": "異世界ファンタジー",
+    "start_time": "2026-07-11T04:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_aishiterugame_c1",
+    "title": "愛してるゲームを終わらせたい",
+    "ep_num": 0,
+    "station_id": "ラブコメアニメ",
+    "start_time": "2026-07-11T13:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 15,
+    "station_id": "nhk-e",
+    "start_time": "2026-07-11T18:25:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 35,
+    "station_id": "animax",
+    "start_time": "2026-07-11T19:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_kanteishi_anime_c1",
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-10T08:00:00+09:00",
+    "start_time": "2026-07-11T19:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 82,
+    "station_id": "animax",
+    "start_time": "2026-07-11T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-07-11T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_akanebanashi_c1",
+    "title": "あかね噺",
+    "ep_num": 8,
+    "station_id": "animax",
+    "start_time": "2026-07-11T20:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202601_shibomeshi_c1",
     "title": "死亡遊戯で飯を食う。",
     "ep_num": 0,
-    "station_id": "深夜アニメ",
-    "start_time": "2026-07-10T14:00:00+09:00",
+    "station_id": "youtube",
+    "start_time": "2026-07-11T21:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-10T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 86,
-    "station_id": "読売テレビ",
-    "start_time": "2026-07-10T23:15:00+09:00",
+    "anime_id": "202604_sangoku_pr_c1",
+    "title": "日本三國",
+    "ep_num": 10,
+    "station_id": "animax",
+    "start_time": "2026-07-11T21:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_ten_sura_anime_c1",
     "title": "転生したらスライムだった件 第4期",
     "ep_num": 86,
-    "station_id": "ntv",
-    "start_time": "2026-07-10T23:15:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 86,
-    "station_id": "中京テレビ",
-    "start_time": "2026-07-10T23:15:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 86,
-    "station_id": "stv札幌テレビ",
-    "start_time": "2026-07-10T23:15:00+09:00",
+    "station_id": "bs11",
+    "start_time": "2026-07-11T22:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
     "ep_num": 14,
-    "station_id": "mx",
-    "start_time": "2026-07-10T23:30:00+09:00",
+    "station_id": "bs_ntv",
+    "start_time": "2026-07-11T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_okiraku_anime_c1",
-    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 14,
+    "station_id": "bs11",
+    "start_time": "2026-07-11T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 14,
+    "station_id": "mx",
+    "start_time": "2026-07-11T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 14,
+    "station_id": "abema",
+    "start_time": "2026-07-12T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 14,
+    "station_id": "mbs",
+    "start_time": "2026-07-12T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_seihantai_c1",
+    "title": "正反対な君と僕",
     "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-07-11T04:00:00+09:00",
+    "station_id": "abema",
+    "start_time": "2026-07-12T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 1,
+    "station_id": "bs11",
+    "start_time": "2026-07-12T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 14,
+    "station_id": "cbc",
+    "start_time": "2026-07-12T02:07:00+09:00",
     "status": "normal"
   }
 ]
