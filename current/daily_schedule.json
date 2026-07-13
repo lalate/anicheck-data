@@ -1,146 +1,66 @@
 [
   {
-    "anime_id": "202601_seihantai_c1",
-    "title": "正反対な君と僕",
+    "anime_id": "202604_58820_c1",
+    "title": "淡島百景",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-12T01:30:00+09:00",
+    "start_time": "2026-07-13T09:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_wistoria_pr_c1",
+    "title": "杖と剣のウィストリア Season 2",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-13T15:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ponsuka_anime_c1",
+    "title": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-13T15:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "ep_num": 2,
+    "station_id": "mx",
+    "start_time": "2026-07-13T19:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-07-13T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 15,
+    "station_id": "abema",
+    "start_time": "2026-07-13T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 14,
+    "station_id": "at-x",
+    "start_time": "2026-07-13T23:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_63376_c1",
     "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-12T07:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 24,
-    "station_id": "tv_asahi",
-    "start_time": "2026-07-12T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 24,
-    "station_id": "メ～テレ",
-    "start_time": "2026-07-12T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 24,
-    "station_id": "abcテレビ",
-    "start_time": "2026-07-12T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 15,
-    "station_id": "tva",
-    "start_time": "2026-07-12T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 15,
-    "station_id": "tx",
-    "start_time": "2026-07-12T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
-    "title": "上伊那ぼたん、酔へる姿は百合の花",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-12T13:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kanokari_anime_c1",
-    "title": "彼女、お借りします 第5期",
-    "ep_num": 0,
-    "station_id": "ラブコメアニメ",
-    "start_time": "2026-07-12T14:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_jisho_akuyakupr_c1",
-    "title": "自称悪役令嬢な婚約者の観察記録。",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-12T14:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-12T19:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 86,
-    "station_id": "at-x",
-    "start_time": "2026-07-12T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 2,
+    "ep_num": 1,
     "station_id": "bs_ntv",
-    "start_time": "2026-07-12T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 14,
-    "station_id": "cbc",
-    "start_time": "2026-07-12T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 14,
-    "station_id": "tbs",
-    "start_time": "2026-07-12T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 14,
-    "station_id": "mbs",
-    "start_time": "2026-07-12T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 14,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-07-12T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
-    "ep_num": 14,
-    "station_id": "関西テレビ",
-    "start_time": "2026-07-13T01:59:00+09:00",
+    "start_time": "2026-07-14T00:30:00+09:00",
     "status": "normal"
   }
 ]
