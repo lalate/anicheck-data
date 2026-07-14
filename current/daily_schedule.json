@@ -1,66 +1,50 @@
 [
   {
-    "anime_id": "202604_58820_c1",
-    "title": "淡島百景",
+    "anime_id": "202601_animekunon_c1",
+    "title": "魔術師クノンは見えている",
+    "ep_num": 0,
+    "station_id": "アニメlive",
+    "start_time": "2026-07-14T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_lastame_pr_c1",
+    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-13T09:00:00+09:00",
+    "start_time": "2026-07-14T09:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_wistoria_pr_c1",
-    "title": "杖と剣のウィストリア Season 2",
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-13T15:00:00+09:00",
+    "start_time": "2026-07-14T15:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_ponsuka_anime_c1",
-    "title": "ポンコツ風紀委員とスカート丈が不適切なJKの話",
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 14,
+    "station_id": "at-x",
+    "start_time": "2026-07-14T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202610osusino_c3",
+    "title": "【推しの子】第3期",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-13T15:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
-    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
-    "ep_num": 2,
-    "station_id": "mx",
-    "start_time": "2026-07-13T19:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_niwatorifighte1_c1",
-    "title": "ニワトリ・ファイター",
-    "ep_num": 0,
-    "station_id": "深夜アニメ",
-    "start_time": "2026-07-13T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
-    "title": "魔入りました！入間くん 第4シリーズ",
-    "ep_num": 15,
-    "station_id": "abema",
-    "start_time": "2026-07-13T21:00:00+09:00",
+    "start_time": "2026-07-14T22:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_yominotsugai_c1",
     "title": "黄泉のツガイ",
     "ep_num": 14,
-    "station_id": "at-x",
-    "start_time": "2026-07-13T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63376_c1",
-    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
-    "ep_num": 1,
-    "station_id": "bs_ntv",
-    "start_time": "2026-07-14T00:30:00+09:00",
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-07-15T01:55:00+09:00",
     "status": "normal"
   }
 ]
