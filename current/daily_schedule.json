@@ -1,85 +1,5 @@
 [
   {
-    "anime_id": "202604_snowballearth_o_c1",
-    "title": "スノウボールアース",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-17T05:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-17T07:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_4seasons_anime_c1",
-    "title": "春夏秋冬代行者 春の舞",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-17T12:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_tongari_anime_c1",
-    "title": "とんがり帽子のアトリエ",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-17T14:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_shibomeshi_c1",
-    "title": "死亡遊戯で飯を食う。",
-    "ep_num": 0,
-    "station_id": "深夜アニメ",
-    "start_time": "2026-07-17T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
-    "ep_num": 15,
-    "station_id": "mx",
-    "start_time": "2026-07-17T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 87,
-    "station_id": "読売テレビ",
-    "start_time": "2026-07-17T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 87,
-    "station_id": "ntv",
-    "start_time": "2026-07-17T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 87,
-    "station_id": "中京テレビ",
-    "start_time": "2026-07-17T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 87,
-    "station_id": "stv札幌テレビ",
-    "start_time": "2026-07-17T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202601_KayaChanIsnTScary_c1",
     "title": "カヤちゃんはコワくない",
     "ep_num": 0,
@@ -93,6 +13,150 @@
     "ep_num": 0,
     "station_id": "異世界ファンタジー",
     "start_time": "2026-07-18T04:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_ddac_wm_c1",
+    "title": "デッドアカウント",
+    "ep_num": 0,
+    "station_id": "アニメlive",
+    "start_time": "2026-07-18T08:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_lovetoeat_maid_c1",
+    "title": "メイドさんは食べるだけ",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-18T15:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 16,
+    "station_id": "nhk-e",
+    "start_time": "2026-07-18T18:25:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_drstone_c1",
+    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
+    "ep_num": 36,
+    "station_id": "animax",
+    "start_time": "2026-07-18T19:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 83,
+    "station_id": "animax",
+    "start_time": "2026-07-18T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_akanebanashi_c1",
+    "title": "あかね噺",
+    "ep_num": 9,
+    "station_id": "animax",
+    "start_time": "2026-07-18T20:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_jisho_akuyakupr_c1",
+    "title": "自称悪役令嬢な婚約者の観察記録。",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-18T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_sangoku_pr_c1",
+    "title": "日本三國",
+    "ep_num": 11,
+    "station_id": "animax",
+    "start_time": "2026-07-18T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 87,
+    "station_id": "bs11",
+    "start_time": "2026-07-18T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_dropsgod_c1",
+    "title": "神の雫",
+    "ep_num": 15,
+    "station_id": "bs_ntv",
+    "start_time": "2026-07-18T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 15,
+    "station_id": "bs11",
+    "start_time": "2026-07-18T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 15,
+    "station_id": "mx",
+    "start_time": "2026-07-18T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62048_c1",
+    "title": "MAO",
+    "ep_num": 0,
+    "station_id": "nhk",
+    "start_time": "2026-07-18T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 15,
+    "station_id": "abema",
+    "start_time": "2026-07-19T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 2,
+    "station_id": "bs11",
+    "start_time": "2026-07-19T01:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 15,
+    "station_id": "mbs",
+    "start_time": "2026-07-19T02:08:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 15,
+    "station_id": "cbc",
+    "start_time": "2026-07-19T02:43:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-19T04:10:00+09:00",
     "status": "normal"
   }
 ]
