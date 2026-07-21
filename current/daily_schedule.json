@@ -1,58 +1,26 @@
 [
   {
-    "anime_id": "202601_slave2_c1",
-    "title": "魔都精兵のスレイブ2",
+    "anime_id": "202604_jisho_akuyakupr_c1",
+    "title": "自称悪役令嬢な婚約者の観察記録。",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-20T14:00:00+09:00",
+    "start_time": "2026-07-21T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
-    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-07-20T18:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_himesama2_c1",
-    "title": "姫様“拷問”の時間です 第2期",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-20T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_snowballearth_o_c1",
-    "title": "スノウボールアース",
-    "ep_num": 0,
-    "station_id": "深夜アニメ",
-    "start_time": "2026-07-20T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
-    "title": "魔入りました！入間くん 第4シリーズ",
-    "ep_num": 16,
-    "station_id": "abema",
-    "start_time": "2026-07-20T21:00:00+09:00",
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 15,
+    "station_id": "at-x",
+    "start_time": "2026-07-21T20:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_yominotsugai_c1",
     "title": "黄泉のツガイ",
     "ep_num": 15,
-    "station_id": "at-x",
-    "start_time": "2026-07-20T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63376_c1",
-    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
-    "ep_num": 2,
-    "station_id": "bs_ntv",
-    "start_time": "2026-07-21T00:30:00+09:00",
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-07-22T01:55:00+09:00",
     "status": "normal"
   }
 ]
