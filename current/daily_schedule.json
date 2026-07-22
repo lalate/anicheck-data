@@ -1,26 +1,82 @@
 [
   {
-    "anime_id": "202604_jisho_akuyakupr_c1",
-    "title": "自称悪役令嬢な婚約者の観察記録。",
+    "anime_id": "202604_kanteishi_anime_c1",
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-21T20:00:00+09:00",
+    "start_time": "2026-07-22T07:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 15,
+    "anime_id": "202601_KayaChanIsnTScary_c1",
+    "title": "カヤちゃんはコワくない",
+    "ep_num": 0,
+    "station_id": "アニメlive",
+    "start_time": "2026-07-22T09:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_officialhitsuji_c1",
+    "title": "夜桜さんちの大作戦 第2期",
+    "ep_num": 30,
     "station_id": "at-x",
-    "start_time": "2026-07-21T20:00:00+09:00",
+    "start_time": "2026-07-22T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 15,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-07-22T01:55:00+09:00",
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "mx",
+    "start_time": "2026-07-22T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "サンテレビジョン",
+    "start_time": "2026-07-23T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "bs11",
+    "start_time": "2026-07-23T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "kbs京都",
+    "start_time": "2026-07-23T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "中国放送",
+    "start_time": "2026-07-23T01:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "tva",
+    "start_time": "2026-07-23T02:05:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 75,
+    "station_id": "tvh",
+    "start_time": "2026-07-23T02:15:00+09:00",
     "status": "normal"
   }
 ]
