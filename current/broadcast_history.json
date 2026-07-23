@@ -366,15 +366,15 @@
         "remarks": null
       },
       "広島テレビ": {
-        "last_ep_num": 14,
-        "last_broadcast_date": "2026-07-17",
-        "last_updated_at": "2026-07-16",
+        "last_ep_num": 15,
+        "last_broadcast_date": "2026-07-24",
+        "last_updated_at": "2026-07-23",
         "remarks": null
       },
       "テレビ山口": {
-        "last_ep_num": 14,
-        "last_broadcast_date": "2026-07-17",
-        "last_updated_at": "2026-07-16",
+        "last_ep_num": 15,
+        "last_broadcast_date": "2026-07-24",
+        "last_updated_at": "2026-07-23",
         "remarks": null
       },
       "abema": {
@@ -520,9 +520,9 @@
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 13,
-        "last_broadcast_date": "2026-07-17",
-        "last_updated_at": "2026-07-16",
+        "last_ep_num": 14,
+        "last_broadcast_date": "2026-07-24",
+        "last_updated_at": "2026-07-23",
         "remarks": null
       },
       "abema": {
@@ -5946,9 +5946,9 @@
         "remarks": null
       },
       "bs12トゥエルビ": {
-        "last_ep_num": 14,
-        "last_broadcast_date": "2026-07-17",
-        "last_updated_at": "2026-07-16",
+        "last_ep_num": 15,
+        "last_broadcast_date": "2026-07-24",
+        "last_updated_at": "2026-07-23",
         "remarks": null
       },
       "abema": {
@@ -5983,6 +5983,12 @@
         "last_ep_num": 0,
         "last_broadcast_date": "2026-07-08",
         "last_updated_at": "2026-07-08",
+        "remarks": null
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-07-23",
+        "last_updated_at": "2026-07-23",
         "remarks": null
       }
     }
