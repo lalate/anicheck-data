@@ -1,154 +1,122 @@
 [
   {
-    "anime_id": "202601_slave2_c1",
-    "title": "魔都精兵のスレイブ2",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-25T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-25T02:15:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-25T04:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
-    "title": "魔入りました！入間くん 第4シリーズ",
-    "ep_num": 17,
-    "station_id": "nhk-e",
-    "start_time": "2026-07-25T18:25:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_drstone_c1",
-    "title": "Dr.STONE SCIENCE FUTURE 第3クール",
-    "ep_num": 37,
-    "station_id": "animax",
-    "start_time": "2026-07-25T19:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 84,
-    "station_id": "animax",
-    "start_time": "2026-07-25T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_aishiterugame_c1",
-    "title": "愛してるゲームを終わらせたい",
-    "ep_num": 0,
-    "station_id": "ラブコメアニメ",
-    "start_time": "2026-07-25T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_lastame_pr_c1",
-    "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-07-25T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202604_akanebanashi_c1",
     "title": "あかね噺",
-    "ep_num": 10,
-    "station_id": "animax",
-    "start_time": "2026-07-25T20:30:00+09:00",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-26T04:05:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_sangoku_pr_c1",
-    "title": "日本三國",
-    "ep_num": 12,
-    "station_id": "animax",
-    "start_time": "2026-07-25T21:00:00+09:00",
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 26,
+    "station_id": "tv_asahi",
+    "start_time": "2026-07-26T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 26,
+    "station_id": "メ～テレ",
+    "start_time": "2026-07-26T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 26,
+    "station_id": "abcテレビ",
+    "start_time": "2026-07-26T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63352_c1",
+    "title": "おねがいアイプリ",
+    "ep_num": 17,
+    "station_id": "tva",
+    "start_time": "2026-07-26T09:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63352_c1",
+    "title": "おねがいアイプリ",
+    "ep_num": 17,
+    "station_id": "tx",
+    "start_time": "2026-07-26T09:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yowayowa_anime_c1",
+    "title": "よわよわ先生",
+    "ep_num": 0,
+    "station_id": "ラブコメアニメ",
+    "start_time": "2026-07-26T20:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_ten_sura_anime_c1",
     "title": "転生したらスライムだった件 第4期",
     "ep_num": 88,
+    "station_id": "at-x",
+    "start_time": "2026-07-26T21:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_eren_anime_pr_c1",
+    "title": "左ききのエレン",
+    "ep_num": 4,
+    "station_id": "bs_ntv",
+    "start_time": "2026-07-26T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 16,
+    "station_id": "cbc",
+    "start_time": "2026-07-26T23:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 16,
+    "station_id": "tbs",
+    "start_time": "2026-07-26T23:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 16,
+    "station_id": "mbs",
+    "start_time": "2026-07-26T23:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 16,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-07-26T23:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 3,
     "station_id": "bs11",
-    "start_time": "2026-07-25T22:00:00+09:00",
+    "start_time": "2026-07-27T00:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
     "ep_num": 16,
-    "station_id": "bs_ntv",
-    "start_time": "2026-07-25T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "bs11",
-    "start_time": "2026-07-25T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "mx",
-    "start_time": "2026-07-25T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_62048_c1",
-    "title": "MAO",
-    "ep_num": 17,
-    "station_id": "nhk",
-    "start_time": "2026-07-25T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "abema",
-    "start_time": "2026-07-26T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "mbs",
-    "start_time": "2026-07-26T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "cbc",
-    "start_time": "2026-07-26T02:07:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-26T04:05:00+09:00",
+    "station_id": "関西テレビ",
+    "start_time": "2026-07-27T01:54:00+09:00",
     "status": "normal"
   }
 ]
