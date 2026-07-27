@@ -354,9 +354,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 15,
-        "last_broadcast_date": "2026-07-20",
-        "last_updated_at": "2026-07-20",
+        "last_ep_num": 16,
+        "last_broadcast_date": "2026-07-27",
+        "last_updated_at": "2026-07-27",
         "remarks": null
       },
       "htb北海道テレビ": {
@@ -1109,6 +1109,12 @@
         "last_ep_num": 0,
         "last_broadcast_date": "2026-06-17",
         "last_updated_at": "2026-06-17",
+        "remarks": null
+      },
+      "アニメlive2": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-07-27",
+        "last_updated_at": "2026-07-27",
         "remarks": null
       }
     }
@@ -3630,8 +3636,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-04-16",
-        "last_updated_at": "2026-04-16",
+        "last_broadcast_date": "2026-07-27",
+        "last_updated_at": "2026-07-27",
         "remarks": null
       },
       "mx": {
@@ -4989,9 +4995,9 @@
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-20",
-        "last_updated_at": "2026-07-20",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-07-27",
+        "last_updated_at": "2026-07-27",
         "remarks": null
       }
     }

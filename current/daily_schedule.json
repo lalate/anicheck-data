@@ -1,122 +1,66 @@
 [
   {
+    "anime_id": "202601_okiraku_anime_c1",
+    "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-27T06:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_himekishi_anime_c1",
+    "title": "姫騎士は蛮族の嫁",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-07-27T14:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "ep_num": 3,
+    "station_id": "mx",
+    "start_time": "2026-07-27T19:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_adventurer29_c1",
+    "title": "29歳独身中堅冒険者の日常",
+    "ep_num": 0,
+    "station_id": "アニメlive2",
+    "start_time": "2026-07-27T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 17,
+    "station_id": "abema",
+    "start_time": "2026-07-27T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 16,
+    "station_id": "at-x",
+    "start_time": "2026-07-27T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
     "anime_id": "202604_akanebanashi_c1",
     "title": "あかね噺",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-26T04:05:00+09:00",
+    "start_time": "2026-07-28T00:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 26,
-    "station_id": "tv_asahi",
-    "start_time": "2026-07-26T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 26,
-    "station_id": "メ～テレ",
-    "start_time": "2026-07-26T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 26,
-    "station_id": "abcテレビ",
-    "start_time": "2026-07-26T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 17,
-    "station_id": "tva",
-    "start_time": "2026-07-26T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 17,
-    "station_id": "tx",
-    "start_time": "2026-07-26T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yowayowa_anime_c1",
-    "title": "よわよわ先生",
-    "ep_num": 0,
-    "station_id": "ラブコメアニメ",
-    "start_time": "2026-07-26T20:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 88,
-    "station_id": "at-x",
-    "start_time": "2026-07-26T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 4,
-    "station_id": "bs_ntv",
-    "start_time": "2026-07-26T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 16,
-    "station_id": "cbc",
-    "start_time": "2026-07-26T23:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 16,
-    "station_id": "tbs",
-    "start_time": "2026-07-26T23:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 16,
-    "station_id": "mbs",
-    "start_time": "2026-07-26T23:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 16,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-07-26T23:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_haibara_anime_c1",
-    "title": "灰原くんの強くて青春ニューゲーム",
+    "anime_id": "202604_63376_c1",
+    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
     "ep_num": 3,
-    "station_id": "bs11",
-    "start_time": "2026-07-27T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
-    "ep_num": 16,
-    "station_id": "関西テレビ",
-    "start_time": "2026-07-27T01:54:00+09:00",
+    "station_id": "bs_ntv",
+    "start_time": "2026-07-28T00:30:00+09:00",
     "status": "normal"
   }
 ]
