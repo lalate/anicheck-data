@@ -1,42 +1,90 @@
 [
   {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
+    "anime_id": "202601_jingaikyoshitsu_c1",
+    "title": "人外教室の人間嫌い教師",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-28T00:30:00+09:00",
+    "start_time": "2026-07-29T13:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_63106_c1",
-    "title": "ほっぺちゃん ～サン王国と黒ほっぺ団の秘密～",
+    "anime_id": "202604_kanachoro_c1",
+    "title": "カナン様はあくまでチョロい",
     "ep_num": 0,
-    "station_id": "アニメlive3",
-    "start_time": "2026-07-28T11:00:00+09:00",
+    "station_id": "日常青春アニメ",
+    "start_time": "2026-07-29T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 16,
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
     "station_id": "at-x",
-    "start_time": "2026-07-28T20:00:00+09:00",
+    "start_time": "2026-07-29T22:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_iseshachi_c1",
-    "title": "異世界の沙汰は社畜次第",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-28T20:30:00+09:00",
+    "anime_id": "202604_officialhitsuji_c1",
+    "title": "夜桜さんちの大作戦 第2期",
+    "ep_num": 31,
+    "station_id": "at-x",
+    "start_time": "2026-07-29T22:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "htb北海道テレビ",
-    "start_time": "2026-07-29T02:15:00+09:00",
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "mx",
+    "start_time": "2026-07-29T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "サンテレビジョン",
+    "start_time": "2026-07-30T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "bs11",
+    "start_time": "2026-07-30T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "kbs京都",
+    "start_time": "2026-07-30T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "中国放送",
+    "start_time": "2026-07-30T01:55:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "tva",
+    "start_time": "2026-07-30T02:05:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
+    "ep_num": 76,
+    "station_id": "tvh",
+    "start_time": "2026-07-30T02:15:00+09:00",
     "status": "normal"
   }
 ]
