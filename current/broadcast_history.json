@@ -485,7 +485,7 @@
   },
   "202604_dropsgod_c1": {
     "title": "神の雫",
-    "overall_latest_ep": 16,
+    "overall_latest_ep": 17,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -514,9 +514,9 @@
         "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
       },
       "mx": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-07-31",
+        "last_updated_at": "2026-07-31",
         "remarks": null
       },
       "bs_ntv": {
@@ -3326,8 +3326,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-30",
-        "last_updated_at": "2026-06-30",
+        "last_broadcast_date": "2026-07-31",
+        "last_updated_at": "2026-07-31",
         "remarks": null
       }
     }
@@ -3903,8 +3903,8 @@
     "platforms": {
       "異世界ファンタジー": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-20",
-        "last_updated_at": "2026-07-20",
+        "last_broadcast_date": "2026-07-31",
+        "last_updated_at": "2026-07-31",
         "remarks": null
       },
       "abema": {
@@ -5324,8 +5324,8 @@
       },
       "ラブコメアニメ": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-12",
-        "last_updated_at": "2026-07-12",
+        "last_broadcast_date": "2026-07-31",
+        "last_updated_at": "2026-07-31",
         "remarks": null
       }
     }
@@ -5566,8 +5566,8 @@
       },
       "深夜アニメ": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-13",
-        "last_updated_at": "2026-07-13",
+        "last_broadcast_date": "2026-07-31",
+        "last_updated_at": "2026-07-31",
         "remarks": null
       }
     }
@@ -6065,6 +6065,12 @@
         "last_ep_num": 0,
         "last_broadcast_date": "2026-07-14",
         "last_updated_at": "2026-07-14",
+        "remarks": null
+      },
+      "日常青春アニメ": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-07-31",
+        "last_updated_at": "2026-07-31",
         "remarks": null
       }
     }

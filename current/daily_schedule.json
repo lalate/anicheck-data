@@ -1,58 +1,50 @@
 [
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
+    "anime_id": "202601_yushakei_pj_c1",
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-07-30T13:00:00+09:00",
+    "start_time": "2026-07-31T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_nigetsuri_anime_c1",
-    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "ep_num": 2,
-    "station_id": "at-x",
-    "start_time": "2026-07-30T20:00:00+09:00",
+    "anime_id": "202604_kanokari_anime_c1",
+    "title": "彼女、お借りします 第5期",
+    "ep_num": 0,
+    "station_id": "ラブコメアニメ",
+    "start_time": "2026-07-31T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_62048_c1",
-    "title": "MAO",
-    "ep_num": 17,
-    "station_id": "アニメlive",
-    "start_time": "2026-07-31T00:00:00+09:00",
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-07-31T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 0,
+    "station_id": "日常青春アニメ",
+    "start_time": "2026-07-31T20:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
-    "ep_num": 15,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-07-31T00:56:00+09:00",
+    "ep_num": 17,
+    "station_id": "mx",
+    "start_time": "2026-07-31T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "広島テレビ",
-    "start_time": "2026-07-31T01:29:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 16,
-    "station_id": "テレビ山口",
-    "start_time": "2026-07-31T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 16,
-    "station_id": "bs12トゥエルビ",
-    "start_time": "2026-07-31T02:00:00+09:00",
+    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
+    "ep_num": 0,
+    "station_id": "異世界ファンタジー",
+    "start_time": "2026-07-31T23:30:00+09:00",
     "status": "normal"
   }
 ]
