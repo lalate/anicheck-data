@@ -1,50 +1,130 @@
 [
   {
-    "anime_id": "202601_yushakei_pj_c1",
-    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
     "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-07-31T20:00:00+09:00",
+    "station_id": "異世界ファンタジー",
+    "start_time": "2026-07-31T23:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_kanokari_anime_c1",
-    "title": "彼女、お借りします 第5期",
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 18,
+    "station_id": "nhk-e",
+    "start_time": "2026-08-01T18:25:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 85,
+    "station_id": "animax",
+    "start_time": "2026-08-01T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_2ndinclass_c1",
+    "title": "クラスで２番目に可愛い女の子と友だちになった",
     "ep_num": 0,
     "station_id": "ラブコメアニメ",
-    "start_time": "2026-07-31T20:00:00+09:00",
+    "start_time": "2026-08-01T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_niwatorifighte1_c1",
-    "title": "ニワトリ・ファイター",
-    "ep_num": 0,
-    "station_id": "深夜アニメ",
-    "start_time": "2026-07-31T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_haibara_anime_c1",
-    "title": "灰原くんの強くて青春ニューゲーム",
+    "anime_id": "202604_otagal_official_c1",
+    "title": "オタクに優しいギャルはいない!?",
     "ep_num": 0,
     "station_id": "日常青春アニメ",
-    "start_time": "2026-07-31T20:00:00+09:00",
+    "start_time": "2026-08-01T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_snowballearth_o_c1",
+    "title": "スノウボールアース",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-08-01T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_akanebanashi_c1",
+    "title": "あかね噺",
+    "ep_num": 11,
+    "station_id": "animax",
+    "start_time": "2026-08-01T20:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 0,
+    "station_id": "bs11",
+    "start_time": "2026-08-01T22:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
     "ep_num": 17,
-    "station_id": "mx",
-    "start_time": "2026-07-31T23:30:00+09:00",
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-01T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_IGotACheatSkillInAnotherWorldAndBecameUnrivaledInTheRealWorldTooRealWorld_c1",
-    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
+    "anime_id": "202601_hellmode_anime_c1",
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
     "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-07-31T23:30:00+09:00",
+    "station_id": "abema",
+    "start_time": "2026-08-01T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 17,
+    "station_id": "bs11",
+    "start_time": "2026-08-01T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 17,
+    "station_id": "mx",
+    "start_time": "2026-08-01T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62048_c1",
+    "title": "MAO",
+    "ep_num": 18,
+    "station_id": "nhk",
+    "start_time": "2026-08-01T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 17,
+    "station_id": "abema",
+    "start_time": "2026-08-02T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 17,
+    "station_id": "mbs",
+    "start_time": "2026-08-02T01:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 17,
+    "station_id": "cbc",
+    "start_time": "2026-08-02T02:07:00+09:00",
     "status": "normal"
   }
 ]

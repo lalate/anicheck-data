@@ -327,30 +327,30 @@
   },
   "202604_yominotsugai_c1": {
     "title": "黄泉のツガイ",
-    "overall_latest_ep": 16,
+    "overall_latest_ep": 17,
     "platforms": {
       "mx": {
-        "last_ep_num": 16,
+        "last_ep_num": 17,
         "remarks": "土曜日 23:30（4月4日開始）",
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25"
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01"
       },
       "bs11": {
-        "last_ep_num": 16,
+        "last_ep_num": 17,
         "remarks": "土曜日 23:30（4月4日開始）",
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25"
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01"
       },
       "mbs": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-26",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-08-02",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-26",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-08-02",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "at-x": {
@@ -378,9 +378,9 @@
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-26",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-08-02",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "youtube": {
@@ -520,9 +520,9 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "hbc北海道放送": {
@@ -776,9 +776,9 @@
         "remarks": null
       },
       "animax": {
-        "last_ep_num": 10,
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 11,
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       }
     }
@@ -2688,16 +2688,16 @@
   },
   "202604_62048_c1": {
     "title": "MAO",
-    "overall_latest_ep": 17,
+    "overall_latest_ep": 18,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 23:45 (JST)"
       },
       "nhk": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "abema": {
@@ -3705,8 +3705,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "bs-ntv": {
@@ -3904,7 +3904,7 @@
       "異世界ファンタジー": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-07-31",
-        "last_updated_at": "2026-07-31",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "abema": {
@@ -4843,9 +4843,9 @@
         "remarks": null
       },
       "animax": {
-        "last_ep_num": 84,
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 85,
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "abema": {
@@ -4994,16 +4994,16 @@
   },
   "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1": {
     "title": "魔入りました！入間くん 第4シリーズ",
-    "overall_latest_ep": 17,
+    "overall_latest_ep": 18,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 18:15 (JST)"
       },
       "nhk-e": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-07-25",
-        "last_updated_at": "2026-07-25",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       },
       "abema": {
@@ -5208,8 +5208,8 @@
       },
       "ラブコメアニメ": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-07",
-        "last_updated_at": "2026-07-07",
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       }
     }
@@ -5620,6 +5620,12 @@
         "last_ep_num": 0,
         "last_broadcast_date": "2026-07-19",
         "last_updated_at": "2026-07-19",
+        "remarks": null
+      },
+      "日常青春アニメ": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       }
     }
@@ -6649,8 +6655,8 @@
       },
       "深夜アニメ": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-20",
-        "last_updated_at": "2026-07-20",
+        "last_broadcast_date": "2026-08-01",
+        "last_updated_at": "2026-08-01",
         "remarks": null
       }
     }
