@@ -360,9 +360,9 @@
         "remarks": null
       },
       "htb北海道テレビ": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-29",
-        "last_updated_at": "2026-07-28",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-08-05",
+        "last_updated_at": "2026-08-04",
         "remarks": null
       },
       "広島テレビ": {
@@ -3633,7 +3633,7 @@
       "異世界ファンタジー": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-08-04",
-        "last_updated_at": "2026-08-03",
+        "last_updated_at": "2026-08-04",
         "remarks": null
       },
       "アニメlive": {
@@ -4923,6 +4923,12 @@
         "last_broadcast_date": "2026-06-30",
         "last_updated_at": "2026-06-29",
         "remarks": null
+      },
+      "異世界ファンタジー": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-08-04",
+        "last_updated_at": "2026-08-04",
+        "remarks": null
       }
     }
   },
@@ -4983,7 +4989,7 @@
       "abema": {
         "last_ep_num": 0,
         "last_broadcast_date": "2026-08-04",
-        "last_updated_at": "2026-08-03",
+        "last_updated_at": "2026-08-04",
         "remarks": null
       }
     }
@@ -5988,9 +5994,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 16,
-        "last_broadcast_date": "2026-07-28",
-        "last_updated_at": "2026-07-28",
+        "last_ep_num": 17,
+        "last_broadcast_date": "2026-08-04",
+        "last_updated_at": "2026-08-04",
         "remarks": null
       },
       "bs12トゥエルビ": {
