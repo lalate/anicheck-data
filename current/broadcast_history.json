@@ -491,7 +491,7 @@
   },
   "202604_dropsgod_c1": {
     "title": "神の雫",
-    "overall_latest_ep": 17,
+    "overall_latest_ep": 18,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -520,9 +520,9 @@
         "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
       },
       "mx": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-07-31",
-        "last_updated_at": "2026-07-31",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-07",
+        "last_updated_at": "2026-08-07",
         "remarks": null
       },
       "bs_ntv": {
@@ -867,8 +867,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-16",
-        "last_updated_at": "2026-07-16",
+        "last_broadcast_date": "2026-08-08",
+        "last_updated_at": "2026-08-07",
         "remarks": null
       }
     }
@@ -4399,6 +4399,12 @@
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 21:55 (JST)"
+      },
+      "at-x": {
+        "last_ep_num": 1,
+        "last_broadcast_date": "2026-08-07",
+        "last_updated_at": "2026-08-07",
+        "remarks": null
       }
     }
   },
@@ -4806,34 +4812,34 @@
   },
   "202604_ten_sura_anime_c1": {
     "title": "転生したらスライムだった件 第4期",
-    "overall_latest_ep": 88,
+    "overall_latest_ep": 89,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 23:00 (JST)"
       },
       "ntv": {
-        "last_ep_num": 88,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_ep_num": 89,
+        "last_broadcast_date": "2026-08-07",
+        "last_updated_at": "2026-08-07",
         "remarks": null
       },
       "中京テレビ": {
-        "last_ep_num": 88,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_ep_num": 89,
+        "last_broadcast_date": "2026-08-07",
+        "last_updated_at": "2026-08-07",
         "remarks": null
       },
       "読売テレビ": {
-        "last_ep_num": 88,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_ep_num": 89,
+        "last_broadcast_date": "2026-08-07",
+        "last_updated_at": "2026-08-07",
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 88,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_ep_num": 89,
+        "last_broadcast_date": "2026-08-07",
+        "last_updated_at": "2026-08-07",
         "remarks": null
       },
       "bs11": {

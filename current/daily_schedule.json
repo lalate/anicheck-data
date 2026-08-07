@@ -1,74 +1,66 @@
 [
   {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-08-06T08:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_himekishi_anime_c1",
-    "title": "姫騎士は蛮族の嫁",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-06T14:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_nigetsuri_anime_c1",
-    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
-    "ep_num": 3,
-    "station_id": "at-x",
-    "start_time": "2026-08-06T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_62048_c1",
-    "title": "MAO",
-    "ep_num": 18,
-    "station_id": "アニメlive",
-    "start_time": "2026-08-07T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
-    "ep_num": 16,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-08-07T00:56:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 17,
-    "station_id": "広島テレビ",
-    "start_time": "2026-08-07T01:29:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 17,
-    "station_id": "テレビ山口",
-    "start_time": "2026-08-07T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 17,
-    "station_id": "bs12トゥエルビ",
-    "start_time": "2026-08-07T02:00:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202604_yominotsugai_c1",
     "title": "黄泉のツガイ",
     "ep_num": 0,
     "station_id": "abema",
     "start_time": "2026-08-07T04:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_baloon_project_c1",
+    "title": "最推しの義兄を愛でるため、長生きします!",
+    "ep_num": 1,
+    "station_id": "at-x",
+    "start_time": "2026-08-07T20:16:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 89,
+    "station_id": "stv札幌テレビ",
+    "start_time": "2026-08-07T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 89,
+    "station_id": "読売テレビ",
+    "start_time": "2026-08-07T23:05:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 89,
+    "station_id": "ntv",
+    "start_time": "2026-08-07T23:05:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 89,
+    "station_id": "中京テレビ",
+    "start_time": "2026-08-07T23:05:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_dropsgod_c1",
+    "title": "神の雫",
+    "ep_num": 18,
+    "station_id": "mx",
+    "start_time": "2026-08-07T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_jujutsushimetsu_c1",
+    "title": "呪術廻戦 死滅回游 前編",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-08-08T03:30:00+09:00",
     "status": "normal"
   }
 ]
