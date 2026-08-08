@@ -1,66 +1,98 @@
 [
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
+    "anime_id": "202601_jujutsushimetsu_c1",
+    "title": "呪術廻戦 死滅回游 前編",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-08-07T04:00:00+09:00",
+    "start_time": "2026-08-08T03:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_baloon_project_c1",
-    "title": "最推しの義兄を愛でるため、長生きします!",
-    "ep_num": 1,
-    "station_id": "at-x",
-    "start_time": "2026-08-07T20:16:00+09:00",
+    "anime_id": "202604_62048_c1",
+    "title": "MAO",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-08-08T14:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 86,
+    "station_id": "animax",
+    "start_time": "2026-08-08T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_akanebanashi_c1",
+    "title": "あかね噺",
+    "ep_num": 12,
+    "station_id": "animax",
+    "start_time": "2026-08-08T20:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_ten_sura_anime_c1",
     "title": "転生したらスライムだった件 第4期",
     "ep_num": 89,
-    "station_id": "stv札幌テレビ",
-    "start_time": "2026-08-07T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 89,
-    "station_id": "読売テレビ",
-    "start_time": "2026-08-07T23:05:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 89,
-    "station_id": "ntv",
-    "start_time": "2026-08-07T23:05:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 89,
-    "station_id": "中京テレビ",
-    "start_time": "2026-08-07T23:05:00+09:00",
+    "station_id": "bs11",
+    "start_time": "2026-08-08T22:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
     "ep_num": 18,
-    "station_id": "mx",
-    "start_time": "2026-08-07T23:30:00+09:00",
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-08T23:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_jujutsushimetsu_c1",
-    "title": "呪術廻戦 死滅回游 前編",
-    "ep_num": 0,
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 18,
+    "station_id": "bs11",
+    "start_time": "2026-08-08T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 18,
+    "station_id": "mx",
+    "start_time": "2026-08-08T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62048_c1",
+    "title": "MAO",
+    "ep_num": 19,
+    "station_id": "nhk",
+    "start_time": "2026-08-08T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 18,
     "station_id": "abema",
-    "start_time": "2026-08-08T03:30:00+09:00",
+    "start_time": "2026-08-09T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 18,
+    "station_id": "mbs",
+    "start_time": "2026-08-09T02:08:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 18,
+    "station_id": "cbc",
+    "start_time": "2026-08-09T02:57:00+09:00",
     "status": "normal"
   }
 ]
