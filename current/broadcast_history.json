@@ -27,8 +27,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-16",
-        "last_updated_at": "2026-07-16",
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       }
     }
@@ -502,10 +502,10 @@
         "remarks": "4月11日(土) 23:00開始予定"
       },
       "関西テレビ": {
-        "last_ep_num": 17,
+        "last_ep_num": 18,
         "remarks": "4月12日(日) 25:54開始予定",
-        "last_broadcast_date": "2026-08-03",
-        "last_updated_at": "2026-08-02"
+        "last_broadcast_date": "2026-08-10",
+        "last_updated_at": "2026-08-09"
       },
       "Anime Times": {
         "last_ep_num": 0,
@@ -3166,22 +3166,22 @@
   },
   "202604_63352_c1": {
     "title": "おねがいアイプリ",
-    "overall_latest_ep": 18,
+    "overall_latest_ep": 19,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 09:30 (JST)"
       },
       "tva": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "tx": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       }
     }
@@ -3750,8 +3750,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-16",
-        "last_updated_at": "2026-07-16",
+        "last_broadcast_date": "2026-08-10",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       }
     }
@@ -4420,28 +4420,34 @@
   },
   "202601_StarDetectivePrecure_c1": {
     "title": "名探偵プリキュア！",
-    "overall_latest_ep": 27,
+    "overall_latest_ep": 28,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 08:30 (JST)"
       },
       "tv_asahi": {
-        "last_ep_num": 27,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 28,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "メ～テレ": {
-        "last_ep_num": 27,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 28,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "abcテレビ": {
-        "last_ep_num": 27,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 28,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
+        "remarks": null
+      },
+      "mx": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       }
     }
@@ -4849,9 +4855,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 88,
-        "last_broadcast_date": "2026-07-26",
-        "last_updated_at": "2026-07-26",
+        "last_ep_num": 89,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "animax": {
@@ -5910,8 +5916,8 @@
       },
       "日常青春アニメ": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-24",
-        "last_updated_at": "2026-07-24",
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       }
     }
@@ -5969,34 +5975,34 @@
   },
   "202604_witch_classroom_c1": {
     "title": "黒猫と魔女の教室",
-    "overall_latest_ep": 17,
+    "overall_latest_ep": 18,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Sundays at 23:30 (JST)"
       },
       "tbs": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "mbs": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       },
       "at-x": {
@@ -6378,9 +6384,9 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 5,
-        "last_broadcast_date": "2026-08-02",
-        "last_updated_at": "2026-08-02",
+        "last_ep_num": 6,
+        "last_broadcast_date": "2026-08-09",
+        "last_updated_at": "2026-08-09",
         "remarks": null
       }
     }
