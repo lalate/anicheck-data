@@ -1,125 +1,5 @@
 [
   {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 28,
-    "station_id": "メ～テレ",
-    "start_time": "2026-08-09T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 28,
-    "station_id": "tv_asahi",
-    "start_time": "2026-08-09T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 28,
-    "station_id": "abcテレビ",
-    "start_time": "2026-08-09T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 19,
-    "station_id": "tva",
-    "start_time": "2026-08-09T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 19,
-    "station_id": "tx",
-    "start_time": "2026-08-09T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_frieren_c2",
-    "title": "葬送のフリーレン 第2期",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-09T15:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_BotanKamiinaFullyBlossomsWhenDrunk_c1",
-    "title": "上伊那ぼたん、酔へる姿は百合の花",
-    "ep_num": 0,
-    "station_id": "日常青春アニメ",
-    "start_time": "2026-08-09T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 0,
-    "station_id": "mx",
-    "start_time": "2026-08-09T20:20:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 89,
-    "station_id": "at-x",
-    "start_time": "2026-08-09T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 6,
-    "station_id": "bs_ntv",
-    "start_time": "2026-08-09T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 18,
-    "station_id": "cbc",
-    "start_time": "2026-08-09T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 18,
-    "station_id": "tbs",
-    "start_time": "2026-08-09T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 18,
-    "station_id": "mbs",
-    "start_time": "2026-08-09T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 18,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-08-09T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_haibara_anime_c1",
-    "title": "灰原くんの強くて青春ニューゲーム",
-    "ep_num": 5,
-    "station_id": "bs11",
-    "start_time": "2026-08-10T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202601_project_of_eris_c1",
     "title": "エリスの聖杯",
     "ep_num": 0,
@@ -128,11 +8,51 @@
     "status": "normal"
   },
   {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
+    "anime_id": "202604_2ndinclass_c1",
+    "title": "クラスで２番目に可愛い女の子と友だちになった",
+    "ep_num": 0,
+    "station_id": "ラブコメアニメ",
+    "start_time": "2026-08-10T14:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-08-10T14:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "ep_num": 5,
+    "station_id": "mx",
+    "start_time": "2026-08-10T19:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
     "ep_num": 18,
-    "station_id": "関西テレビ",
-    "start_time": "2026-08-10T01:54:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-08-10T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63376_c1",
+    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
+    "ep_num": 5,
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-11T00:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_shibomeshi_c1",
+    "title": "死亡遊戯で飯を食う。",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-08-11T02:30:00+09:00",
     "status": "normal"
   }
 ]
