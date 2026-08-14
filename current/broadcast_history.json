@@ -388,6 +388,12 @@
         "last_broadcast_date": "2026-06-20",
         "last_updated_at": "2026-06-20",
         "remarks": null
+      },
+      "アニメlive": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
+        "remarks": null
       }
     }
   },
@@ -491,7 +497,7 @@
   },
   "202604_dropsgod_c1": {
     "title": "神の雫",
-    "overall_latest_ep": 18,
+    "overall_latest_ep": 19,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -520,9 +526,9 @@
         "remarks": "見放題先行配信 4月10日(金) 24:30開始予定"
       },
       "mx": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-07",
-        "last_updated_at": "2026-08-07",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       },
       "bs_ntv": {
@@ -3909,8 +3915,8 @@
     "platforms": {
       "異世界ファンタジー": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-31",
-        "last_updated_at": "2026-08-01",
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       },
       "abema": {
@@ -4394,16 +4400,16 @@
   },
   "202601_baloon_project_c1": {
     "title": "最推しの義兄を愛でるため、長生きします!",
-    "overall_latest_ep": 1,
+    "overall_latest_ep": 2,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Tuesdays at 21:55 (JST)"
       },
       "at-x": {
-        "last_ep_num": 1,
-        "last_broadcast_date": "2026-08-07",
-        "last_updated_at": "2026-08-07",
+        "last_ep_num": 2,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       }
     }
@@ -4818,34 +4824,34 @@
   },
   "202604_ten_sura_anime_c1": {
     "title": "転生したらスライムだった件 第4期",
-    "overall_latest_ep": 89,
+    "overall_latest_ep": 90,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Fridays at 23:00 (JST)"
       },
       "ntv": {
-        "last_ep_num": 89,
-        "last_broadcast_date": "2026-08-07",
-        "last_updated_at": "2026-08-07",
+        "last_ep_num": 90,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       },
       "中京テレビ": {
-        "last_ep_num": 89,
-        "last_broadcast_date": "2026-08-07",
-        "last_updated_at": "2026-08-07",
+        "last_ep_num": 90,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       },
       "読売テレビ": {
-        "last_ep_num": 89,
-        "last_broadcast_date": "2026-08-07",
-        "last_updated_at": "2026-08-07",
+        "last_ep_num": 90,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       },
       "stv札幌テレビ": {
-        "last_ep_num": 89,
-        "last_broadcast_date": "2026-08-07",
-        "last_updated_at": "2026-08-07",
+        "last_ep_num": 90,
+        "last_broadcast_date": "2026-08-14",
+        "last_updated_at": "2026-08-14",
         "remarks": null
       },
       "bs11": {
