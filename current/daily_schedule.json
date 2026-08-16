@@ -1,90 +1,138 @@
 [
   {
-    "anime_id": "202601_kiyou_bimbou_c1",
-    "title": "勇者パーティを追い出された器用貧乏",
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
     "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-08-15T09:00:00+09:00",
+    "station_id": "abema",
+    "start_time": "2026-08-16T05:30:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
-    "title": "魔入りました！入間くん 第4シリーズ",
-    "ep_num": 19,
-    "station_id": "nhk-e",
-    "start_time": "2026-08-15T18:25:00+09:00",
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 29,
+    "station_id": "メ～テレ",
+    "start_time": "2026-08-16T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 29,
+    "station_id": "tv_asahi",
+    "start_time": "2026-08-16T08:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63352_c1",
+    "title": "おねがいアイプリ",
+    "ep_num": 20,
+    "station_id": "tva",
+    "start_time": "2026-08-16T09:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63352_c1",
+    "title": "おねがいアイプリ",
+    "ep_num": 20,
+    "station_id": "tx",
+    "start_time": "2026-08-16T09:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_ten_sura_anime_c1",
     "title": "転生したらスライムだった件 第4期",
-    "ep_num": 87,
-    "station_id": "animax",
-    "start_time": "2026-08-15T20:00:00+09:00",
+    "ep_num": 0,
+    "station_id": "abema",
+    "start_time": "2026-08-16T11:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_lovetoeat_maid_c1",
+    "title": "メイドさんは食べるだけ",
+    "ep_num": 0,
+    "station_id": "アニメlive3",
+    "start_time": "2026-08-16T14:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202610osusino_c3",
+    "title": "【推しの子】第3期",
+    "ep_num": 0,
+    "station_id": "youtube",
+    "start_time": "2026-08-16T17:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202601_jujutsushimetsu_c1",
+    "title": "呪術廻戦 死滅回游 前編",
+    "ep_num": 0,
+    "station_id": "youtube",
+    "start_time": "2026-08-16T19:50:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_ten_sura_anime_c1",
     "title": "転生したらスライムだった件 第4期",
     "ep_num": 90,
+    "station_id": "at-x",
+    "start_time": "2026-08-16T21:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_eren_anime_pr_c1",
+    "title": "左ききのエレン",
+    "ep_num": 7,
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-16T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 19,
+    "station_id": "cbc",
+    "start_time": "2026-08-16T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 19,
+    "station_id": "tbs",
+    "start_time": "2026-08-16T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 19,
+    "station_id": "mbs",
+    "start_time": "2026-08-16T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 19,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-08-16T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_haibara_anime_c1",
+    "title": "灰原くんの強くて青春ニューゲーム",
+    "ep_num": 6,
     "station_id": "bs11",
-    "start_time": "2026-08-15T22:00:00+09:00",
+    "start_time": "2026-08-17T00:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
     "ep_num": 19,
-    "station_id": "bs_ntv",
-    "start_time": "2026-08-15T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 19,
-    "station_id": "bs11",
-    "start_time": "2026-08-15T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 19,
-    "station_id": "mx",
-    "start_time": "2026-08-15T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_62048_c1",
-    "title": "MAO",
-    "ep_num": 20,
-    "station_id": "nhk",
-    "start_time": "2026-08-15T23:45:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 19,
-    "station_id": "abema",
-    "start_time": "2026-08-16T00:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 19,
-    "station_id": "mbs",
-    "start_time": "2026-08-16T02:08:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 19,
-    "station_id": "cbc",
-    "start_time": "2026-08-16T02:43:00+09:00",
+    "station_id": "関西テレビ",
+    "start_time": "2026-08-17T01:54:00+09:00",
     "status": "normal"
   }
 ]
