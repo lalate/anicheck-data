@@ -663,7 +663,7 @@
   },
   "202604_rezero_c1": {
     "title": "Re:ゼロから始める異世界生活 4th season",
-    "overall_latest_ep": 78,
+    "overall_latest_ep": 79,
     "platforms": {
       "TOKYO MX": {
         "last_ep_num": 0,
@@ -680,57 +680,57 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-12",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-19",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-12",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-19",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "mx": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-12",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-19",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "サンテレビジョン": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "kbs京都": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "中国放送": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "tva": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "tvh": {
-        "last_ep_num": 78,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-12",
+        "last_ep_num": 79,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       }
     }
@@ -1131,8 +1131,8 @@
       },
       "異世界ファンタジー": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-06-17",
-        "last_updated_at": "2026-06-17",
+        "last_broadcast_date": "2026-08-19",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       },
       "アニメlive2": {
@@ -5467,6 +5467,12 @@
         "last_broadcast_date": "2026-06-05",
         "last_updated_at": "2026-06-05",
         "remarks": null
+      },
+      "アニメlive2": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-08-19",
+        "last_updated_at": "2026-08-19",
+        "remarks": null
       }
     }
   },
@@ -6791,6 +6797,12 @@
         "last_ep_num": 12,
         "last_broadcast_date": "2026-06-25",
         "last_updated_at": "2026-06-25",
+        "remarks": null
+      },
+      "アニメlive2": {
+        "last_ep_num": 0,
+        "last_broadcast_date": "2026-08-19",
+        "last_updated_at": "2026-08-19",
         "remarks": null
       }
     }
