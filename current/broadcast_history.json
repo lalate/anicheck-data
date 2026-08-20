@@ -366,15 +366,15 @@
         "remarks": null
       },
       "広島テレビ": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-14",
-        "last_updated_at": "2026-08-13",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-21",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       },
       "テレビ山口": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-14",
-        "last_updated_at": "2026-08-13",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-21",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       },
       "abema": {
@@ -538,9 +538,9 @@
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 17,
-        "last_broadcast_date": "2026-08-14",
-        "last_updated_at": "2026-08-13",
+        "last_ep_num": 18,
+        "last_broadcast_date": "2026-08-21",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       },
       "abema": {
@@ -675,8 +675,8 @@
       },
       "youtube": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-07-15",
-        "last_updated_at": "2026-07-15",
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       },
       "at-x": {
@@ -2725,9 +2725,9 @@
         "remarks": null
       },
       "アニメlive": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-08-14",
-        "last_updated_at": "2026-08-13",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-08-21",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       }
     }
@@ -6042,9 +6042,9 @@
         "remarks": null
       },
       "bs12トゥエルビ": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-14",
-        "last_updated_at": "2026-08-13",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-21",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       },
       "abema": {
@@ -6082,9 +6082,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 4,
-        "last_broadcast_date": "2026-08-13",
-        "last_updated_at": "2026-08-13",
+        "last_ep_num": 5,
+        "last_broadcast_date": "2026-08-20",
+        "last_updated_at": "2026-08-20",
         "remarks": null
       }
     }
