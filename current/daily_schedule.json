@@ -1,58 +1,42 @@
 [
   {
-    "anime_id": "202604_akanebanashi_c1",
-    "title": "あかね噺",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-24T10:00:00+09:00",
+    "anime_id": "202601_StarDetectivePrecure_c1",
+    "title": "名探偵プリキュア！",
+    "ep_num": 29,
+    "station_id": "abcテレビ",
+    "start_time": "2026-08-25T09:55:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202601_kinishite_c1",
-    "title": "綺麗にしてもらえますか。",
-    "ep_num": 0,
-    "station_id": "日常青春アニメ",
-    "start_time": "2026-08-24T14:30:00+09:00",
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 20,
+    "station_id": "at-x",
+    "start_time": "2026-08-25T20:00:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
     "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
-    "ep_num": 7,
-    "station_id": "mx",
-    "start_time": "2026-08-24T19:00:00+09:00",
+    "ep_num": 1,
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-26T00:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_2ndinclass_c1",
-    "title": "クラスで２番目に可愛い女の子と友だちになった",
-    "ep_num": 0,
-    "station_id": "ラブコメアニメ",
-    "start_time": "2026-08-24T20:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
-    "title": "魔入りました！入間くん 第4シリーズ",
-    "ep_num": 19,
-    "station_id": "abema",
-    "start_time": "2026-08-24T21:00:00+09:00",
+    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
+    "ep_num": 2,
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-26T00:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_yominotsugai_c1",
     "title": "黄泉のツガイ",
     "ep_num": 20,
-    "station_id": "at-x",
-    "start_time": "2026-08-24T23:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63376_c1",
-    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
-    "ep_num": 7,
-    "station_id": "bs_ntv",
-    "start_time": "2026-08-25T00:30:00+09:00",
+    "station_id": "htb北海道テレビ",
+    "start_time": "2026-08-26T01:55:00+09:00",
     "status": "normal"
   }
 ]
