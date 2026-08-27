@@ -1,101 +1,5 @@
 [
   {
-    "anime_id": "202601_hellmode_anime_c1",
-    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-26T05:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 30,
-    "station_id": "abcテレビ",
-    "start_time": "2026-08-26T09:55:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_marritoxi_pr_c1",
-    "title": "マリッジトキシン",
-    "ep_num": 0,
-    "station_id": "アニメlive2",
-    "start_time": "2026-08-26T19:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-26T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "at-x",
-    "start_time": "2026-08-26T22:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "abema",
-    "start_time": "2026-08-26T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_officialhitsuji_c1",
-    "title": "夜桜さんちの大作戦 第2期",
-    "ep_num": 34,
-    "station_id": "at-x",
-    "start_time": "2026-08-26T22:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "mx",
-    "start_time": "2026-08-26T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "サンテレビジョン",
-    "start_time": "2026-08-27T00:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "bs11",
-    "start_time": "2026-08-27T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "kbs京都",
-    "start_time": "2026-08-27T01:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "中国放送",
-    "start_time": "2026-08-27T01:55:00+09:00",
-    "status": "normal"
-  },
-  {
     "anime_id": "202604_lastame_pr_c1",
     "title": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2",
     "ep_num": 0,
@@ -104,19 +8,67 @@
     "status": "normal"
   },
   {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "tva",
-    "start_time": "2026-08-27T02:05:00+09:00",
+    "anime_id": "202604_niwatorifighte1_c1",
+    "title": "ニワトリ・ファイター",
+    "ep_num": 0,
+    "station_id": "深夜アニメ",
+    "start_time": "2026-08-27T20:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_rezero_c1",
-    "title": "Re:ゼロから始める異世界生活 4th season",
-    "ep_num": 80,
-    "station_id": "tvh",
-    "start_time": "2026-08-27T02:15:00+09:00",
+    "anime_id": "202604_nigetsuri_anime_c1",
+    "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "ep_num": 6,
+    "station_id": "at-x",
+    "start_time": "2026-08-27T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62048_c1",
+    "title": "MAO",
+    "ep_num": 21,
+    "station_id": "アニメlive",
+    "start_time": "2026-08-28T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_dropsgod_c1",
+    "title": "神の雫",
+    "ep_num": 19,
+    "station_id": "hbc北海道放送",
+    "start_time": "2026-08-28T00:56:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 20,
+    "station_id": "広島テレビ",
+    "start_time": "2026-08-28T01:39:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 20,
+    "station_id": "テレビ山口",
+    "start_time": "2026-08-28T02:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_witch_classroom_c1",
+    "title": "黒猫と魔女の教室",
+    "ep_num": 20,
+    "station_id": "bs12トゥエルビ",
+    "start_time": "2026-08-28T02:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 0,
+    "station_id": "アニメlive",
+    "start_time": "2026-08-28T04:00:00+09:00",
     "status": "normal"
   }
 ]

@@ -366,15 +366,15 @@
         "remarks": null
       },
       "広島テレビ": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-08-21",
-        "last_updated_at": "2026-08-20",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-08-28",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       },
       "テレビ山口": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-08-21",
-        "last_updated_at": "2026-08-20",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-08-28",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       },
       "abema": {
@@ -391,8 +391,8 @@
       },
       "アニメlive": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22",
+        "last_broadcast_date": "2026-08-28",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       }
     }
@@ -538,9 +538,9 @@
         "remarks": null
       },
       "hbc北海道放送": {
-        "last_ep_num": 18,
-        "last_broadcast_date": "2026-08-21",
-        "last_updated_at": "2026-08-20",
+        "last_ep_num": 19,
+        "last_broadcast_date": "2026-08-28",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       },
       "abema": {
@@ -2725,9 +2725,9 @@
         "remarks": null
       },
       "アニメlive": {
-        "last_ep_num": 20,
-        "last_broadcast_date": "2026-08-21",
-        "last_updated_at": "2026-08-20",
+        "last_ep_num": 21,
+        "last_broadcast_date": "2026-08-28",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       }
     }
@@ -5638,8 +5638,8 @@
       },
       "深夜アニメ": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-08-10",
-        "last_updated_at": "2026-08-10",
+        "last_broadcast_date": "2026-08-27",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       }
     }
@@ -6060,9 +6060,9 @@
         "remarks": null
       },
       "bs12トゥエルビ": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-08-21",
-        "last_updated_at": "2026-08-20",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-08-28",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       },
       "abema": {
@@ -6100,9 +6100,9 @@
         "remarks": null
       },
       "at-x": {
-        "last_ep_num": 5,
-        "last_broadcast_date": "2026-08-20",
-        "last_updated_at": "2026-08-20",
+        "last_ep_num": 6,
+        "last_broadcast_date": "2026-08-27",
+        "last_updated_at": "2026-08-27",
         "remarks": null
       }
     }
