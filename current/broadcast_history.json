@@ -327,30 +327,30 @@
   },
   "202604_yominotsugai_c1": {
     "title": "黄泉のツガイ",
-    "overall_latest_ep": 20,
+    "overall_latest_ep": 21,
     "platforms": {
       "mx": {
-        "last_ep_num": 20,
+        "last_ep_num": 21,
         "remarks": "土曜日 23:30（4月4日開始）",
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22"
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29"
       },
       "bs11": {
-        "last_ep_num": 20,
+        "last_ep_num": 21,
         "remarks": "土曜日 23:30（4月4日開始）",
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22"
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29"
       },
       "mbs": {
-        "last_ep_num": 20,
-        "last_broadcast_date": "2026-08-23",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 21,
+        "last_broadcast_date": "2026-08-30",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "cbc": {
-        "last_ep_num": 20,
-        "last_broadcast_date": "2026-08-23",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 21,
+        "last_broadcast_date": "2026-08-30",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "at-x": {
@@ -378,9 +378,9 @@
         "remarks": null
       },
       "abema": {
-        "last_ep_num": 20,
-        "last_broadcast_date": "2026-08-23",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 21,
+        "last_broadcast_date": "2026-08-30",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "youtube": {
@@ -532,9 +532,9 @@
         "remarks": null
       },
       "bs_ntv": {
-        "last_ep_num": 20,
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 21,
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "hbc北海道放送": {
@@ -2706,16 +2706,16 @@
   },
   "202604_62048_c1": {
     "title": "MAO",
-    "overall_latest_ep": 21,
+    "overall_latest_ep": 22,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 23:45 (JST)"
       },
       "nhk": {
-        "last_ep_num": 21,
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 22,
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "abema": {
@@ -3604,8 +3604,8 @@
       },
       "abema": {
         "last_ep_num": 0,
-        "last_broadcast_date": "2026-05-30",
-        "last_updated_at": "2026-05-30",
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "異世界ファンタジー": {
@@ -4885,9 +4885,9 @@
         "remarks": null
       },
       "bs11": {
-        "last_ep_num": 91,
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 92,
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "at-x": {
@@ -4897,9 +4897,9 @@
         "remarks": null
       },
       "animax": {
-        "last_ep_num": 88,
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 89,
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "abema": {
@@ -5060,16 +5060,16 @@
   },
   "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1": {
     "title": "魔入りました！入間くん 第4シリーズ",
-    "overall_latest_ep": 19,
+    "overall_latest_ep": 20,
     "platforms": {
       "broadcast": {
         "last_ep_num": 1,
         "remarks": "Saturdays at 18:15 (JST)"
       },
       "nhk-e": {
-        "last_ep_num": 19,
-        "last_broadcast_date": "2026-08-22",
-        "last_updated_at": "2026-08-22",
+        "last_ep_num": 20,
+        "last_broadcast_date": "2026-08-29",
+        "last_updated_at": "2026-08-29",
         "remarks": null
       },
       "abema": {

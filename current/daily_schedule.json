@@ -1,82 +1,114 @@
 [
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
-    "ep_num": 0,
-    "station_id": "アニメlive",
-    "start_time": "2026-08-28T04:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_kusunoki_anime_c1",
-    "title": "神の庭付き楠木邸",
+    "anime_id": "202601_kizokutensei_pr_c1",
+    "title": "貴族転生 ～恵まれた生まれから最強の力を得る～",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-08-28T08:00:00+09:00",
+    "start_time": "2026-08-29T08:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_yominotsugai_c1",
-    "title": "黄泉のツガイ",
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 20,
+    "station_id": "nhk-e",
+    "start_time": "2026-08-29T18:25:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 89,
+    "station_id": "animax",
+    "start_time": "2026-08-29T20:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
     "ep_num": 0,
     "station_id": "abema",
-    "start_time": "2026-08-28T10:00:00+09:00",
+    "start_time": "2026-08-29T21:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_otagal_official_c1",
-    "title": "オタクに優しいギャルはいない!?",
+    "anime_id": "202604_ten_sura_anime_c1",
+    "title": "転生したらスライムだった件 第4期",
+    "ep_num": 92,
+    "station_id": "bs11",
+    "start_time": "2026-08-29T22:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_rezero_c1",
+    "title": "Re:ゼロから始める異世界生活 4th season",
     "ep_num": 0,
-    "station_id": "日常青春アニメ",
-    "start_time": "2026-08-28T16:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_baloon_project_c1",
-    "title": "最推しの義兄を愛でるため、長生きします!",
-    "ep_num": 4,
-    "station_id": "at-x",
-    "start_time": "2026-08-28T20:16:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 92,
-    "station_id": "読売テレビ",
-    "start_time": "2026-08-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 92,
-    "station_id": "ntv",
-    "start_time": "2026-08-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 92,
-    "station_id": "中京テレビ",
-    "start_time": "2026-08-28T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 92,
-    "station_id": "stv札幌テレビ",
-    "start_time": "2026-08-28T23:00:00+09:00",
+    "station_id": "abema",
+    "start_time": "2026-08-29T22:30:00+09:00",
     "status": "normal"
   },
   {
     "anime_id": "202604_dropsgod_c1",
     "title": "神の雫",
     "ep_num": 21,
+    "station_id": "bs_ntv",
+    "start_time": "2026-08-29T23:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 21,
+    "station_id": "bs11",
+    "start_time": "2026-08-29T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 21,
     "station_id": "mx",
-    "start_time": "2026-08-28T23:30:00+09:00",
+    "start_time": "2026-08-29T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_62048_c1",
+    "title": "MAO",
+    "ep_num": 22,
+    "station_id": "nhk",
+    "start_time": "2026-08-29T23:45:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 21,
+    "station_id": "abema",
+    "start_time": "2026-08-30T00:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_korinojoheki_pr_c1",
+    "title": "氷の城壁",
+    "ep_num": 0,
+    "station_id": "tbs",
+    "start_time": "2026-08-30T01:58:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 21,
+    "station_id": "mbs",
+    "start_time": "2026-08-30T02:08:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
+    "ep_num": 21,
+    "station_id": "cbc",
+    "start_time": "2026-08-30T02:43:00+09:00",
     "status": "normal"
   }
 ]
