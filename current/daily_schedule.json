@@ -1,138 +1,34 @@
 [
   {
-    "anime_id": "202604_tongari_anime_c1",
-    "title": "とんがり帽子のアトリエ",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-08-30T08:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 31,
-    "station_id": "メ～テレ",
-    "start_time": "2026-08-30T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 31,
-    "station_id": "tv_asahi",
-    "start_time": "2026-08-30T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_StarDetectivePrecure_c1",
-    "title": "名探偵プリキュア！",
-    "ep_num": 31,
-    "station_id": "abcテレビ",
-    "start_time": "2026-08-30T08:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 22,
-    "station_id": "tva",
-    "start_time": "2026-08-30T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_63352_c1",
-    "title": "おねがいアイプリ",
-    "ep_num": 22,
-    "station_id": "tx",
-    "start_time": "2026-08-30T09:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jujutsushimetsu_c1",
-    "title": "呪術廻戦 死滅回游 前編",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-30T11:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_animekunon_c1",
-    "title": "魔術師クノンは見えている",
-    "ep_num": 0,
-    "station_id": "異世界ファンタジー",
-    "start_time": "2026-08-30T14:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202601_jujutsushimetsu_c1",
-    "title": "呪術廻戦 死滅回游 前編",
-    "ep_num": 0,
-    "station_id": "abema",
-    "start_time": "2026-08-30T21:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_ten_sura_anime_c1",
-    "title": "転生したらスライムだった件 第4期",
-    "ep_num": 92,
-    "station_id": "at-x",
-    "start_time": "2026-08-30T21:30:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_eren_anime_pr_c1",
-    "title": "左ききのエレン",
-    "ep_num": 9,
-    "station_id": "bs_ntv",
-    "start_time": "2026-08-30T23:00:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 21,
-    "station_id": "cbc",
-    "start_time": "2026-08-30T23:40:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 21,
-    "station_id": "tbs",
-    "start_time": "2026-08-30T23:40:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 21,
-    "station_id": "hbc北海道放送",
-    "start_time": "2026-08-30T23:40:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_witch_classroom_c1",
-    "title": "黒猫と魔女の教室",
-    "ep_num": 21,
-    "station_id": "mbs",
-    "start_time": "2026-08-30T23:40:00+09:00",
-    "status": "normal"
-  },
-  {
-    "anime_id": "202604_haibara_anime_c1",
-    "title": "灰原くんの強くて青春ニューゲーム",
+    "anime_id": "202601_CardfightVanguardDivinezParallacticClash_c1",
+    "title": "カードファイト!! ヴァンガード DivineZ 幻真星戦編",
     "ep_num": 8,
-    "station_id": "bs11",
-    "start_time": "2026-08-31T00:30:00+09:00",
+    "station_id": "mx",
+    "start_time": "2026-08-31T19:00:00+09:00",
     "status": "normal"
   },
   {
-    "anime_id": "202604_dropsgod_c1",
-    "title": "神の雫",
+    "anime_id": "202604_WelcomeToDemonSchoolIrumaKunSeason4_c1",
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "ep_num": 20,
+    "station_id": "abema",
+    "start_time": "2026-08-31T21:00:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_yominotsugai_c1",
+    "title": "黄泉のツガイ",
     "ep_num": 21,
-    "station_id": "関西テレビ",
-    "start_time": "2026-08-31T01:54:00+09:00",
+    "station_id": "at-x",
+    "start_time": "2026-08-31T23:30:00+09:00",
+    "status": "normal"
+  },
+  {
+    "anime_id": "202604_63376_c1",
+    "title": "女神「異世界転生何になりたいですか」俺「勇者の肋骨で」",
+    "ep_num": 8,
+    "station_id": "bs_ntv",
+    "start_time": "2026-09-01T00:30:00+09:00",
     "status": "normal"
   }
 ]
